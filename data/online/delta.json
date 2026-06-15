@@ -1,64 +1,79 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-15T05:28:02.014Z",
-  "fromGeneratedAt": "2026-06-14T19:58:40.679Z",
-  "toGeneratedAt": "2026-06-15T05:28:02.014Z",
-  "status": "partial",
+  "generatedAt": "2026-06-15T12:43:48.017Z",
+  "fromGeneratedAt": "2026-06-15T05:28:02.014Z",
+  "toGeneratedAt": "2026-06-15T12:43:48.017Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 7,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
+      "pnpm",
       "sbt",
       "vs_build_tools",
+      "postman",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "pnpm",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.2.0640",
-        "to": "9.2.0649"
+        "from": "11.6.0",
+        "to": "11.7.0"
       },
       {
         "toolId": "sbt",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.12.12",
-        "to": "2.0.0"
-      },
-      {
-        "toolId": "sbt",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.12.12",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.12.11",
         "to": "2.0.0"
       },
       {
         "toolId": "vs_build_tools",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "17.14.34",
-        "to": null
+        "from": null,
+        "to": "17.14.34"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.14.5",
+        "to": "12.15.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.14.5",
+        "to": "12.15.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.14.5",
+        "to": "12.15.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.107.0-beta.13",
-        "to": "2.107.0-beta.14"
+        "from": "2.107.0-beta.14",
+        "to": "2.107.0-beta.18"
       }
     ],
     "qualityChanges": [
@@ -66,8 +81,8 @@
         "toolId": "vs_build_tools",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
