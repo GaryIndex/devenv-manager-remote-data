@@ -1,91 +1,58 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-16T05:33:20.773Z",
-  "fromGeneratedAt": "2026-06-15T21:25:59.522Z",
-  "toGeneratedAt": "2026-06-16T05:33:20.773Z",
+  "generatedAt": "2026-06-16T11:34:46.989Z",
+  "fromGeneratedAt": "2026-06-16T05:33:20.773Z",
+  "toGeneratedAt": "2026-06-16T11:34:46.989Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 7,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
-    "qualityChanges": 1
+    "versionChanges": 4,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "vim",
-      "docker_desktop",
-      "packer",
-      "pulumi",
       "aws_cli",
-      "supabase_cli",
-      "hugo"
+      "godot"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vim",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "9.2.0530",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0649",
         "to": "9.2.0653"
       },
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.623",
-        "to": "9.2.653"
-      },
-      {
-        "toolId": "docker_desktop",
+        "toolId": "aws_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "4.77.0",
-        "to": "4.78.0.229452"
-      },
-      {
-        "toolId": "packer",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.15.3",
-        "to": "1.15.4"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
         "from": "2.35.4",
         "to": "2.35.5"
       },
       {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.107.0-beta.19",
-        "to": "2.107.0-beta.20"
-      },
-      {
-        "toolId": "hugo",
+        "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.163.1",
-        "to": "0.163.2"
+        "from": "2.35.4",
+        "to": "2.35.5"
+      },
+      {
+        "toolId": "godot",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.7.0-rc2",
+        "to": "4.7.0-rc3"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
-        "from": 75,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
