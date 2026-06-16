@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-16T17:22:00.323Z",
-  "fromGeneratedAt": "2026-06-16T11:34:46.989Z",
-  "toGeneratedAt": "2026-06-16T17:22:00.323Z",
+  "generatedAt": "2026-06-16T21:20:06.301Z",
+  "fromGeneratedAt": "2026-06-16T17:22:00.323Z",
+  "toGeneratedAt": "2026-06-16T21:20:06.301Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 6,
@@ -17,54 +17,56 @@
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "google_cloud_sdk",
-      "insomnia",
-      "rstudio"
+      "powershell",
+      "oh_my_posh",
+      "llvm",
+      "postman",
+      "android_studio"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "572.0.0",
-        "to": "573.0.0"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "572.0.0",
-        "to": "573.0.0"
-      },
-      {
-        "toolId": "insomnia",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.6.0",
-        "to": "13.0.0"
-      },
-      {
-        "toolId": "insomnia",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.6.0",
-        "to": "13.0.0"
-      },
-      {
-        "toolId": "insomnia",
+        "toolId": "powershell",
         "sourceId": "github",
         "manager": "github",
-        "from": "core@13.0.0-beta.1",
-        "to": "core@13.0.0"
+        "from": "7.7.0-preview.2",
+        "to": "7.6.3"
       },
       {
-        "toolId": "rstudio",
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.15.1",
+        "to": "29.16.0"
+      },
+      {
+        "toolId": "llvm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "22.1.7",
+        "to": "22.1.8"
+      },
+      {
+        "toolId": "postman",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2026.05.0,218",
-        "to": "2026.05.1,225"
+        "from": "12.15.0",
+        "to": "12.15.4"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.15.0",
+        "to": "12.15.4"
+      },
+      {
+        "toolId": "android_studio",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.1.1.9,quail1-patch1",
+        "to": "2026.1.1.10,quail1-patch2"
       }
     ],
     "qualityChanges": []
