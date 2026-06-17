@@ -1,103 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-17T05:16:55.501Z",
-  "fromGeneratedAt": "2026-06-16T21:20:06.301Z",
-  "toGeneratedAt": "2026-06-17T05:16:55.501Z",
+  "generatedAt": "2026-06-17T11:18:09.183Z",
+  "fromGeneratedAt": "2026-06-17T05:16:55.501Z",
+  "toGeneratedAt": "2026-06-17T11:18:09.183Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 8,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 10,
+    "versionChanges": 4,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "powershell",
-      "oh_my_posh",
       "aws_cli",
       "postman",
-      "mysql",
-      "supabase_cli",
-      "unity_hub"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.0653",
-        "to": "9.2.0663"
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "7.6.2",
-        "to": "7.6.3"
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "7.6.2",
-        "to": "7.6.3"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "29.15.1",
-        "to": "29.16.0"
-      },
-      {
         "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.35.5",
-        "to": "2.35.6"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.35.5",
         "to": "2.35.6"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.15.0",
-        "to": "12.15.4"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.15.4",
+        "to": "12.15.5"
       },
       {
-        "toolId": "mysql",
+        "toolId": "postman",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.7.0",
-        "to": "9.7.1"
+        "from": "12.15.4",
+        "to": "12.15.5"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.107.0-beta.20",
-        "to": "2.107.0-beta.22"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.18.2",
-        "to": "3.18.3"
+        "from": "2.107.0-beta.22",
+        "to": "2.107.0-beta.25"
       }
     ],
     "qualityChanges": []
