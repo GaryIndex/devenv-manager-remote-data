@@ -1,56 +1,117 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-17T11:18:09.183Z",
-  "fromGeneratedAt": "2026-06-17T05:16:55.501Z",
-  "toGeneratedAt": "2026-06-17T11:18:09.183Z",
+  "generatedAt": "2026-06-17T16:05:31.193Z",
+  "fromGeneratedAt": "2026-06-17T11:18:09.183Z",
+  "toGeneratedAt": "2026-06-17T16:05:31.193Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 8,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 12,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vscode",
+      "vim",
+      "oh_my_posh",
+      "terraform",
       "aws_cli",
       "postman",
+      "rstudio",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "vscode",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.124.2",
+        "to": "1.125.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.124.2",
+        "to": "1.125.0"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.653",
+        "to": "9.2.663"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.16.0",
+        "to": "29.17.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.15.1",
+        "to": "29.16.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.16.0",
+        "to": "29.17.0"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.15.6",
+        "to": "1.16.0-alpha20260617"
+      },
+      {
         "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.35.5",
         "to": "2.35.6"
       },
       {
         "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.15.4",
         "to": "12.15.5"
       },
       {
-        "toolId": "postman",
+        "toolId": "rstudio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.5.0",
+        "to": "2026.5.1"
+      },
+      {
+        "toolId": "supabase_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.15.4",
-        "to": "12.15.5"
+        "from": "2.106.0",
+        "to": "2.107.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.107.0-beta.22",
-        "to": "2.107.0-beta.25"
+        "from": "2.107.0-beta.25",
+        "to": "2.107.0"
       }
     ],
     "qualityChanges": []

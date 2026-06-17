@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-17T11:18:09.183Z",
+  "generatedAt": "2026-06-17T16:05:31.193Z",
   "status": "ok",
   "tool": {
     "id": "oh_my_posh",
@@ -29,7 +29,7 @@
       "long": "Introduction What started as the offspring of oh-my-posh2 for PowerShell resulted in a cross platform, highly customizable and extensible prompt theme engine. After 4 years of working on oh-my-posh, a modern and more efficient tool was needed to suit my personal needs. Features Shell independent Git status indications Failed command indication Admin indication Current session indications Language info Shell info Configurable Fast Package Specific Flags Versions after 8.5.0 default to Installing for All Users. Flag CURRENTUSER can be used to install only for the current user. See Issue 34 on the package repo for more info on why this change was made. Virus Scan Results There are some false positives associated with Oh-My-Posh and they are being tracked in Issue 767 and is a somewhat common issue with programs written in Go.",
       "source": "choco",
       "homepage": "https://ohmyposh.dev/",
-      "lastUpdatedAt": "2026-06-17T11:17:24.013Z"
+      "lastUpdatedAt": "2026-06-17T16:04:41.524Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-17T11:17:23.656Z",
+          "scannedAt": "2026-06-17T16:04:41.158Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "Prompt theme engine for any shell",
           "source": "winget",
           "homepage": "https://ohmyposh.dev/",
-          "lastUpdatedAt": "2026-06-17T11:17:23.656Z"
+          "lastUpdatedAt": "2026-06-17T16:04:41.158Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-17T11:17:23.656Z",
+          "lastSuccessfulScanAt": "2026-06-17T16:04:41.158Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-17T11:17:23.944Z",
+          "scannedAt": "2026-06-17T16:04:41.428Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "A prompt theme engine for any shell",
           "source": "scoop",
           "homepage": "https://ohmyposh.dev",
-          "lastUpdatedAt": "2026-06-17T11:17:23.944Z"
+          "lastUpdatedAt": "2026-06-17T16:04:41.428Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -644,7 +644,7 @@
         },
         "versions": [
           {
-            "version": "29.16.0",
+            "version": "29.17.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -657,7 +657,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "29.16.0",
+            "version": "29.17.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-17T11:17:23.944Z",
+          "lastSuccessfulScanAt": "2026-06-17T16:04:41.428Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-17T11:17:24.013Z",
+          "scannedAt": "2026-06-17T16:04:41.524Z",
           "errors": []
         },
         "package": {
@@ -793,7 +793,7 @@
         },
         "links": {
           "homepage": "https://ohmyposh.dev/",
-          "download": "https://community.chocolatey.org/api/v2/package/oh-my-posh/29.15.1",
+          "download": "https://community.chocolatey.org/api/v2/package/oh-my-posh/29.16.0",
           "releases": "https://github.com/JanDeDobbeleer/oh-my-posh/releases",
           "docs": null
         },
@@ -802,7 +802,7 @@
           "long": "Introduction What started as the offspring of oh-my-posh2 for PowerShell resulted in a cross platform, highly customizable and extensible prompt theme engine. After 4 years of working on oh-my-posh, a modern and more efficient tool was needed to suit my personal needs. Features Shell independent Git status indications Failed command indication Admin indication Current session indications Language info Shell info Configurable Fast Package Specific Flags Versions after 8.5.0 default to Installing for All Users. Flag CURRENTUSER can be used to install only for the current user. See Issue 34 on the package repo for more info on why this change was made. Virus Scan Results There are some false positives associated with Oh-My-Posh and they are being tracked in Issue 767 and is a somewhat common issue with programs written in Go.",
           "source": "choco",
           "homepage": "https://ohmyposh.dev/",
-          "lastUpdatedAt": "2026-06-17T11:17:24.013Z"
+          "lastUpdatedAt": "2026-06-17T16:04:41.524Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -826,9 +826,19 @@
         },
         "versions": [
           {
-            "version": "29.15.1",
+            "version": "29.16.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.15.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1114,29 +1124,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "28.8.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "29.15.1",
+            "version": "29.16.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/oh-my-posh/29.15.1",
+            "url": "https://community.chocolatey.org/api/v2/package/oh-my-posh/29.16.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "bnfZC530Z2ZpZNKhwWl9r1vWwEhaKoZEfizKgNGxXpwgnA/TpY04iQfLw/wSFAIfDduq2A/Y6aE3a5sBmCeyVA==",
+            "sha256": "MDRojcmubWEiWezjQw/wWfNH2CaVfCJmAXLW4/Dmn8j0PSkt4wXpUOBF1iCru6l5x+CVuUjlHGvtkXltEpKLVA==",
             "sizeBytes": null
           }
         ],
@@ -1208,7 +1208,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-17T11:17:24.013Z",
+          "lastSuccessfulScanAt": "2026-06-17T16:04:41.524Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1256,7 +1256,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-17T11:17:24.041Z",
+          "scannedAt": "2026-06-17T16:04:41.527Z",
           "errors": []
         },
         "package": {
@@ -1297,7 +1297,7 @@
           "long": "The most customisable and low-latency cross platform/shell prompt renderer",
           "source": "github",
           "homepage": "https://ohmyposh.dev",
-          "lastUpdatedAt": "2026-06-17T11:17:24.041Z"
+          "lastUpdatedAt": "2026-06-17T16:04:41.527Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1335,9 +1335,19 @@
         },
         "versions": [
           {
-            "version": "29.16.0",
+            "version": "29.17.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-06-17T13:12:30Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v29.17.0"
+          },
+          {
+            "version": "29.16.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-06-16T19:16:43Z",
@@ -1623,19 +1633,237 @@
             "releaseDate": "2026-01-07T06:56:36Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v29.0.1"
-          },
-          {
-            "version": "29.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-01-06T11:31:37Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v29.0.0"
           }
         ],
         "downloads": [
+          {
+            "id": "checksums.txt",
+            "version": "29.17.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 846
+          },
+          {
+            "id": "checksums.txt.sig",
+            "version": "29.17.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/checksums.txt.sig",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 64
+          },
+          {
+            "id": "install-arm64.msi",
+            "version": "29.17.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/install-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 5689344
+          },
+          {
+            "id": "install-arm64.msix",
+            "version": "29.17.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/install-arm64.msix",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 7060251
+          },
+          {
+            "id": "install-x64.msi",
+            "version": "29.17.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/install-x64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 6311936
+          },
+          {
+            "id": "install-x64.msix",
+            "version": "29.17.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/install-x64.msix",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 7923330
+          },
+          {
+            "id": "posh-android-arm",
+            "version": "29.17.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-android-arm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 17904484
+          },
+          {
+            "id": "posh-darwin-amd64",
+            "version": "29.17.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19874112
+          },
+          {
+            "id": "posh-darwin-arm64",
+            "version": "29.17.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18526514
+          },
+          {
+            "id": "posh-freebsd-amd64",
+            "version": "29.17.0",
+            "platform": "unknown",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-freebsd-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19284140
+          },
+          {
+            "id": "posh-freebsd-arm",
+            "version": "29.17.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-freebsd-arm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18219180
+          },
+          {
+            "id": "posh-freebsd-arm64",
+            "version": "29.17.0",
+            "platform": "unknown",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-freebsd-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 17891500
+          },
+          {
+            "id": "posh-linux-amd64",
+            "version": "29.17.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19419298
+          },
+          {
+            "id": "posh-linux-arm",
+            "version": "29.17.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-linux-arm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18350242
+          },
+          {
+            "id": "posh-linux-arm64",
+            "version": "29.17.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18022562
+          },
+          {
+            "id": "posh-windows-amd64.exe",
+            "version": "29.17.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20138248
+          },
+          {
+            "id": "posh-windows-arm64.exe",
+            "version": "29.17.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "exe",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/posh-windows-arm64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18390792
+          },
+          {
+            "id": "themes.zip",
+            "version": "29.17.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/themes.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 151978
+          },
+          {
+            "id": "version.txt",
+            "version": "29.17.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.17.0/version.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9
+          },
           {
             "id": "checksums.txt",
             "version": "29.16.0",
@@ -2367,234 +2595,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 7045563
-          },
-          {
-            "id": "install-x64.msi",
-            "version": "29.14.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "msi",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/install-x64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 6303744
-          },
-          {
-            "id": "install-x64.msix",
-            "version": "29.14.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/install-x64.msix",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 7918498
-          },
-          {
-            "id": "posh-android-arm",
-            "version": "29.14.0",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-android-arm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17892076
-          },
-          {
-            "id": "posh-darwin-amd64",
-            "version": "29.14.0",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-darwin-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19861552
-          },
-          {
-            "id": "posh-darwin-arm64",
-            "version": "29.14.0",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-darwin-arm64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 18509730
-          },
-          {
-            "id": "posh-freebsd-amd64",
-            "version": "29.14.0",
-            "platform": "unknown",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-freebsd-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19280044
-          },
-          {
-            "id": "posh-freebsd-arm",
-            "version": "29.14.0",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-freebsd-arm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 18153644
-          },
-          {
-            "id": "posh-freebsd-arm64",
-            "version": "29.14.0",
-            "platform": "unknown",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-freebsd-arm64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17891500
-          },
-          {
-            "id": "posh-linux-amd64",
-            "version": "29.14.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-linux-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19407010
-          },
-          {
-            "id": "posh-linux-arm",
-            "version": "29.14.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-linux-arm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 18350242
-          },
-          {
-            "id": "posh-linux-arm64",
-            "version": "29.14.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-linux-arm64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17957026
-          },
-          {
-            "id": "posh-windows-amd64.exe",
-            "version": "29.14.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "exe",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-windows-amd64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20110088
-          },
-          {
-            "id": "posh-windows-arm64.exe",
-            "version": "29.14.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "exe",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/posh-windows-arm64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 18364176
-          },
-          {
-            "id": "themes.zip",
-            "version": "29.14.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/themes.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 128772
-          },
-          {
-            "id": "version.txt",
-            "version": "29.14.0",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.14.0/version.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 9
-          },
-          {
-            "id": "checksums.txt",
-            "version": "29.13.1",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.13.1/checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 846
-          },
-          {
-            "id": "checksums.txt.sig",
-            "version": "29.13.1",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.13.1/checksums.txt.sig",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 64
-          },
-          {
-            "id": "install-arm64.msi",
-            "version": "29.13.1",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "msi",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.13.1/install-arm64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 5681152
-          },
-          {
-            "id": "install-arm64.msix",
-            "version": "29.13.1",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.13.1/install-arm64.msix",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 7053480
           }
         ],
         "commands": [],
@@ -2602,7 +2602,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-17T11:17:24.041Z",
+          "lastSuccessfulScanAt": "2026-06-17T16:04:41.527Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
