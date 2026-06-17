@@ -1,117 +1,88 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-17T16:05:31.193Z",
-  "fromGeneratedAt": "2026-06-17T11:18:09.183Z",
-  "toGeneratedAt": "2026-06-17T16:05:31.193Z",
+  "generatedAt": "2026-06-17T20:33:07.371Z",
+  "fromGeneratedAt": "2026-06-17T16:05:31.193Z",
+  "toGeneratedAt": "2026-06-17T20:33:07.371Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 8,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 12,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_cli",
       "vscode",
-      "vim",
-      "oh_my_posh",
-      "terraform",
-      "aws_cli",
+      "powershell",
+      "cmake",
       "postman",
-      "rstudio",
+      "vercel_cli",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.124.2",
-        "to": "1.125.0"
-      },
-      {
-        "toolId": "vscode",
+        "toolId": "github_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.124.2",
-        "to": "1.125.0"
+        "from": "2.94.0",
+        "to": "2.95.0"
       },
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.653",
-        "to": "9.2.663"
-      },
-      {
-        "toolId": "oh_my_posh",
+        "toolId": "vscode",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "29.16.0",
-        "to": "29.17.0"
+        "from": "1.124.2",
+        "to": "1.125.0"
       },
       {
-        "toolId": "oh_my_posh",
+        "toolId": "powershell",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "29.15.1",
-        "to": "29.16.0"
+        "from": "7.6.2",
+        "to": "7.6.3"
       },
       {
-        "toolId": "oh_my_posh",
+        "toolId": "cmake",
         "sourceId": "github",
         "manager": "github",
-        "from": "29.16.0",
-        "to": "29.17.0"
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.15.6",
-        "to": "1.16.0-alpha20260617"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.35.5",
-        "to": "2.35.6"
+        "from": "4.4.0-rc1",
+        "to": "4.4.0-rc2"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.15.4",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.15.5",
+        "to": "12.15.6"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.15.0",
         "to": "12.15.5"
       },
       {
-        "toolId": "rstudio",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2026.5.0",
-        "to": "2026.5.1"
-      },
-      {
-        "toolId": "supabase_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.106.0",
-        "to": "2.107.0"
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@54.14.0",
+        "to": "ercel@54.14.2"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.107.0-beta.25",
-        "to": "2.107.0"
+        "from": "2.107.0",
+        "to": "2.108.0-beta.1"
       }
     ],
     "qualityChanges": []
