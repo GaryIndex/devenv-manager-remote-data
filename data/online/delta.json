@@ -1,72 +1,103 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-16T21:20:06.301Z",
-  "fromGeneratedAt": "2026-06-16T17:22:00.323Z",
-  "toGeneratedAt": "2026-06-16T21:20:06.301Z",
+  "generatedAt": "2026-06-17T05:16:55.501Z",
+  "fromGeneratedAt": "2026-06-16T21:20:06.301Z",
+  "toGeneratedAt": "2026-06-17T05:16:55.501Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 8,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vim",
       "powershell",
       "oh_my_posh",
-      "llvm",
+      "aws_cli",
       "postman",
-      "android_studio"
+      "mysql",
+      "supabase_cli",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0653",
+        "to": "9.2.0663"
+      },
+      {
         "toolId": "powershell",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "7.7.0-preview.2",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "7.6.2",
+        "to": "7.6.3"
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "7.6.2",
         "to": "7.6.3"
       },
       {
         "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "29.15.1",
         "to": "29.16.0"
       },
       {
-        "toolId": "llvm",
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.35.5",
+        "to": "2.35.6"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "22.1.7",
-        "to": "22.1.8"
+        "from": "2.35.5",
+        "to": "2.35.6"
       },
       {
         "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.15.0",
         "to": "12.15.4"
       },
       {
-        "toolId": "postman",
+        "toolId": "mysql",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.15.0",
-        "to": "12.15.4"
+        "from": "9.7.0",
+        "to": "9.7.1"
       },
       {
-        "toolId": "android_studio",
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.107.0-beta.20",
+        "to": "2.107.0-beta.22"
+      },
+      {
+        "toolId": "unity_hub",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2026.1.1.9,quail1-patch1",
-        "to": "2026.1.1.10,quail1-patch2"
+        "from": "3.18.2",
+        "to": "3.18.3"
       }
     ],
     "qualityChanges": []
