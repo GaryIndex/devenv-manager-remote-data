@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T15:53:43.551Z",
+  "generatedAt": "2026-06-18T20:39:11.263Z",
   "status": "ok",
   "tool": {
     "id": "rstudio",
@@ -28,7 +28,7 @@
       "long": "RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
       "source": "winget",
       "homepage": "https://posit.co/products/open-source/rstudio/",
-      "lastUpdatedAt": "2026-06-18T15:53:31.981Z"
+      "lastUpdatedAt": "2026-06-18T20:39:01.197Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -82,7 +82,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-18T15:53:31.981Z",
+          "scannedAt": "2026-06-18T20:39:01.197Z",
           "errors": []
         },
         "package": {
@@ -96,8 +96,8 @@
         },
         "links": {
           "homepage": "https://posit.co/products/open-source/rstudio/",
-          "download": "https://download1.rstudio.org/electron/windows/RStudio-2026.05.0-218.exe",
-          "releases": "https://docs.posit.co/ide/news/#rstudio-2026.05.0",
+          "download": "https://download1.rstudio.org/electron/windows/RStudio-2026.05.1-225.exe",
+          "releases": "https://docs.posit.co/ide/news/#rstudio-2026.05.1",
           "docs": null
         },
         "descriptions": {
@@ -105,7 +105,7 @@
           "long": "RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
           "source": "winget",
           "homepage": "https://posit.co/products/open-source/rstudio/",
-          "lastUpdatedAt": "2026-06-18T15:53:31.981Z"
+          "lastUpdatedAt": "2026-06-18T20:39:01.197Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -125,9 +125,19 @@
         },
         "versions": [
           {
-            "version": "2026.05.0+218",
+            "version": "2026.05.1+225",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2026.05.0+218",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -413,29 +423,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2022.02.3+492",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2026.05.0+218",
+            "version": "2026.05.1+225",
             "platform": "windows",
             "architecture": null,
             "type": "nullsoft",
-            "url": "https://download1.rstudio.org/electron/windows/RStudio-2026.05.0-218.exe",
+            "url": "https://download1.rstudio.org/electron/windows/RStudio-2026.05.1-225.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "90cbdb9d19c73023b1fb1864e3c2ea7454a399e82acf87b98f174d1c932f3641",
+            "sha256": "8d5faa42bd0ddfb82ae5d484349ccd82c9bca2f55143bd44502fae44144c7b24",
             "sizeBytes": null
           }
         ],
@@ -533,7 +533,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-18T15:53:31.981Z",
+          "lastSuccessfulScanAt": "2026-06-18T20:39:01.197Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -566,7 +566,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-18T15:53:32.404Z",
+          "scannedAt": "2026-06-18T20:39:01.334Z",
           "errors": []
         },
         "package": {
@@ -592,7 +592,7 @@
           "long": "Data science software focusing on R and Python",
           "source": "homebrew",
           "homepage": "https://posit.co/products/open-source/rstudio/",
-          "lastUpdatedAt": "2026-06-18T15:53:32.404Z"
+          "lastUpdatedAt": "2026-06-18T20:39:01.334Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -698,7 +698,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-18T15:53:32.404Z",
+          "lastSuccessfulScanAt": "2026-06-18T20:39:01.334Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -731,7 +731,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-18T15:53:32.461Z",
+          "scannedAt": "2026-06-18T20:39:01.368Z",
           "errors": []
         },
         "package": {
@@ -762,7 +762,7 @@
           "long": "RStudio is an integrated development environment (IDE) for R and Python. It includes a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging, and workspace management.",
           "source": "choco",
           "homepage": "https://posit.co/",
-          "lastUpdatedAt": "2026-06-18T15:53:32.461Z"
+          "lastUpdatedAt": "2026-06-18T20:39:01.368Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1171,7 +1171,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-18T15:53:32.461Z",
+          "lastSuccessfulScanAt": "2026-06-18T20:39:01.368Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
