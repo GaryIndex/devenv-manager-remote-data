@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T10:48:05.079Z",
+  "generatedAt": "2026-06-18T15:53:43.551Z",
   "status": "ok",
   "tool": {
     "id": "node_lts",
@@ -27,7 +27,7 @@
       "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
       "source": "choco",
       "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-06-18T10:47:19.292Z"
+      "lastUpdatedAt": "2026-06-18T15:52:58.274Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-18T10:47:19.187Z",
+          "scannedAt": "2026-06-18T15:52:58.180Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-06-18T10:47:19.187Z"
+          "lastUpdatedAt": "2026-06-18T15:52:58.180Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -339,7 +339,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-18T10:47:19.187Z",
+          "lastSuccessfulScanAt": "2026-06-18T15:52:58.180Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -387,7 +387,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-18T10:47:19.244Z",
+          "scannedAt": "2026-06-18T15:52:58.214Z",
           "errors": []
         },
         "package": {
@@ -413,7 +413,7 @@
           "long": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
           "source": "scoop",
           "homepage": "https://nodejs.org",
-          "lastUpdatedAt": "2026-06-18T10:47:19.244Z"
+          "lastUpdatedAt": "2026-06-18T15:52:58.214Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -519,7 +519,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-18T10:47:19.244Z",
+          "lastSuccessfulScanAt": "2026-06-18T15:52:58.214Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -567,7 +567,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-18T10:47:19.292Z",
+          "scannedAt": "2026-06-18T15:52:58.274Z",
           "errors": []
         },
         "package": {
@@ -590,8 +590,8 @@
         },
         "links": {
           "homepage": "https://nodejs.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.16.0",
-          "releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V24.md#24.16.0",
+          "download": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.17.0",
+          "releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V24.md#24.17.0",
           "docs": null
         },
         "descriptions": {
@@ -599,7 +599,7 @@
           "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
           "source": "choco",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-06-18T10:47:19.292Z"
+          "lastUpdatedAt": "2026-06-18T15:52:58.274Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -627,9 +627,29 @@
         },
         "versions": [
           {
-            "version": "24.16.0",
+            "version": "24.17.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.23.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.16.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -905,39 +925,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "22.16.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "18.16.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "24.16.0",
+            "version": "24.17.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.16.0",
+            "url": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.17.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "hZg6S+jdFDN5djcmfn8OPEa1erVJ2AHz0vxbrLr8fXxwEjwObWwxWS/X0IlajnuV82XVqR8pstP1Q8ebwPHXmA==",
+            "sha256": "5joB6nksD21T+AxcqlMpmeO9yR+hUOxNXHHIp+u+H/bEaTBkxW5dkTN5MYEqls0HtLGZSdAJK1sz5sfnE3YScA==",
             "sizeBytes": null
           }
         ],
@@ -1009,7 +1009,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-18T10:47:19.292Z",
+          "lastSuccessfulScanAt": "2026-06-18T15:52:58.274Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
