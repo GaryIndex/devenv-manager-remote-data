@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T05:02:32.371Z",
+  "generatedAt": "2026-06-18T10:48:05.079Z",
   "status": "ok",
   "tool": {
     "id": "visual_studio_community",
@@ -27,7 +27,7 @@
       "long": "Everything you need to build modern apps - free for you, built for impact.",
       "source": "winget",
       "homepage": "https://visualstudio.microsoft.com/",
-      "lastUpdatedAt": "2026-06-18T05:01:53.289Z"
+      "lastUpdatedAt": "2026-06-18T10:47:30.718Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,7 +93,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-18T05:01:53.289Z",
+          "scannedAt": "2026-06-18T10:47:30.718Z",
           "errors": []
         },
         "package": {
@@ -107,7 +107,7 @@
         },
         "links": {
           "homepage": "https://visualstudio.microsoft.com/",
-          "download": "https://download.visualstudio.microsoft.com/download/pr/81974841-9fb9-441a-9e75-d5c6868e1a48/b03c0205ecb0eeead25639b69951de8fdb47dbf0bf1226d0b9082997d9db41c6/vs_Community.exe",
+          "download": "https://download.visualstudio.microsoft.com/download/pr/2ae938ff-cbb6-4e4d-990c-7794a7a03745/8e02d19620a1d1affe5b226bcc7a764404df0cf089317d7d01459ad030eabc3c/vs_Community.exe",
           "releases": null,
           "docs": null
         },
@@ -116,7 +116,7 @@
           "long": "Everything you need to build modern apps - free for you, built for impact.",
           "source": "winget",
           "homepage": "https://visualstudio.microsoft.com/",
-          "lastUpdatedAt": "2026-06-18T05:01:53.289Z"
+          "lastUpdatedAt": "2026-06-18T10:47:30.718Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,9 +137,19 @@
         },
         "versions": [
           {
-            "version": "17.14.34",
+            "version": "17.14.35",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "17.14.34",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -425,29 +435,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "17.14.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "17.14.34",
+            "version": "17.14.35",
             "platform": "windows",
             "architecture": null,
             "type": "exe",
-            "url": "https://download.visualstudio.microsoft.com/download/pr/81974841-9fb9-441a-9e75-d5c6868e1a48/b03c0205ecb0eeead25639b69951de8fdb47dbf0bf1226d0b9082997d9db41c6/vs_Community.exe",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/2ae938ff-cbb6-4e4d-990c-7794a7a03745/8e02d19620a1d1affe5b226bcc7a764404df0cf089317d7d01459ad030eabc3c/vs_Community.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "b03c0205ecb0eeead25639b69951de8fdb47dbf0bf1226d0b9082997d9db41c6",
+            "sha256": "8e02d19620a1d1affe5b226bcc7a764404df0cf089317d7d01459ad030eabc3c",
             "sizeBytes": null
           }
         ],
@@ -545,7 +545,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-18T05:01:53.289Z",
+          "lastSuccessfulScanAt": "2026-06-18T10:47:30.718Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
