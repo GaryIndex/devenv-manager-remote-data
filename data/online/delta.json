@@ -1,34 +1,29 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-19T05:25:10.321Z",
-  "fromGeneratedAt": "2026-06-18T20:39:11.263Z",
-  "toGeneratedAt": "2026-06-19T05:25:10.321Z",
+  "generatedAt": "2026-06-19T10:58:09.932Z",
+  "fromGeneratedAt": "2026-06-19T05:25:10.321Z",
+  "toGeneratedAt": "2026-06-19T10:58:09.932Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 14,
+    "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 20,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "oh_my_posh",
-      "uv",
-      "pipx",
+      "node_lts",
+      "npm",
       "gradle",
-      "cmake",
-      "helm",
-      "pulumi",
       "aws_cli",
-      "sysinternals_suite",
-      "sysmon",
-      "stripe_cli",
+      "postman",
+      "pgadmin",
+      "supabase_cli",
       "godot",
       "hugo"
     ],
@@ -36,142 +31,72 @@
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.0670",
-        "to": "9.2.0677"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.670",
-        "to": "9.2.677"
-      },
-      {
-        "toolId": "oh_my_posh",
+        "toolId": "node_lts",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "29.14.0",
-        "to": "29.17.0"
+        "from": "24.16.0",
+        "to": "24.17.0"
       },
       {
-        "toolId": "uv",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "0.11.21",
-        "to": "0.11.22"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.11.21",
-        "to": "0.11.22"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.11.21",
-        "to": "0.11.22"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "0.11.21",
-        "to": "0.11.22"
-      },
-      {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.14.0",
-        "to": "1.14.1"
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.16.0",
+        "to": "24.17.0"
       },
       {
         "toolId": "gradle",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "9.5.1",
         "to": "9.6.0"
       },
       {
-        "toolId": "cmake",
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.35.7",
+        "to": "2.35.8"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "4.4.0-rc1",
-        "to": "4.3.4"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.2.1",
-        "to": "4.2.2"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.246.0",
-        "to": "3.247.0"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
         "from": "2.35.7",
         "to": "2.35.8"
       },
       {
-        "toolId": "aws_cli",
+        "toolId": "postman",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "2.35.7",
-        "to": "2.35.8"
+        "from": "12.15.6",
+        "to": "12.15.8"
       },
       {
-        "toolId": "sysinternals_suite",
+        "toolId": "pgadmin",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "2026-06-10",
-        "to": "2026-06-17"
+        "from": "9.15",
+        "to": "9.16"
       },
       {
-        "toolId": "sysmon",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "15.20",
-        "to": "15.21"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.42.13",
-        "to": "1.42.14"
-      },
-      {
-        "toolId": "stripe_cli",
+        "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.42.13",
-        "to": "1.42.14"
+        "from": "2.108.0-beta.7",
+        "to": "2.108.0-beta.9"
       },
       {
         "toolId": "godot",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.6.3",
-        "to": "4.7"
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.7.0-rc3",
+        "to": "4.7.0"
       },
       {
         "toolId": "hugo",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "0.163.2",
         "to": "0.163.3"
       }
