@@ -1,80 +1,33 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-19T15:43:08.492Z",
-  "fromGeneratedAt": "2026-06-19T10:58:09.932Z",
-  "toGeneratedAt": "2026-06-19T15:43:08.492Z",
+  "generatedAt": "2026-06-19T20:04:05.442Z",
+  "fromGeneratedAt": "2026-06-19T15:43:08.492Z",
+  "toGeneratedAt": "2026-06-19T20:04:05.442Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 1,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 1,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
-      "node_current",
-      "cmake",
-      "llvm",
-      "docker_desktop",
-      "postman"
+      "uv"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.125.0",
-        "to": "1.125.1"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.124.2",
-        "to": "1.125.1"
-      },
-      {
-        "toolId": "node_current",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "26.3.0",
-        "to": "26.3.1"
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.3.3",
-        "to": "4.3.4"
-      },
-      {
-        "toolId": "llvm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "22.1.7",
-        "to": "22.1.8"
-      },
-      {
-        "toolId": "docker_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.78.0.229452",
-        "to": "4.78.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.15.6",
-        "to": "12.15.8"
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.11.22",
+        "to": "0.11.23"
       }
     ],
     "qualityChanges": []
