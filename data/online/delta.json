@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-21T10:06:29.723Z",
-  "fromGeneratedAt": "2026-06-21T05:19:01.888Z",
-  "toGeneratedAt": "2026-06-21T10:06:29.723Z",
+  "generatedAt": "2026-06-21T14:33:11.781Z",
+  "fromGeneratedAt": "2026-06-21T10:06:29.723Z",
+  "toGeneratedAt": "2026-06-21T14:33:11.781Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
@@ -10,32 +10,39 @@
     "changedTools": 2,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
+    "versionChanges": 3,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
-      "vim"
+      "aws_cli",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
+        "toolId": "aws_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.125.0",
-        "to": "1.125.1"
+        "from": "2.35.8",
+        "to": "2.35.9"
       },
       {
-        "toolId": "vim",
+        "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.677",
-        "to": "9.2.680"
+        "from": "2.35.8",
+        "to": "2.35.9"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.18.2",
+        "to": "1.4.0"
       }
     ],
     "qualityChanges": []
