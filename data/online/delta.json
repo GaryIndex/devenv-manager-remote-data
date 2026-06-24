@@ -1,100 +1,94 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T20:23:01.600Z",
-  "fromGeneratedAt": "2026-06-23T15:25:09.519Z",
-  "toGeneratedAt": "2026-06-23T20:23:01.600Z",
+  "generatedAt": "2026-06-24T04:36:12.775Z",
+  "fromGeneratedAt": "2026-06-23T20:23:01.600Z",
+  "toGeneratedAt": "2026-06-24T04:36:12.775Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 10,
+    "versionChanges": 9,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "oh_my_posh",
+      "vim",
+      "node_lts",
+      "npm",
       "pnpm",
-      "google_cloud_sdk",
-      "bruno",
+      "uv",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "29.17.0",
-        "to": "29.18.0"
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0707",
+        "to": "9.2.0712"
+      },
+      {
+        "toolId": "node_lts",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.17.0",
+        "to": "24.18.0"
+      },
+      {
+        "toolId": "node_lts",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "24.17.0",
+        "to": "24.18.0"
+      },
+      {
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.17.0",
+        "to": "24.18.0"
       },
       {
         "toolId": "pnpm",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "11.8.0",
         "to": "11.9.0"
       },
       {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "573.0.0",
-        "to": "574.0.0"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "573.0.0",
-        "to": "574.0.0"
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.4.2",
-        "to": "3.5.0"
-      },
-      {
-        "toolId": "bruno",
+        "toolId": "uv",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.4.2",
-        "to": "3.5.0"
+        "from": "0.11.23",
+        "to": "0.11.24"
       },
       {
-        "toolId": "bruno",
+        "toolId": "uv",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.4.2",
-        "to": "3.5.0"
+        "from": "0.11.23",
+        "to": "0.11.24"
       },
       {
-        "toolId": "bruno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.4.2",
-        "to": "3.5.0"
-      },
-      {
-        "toolId": "bruno",
+        "toolId": "uv",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.4.2",
-        "to": "3.5.0"
+        "from": "0.11.23",
+        "to": "0.11.24"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.108.0-beta.27",
-        "to": "2.108.0-beta.29"
+        "from": "2.108.0-beta.29",
+        "to": "2.108.0-beta.30"
       }
     ],
     "qualityChanges": []
