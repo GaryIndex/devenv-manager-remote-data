@@ -1,126 +1,118 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-24T15:08:55.409Z",
-  "fromGeneratedAt": "2026-06-24T09:51:22.629Z",
-  "toGeneratedAt": "2026-06-24T15:08:55.409Z",
+  "generatedAt": "2026-06-24T20:07:28.665Z",
+  "fromGeneratedAt": "2026-06-24T15:08:55.409Z",
+  "toGeneratedAt": "2026-06-24T20:07:28.665Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 13,
+    "versionChanges": 12,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "github_desktop",
-      "vscode",
-      "vim",
       "node_lts",
-      "uv",
+      "podman",
       "terraform",
       "pulumi",
-      "r",
-      "quarto",
-      "supabase_cli"
+      "postman",
+      "vercel_cli",
+      "stripe_cli",
+      "supabase_cli",
+      "elixir"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "github_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.5.12",
-        "to": "3.6.0"
-      },
-      {
-        "toolId": "github_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.5.12-c6aad713",
-        "to": "3.6.0-2b2320f9"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.125.1",
-        "to": "1.126.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.125.1",
-        "to": "1.126.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.125.0",
-        "to": "1.126.0"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.707",
-        "to": "9.2.712"
-      },
-      {
         "toolId": "node_lts",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "24.17.0",
-        "to": "22.23.1"
+        "from": "22.23.1",
+        "to": "24.18.0"
       },
       {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.11.23",
-        "to": "0.11.24"
+        "toolId": "podman",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "6.0.0-rc1",
+        "to": "6.0.0"
       },
       {
         "toolId": "terraform",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.16.0-alpha20260617",
-        "to": "1.16.0-alpha20260624"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.15.6",
+        "to": "1.15.7"
       },
       {
         "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "3.247.0",
         "to": "3.248.0"
       },
       {
-        "toolId": "r",
+        "toolId": "pulumi",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "4.6.0",
-        "to": "4.6.1"
+        "from": "3.247.0",
+        "to": "3.248.0"
       },
       {
-        "toolId": "quarto",
+        "toolId": "pulumi",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.247.0",
+        "to": "3.248.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.16.1",
+        "to": "12.16.2"
+      },
+      {
+        "toolId": "vercel_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.10.12",
-        "to": "1.10.13"
+        "from": "ercel@54.15.1",
+        "to": "ercel@54.16.0"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.42.15",
+        "to": "1.43.1"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.42.15",
+        "to": "1.43.1"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.108.0-beta.30",
-        "to": "2.108.0-beta.34"
+        "from": "2.108.0-beta.34",
+        "to": "2.108.0-beta.35"
+      },
+      {
+        "toolId": "elixir",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.20.1",
+        "to": "1.20.2"
       }
     ],
     "qualityChanges": []
