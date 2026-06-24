@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-24T09:51:22.629Z",
+  "generatedAt": "2026-06-24T15:08:55.409Z",
   "status": "ok",
   "tool": {
     "id": "github_desktop",
@@ -28,7 +28,7 @@
       "long": "This essentially replaces https://chocolatey.org/packages/GitHub but is a different application. Your Desktop upgrade. Experience Electron Whether you’re using a Mac or Windows, Desktop Beta gives you a simplified experience with more space for what matters—your code. Streamline your workflow Create branches, collaborate with other developers, and commit changes without touching the command line. Make it your own Every pixel is completely open source. Build the features you need, and be a part of future GitHub Desktop releases.",
       "source": "choco",
       "homepage": "https://desktop.github.com/",
-      "lastUpdatedAt": "2026-06-24T09:50:28.892Z"
+      "lastUpdatedAt": "2026-06-24T15:08:01.414Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -82,7 +82,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-24T09:50:28.691Z",
+          "scannedAt": "2026-06-24T15:08:01.269Z",
           "errors": []
         },
         "package": {
@@ -96,7 +96,7 @@
         },
         "links": {
           "homepage": "https://github.com/apps/desktop",
-          "download": "https://desktop.githubusercontent.com/releases/3.5.12-c6aad713/GitHubDesktopSetup-x64.exe",
+          "download": "https://desktop.githubusercontent.com/releases/3.6.0-2b2320f9/GitHubDesktopSetup-x64.exe",
           "releases": null,
           "docs": null
         },
@@ -105,7 +105,7 @@
           "long": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
           "source": "winget",
           "homepage": "https://github.com/apps/desktop",
-          "lastUpdatedAt": "2026-06-24T09:50:28.691Z"
+          "lastUpdatedAt": "2026-06-24T15:08:01.269Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -125,9 +125,19 @@
         },
         "versions": [
           {
-            "version": "3.5.12",
+            "version": "3.6.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.12",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -413,29 +423,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.4.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "3.5.12",
+            "version": "3.6.0",
             "platform": "windows",
             "architecture": null,
             "type": "exe",
-            "url": "https://desktop.githubusercontent.com/releases/3.5.12-c6aad713/GitHubDesktopSetup-x64.exe",
+            "url": "https://desktop.githubusercontent.com/releases/3.6.0-2b2320f9/GitHubDesktopSetup-x64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "338e6fe3430ddb7db3e370f11b98e2d6a25998d5d7bdc7d714b77cfb5b13afc0",
+            "sha256": "56c1b848a736f9c076fb440b29d5a968fd82986ffe6ff715cb0c761c9a52f4a7",
             "sizeBytes": null
           }
         ],
@@ -533,7 +533,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-24T09:50:28.691Z",
+          "lastSuccessfulScanAt": "2026-06-24T15:08:01.269Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -566,7 +566,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-24T09:50:28.793Z",
+          "scannedAt": "2026-06-24T15:08:01.325Z",
           "errors": []
         },
         "package": {
@@ -583,7 +583,7 @@
         },
         "links": {
           "homepage": "https://desktop.github.com/",
-          "download": "https://desktop.githubusercontent.com/releases/3.5.12-c6aad713/GitHubDesktop-arm64.zip",
+          "download": "https://desktop.githubusercontent.com/releases/3.6.0-2b2320f9/GitHubDesktop-arm64.zip",
           "releases": null,
           "docs": null
         },
@@ -592,7 +592,7 @@
           "long": "Desktop client for GitHub repositories",
           "source": "homebrew",
           "homepage": "https://desktop.github.com/",
-          "lastUpdatedAt": "2026-06-24T09:50:28.793Z"
+          "lastUpdatedAt": "2026-06-24T15:08:01.325Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -614,7 +614,7 @@
         },
         "versions": [
           {
-            "version": "3.5.12-c6aad713",
+            "version": "3.6.0-2b2320f9",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -627,14 +627,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "3.5.12-c6aad713",
+            "version": "3.6.0-2b2320f9",
             "platform": "macos",
             "architecture": null,
             "type": "cask",
-            "url": "https://desktop.githubusercontent.com/releases/3.5.12-c6aad713/GitHubDesktop-arm64.zip",
+            "url": "https://desktop.githubusercontent.com/releases/3.6.0-2b2320f9/GitHubDesktop-arm64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "9eafd1ea099ab83ad7ca82b80580e7ebce5455731d3ed7d47cea6de36152c589",
+            "sha256": "1dad783c72c7c1ceca7f64cc7a06467bd376b5f8b88d3086fcadd2a03951a1f2",
             "sizeBytes": null
           }
         ],
@@ -698,7 +698,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-24T09:50:28.793Z",
+          "lastSuccessfulScanAt": "2026-06-24T15:08:01.325Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -731,7 +731,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-24T09:50:28.892Z",
+          "scannedAt": "2026-06-24T15:08:01.414Z",
           "errors": []
         },
         "package": {
@@ -762,7 +762,7 @@
           "long": "This essentially replaces https://chocolatey.org/packages/GitHub but is a different application. Your Desktop upgrade. Experience Electron Whether you’re using a Mac or Windows, Desktop Beta gives you a simplified experience with more space for what matters—your code. Streamline your workflow Create branches, collaborate with other developers, and commit changes without touching the command line. Make it your own Every pixel is completely open source. Build the features you need, and be a part of future GitHub Desktop releases.",
           "source": "choco",
           "homepage": "https://desktop.github.com/",
-          "lastUpdatedAt": "2026-06-24T09:50:28.892Z"
+          "lastUpdatedAt": "2026-06-24T15:08:01.414Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1171,7 +1171,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-24T09:50:28.892Z",
+          "lastSuccessfulScanAt": "2026-06-24T15:08:01.414Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
