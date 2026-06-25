@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T15:14:11.807Z",
+  "generatedAt": "2026-06-25T20:23:09.955Z",
   "status": "partial",
   "tool": {
     "id": "terraform",
@@ -29,7 +29,7 @@
       "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
       "source": "choco",
       "homepage": "http://www.terraform.io/",
-      "lastUpdatedAt": "2026-06-25T15:13:51.538Z"
+      "lastUpdatedAt": "2026-06-25T20:22:42.831Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T15:13:51.386Z",
+          "scannedAt": "2026-06-25T20:22:42.486Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://github.com/hashicorp/terraform",
-          "lastUpdatedAt": "2026-06-25T15:13:51.386Z"
+          "lastUpdatedAt": "2026-06-25T20:22:42.486Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T15:13:51.386Z",
+          "lastSuccessfulScanAt": "2026-06-25T20:22:42.486Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T15:13:51.517Z",
+          "scannedAt": "2026-06-25T20:22:42.763Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Create and manage infrastructure as code using simple declarative configuration files.",
           "source": "scoop",
           "homepage": "https://www.terraform.io",
-          "lastUpdatedAt": "2026-06-25T15:13:51.517Z"
+          "lastUpdatedAt": "2026-06-25T20:22:42.763Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T15:13:51.517Z",
+          "lastSuccessfulScanAt": "2026-06-25T20:22:42.763Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T15:13:51.538Z",
+          "scannedAt": "2026-06-25T20:22:42.831Z",
           "errors": []
         },
         "package": {
@@ -780,7 +780,7 @@
           "author": "HashiCorp",
           "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.",
           "license": null,
-          "licenseUrl": "https://github.com/hashicorp/terraform/blob/v1.16.0-alpha20260624/LICENSE",
+          "licenseUrl": "https://github.com/hashicorp/terraform/blob/v1.15.7/LICENSE",
           "tags": [
             "terraform",
             "hashicorp"
@@ -788,8 +788,8 @@
         },
         "links": {
           "homepage": "http://www.terraform.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/terraform/1.16.0-alpha20260624",
-          "releases": "## 1.16.0-alpha20260624 (June 24, 2026)\n\n\nNEW FEATURES:\n\n* Store PlannedPrivate data for providers ([#37986](https://github.com/hashicorp/terraform/issues/37986))\n\n* New store block in terraform_data that can handle ephemeral and sensitive values ([#38298](https://github.com/hashicorp/terraform/issues/38298))\n\n* Providers can now use nested blocks as computed values ([#38305](https://github.com/hashicorp/terraform/issues/38305))\n\n* import: add support for import blocks inside modules ([#38352](https://github.com/hashicorp/terraform/issues/38352))\n\n* We now produce builds for Linux s390x (zLinux) ([#38384](https://github.com/hashicorp/terraform/issues/38384))\n\n* workspace: The `workspace list` command can now produce machine-readable output when supplied with the `-json` flag ([#38397](https://github.com/hashicorp/terraform/issues/38397))\n\n* Resource action triggers can now use `on_failure` modes of `halt`, `taint`, or `continue` ([#38722](https://github.com/hashicorp/terraform/issues/38722))\n\n\nENHANCEMENTS:\n\n* feat(cli): terraform state show accepts a -json flag ([#23940](https://github.com/hashicorp/terraform/issues/23940))\n\n* Show info when resources are left behind due to skip_cleanup ([#38449](https://github.com/hashicorp/terraform/issues/38449))\n\n* Action configuration now has a new `caller` symbol which contains the object value from the calling resource. ([#38668](https://github.com/hashicorp/terraform/issues/38668))\n\n* Actions can now use before_destroy and after_destroy events ([#38668](https://github.com/hashicorp/terraform/issues/38668))\n\n* policy: Resolve the policy plugin entitlement (host, token, organization) from the configured cloud/remote backend for init, plan, and apply, instead of the plugin reading credentials itself ([#38716](https://github.com/hashicorp/terraform/issues/38716))\n\n\nBUG FIXES:\n\n* import blocks no longer ignore provider local names ([#38338](https://github.com/hashicorp/terraform/issues/38338))\n\n* Fix a `terraform apply` panic when the plan contained a no-op change for a deposed object on a resource whose configuration declared a `lifecycle.precondition` or `lifecycle.postcondition` ([#38586](https://github.com/hashicorp/terraform/issues/38586))\n\n* workspace: Terraform will now error if an invalid workspace name becomes selected due to actions performed out-of-band ([#38594](https://github.com/hashicorp/terraform/issues/38594))\n\n* test: Terraform will now raise a warning when a file referenced via `-filter` flag does not exist. ([#38603](https://github.com/hashicorp/terraform/issues/38603))\n\n* init: Stop removing locks from the dependency lock file corresponding to providers configured as a dev_override ([#38634](https://github.com/hashicorp/terraform/issues/38634))\n\n* init: Add warnings when unmanaged providers are in use and will impact provider installation processes. ([#38656](https://github.com/hashicorp/terraform/issues/38656))\n\n* Actions are now invoked with respect to all resource dependencies. ([#38668](https://github.com/hashicorp/terraform/issues/38668))\n\n\nNOTES:\n\n* init: Errors due to incompatible `-upgrade` and `-lockfile=readonly` flags are now raised earlier in the init process. ([#38561](https://github.com/hashicorp/terraform/issues/38561))\n\n* command/init: Provider installation was changed to enable future enhancements in the area. This effectively reverses the log message changes from v1.15. `initializing_provider_plugin_message` is being re-introduced to replace the short-lived two message types `initializing_provider_plugin_from_config_message` & `initializing_provider_plugin_from_state_message`. The change should not have any significant end-user impact aside from the command output. ([#38648](https://github.com/hashicorp/terraform/issues/38648))\n\n* command/init: Provider installation was changed to enable future enhancements in the area. This partially reverses the init event order changes from v1.15; module installation will now occur after the backend is initialized. The change should not have any significant end-user impact aside from the command output. ([#38699](https://github.com/hashicorp/terraform/issues/38699))\n\n\nUPGRADE NOTES:\n\n* Provisioner bastion_host_key is now correctly applied. Existing usage of bastion_host_key should verify the configured key is correct. ([#38318](https://github.com/hashicorp/terraform/issues/38318))\n\n\nEXPERIMENTS:\n\nExperiments are only enabled in alpha releases of Terraform CLI. The following features are not yet available in stable releases.\n\n- The experimental \"deferred actions\" feature, enabled by passing the `-allow-deferral` option to `terraform plan`, permits `count` and `for_each` arguments in `module`, `resource`, and `data` blocks to have unknown values and allows providers to react more flexibly to unknown values.\n- `terraform test cleanup`: The experimental `test cleanup` command. In experimental builds of Terraform, a manifest file and state files for each failed cleanup operation during test operations are saved within the `.terraform` local directory. The `test cleanup` command will attempt to clean up the local state files left behind automatically, without requiring manual intervention.\n- `terraform test`: `backend` blocks and `skip_cleanup` attributes:\n  - Test authors can now specify `backend` blocks within `run` blocks in Terraform Test files. Run blocks with `backend` blocks will load state from the specified backend instead of starting from empty state on every execution. This allows test authors to keep long-running test infrastructure alive between test operations, saving time during regular test operations.\n  - Test authors can now specify `skip_cleanup` attributes within test files and within run blocks. The `skip_cleanup` attribute tells `terraform test` not to clean up state files produced by run blocks with this attribute set to true. The state files for affected run blocks will be written to disk within the `.terraform` directory, where they can then be cleaned up manually using the also experimental `terraform test cleanup` command.\n\n## Previous Releases\nFor more information on previous releases, check out the changelog on [GitHub](https://github.com/hashicorp/terraform/blob/v1.16.0-alpha20260624/CHANGELOG.md).",
+          "download": "https://community.chocolatey.org/api/v2/package/terraform/1.15.7",
+          "releases": "## 1.15.7 (June 24, 2026)\n\n\nBUG FIXES:\n\n* Add concurrency safety to configs.Parser and SourceBundleParser ([#38745](https://github.com/hashicorp/terraform/issues/38745))\n\n* Fix submodule variable validation during init ([#38770](https://github.com/hashicorp/terraform/issues/38770))\n\n\n## Previous Releases\nFor more information on previous releases, check out the changelog on [GitHub](https://github.com/hashicorp/terraform/blob/v1.15.7/CHANGELOG.md).",
           "docs": null
         },
         "descriptions": {
@@ -797,7 +797,7 @@
           "long": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions. The key features of Terraform are: Infrastructure as Code : Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. Execution Plans : Terraform has a \"planning\" step where it generates an execution plan . The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure. Resource Graph : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure. Change Automation : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly...",
           "source": "choco",
           "homepage": "http://www.terraform.io/",
-          "lastUpdatedAt": "2026-06-25T15:13:51.538Z"
+          "lastUpdatedAt": "2026-06-25T20:22:42.831Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -818,20 +818,20 @@
         },
         "versions": [
           {
-            "version": "1.16.0-alpha20260624",
-            "channel": "prerelease",
+            "version": "1.15.7",
+            "channel": "stable",
             "latest": true,
-            "prerelease": true,
+            "prerelease": false,
             "lts": null,
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
           },
           {
-            "version": "1.15.7",
-            "channel": "stable",
+            "version": "1.16.0-alpha20260624",
+            "channel": "prerelease",
             "latest": false,
-            "prerelease": false,
+            "prerelease": true,
             "lts": null,
             "releaseDate": null,
             "eolDate": null,
@@ -1121,14 +1121,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.16.0-alpha20260624",
+            "version": "1.15.7",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/terraform/1.16.0-alpha20260624",
+            "url": "https://community.chocolatey.org/api/v2/package/terraform/1.15.7",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "/iRa19ZwOcAnmZowrdSKbC5MnZtDNgGc76nnrgWC4uil9ycRpFQTjqcvZGqcNYg3JHW7ff1gouJ8QlFIFb4WNA==",
+            "sha256": "/JAo0lLraYJwO6pBh1wO+efBi6YFGjFSc1YarFbBuYwYivHQnL/weoJ4azeVKz7IA6HbIEq42lPYXhxXb8iMsQ==",
             "sizeBytes": null
           }
         ],
@@ -1200,7 +1200,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T15:13:51.538Z",
+          "lastSuccessfulScanAt": "2026-06-25T20:22:42.831Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1248,7 +1248,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T15:13:51.659Z",
+          "scannedAt": "2026-06-25T20:22:42.931Z",
           "errors": []
         },
         "package": {
@@ -1277,7 +1277,7 @@
           "long": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
           "source": "github",
           "homepage": "http://developer.hashicorp.com/terraform",
-          "lastUpdatedAt": "2026-06-25T15:13:51.659Z"
+          "lastUpdatedAt": "2026-06-25T20:22:42.931Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1607,7 +1607,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T15:13:51.659Z",
+          "lastSuccessfulScanAt": "2026-06-25T20:22:42.931Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

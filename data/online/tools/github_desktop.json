@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T15:14:11.807Z",
+  "generatedAt": "2026-06-25T20:23:09.955Z",
   "status": "partial",
   "tool": {
     "id": "github_desktop",
@@ -28,7 +28,7 @@
       "long": "With GitHub Desktop, you can interact with GitHub using a GUI instead of the command line or a web browser. You can use GitHub Desktop to complete most Git commands from your desktop, such as pushing to, pulling from, and cloning remote repositories, attributing commits, and creating pull requests, with visual confirmation of changes. This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.",
       "source": "choco",
       "homepage": "https://github.com/apps/desktop",
-      "lastUpdatedAt": "2026-06-25T15:13:29.103Z"
+      "lastUpdatedAt": "2026-06-25T20:22:16.493Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -81,31 +81,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-06-25T15:13:29.035Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-06-25T20:22:16.431Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "GitHub Desktop",
-          "publisher": "GitHub, Inc.",
-          "author": "GitHub, Inc.",
-          "description": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
-          "license": "MIT",
-          "licenseUrl": "https://github.com/desktop/desktop/blob/HEAD/LICENSE",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://github.com/apps/desktop",
-          "download": "https://desktop.githubusercontent.com/releases/3.6.0-2b2320f9/GitHubDesktopSetup-x64.exe",
+          "homepage": "https://desktop.github.com/",
+          "download": "https://desktop.github.com/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
-          "long": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://github.com/apps/desktop",
-          "lastUpdatedAt": "2026-06-25T15:13:29.035Z"
+          "homepage": "https://desktop.github.com/",
+          "lastUpdatedAt": "2026-06-25T20:22:16.431Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -431,11 +433,11 @@
             "version": "3.6.0",
             "platform": "windows",
             "architecture": null,
-            "type": "exe",
-            "url": "https://desktop.githubusercontent.com/releases/3.6.0-2b2320f9/GitHubDesktopSetup-x64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "56c1b848a736f9c076fb440b29d5a968fd82986ffe6ff715cb0c761c9a52f4a7",
+            "type": "package-manager",
+            "url": "https://desktop.github.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -530,11 +532,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T15:13:29.035Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -566,7 +568,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T15:13:29.079Z",
+          "scannedAt": "2026-06-25T20:22:16.479Z",
           "errors": []
         },
         "package": {
@@ -583,7 +585,7 @@
         },
         "links": {
           "homepage": "https://desktop.github.com/",
-          "download": "https://desktop.githubusercontent.com/releases/3.6.0-2b2320f9/GitHubDesktop-arm64.zip",
+          "download": "https://desktop.githubusercontent.com/releases/3.6.1-8fa814ac/GitHubDesktop-arm64.zip",
           "releases": null,
           "docs": null
         },
@@ -592,7 +594,7 @@
           "long": "Desktop client for GitHub repositories",
           "source": "homebrew",
           "homepage": "https://desktop.github.com/",
-          "lastUpdatedAt": "2026-06-25T15:13:29.079Z"
+          "lastUpdatedAt": "2026-06-25T20:22:16.479Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -614,7 +616,7 @@
         },
         "versions": [
           {
-            "version": "3.6.0-2b2320f9",
+            "version": "3.6.1-8fa814ac",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -627,14 +629,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "3.6.0-2b2320f9",
+            "version": "3.6.1-8fa814ac",
             "platform": "macos",
             "architecture": null,
             "type": "cask",
-            "url": "https://desktop.githubusercontent.com/releases/3.6.0-2b2320f9/GitHubDesktop-arm64.zip",
+            "url": "https://desktop.githubusercontent.com/releases/3.6.1-8fa814ac/GitHubDesktop-arm64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "1dad783c72c7c1ceca7f64cc7a06467bd376b5f8b88d3086fcadd2a03951a1f2",
+            "sha256": "d02a33ab60168e4978a3f18fadfef2bdf51df881e5613c550cc2b91c8dac9539",
             "sizeBytes": null
           }
         ],
@@ -698,7 +700,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T15:13:29.079Z",
+          "lastSuccessfulScanAt": "2026-06-25T20:22:16.479Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -731,7 +733,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T15:13:29.103Z",
+          "scannedAt": "2026-06-25T20:22:16.493Z",
           "errors": []
         },
         "package": {
@@ -762,7 +764,7 @@
           "long": "With GitHub Desktop, you can interact with GitHub using a GUI instead of the command line or a web browser. You can use GitHub Desktop to complete most Git commands from your desktop, such as pushing to, pulling from, and cloning remote repositories, attributing commits, and creating pull requests, with visual confirmation of changes. This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.",
           "source": "choco",
           "homepage": "https://github.com/apps/desktop",
-          "lastUpdatedAt": "2026-06-25T15:13:29.103Z"
+          "lastUpdatedAt": "2026-06-25T20:22:16.493Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1171,7 +1173,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T15:13:29.103Z",
+          "lastSuccessfulScanAt": "2026-06-25T20:22:16.493Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
