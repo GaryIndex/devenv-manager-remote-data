@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T09:44:27.097Z",
-  "status": "ok",
+  "generatedAt": "2026-06-25T15:14:11.807Z",
+  "status": "partial",
   "tool": {
     "id": "bun",
     "name": "Bun",
@@ -29,7 +29,7 @@
       "long": "Develop, test, run, and bundle JavaScript & TypeScript projects—all with Bun. Bun is an all-in-one JavaScript runtime & toolkit designed for speed, complete with a bundler, test runner, and Node.js-compatible package manager.",
       "source": "choco",
       "homepage": "https://bun.sh/",
-      "lastUpdatedAt": "2026-06-25T09:43:45.173Z"
+      "lastUpdatedAt": "2026-06-25T15:13:39.400Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,31 +97,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-06-25T09:43:44.955Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-06-25T15:13:39.358Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Bun",
-          "publisher": "Oven-sh",
+          "publisher": null,
           "author": null,
-          "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-          "license": "MIT",
-          "licenseUrl": "https://github.com/oven-sh/bun/blob/HEAD/LICENSE.md",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://bun.sh/",
-          "download": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-windows-x64.zip",
-          "releases": "https://bun.com/blog/bun-v1.3.14",
+          "download": "https://bun.sh/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-          "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://bun.sh/",
-          "lastUpdatedAt": "2026-06-25T09:43:44.955Z"
+          "lastUpdatedAt": "2026-06-25T15:13:39.358Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -447,11 +449,11 @@
             "version": "1.3.14",
             "platform": "windows",
             "architecture": null,
-            "type": "portable (zip)",
-            "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-windows-x64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "0a0620930b6675d7ba440e81f4e0e00d3cfbe096c4b140d3fff02205e9e18922",
+            "type": "package-manager",
+            "url": "https://bun.sh/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -546,11 +548,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T09:43:44.955Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -596,7 +598,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T09:43:44.991Z",
+          "scannedAt": "2026-06-25T15:13:39.377Z",
           "errors": []
         },
         "package": {
@@ -622,7 +624,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager",
           "source": "homebrew",
           "homepage": "https://bun.com/",
-          "lastUpdatedAt": "2026-06-25T09:43:44.991Z"
+          "lastUpdatedAt": "2026-06-25T15:13:39.377Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +730,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T09:43:44.991Z",
+          "lastSuccessfulScanAt": "2026-06-25T15:13:39.377Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +776,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T09:43:45.141Z",
+          "scannedAt": "2026-06-25T15:13:39.378Z",
           "errors": []
         },
         "package": {
@@ -800,7 +802,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.",
           "source": "scoop",
           "homepage": "https://bun.sh/",
-          "lastUpdatedAt": "2026-06-25T09:43:45.141Z"
+          "lastUpdatedAt": "2026-06-25T15:13:39.378Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -905,7 +907,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T09:43:45.141Z",
+          "lastSuccessfulScanAt": "2026-06-25T15:13:39.378Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +953,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T09:43:45.173Z",
+          "scannedAt": "2026-06-25T15:13:39.400Z",
           "errors": []
         },
         "package": {
@@ -979,7 +981,7 @@
           "long": "Develop, test, run, and bundle JavaScript & TypeScript projects—all with Bun. Bun is an all-in-one JavaScript runtime & toolkit designed for speed, complete with a bundler, test runner, and Node.js-compatible package manager.",
           "source": "choco",
           "homepage": "https://bun.sh/",
-          "lastUpdatedAt": "2026-06-25T09:43:45.173Z"
+          "lastUpdatedAt": "2026-06-25T15:13:39.400Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1384,7 +1386,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T09:43:45.173Z",
+          "lastSuccessfulScanAt": "2026-06-25T15:13:39.400Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1432,7 +1434,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T09:43:45.266Z",
+          "scannedAt": "2026-06-25T15:13:39.442Z",
           "errors": []
         },
         "package": {
@@ -1468,7 +1470,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
           "source": "github",
           "homepage": "https://bun.com",
-          "lastUpdatedAt": "2026-06-25T09:43:45.266Z"
+          "lastUpdatedAt": "2026-06-25T15:13:39.442Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2766,7 +2768,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T09:43:45.266Z",
+          "lastSuccessfulScanAt": "2026-06-25T15:13:39.442Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
