@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T20:23:09.955Z",
-  "status": "partial",
+  "generatedAt": "2026-06-26T04:39:50.616Z",
+  "status": "ok",
   "tool": {
     "id": "powershell",
     "name": "PowerShell 7",
@@ -29,7 +29,7 @@
       "long": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
       "source": "scoop",
       "homepage": "https://github.com/PowerShell/PowerShell",
-      "lastUpdatedAt": "2026-06-25T20:22:22.917Z"
+      "lastUpdatedAt": "2026-06-26T04:39:02.734Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -101,7 +101,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:22.411Z",
+          "scannedAt": "2026-06-26T04:39:02.617Z",
           "errors": []
         },
         "package": {
@@ -115,8 +115,8 @@
         },
         "links": {
           "homepage": "https://microsoft.com/PowerShell",
-          "download": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.2/PowerShell-7.6.2.msixbundle",
-          "releases": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.2",
+          "download": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.3/PowerShell-7.6.3.msixbundle",
+          "releases": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.3",
           "docs": null
         },
         "descriptions": {
@@ -124,7 +124,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-06-25T20:22:22.411Z"
+          "lastUpdatedAt": "2026-06-26T04:39:02.617Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -145,9 +145,19 @@
         },
         "versions": [
           {
-            "version": "7.6.2.0",
+            "version": "7.6.3.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.6.2.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -166,6 +176,16 @@
           },
           {
             "version": "7.6.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.5.8.0",
             "channel": "stable",
             "latest": false,
             "prerelease": false,
@@ -423,39 +443,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "7.3.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.3.9.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "7.6.2.0",
+            "version": "7.6.3.0",
             "platform": "windows",
             "architecture": null,
             "type": "msix",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.2/PowerShell-7.6.2.msixbundle",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.3/PowerShell-7.6.3.msixbundle",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "bec8adc3b3fd015ebda37b28706ffbaf285436db5311c41c127b46f0a9cbe7c9",
+            "sha256": "5f60ccc7db8ddd7344b70f5a69af6b85956ac9b5ef424177d1488170f7301415",
             "sizeBytes": null
           }
         ],
@@ -553,7 +553,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:22.411Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:02.617Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -602,7 +602,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:22.893Z",
+          "scannedAt": "2026-06-26T04:39:02.718Z",
           "errors": []
         },
         "package": {
@@ -628,7 +628,7 @@
           "long": "Command-line shell and scripting language",
           "source": "homebrew",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-06-25T20:22:22.893Z"
+          "lastUpdatedAt": "2026-06-26T04:39:02.718Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -735,7 +735,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:22.893Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:02.718Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -783,7 +783,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:22.917Z",
+          "scannedAt": "2026-06-26T04:39:02.734Z",
           "errors": []
         },
         "package": {
@@ -809,7 +809,7 @@
           "long": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
           "source": "scoop",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-06-25T20:22:22.917Z"
+          "lastUpdatedAt": "2026-06-26T04:39:02.734Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -915,7 +915,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:22.917Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:02.734Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -963,7 +963,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:22.989Z",
+          "scannedAt": "2026-06-26T04:39:02.744Z",
           "errors": []
         },
         "package": {
@@ -990,7 +990,7 @@
           "long": "PowerShell Core is the open source multiplatform version of PowerShell",
           "source": "choco",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-06-25T20:22:22.989Z"
+          "lastUpdatedAt": "2026-06-26T04:39:02.744Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1395,7 +1395,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:22.989Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:02.744Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1445,7 +1445,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:23.065Z",
+          "scannedAt": "2026-06-26T04:39:02.823Z",
           "errors": []
         },
         "package": {
@@ -1477,7 +1477,7 @@
           "long": "PowerShell for every system!",
           "source": "github",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-06-25T20:22:23.065Z"
+          "lastUpdatedAt": "2026-06-26T04:39:02.823Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2772,7 +2772,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:23.065Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:02.823Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

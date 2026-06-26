@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T20:23:09.955Z",
-  "status": "partial",
+  "generatedAt": "2026-06-26T04:39:50.616Z",
+  "status": "ok",
   "tool": {
     "id": "supabase_cli",
     "name": "Supabase CLI",
@@ -29,7 +29,7 @@
       "long": "Supabase CLI. Manage postgres migrations, run Supabase locally, deploy edge functions. Postgres backups. Generating types from your database schema.",
       "source": "github",
       "homepage": "https://supabase.com/docs/reference/cli/about",
-      "lastUpdatedAt": "2026-06-25T20:23:02.631Z"
+      "lastUpdatedAt": "2026-06-26T04:39:43.800Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:23:02.581Z",
+          "scannedAt": "2026-06-26T04:39:43.523Z",
           "errors": []
         },
         "package": {
@@ -124,7 +124,7 @@
           "long": "Postgres development platform",
           "source": "homebrew",
           "homepage": "https://supabase.com/docs/reference/cli/about",
-          "lastUpdatedAt": "2026-06-25T20:23:02.581Z"
+          "lastUpdatedAt": "2026-06-26T04:39:43.523Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -231,7 +231,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:23:02.581Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:43.523Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -277,7 +277,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:23:02.598Z",
+          "scannedAt": "2026-06-26T04:39:43.643Z",
           "errors": []
         },
         "package": {
@@ -303,7 +303,7 @@
           "long": "Supabase CLI.",
           "source": "scoop",
           "homepage": "https://supabase.com",
-          "lastUpdatedAt": "2026-06-25T20:23:02.598Z"
+          "lastUpdatedAt": "2026-06-26T04:39:43.643Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -409,7 +409,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:23:02.598Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:43.643Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -457,7 +457,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:23:02.631Z",
+          "scannedAt": "2026-06-26T04:39:43.800Z",
           "errors": []
         },
         "package": {
@@ -490,7 +490,7 @@
           "long": "Supabase CLI. Manage postgres migrations, run Supabase locally, deploy edge functions. Postgres backups. Generating types from your database schema.",
           "source": "github",
           "homepage": "https://supabase.com/docs/reference/cli/about",
-          "lastUpdatedAt": "2026-06-25T20:23:02.631Z"
+          "lastUpdatedAt": "2026-06-26T04:39:43.800Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -519,9 +519,19 @@
         },
         "versions": [
           {
-            "version": "2.109.0-beta.2",
+            "version": "2.109.0-beta.3",
             "channel": "prerelease",
             "latest": true,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-06-26T00:30:21Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/supabase/cli/releases/tag/v2.109.0-beta.3"
+          },
+          {
+            "version": "2.109.0-beta.2",
+            "channel": "prerelease",
+            "latest": false,
             "prerelease": true,
             "lts": null,
             "releaseDate": "2026-06-25T14:26:33Z",
@@ -807,19 +817,273 @@
             "releaseDate": "2026-06-22T08:25:14Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/supabase/cli/releases/tag/v2.108.0-beta.14"
-          },
-          {
-            "version": "2.108.0-beta.13",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": "2026-06-21T00:34:48Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/supabase/cli/releases/tag/v2.108.0-beta.13"
           }
         ],
         "downloads": [
+          {
+            "id": "checksums.txt",
+            "version": "2.109.0-beta.3",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1512
+          },
+          {
+            "id": "install",
+            "version": "2.109.0-beta.3",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/install",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 8310
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_darwin_amd64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_darwin_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 58947048
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_darwin_arm64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_darwin_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 53171679
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_linux_amd64.apk",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_linux_amd64.apk",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 76025397
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_linux_amd64.deb",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_linux_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 74866296
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_linux_amd64.rpm",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_linux_amd64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 74733041
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_linux_amd64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 73341155
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_linux_arm64.apk",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_linux_arm64.apk",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 72616082
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_linux_arm64.deb",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_linux_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 72211872
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_linux_arm64.rpm",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_linux_arm64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 71911589
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_linux_arm64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 69916750
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_windows_amd64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_windows_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 74987198
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_windows_amd64.zip",
+            "version": "2.109.0-beta.3",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 74987803
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_windows_arm64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_windows_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 69520569
+          },
+          {
+            "id": "supabase_2.109.0-beta.3_windows_arm64.zip",
+            "version": "2.109.0-beta.3",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_2.109.0-beta.3_windows_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 69518851
+          },
+          {
+            "id": "supabase_darwin_amd64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_darwin_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 58947048
+          },
+          {
+            "id": "supabase_darwin_arm64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_darwin_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 53171679
+          },
+          {
+            "id": "supabase_linux_amd64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 73341155
+          },
+          {
+            "id": "supabase_linux_arm64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 69916750
+          },
+          {
+            "id": "supabase_windows_amd64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_windows_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 74987198
+          },
+          {
+            "id": "supabase_windows_arm64.tar.gz",
+            "version": "2.109.0-beta.3",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/supabase/cli/releases/download/v2.109.0-beta.3/supabase_windows_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 69520569
+          },
           {
             "id": "checksums.txt",
             "version": "2.109.0-beta.2",
@@ -1515,270 +1779,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 74979387
-          },
-          {
-            "id": "supabase_2.108.0_windows_arm64.tar.gz",
-            "version": "2.108.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0/supabase_2.108.0_windows_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 69515591
-          },
-          {
-            "id": "supabase_2.108.0_windows_arm64.zip",
-            "version": "2.108.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0/supabase_2.108.0_windows_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 69514164
-          },
-          {
-            "id": "supabase_darwin_amd64.tar.gz",
-            "version": "2.108.0",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0/supabase_darwin_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 58936987
-          },
-          {
-            "id": "supabase_darwin_arm64.tar.gz",
-            "version": "2.108.0",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0/supabase_darwin_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 53170670
-          },
-          {
-            "id": "supabase_linux_amd64.tar.gz",
-            "version": "2.108.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0/supabase_linux_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 73333284
-          },
-          {
-            "id": "supabase_linux_arm64.tar.gz",
-            "version": "2.108.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0/supabase_linux_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 69913096
-          },
-          {
-            "id": "supabase_windows_amd64.tar.gz",
-            "version": "2.108.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0/supabase_windows_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 74976345
-          },
-          {
-            "id": "supabase_windows_arm64.tar.gz",
-            "version": "2.108.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0/supabase_windows_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 69515591
-          },
-          {
-            "id": "checksums.txt",
-            "version": "2.108.0-beta.39",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1526
-          },
-          {
-            "id": "install",
-            "version": "2.108.0-beta.39",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/install",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 8310
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_darwin_amd64.tar.gz",
-            "version": "2.108.0-beta.39",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_darwin_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 58936591
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_darwin_arm64.tar.gz",
-            "version": "2.108.0-beta.39",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_darwin_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 53169673
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_linux_amd64.apk",
-            "version": "2.108.0-beta.39",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_linux_amd64.apk",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 76012377
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_linux_amd64.deb",
-            "version": "2.108.0-beta.39",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_linux_amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 74862086
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_linux_amd64.rpm",
-            "version": "2.108.0-beta.39",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "rpm",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_linux_amd64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 74725346
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_linux_amd64.tar.gz",
-            "version": "2.108.0-beta.39",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_linux_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 73333608
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_linux_arm64.apk",
-            "version": "2.108.0-beta.39",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_linux_arm64.apk",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 72672508
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_linux_arm64.deb",
-            "version": "2.108.0-beta.39",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_linux_arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 72196788
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_linux_arm64.rpm",
-            "version": "2.108.0-beta.39",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "rpm",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_linux_arm64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 71904063
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_linux_arm64.tar.gz",
-            "version": "2.108.0-beta.39",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_linux_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 69912851
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_windows_amd64.tar.gz",
-            "version": "2.108.0-beta.39",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_windows_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 74976585
-          },
-          {
-            "id": "supabase_2.108.0-beta.39_windows_amd64.zip",
-            "version": "2.108.0-beta.39",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/supabase/cli/releases/download/v2.108.0-beta.39/supabase_2.108.0-beta.39_windows_amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 74978708
           }
         ],
         "commands": [],
@@ -1786,7 +1786,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:23:02.631Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:43.800Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

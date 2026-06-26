@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-25T20:23:09.955Z",
-  "status": "partial",
+  "generatedAt": "2026-06-26T04:39:50.616Z",
+  "status": "ok",
   "tool": {
     "id": "kind",
     "name": "kind",
@@ -29,7 +29,7 @@
       "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
       "source": "choco",
       "homepage": "https://kind.sigs.k8s.io/",
-      "lastUpdatedAt": "2026-06-25T20:22:42.297Z"
+      "lastUpdatedAt": "2026-06-26T04:39:22.341Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:41.904Z",
+          "scannedAt": "2026-06-26T04:39:22.003Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-25T20:22:41.904Z"
+          "lastUpdatedAt": "2026-06-26T04:39:22.003Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -377,7 +377,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:41.904Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:22.003Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -423,34 +423,34 @@
         "official": true,
         "priority": 20,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-06-25T20:22:42.226Z",
-          "errors": [
-            "details: formula: 503 Service Unavailable: \n<!DOCTYPE html>\n<!--\n\nHello future GitHubber! I bet you're here to remove those nasty inline styles,\nDRY up these templates and make 'em nice and re-usable, right?\n\nPlease, don't. https://github.com/styleguide/templates",
-            "versions: formula: 503 Service Unavailable: \n<!DOCTYPE html>\n<!--\n\nHello future GitHubber! I bet you're here to remove those nasty inline styles,\nDRY up these templates and make 'em nice and re-usable, right?\n\nPlease, don't. https://github.com/styleguide/templates"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-06-26T04:39:22.153Z",
+          "errors": []
         },
         "package": {
           "name": "kind",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "homebrew/core",
+          "author": "homebrew/core",
+          "description": "Run local Kubernetes cluster in Docker",
+          "license": "Apache-2.0",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "formula",
+            "homebrew/core"
+          ]
         },
         "links": {
           "homepage": "https://kind.sigs.k8s.io/",
-          "download": "https://kind.sigs.k8s.io/",
+          "download": "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.32.0.tar.gz",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Run local Kubernetes cluster in Docker",
+          "long": "Run local Kubernetes cluster in Docker",
           "source": "homebrew",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-25T20:22:42.226Z"
+          "lastUpdatedAt": "2026-06-26T04:39:22.153Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -458,7 +458,9 @@
           ],
           "keywords": [
             "kind",
-            "homebrew"
+            "homebrew",
+            "formula",
+            "homebrew/core"
           ],
           "relatedTools": []
         },
@@ -467,18 +469,29 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "0.32.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "0.32.0",
             "platform": "macos",
             "architecture": null,
-            "type": "homebrew-package",
-            "url": "https://kind.sigs.k8s.io/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "type": "formula",
+            "url": "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.32.0.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "e2e1eb04fed4eed0715cc1c5938453d1edbf92b3c097ebec0a05d0903ba15508",
             "sizeBytes": null
           }
         ],
@@ -539,11 +552,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-06-26T04:39:22.153Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -588,7 +601,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:42.250Z",
+          "scannedAt": "2026-06-26T04:39:22.262Z",
           "errors": []
         },
         "package": {
@@ -614,7 +627,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container nodes.",
           "source": "scoop",
           "homepage": "https://kind.sigs.k8s.io/docs/user/quick-start",
-          "lastUpdatedAt": "2026-06-25T20:22:42.250Z"
+          "lastUpdatedAt": "2026-06-26T04:39:22.262Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -718,7 +731,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:42.250Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:22.262Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -764,7 +777,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:42.297Z",
+          "scannedAt": "2026-06-26T04:39:22.341Z",
           "errors": []
         },
         "package": {
@@ -794,7 +807,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
           "source": "choco",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-25T20:22:42.297Z"
+          "lastUpdatedAt": "2026-06-26T04:39:22.341Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1200,7 +1213,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:42.297Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:22.341Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1248,7 +1261,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-25T20:22:42.325Z",
+          "scannedAt": "2026-06-26T04:39:22.376Z",
           "errors": []
         },
         "package": {
@@ -1278,7 +1291,7 @@
           "long": "Kubernetes IN Docker - local clusters for testing Kubernetes",
           "source": "github",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-06-25T20:22:42.325Z"
+          "lastUpdatedAt": "2026-06-26T04:39:22.376Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2570,7 +2583,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-25T20:22:42.325Z",
+          "lastSuccessfulScanAt": "2026-06-26T04:39:22.376Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
