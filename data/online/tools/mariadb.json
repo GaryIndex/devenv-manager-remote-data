@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T09:52:14.347Z",
-  "status": "ok",
+  "generatedAt": "2026-06-26T14:48:15.283Z",
+  "status": "partial",
   "tool": {
     "id": "mariadb",
     "name": "MariaDB",
@@ -29,7 +29,7 @@
       "long": "MariaDB is designed as a drop-in replacement of MySQL with more features, new storage engines, fewer bugs, and better performance. MariaDB server is a community developed fork of MySQL server started by core members of the original MySQL team. MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, the MariaDB Foundation work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability. MariaDB comparison to MySQL Features Compatibility Community Facebook Google+ Twitter Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://mariadb.org/",
-      "lastUpdatedAt": "2026-06-26T09:51:50.364Z"
+      "lastUpdatedAt": "2026-06-26T14:47:51.789Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-26T09:51:50.157Z",
+          "scannedAt": "2026-06-26T14:47:50.211Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://mariadb.org/download/",
-          "lastUpdatedAt": "2026-06-26T09:51:50.157Z"
+          "lastUpdatedAt": "2026-06-26T14:47:50.211Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -448,7 +448,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-26T09:51:50.157Z",
+          "lastSuccessfulScanAt": "2026-06-26T14:47:50.211Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -494,34 +494,34 @@
         "official": true,
         "priority": 20,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-06-26T09:51:50.219Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-06-26T14:47:51.683Z",
+          "errors": [
+            "details: formula: 503 Service Unavailable: \n<!DOCTYPE html>\n<!--\n\nHello future GitHubber! I bet you're here to remove those nasty inline styles,\nDRY up these templates and make 'em nice and re-usable, right?\n\nPlease, don't. https://github.com/styleguide/templates",
+            "versions: formula: 503 Service Unavailable: \n<!DOCTYPE html>\n<!--\n\nHello future GitHubber! I bet you're here to remove those nasty inline styles,\nDRY up these templates and make 'em nice and re-usable, right?\n\nPlease, don't. https://github.com/styleguide/templates"
+          ]
         },
         "package": {
-          "name": "mariadb",
-          "publisher": "homebrew/core",
-          "author": "homebrew/core",
-          "description": "Drop-in replacement for MySQL",
-          "license": "GPL-2.0-only",
+          "name": "MariaDB",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "formula",
-            "homebrew/core"
-          ]
+          "tags": []
         },
         "links": {
           "homepage": "https://mariadb.org/",
-          "download": "https://archive.mariadb.org/mariadb-12.3.2/source/mariadb-12.3.2.tar.gz",
+          "download": "https://mariadb.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Drop-in replacement for MySQL",
-          "long": "Drop-in replacement for MySQL",
+          "short": null,
+          "long": null,
           "source": "homebrew",
           "homepage": "https://mariadb.org/",
-          "lastUpdatedAt": "2026-06-26T09:51:50.219Z"
+          "lastUpdatedAt": "2026-06-26T14:47:51.683Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -530,9 +530,7 @@
           "keywords": [
             "mariadb",
             "MariaDB",
-            "homebrew",
-            "formula",
-            "homebrew/core"
+            "homebrew"
           ],
           "relatedTools": []
         },
@@ -541,79 +539,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "12.3.2",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "mariadb@11.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "mariadb@11.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "mariadb@10.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "mariadb@10.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "mariadb@10.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "12.3.2",
+            "version": null,
             "platform": "macos",
             "architecture": null,
-            "type": "formula",
-            "url": "https://archive.mariadb.org/mariadb-12.3.2/source/mariadb-12.3.2.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "82798714baf2f3456ed2f311fc803dc120f2bf3b82358e773847d628cdb4b670",
+            "type": "homebrew-package",
+            "url": "https://mariadb.org/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -674,11 +611,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-26T09:51:50.219Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -723,7 +660,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-26T09:51:50.282Z",
+          "scannedAt": "2026-06-26T14:47:51.703Z",
           "errors": []
         },
         "package": {
@@ -749,7 +686,7 @@
           "long": "Community developed fork of MySQL server.",
           "source": "scoop",
           "homepage": "https://mariadb.org",
-          "lastUpdatedAt": "2026-06-26T09:51:50.282Z"
+          "lastUpdatedAt": "2026-06-26T14:47:51.703Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -854,7 +791,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-26T09:51:50.282Z",
+          "lastSuccessfulScanAt": "2026-06-26T14:47:51.703Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -900,7 +837,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-26T09:51:50.364Z",
+          "scannedAt": "2026-06-26T14:47:51.789Z",
           "errors": []
         },
         "package": {
@@ -928,7 +865,7 @@
           "long": "MariaDB is designed as a drop-in replacement of MySQL with more features, new storage engines, fewer bugs, and better performance. MariaDB server is a community developed fork of MySQL server started by core members of the original MySQL team. MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, the MariaDB Foundation work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability. MariaDB comparison to MySQL Features Compatibility Community Facebook Google+ Twitter Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://mariadb.org/",
-          "lastUpdatedAt": "2026-06-26T09:51:50.364Z"
+          "lastUpdatedAt": "2026-06-26T14:47:51.789Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1334,7 +1271,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-26T09:51:50.364Z",
+          "lastSuccessfulScanAt": "2026-06-26T14:47:51.789Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
