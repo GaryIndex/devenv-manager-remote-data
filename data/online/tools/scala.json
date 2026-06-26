@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T14:48:15.283Z",
-  "status": "partial",
+  "generatedAt": "2026-06-26T20:09:04.397Z",
+  "status": "ok",
   "tool": {
     "id": "scala",
     "name": "Scala",
@@ -29,7 +29,7 @@
       "long": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
       "source": "scoop",
       "homepage": "https://www.scala-lang.org/",
-      "lastUpdatedAt": "2026-06-26T14:47:32.535Z"
+      "lastUpdatedAt": "2026-06-26T20:08:34.249Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-26T14:47:32.518Z",
+          "scannedAt": "2026-06-26T20:08:34.132Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": "JVM-based programming language",
           "source": "homebrew",
           "homepage": "https://scala-lang.org/",
-          "lastUpdatedAt": "2026-06-26T14:47:32.518Z"
+          "lastUpdatedAt": "2026-06-26T20:08:34.132Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -259,7 +259,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-26T14:47:32.518Z",
+          "lastSuccessfulScanAt": "2026-06-26T20:08:34.132Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -305,7 +305,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-26T14:47:32.535Z",
+          "scannedAt": "2026-06-26T20:08:34.249Z",
           "errors": []
         },
         "package": {
@@ -331,7 +331,7 @@
           "long": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
           "source": "scoop",
           "homepage": "https://www.scala-lang.org/",
-          "lastUpdatedAt": "2026-06-26T14:47:32.535Z"
+          "lastUpdatedAt": "2026-06-26T20:08:34.249Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -436,7 +436,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-26T14:47:32.535Z",
+          "lastSuccessfulScanAt": "2026-06-26T20:08:34.249Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -482,7 +482,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-26T14:47:32.556Z",
+          "scannedAt": "2026-06-26T20:08:34.276Z",
           "errors": []
         },
         "package": {
@@ -498,7 +498,7 @@
         },
         "links": {
           "homepage": "https://scala-lang.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/scala/3.8.4",
+          "download": "https://community.chocolatey.org/api/v2/package/scala/3.3.8",
           "releases": "https://github.com/scala/scala3/releases",
           "docs": null
         },
@@ -507,7 +507,7 @@
           "long": "Official release of the Scala Programming Language on Chocolatey.",
           "source": "choco",
           "homepage": "https://scala-lang.org/",
-          "lastUpdatedAt": "2026-06-26T14:47:32.556Z"
+          "lastUpdatedAt": "2026-06-26T20:08:34.276Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -527,9 +527,19 @@
         },
         "versions": [
           {
-            "version": "3.8.4",
+            "version": "3.3.8",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.8.4",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -815,29 +825,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "3.8.4",
+            "version": "3.3.8",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/scala/3.8.4",
+            "url": "https://community.chocolatey.org/api/v2/package/scala/3.3.8",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "6PnVdFCTbtzF4vnp9Ithe35eMeahyDxPsmea5GZYg77YuOcjfdb2AVGwkg7CkWxgooo7+e0U23qGhEe5Y8q41w==",
+            "sha256": "3jB5EbCS/x9J+V+KzHSz+rFJ4ggqANQ/8XXmjHyyih94Q5NIswQg3iTHDTH114gFrNsmunvgMk5DDmxDJ4xhKQ==",
             "sizeBytes": null
           }
         ],
@@ -909,7 +909,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-26T14:47:32.556Z",
+          "lastSuccessfulScanAt": "2026-06-26T20:08:34.276Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

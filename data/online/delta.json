@@ -1,72 +1,81 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T14:48:15.283Z",
-  "fromGeneratedAt": "2026-06-26T09:52:14.347Z",
-  "toGeneratedAt": "2026-06-26T14:48:15.283Z",
-  "status": "partial",
+  "generatedAt": "2026-06-26T20:09:04.397Z",
+  "fromGeneratedAt": "2026-06-26T14:48:15.283Z",
+  "toGeneratedAt": "2026-06-26T20:09:04.397Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 7,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "neovim",
-      "oh_my_posh",
-      "postman",
+      "gradle",
+      "scala",
+      "podman",
       "mariadb",
-      "supabase_cli"
+      "vercel_cli",
+      "supabase_cli",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "neovim",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.12.2",
-        "to": "0.12.3"
+        "toolId": "gradle",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.6.0",
+        "to": "9.6.1"
       },
       {
-        "toolId": "oh_my_posh",
+        "toolId": "scala",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "29.18.0",
-        "to": "29.19.0"
+        "from": "3.8.4",
+        "to": "3.3.8"
       },
       {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.16.2",
-        "to": "12.16.3"
+        "toolId": "podman",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "6.0.0",
+        "to": "5.8.4"
       },
       {
         "toolId": "mariadb",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.3.2",
-        "to": null
+        "from": null,
+        "to": "12.3.2"
       },
       {
-        "toolId": "supabase_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.107.0",
-        "to": "2.108.0"
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@54.17.3",
+        "to": "ercel@54.18.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.0-beta.3",
-        "to": "2.109.0-beta.5"
+        "from": "2.109.0-beta.5",
+        "to": "2.109.0-beta.6"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.4.0",
+        "to": "3.18.3"
       }
     ],
     "qualityChanges": [
@@ -74,8 +83,8 @@
         "toolId": "mariadb",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
