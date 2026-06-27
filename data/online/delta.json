@@ -1,91 +1,88 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T20:09:04.397Z",
-  "fromGeneratedAt": "2026-06-26T14:48:15.283Z",
-  "toGeneratedAt": "2026-06-26T20:09:04.397Z",
+  "generatedAt": "2026-06-27T04:16:54.205Z",
+  "fromGeneratedAt": "2026-06-26T20:09:04.397Z",
+  "toGeneratedAt": "2026-06-27T04:16:54.205Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 7,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
-    "qualityChanges": 1
+    "versionChanges": 8,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vim",
+      "uv",
       "gradle",
-      "scala",
-      "podman",
-      "mariadb",
-      "vercel_cli",
-      "supabase_cli",
-      "unity_hub"
+      "terraform",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "gradle",
+        "toolId": "vim",
         "sourceId": "scoop",
         "manager": "scoop",
+        "from": "9.2.0725",
+        "to": "9.2.0735"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.725",
+        "to": "9.2.735"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.11.24",
+        "to": "0.11.25"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.11.24",
+        "to": "0.11.25"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.11.24",
+        "to": "0.11.25"
+      },
+      {
+        "toolId": "gradle",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "9.6.0",
         "to": "9.6.1"
       },
       {
-        "toolId": "scala",
+        "toolId": "terraform",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.8.4",
-        "to": "3.3.8"
-      },
-      {
-        "toolId": "podman",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "6.0.0",
-        "to": "5.8.4"
-      },
-      {
-        "toolId": "mariadb",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": null,
-        "to": "12.3.2"
-      },
-      {
-        "toolId": "vercel_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "ercel@54.17.3",
-        "to": "ercel@54.18.0"
+        "from": "1.15.7",
+        "to": "1.16.0-alpha20260626"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.0-beta.5",
-        "to": "2.109.0-beta.6"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.4.0",
-        "to": "3.18.3"
+        "from": "2.109.0-beta.6",
+        "to": "2.109.0-beta.7"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "mariadb",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": 40,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
