@@ -1,51 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-27T14:06:51.589Z",
-  "fromGeneratedAt": "2026-06-27T08:50:19.220Z",
-  "toGeneratedAt": "2026-06-27T14:06:51.589Z",
+  "generatedAt": "2026-06-27T19:44:31.224Z",
+  "fromGeneratedAt": "2026-06-27T14:06:51.589Z",
+  "toGeneratedAt": "2026-06-27T19:44:31.224Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 2,
+    "changedTools": 1,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
-    "qualityChanges": 1
+    "versionChanges": 1,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "uv",
       "erlang"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "uv",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.11.24",
-        "to": "0.11.25"
-      },
-      {
         "toolId": "erlang",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "28.5",
         "to": "29.0.2"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "erlang",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
