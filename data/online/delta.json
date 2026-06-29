@@ -1,47 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T19:45:20.377Z",
-  "fromGeneratedAt": "2026-06-28T14:15:51.754Z",
-  "toGeneratedAt": "2026-06-28T19:45:20.377Z",
+  "generatedAt": "2026-06-29T05:00:02.891Z",
+  "fromGeneratedAt": "2026-06-28T19:45:20.377Z",
+  "toGeneratedAt": "2026-06-29T05:00:02.891Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 3,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "starship"
+      "vim",
+      "starship",
+      "vercel_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "starship",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.25.1",
-        "to": "1.26.0"
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0738",
+        "to": "9.2.0747"
       },
       {
-        "toolId": "starship",
+        "toolId": "vim",
         "sourceId": "choco",
         "manager": "choco",
+        "from": "9.2.738",
+        "to": "9.2.747"
+      },
+      {
+        "toolId": "starship",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "1.25.1",
         "to": "1.26.0"
       },
       {
         "toolId": "starship",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "1.25.1",
         "to": "1.26.0"
+      },
+      {
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@54.18.1",
+        "to": "ercel@54.18.2"
       }
     ],
     "qualityChanges": []
