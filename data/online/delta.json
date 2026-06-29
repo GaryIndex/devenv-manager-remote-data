@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-29T11:24:23.470Z",
-  "fromGeneratedAt": "2026-06-29T05:00:02.891Z",
-  "toGeneratedAt": "2026-06-29T11:24:23.470Z",
-  "status": "partial",
+  "generatedAt": "2026-06-29T16:12:13.373Z",
+  "fromGeneratedAt": "2026-06-29T11:24:23.470Z",
+  "toGeneratedAt": "2026-06-29T16:12:13.373Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
     "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 4,
     "qualityChanges": 1
   },
   "changes": {
@@ -20,52 +20,38 @@
       "sbt",
       "helm",
       "postman",
-      "supabase_cli"
+      "vercel_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "sbt",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.0.0",
-        "to": "2.0.1"
-      },
-      {
-        "toolId": "sbt",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.0.0",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.13.0",
         "to": "2.0.1"
       },
       {
         "toolId": "helm",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "4.2.2",
-        "to": null
+        "from": null,
+        "to": "4.2.2"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.16.4",
-        "to": "12.17.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "12.16.3",
         "to": "12.17.0"
       },
       {
-        "toolId": "supabase_cli",
+        "toolId": "vercel_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.0-beta.7",
-        "to": "2.109.0-beta.8"
+        "from": "ercel@54.18.2",
+        "to": "ercel@54.18.3"
       }
     ],
     "qualityChanges": [
@@ -73,8 +59,8 @@
         "toolId": "helm",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
