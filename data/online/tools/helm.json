@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-29T05:00:02.891Z",
-  "status": "ok",
+  "generatedAt": "2026-06-29T11:24:23.470Z",
+  "status": "partial",
   "tool": {
     "id": "helm",
     "name": "Helm",
@@ -29,7 +29,7 @@
       "long": "Helm helps you manage Kubernetes applications - Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application. Charts are easy to create, version, share, and publish - so start using Helm and stop the copy-and-paste madness. The latest version of Helm is maintained by the CNCF - in collaboration with Microsoft, Google, Bitnami and the Helm contributor community",
       "source": "choco",
       "homepage": "https://helm.sh/",
-      "lastUpdatedAt": "2026-06-29T04:59:32.993Z"
+      "lastUpdatedAt": "2026-06-29T11:23:53.963Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-29T04:59:32.635Z",
+          "scannedAt": "2026-06-29T11:23:53.306Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "The Package Manager for Kubernetes",
           "source": "winget",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-06-29T04:59:32.635Z"
+          "lastUpdatedAt": "2026-06-29T11:23:53.306Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:32.635Z",
+          "lastSuccessfulScanAt": "2026-06-29T11:23:53.306Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-29T04:59:32.818Z",
+          "scannedAt": "2026-06-29T11:23:53.720Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Kubernetes package manager",
           "source": "homebrew",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-06-29T04:59:32.818Z"
+          "lastUpdatedAt": "2026-06-29T11:23:53.720Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -738,7 +738,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:32.818Z",
+          "lastSuccessfulScanAt": "2026-06-29T11:23:53.720Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -783,34 +783,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-06-29T04:59:32.917Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-06-29T11:23:53.846Z",
+          "errors": [
+            "details: ScoopInstaller/Main: 400 Bad Request: 400: Invalid request; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found",
+            "versions: ScoopInstaller/Main: 400 Bad Request: 400: Invalid request; ScoopInstaller/Extras: 404 Not Found: 404: Not Found; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found"
+          ]
         },
         "package": {
           "name": "Helm",
-          "publisher": "ScoopInstaller/Main",
-          "author": "ScoopInstaller/Main",
-          "description": "The package manager for Kubernetes.",
-          "license": "Apache-2.0",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "scoop",
-            "ScoopInstaller/Main"
-          ]
+          "tags": []
         },
         "links": {
-          "homepage": "https://helm.sh",
+          "homepage": "https://helm.sh/",
           "download": "https://helm.sh/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "The package manager for Kubernetes.",
-          "long": "The package manager for Kubernetes.",
+          "short": null,
+          "long": null,
           "source": "scoop",
-          "homepage": "https://helm.sh",
-          "lastUpdatedAt": "2026-06-29T04:59:32.917Z"
+          "homepage": "https://helm.sh/",
+          "lastUpdatedAt": "2026-06-29T11:23:53.846Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -819,8 +819,7 @@
           "keywords": [
             "helm",
             "Helm",
-            "scoop",
-            "ScoopInstaller/Main"
+            "scoop"
           ],
           "relatedTools": []
         },
@@ -829,28 +828,17 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "4.2.2",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "4.2.2",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://helm.sh/",
-            "urlType": "direct-installer",
-            "direct": true,
+            "urlType": "download-page",
+            "direct": false,
             "sha256": null,
             "sizeBytes": null
           }
@@ -912,11 +900,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:32.917Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -961,7 +949,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-29T04:59:32.993Z",
+          "scannedAt": "2026-06-29T11:23:53.963Z",
           "errors": []
         },
         "package": {
@@ -988,7 +976,7 @@
           "long": "Helm helps you manage Kubernetes applications - Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application. Charts are easy to create, version, share, and publish - so start using Helm and stop the copy-and-paste madness. The latest version of Helm is maintained by the CNCF - in collaboration with Microsoft, Google, Bitnami and the Helm contributor community",
           "source": "choco",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-06-29T04:59:32.993Z"
+          "lastUpdatedAt": "2026-06-29T11:23:53.963Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1392,7 +1380,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:32.993Z",
+          "lastSuccessfulScanAt": "2026-06-29T11:23:53.963Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1440,7 +1428,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-29T04:59:33.025Z",
+          "scannedAt": "2026-06-29T11:23:53.966Z",
           "errors": []
         },
         "package": {
@@ -1469,7 +1457,7 @@
           "long": "The Kubernetes Package Manager",
           "source": "github",
           "homepage": "https://helm.sh",
-          "lastUpdatedAt": "2026-06-29T04:59:33.025Z"
+          "lastUpdatedAt": "2026-06-29T11:23:53.966Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2760,7 +2748,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:33.025Z",
+          "lastSuccessfulScanAt": "2026-06-29T11:23:53.966Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

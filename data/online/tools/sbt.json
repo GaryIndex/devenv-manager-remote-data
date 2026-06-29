@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-29T05:00:02.891Z",
-  "status": "ok",
+  "generatedAt": "2026-06-29T11:24:23.470Z",
+  "status": "partial",
   "tool": {
     "id": "sbt",
     "name": "sbt",
@@ -29,7 +29,7 @@
       "long": "A build tool for Scala, Java, and more",
       "source": "winget",
       "homepage": "https://www.scala-sbt.org/",
-      "lastUpdatedAt": "2026-06-29T04:59:28.292Z"
+      "lastUpdatedAt": "2026-06-29T11:23:47.119Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,7 +96,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-29T04:59:28.292Z",
+          "scannedAt": "2026-06-29T11:23:47.119Z",
           "errors": []
         },
         "package": {
@@ -110,8 +110,8 @@
         },
         "links": {
           "homepage": "https://www.scala-sbt.org/",
-          "download": "https://github.com/sbt/sbt/releases/download/v2.0.0/sbt-2.0.0.msi",
-          "releases": "https://github.com/sbt/sbt/releases/tag/v2.0.0",
+          "download": "https://github.com/sbt/sbt/releases/download/v2.0.1/sbt-2.0.1.msi",
+          "releases": "https://github.com/sbt/sbt/releases/tag/v2.0.1",
           "docs": null
         },
         "descriptions": {
@@ -119,7 +119,7 @@
           "long": "A build tool for Scala, Java, and more",
           "source": "winget",
           "homepage": "https://www.scala-sbt.org/",
-          "lastUpdatedAt": "2026-06-29T04:59:28.292Z"
+          "lastUpdatedAt": "2026-06-29T11:23:47.119Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,9 +138,19 @@
         },
         "versions": [
           {
-            "version": "2.0.0",
+            "version": "2.0.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -426,29 +436,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.9.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/sbt/sbt/releases/download/v2.0.0/sbt-2.0.0.msi",
+            "url": "https://github.com/sbt/sbt/releases/download/v2.0.1/sbt-2.0.1.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "735ecb94cae02394f3a9fabb362e00d244a0fa6a6aa35186c4cccfb4d983a061",
+            "sha256": "b1750f14cd040c1a673d02c00e83b47c3cdce575a1f4447f4aa120ab0232e5b4",
             "sizeBytes": null
           }
         ],
@@ -546,7 +546,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:28.292Z",
+          "lastSuccessfulScanAt": "2026-06-29T11:23:47.119Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -593,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-29T04:59:28.603Z",
+          "scannedAt": "2026-06-29T11:23:47.240Z",
           "errors": []
         },
         "package": {
@@ -610,7 +610,7 @@
         },
         "links": {
           "homepage": "https://www.scala-sbt.org/",
-          "download": "https://github.com/sbt/sbt/releases/download/v2.0.0/sbt-2.0.0.tgz",
+          "download": "https://github.com/sbt/sbt/releases/download/v2.0.1/sbt-2.0.1.tgz",
           "releases": null,
           "docs": null
         },
@@ -619,7 +619,7 @@
           "long": "Build tool for Scala projects",
           "source": "homebrew",
           "homepage": "https://www.scala-sbt.org/",
-          "lastUpdatedAt": "2026-06-29T04:59:28.603Z"
+          "lastUpdatedAt": "2026-06-29T11:23:47.240Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -640,7 +640,7 @@
         },
         "versions": [
           {
-            "version": "2.0.0",
+            "version": "2.0.1",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -653,14 +653,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/sbt/sbt/releases/download/v2.0.0/sbt-2.0.0.tgz",
+            "url": "https://github.com/sbt/sbt/releases/download/v2.0.1/sbt-2.0.1.tgz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "63088bd6309c5c006986d91649357ee7694c4e4a42dc9b6f51989f2f21e0ab92",
+            "sha256": "750ec6198d7679a4c1810b8d4d634918ad121b0d7c64df689c0babdeb845d7b8",
             "sizeBytes": null
           }
         ],
@@ -724,7 +724,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:28.603Z",
+          "lastSuccessfulScanAt": "2026-06-29T11:23:47.240Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -770,7 +770,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-29T04:59:28.658Z",
+          "scannedAt": "2026-06-29T11:23:47.375Z",
           "errors": []
         },
         "package": {
@@ -796,7 +796,7 @@
           "long": "A build tool for Scala, Java, and more",
           "source": "scoop",
           "homepage": "https://www.scala-sbt.org",
-          "lastUpdatedAt": "2026-06-29T04:59:28.658Z"
+          "lastUpdatedAt": "2026-06-29T11:23:47.375Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -900,7 +900,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:28.658Z",
+          "lastSuccessfulScanAt": "2026-06-29T11:23:47.375Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -946,7 +946,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-06-29T04:59:28.742Z",
+          "scannedAt": "2026-06-29T11:23:47.589Z",
           "errors": []
         },
         "package": {
@@ -973,7 +973,7 @@
           "long": "sbt, a build tool for Scala",
           "source": "choco",
           "homepage": "http://www.scala-sbt.org/",
-          "lastUpdatedAt": "2026-06-29T04:59:28.742Z"
+          "lastUpdatedAt": "2026-06-29T11:23:47.589Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1377,7 +1377,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-06-29T04:59:28.742Z",
+          "lastSuccessfulScanAt": "2026-06-29T11:23:47.589Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

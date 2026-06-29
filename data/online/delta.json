@@ -1,65 +1,81 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-29T05:00:02.891Z",
-  "fromGeneratedAt": "2026-06-28T19:45:20.377Z",
-  "toGeneratedAt": "2026-06-29T05:00:02.891Z",
-  "status": "ok",
+  "generatedAt": "2026-06-29T11:24:23.470Z",
+  "fromGeneratedAt": "2026-06-29T05:00:02.891Z",
+  "toGeneratedAt": "2026-06-29T11:24:23.470Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
-    "qualityChanges": 0
+    "versionChanges": 6,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "starship",
-      "vercel_cli"
+      "sbt",
+      "helm",
+      "postman",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.0738",
-        "to": "9.2.0747"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.738",
-        "to": "9.2.747"
-      },
-      {
-        "toolId": "starship",
+        "toolId": "sbt",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.25.1",
-        "to": "1.26.0"
+        "from": "2.0.0",
+        "to": "2.0.1"
       },
       {
-        "toolId": "starship",
+        "toolId": "sbt",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.0.0",
+        "to": "2.0.1"
+      },
+      {
+        "toolId": "helm",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.25.1",
-        "to": "1.26.0"
+        "from": "4.2.2",
+        "to": null
       },
       {
-        "toolId": "vercel_cli",
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.16.4",
+        "to": "12.17.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.16.3",
+        "to": "12.17.0"
+      },
+      {
+        "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "ercel@54.18.1",
-        "to": "ercel@54.18.2"
+        "from": "2.109.0-beta.7",
+        "to": "2.109.0-beta.8"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "helm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": 100,
+        "to": 40
+      }
+    ]
   }
 }
