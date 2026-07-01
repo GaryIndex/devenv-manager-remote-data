@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T10:13:40.187Z",
+  "generatedAt": "2026-07-01T15:12:28.016Z",
   "status": "ok",
   "tool": {
     "id": "uv",
@@ -29,7 +29,7 @@
       "long": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
       "source": "winget",
       "homepage": "https://github.com/astral-sh/uv",
-      "lastUpdatedAt": "2026-07-01T10:13:05.022Z"
+      "lastUpdatedAt": "2026-07-01T15:11:39.646Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-01T10:13:05.022Z",
+          "scannedAt": "2026-07-01T15:11:39.646Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://github.com/astral-sh/uv",
-          "download": "https://github.com/astral-sh/uv/releases/download/0.11.25/uv-x86_64-pc-windows-msvc.zip",
-          "releases": "https://github.com/astral-sh/uv/releases/tag/0.11.25",
+          "download": "https://github.com/astral-sh/uv/releases/download/0.11.26/uv-x86_64-pc-windows-msvc.zip",
+          "releases": "https://github.com/astral-sh/uv/releases/tag/0.11.26",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
           "source": "winget",
           "homepage": "https://github.com/astral-sh/uv",
-          "lastUpdatedAt": "2026-07-01T10:13:05.022Z"
+          "lastUpdatedAt": "2026-07-01T15:11:39.646Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "0.11.25",
+            "version": "0.11.26",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.11.25",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -427,29 +437,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.10.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.11.25",
+            "version": "0.11.26",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.11.25/uv-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.11.26/uv-x86_64-pc-windows-msvc.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "15bfd1423b7eaa7aae949922d4712ebaac2bb44a81af64ab59bbe007090cb0d0",
+            "sha256": "4e1278ede866be6c0bf32d2f466cc6de7a9fb399ecf20c9ce2d186e52424be47",
             "sizeBytes": null
           }
         ],
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-01T10:13:05.022Z",
+          "lastSuccessfulScanAt": "2026-07-01T15:11:39.646Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-01T10:13:05.047Z",
+          "scannedAt": "2026-07-01T15:11:39.989Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Extremely fast Python package installer and resolver, written in Rust",
           "source": "homebrew",
           "homepage": "https://docs.astral.sh/uv/",
-          "lastUpdatedAt": "2026-07-01T10:13:05.047Z"
+          "lastUpdatedAt": "2026-07-01T15:11:39.989Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-01T10:13:05.047Z",
+          "lastSuccessfulScanAt": "2026-07-01T15:11:39.989Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-01T10:13:05.066Z",
+          "scannedAt": "2026-07-01T15:11:40.045Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "An extremely fast Python package installer and resolver, written in Rust.",
           "source": "scoop",
           "homepage": "https://docs.astral.sh/uv/",
-          "lastUpdatedAt": "2026-07-01T10:13:05.066Z"
+          "lastUpdatedAt": "2026-07-01T15:11:40.045Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -901,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-01T10:13:05.066Z",
+          "lastSuccessfulScanAt": "2026-07-01T15:11:40.045Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -947,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-01T10:13:05.086Z",
+          "scannedAt": "2026-07-01T15:11:40.095Z",
           "errors": []
         },
         "package": {
@@ -975,7 +975,7 @@
           "long": "Dev Ensure the directory name is uv for any command to run",
           "source": "choco",
           "homepage": "https://github.com/astral-sh/uv",
-          "lastUpdatedAt": "2026-07-01T10:13:05.086Z"
+          "lastUpdatedAt": "2026-07-01T15:11:40.095Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1380,7 +1380,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-01T10:13:05.086Z",
+          "lastSuccessfulScanAt": "2026-07-01T15:11:40.095Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1428,7 +1428,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-01T10:13:05.145Z",
+          "scannedAt": "2026-07-01T15:11:40.238Z",
           "errors": []
         },
         "package": {
@@ -1456,7 +1456,7 @@
           "long": "An extremely fast Python package and project manager, written in Rust.",
           "source": "github",
           "homepage": "https://docs.astral.sh/uv",
-          "lastUpdatedAt": "2026-07-01T10:13:05.145Z"
+          "lastUpdatedAt": "2026-07-01T15:11:40.238Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2745,7 +2745,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-01T10:13:05.145Z",
+          "lastSuccessfulScanAt": "2026-07-01T15:11:40.238Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

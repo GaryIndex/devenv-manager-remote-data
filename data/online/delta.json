@@ -1,140 +1,80 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T10:13:40.187Z",
-  "fromGeneratedAt": "2026-07-01T04:54:27.462Z",
-  "toGeneratedAt": "2026-07-01T10:13:40.187Z",
+  "generatedAt": "2026-07-01T15:12:28.016Z",
+  "fromGeneratedAt": "2026-07-01T10:13:40.187Z",
+  "toGeneratedAt": "2026-07-01T15:12:28.016Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 15,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
-      "vim",
-      "oh_my_posh",
+      "git",
       "uv",
-      "aws_cli",
-      "google_cloud_sdk",
-      "postman",
-      "mongodb_compass",
-      "supabase_cli",
-      "unity_hub"
+      "rust_msvc",
+      "pulumi",
+      "php",
+      "composer"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.126.0",
-        "to": "1.127.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.126.0",
-        "to": "1.127.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.126.0",
-        "to": "1.127.0"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.752",
-        "to": "9.2.758"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "29.19.0",
-        "to": "29.19.1"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "29.19.0",
-        "to": "29.19.1"
+        "toolId": "git",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.54.0",
+        "to": "2.55.0"
       },
       {
         "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "0.11.25",
         "to": "0.11.26"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.35.12",
-        "to": "2.35.13"
-      },
-      {
-        "toolId": "google_cloud_sdk",
+        "toolId": "rust_msvc",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "574.0.0",
-        "to": "575.0.0"
+        "from": "1.96.0",
+        "to": "1.96.1"
       },
       {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.17.1",
-        "to": "12.17.2"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.16.4",
-        "to": "12.17.2"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.17.1",
-        "to": "12.17.2"
-      },
-      {
-        "toolId": "mongodb_compass",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.49.9.0",
-        "to": "1.49.10.0"
-      },
-      {
-        "toolId": "supabase_cli",
+        "toolId": "pulumi",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.1-beta.1",
-        "to": "2.109.1-beta.3"
+        "from": "3.248.0",
+        "to": "3.249.0"
       },
       {
-        "toolId": "unity_hub",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.18.3",
-        "to": "3.19.1"
+        "toolId": "php",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "8.4.22",
+        "to": "8.4.23"
+      },
+      {
+        "toolId": "composer",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.10.1",
+        "to": "2.10.2"
+      },
+      {
+        "toolId": "composer",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.10.1",
+        "to": "2.10.2"
       }
     ],
     "qualityChanges": []
