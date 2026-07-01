@@ -1,26 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T04:54:27.462Z",
-  "fromGeneratedAt": "2026-06-30T20:19:24.949Z",
-  "toGeneratedAt": "2026-07-01T04:54:27.462Z",
+  "generatedAt": "2026-07-01T10:13:40.187Z",
+  "fromGeneratedAt": "2026-07-01T04:54:27.462Z",
+  "toGeneratedAt": "2026-07-01T10:13:40.187Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
+    "versionChanges": 15,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vscode",
       "vim",
-      "cmake",
+      "oh_my_posh",
+      "uv",
       "aws_cli",
-      "cloudflared",
+      "google_cloud_sdk",
+      "postman",
+      "mongodb_compass",
       "supabase_cli",
       "unity_hub"
     ],
@@ -28,58 +32,107 @@
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.0752",
-        "to": "9.2.0758"
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "4.3.4",
-        "to": "4.4.0-rc3"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.35.12",
-        "to": "2.35.13"
-      },
-      {
-        "toolId": "aws_cli",
+        "toolId": "vscode",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.35.12",
-        "to": "2.35.13"
+        "from": "1.126.0",
+        "to": "1.127.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.126.0",
+        "to": "1.127.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.126.0",
+        "to": "1.127.0"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.752",
+        "to": "9.2.758"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.19.0",
+        "to": "29.19.1"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.19.0",
+        "to": "29.19.1"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.11.25",
+        "to": "0.11.26"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.35.12",
         "to": "2.35.13"
       },
       {
-        "toolId": "cloudflared",
+        "toolId": "google_cloud_sdk",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "2026.5.2",
-        "to": "2026.6.1"
+        "from": "574.0.0",
+        "to": "575.0.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.17.1",
+        "to": "12.17.2"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.16.4",
+        "to": "12.17.2"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.17.1",
+        "to": "12.17.2"
+      },
+      {
+        "toolId": "mongodb_compass",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.49.9.0",
+        "to": "1.49.10.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.0",
-        "to": "2.109.1-beta.1"
+        "from": "2.109.1-beta.1",
+        "to": "2.109.1-beta.3"
       },
       {
         "toolId": "unity_hub",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "3.18.3",
         "to": "3.19.1"
       }
