@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T20:15:05.690Z",
+  "generatedAt": "2026-07-02T04:21:49.424Z",
   "status": "ok",
   "tool": {
     "id": "php",
@@ -29,7 +29,7 @@
       "long": "PHP is an HTML-embedded scripting language. Much of its syntax is borrowed from C, Java and Perl with a couple of unique PHP-specific features thrown in. The goal of the language is to allow web developers to write dynamically generated pages quickly. This product includes PHP software, freely available from http://www.php.net/software/",
       "source": "choco",
       "homepage": "http://www.php.net/",
-      "lastUpdatedAt": "2026-07-01T20:14:58.084Z"
+      "lastUpdatedAt": "2026-07-02T04:21:42.180Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-01T20:14:58.000Z",
+          "scannedAt": "2026-07-02T04:21:42.052Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": "General-purpose scripting language",
           "source": "homebrew",
           "homepage": "https://www.php.net/",
-          "lastUpdatedAt": "2026-07-01T20:14:58.000Z"
+          "lastUpdatedAt": "2026-07-02T04:21:42.052Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -269,7 +269,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-01T20:14:58.000Z",
+          "lastSuccessfulScanAt": "2026-07-02T04:21:42.052Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -315,7 +315,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-01T20:14:58.019Z",
+          "scannedAt": "2026-07-02T04:21:42.080Z",
           "errors": []
         },
         "package": {
@@ -341,7 +341,7 @@
           "long": "A popular general-purpose scripting language that is especially suited to web development. (thread safe)",
           "source": "scoop",
           "homepage": "https://www.php.net/",
-          "lastUpdatedAt": "2026-07-01T20:14:58.019Z"
+          "lastUpdatedAt": "2026-07-02T04:21:42.080Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -446,7 +446,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-01T20:14:58.019Z",
+          "lastSuccessfulScanAt": "2026-07-02T04:21:42.080Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -492,7 +492,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-01T20:14:58.084Z",
+          "scannedAt": "2026-07-02T04:21:42.180Z",
           "errors": []
         },
         "package": {
@@ -513,8 +513,8 @@
         },
         "links": {
           "homepage": "http://www.php.net/",
-          "download": "https://community.chocolatey.org/api/v2/package/php/8.5.8",
-          "releases": "https://www.php.net/ChangeLog-8.php#8.5.8",
+          "download": "https://community.chocolatey.org/api/v2/package/php/8.2.32",
+          "releases": "https://www.php.net/ChangeLog-8.php#8.2.32",
           "docs": null
         },
         "descriptions": {
@@ -522,7 +522,7 @@
           "long": "PHP is an HTML-embedded scripting language. Much of its syntax is borrowed from C, Java and Perl with a couple of unique PHP-specific features thrown in. The goal of the language is to allow web developers to write dynamically generated pages quickly. This product includes PHP software, freely available from http://www.php.net/software/",
           "source": "choco",
           "homepage": "http://www.php.net/",
-          "lastUpdatedAt": "2026-07-01T20:14:58.084Z"
+          "lastUpdatedAt": "2026-07-02T04:21:42.180Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -547,9 +547,29 @@
         },
         "versions": [
           {
-            "version": "8.5.8",
+            "version": "8.2.32",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.3.32",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.5.8",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -825,39 +845,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "8.3.13",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.33",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "8.5.8",
+            "version": "8.2.32",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/php/8.5.8",
+            "url": "https://community.chocolatey.org/api/v2/package/php/8.2.32",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "Qn9TSXg72wRxaFte2K/HlGTrO15n4+jejDW/OMSACFTRCPiWJyRPGk2ZU7pXErN4iPkY4F7j8IZmDHcrSfIPbw==",
+            "sha256": "t+5MWq7SI91bMx68SWkygEIQgrja+S5FUcEvnEMTjHZHZCihFDeaQae5X/vr0H4p6O7U7+QgXc2io3h3W6GIjQ==",
             "sizeBytes": null
           }
         ],
@@ -929,7 +929,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-01T20:14:58.084Z",
+          "lastSuccessfulScanAt": "2026-07-02T04:21:42.180Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
