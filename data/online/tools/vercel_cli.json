@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-02T19:52:35.813Z",
-  "status": "partial",
+  "generatedAt": "2026-07-03T04:08:11.557Z",
+  "status": "ok",
   "tool": {
     "id": "vercel_cli",
     "name": "Vercel CLI",
@@ -29,7 +29,7 @@
       "long": "Develop. Preview. Ship.",
       "source": "github",
       "homepage": "https://vercel.com",
-      "lastUpdatedAt": "2026-07-02T19:52:13.903Z"
+      "lastUpdatedAt": "2026-07-03T04:08:01.982Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-02T19:52:13.903Z",
+          "scannedAt": "2026-07-03T04:08:01.982Z",
           "errors": []
         },
         "package": {
@@ -128,7 +128,7 @@
           "long": "Develop. Preview. Ship.",
           "source": "github",
           "homepage": "https://vercel.com",
-          "lastUpdatedAt": "2026-07-02T19:52:13.903Z"
+          "lastUpdatedAt": "2026-07-03T04:08:01.982Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -155,9 +155,39 @@
         },
         "versions": [
           {
-            "version": "ercel@54.18.7",
+            "version": "ercel@54.20.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-07-03T00:04:43Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/vercel/vercel/releases/tag/vercel%4054.20.0"
+          },
+          {
+            "version": "ercel@54.19.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-07-02T20:40:22Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/vercel/vercel/releases/tag/vercel%4054.19.0"
+          },
+          {
+            "version": "@vercel/connect@0.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-07-02T20:40:25Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/vercel/vercel/releases/tag/%40vercel/connect%400.3.2"
+          },
+          {
+            "version": "ercel@54.18.7",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-07-01T15:14:30Z",
@@ -423,39 +453,249 @@
             "releaseDate": "2026-06-27T21:48:00Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/vercel/vercel/releases/tag/vercel%4054.18.1"
-          },
-          {
-            "version": "@vercel/static-build@2.11.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-06-27T21:48:36Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/vercel/vercel/releases/tag/%40vercel/static-build%402.11.4"
-          },
-          {
-            "version": "@vercel/node@5.8.22",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-06-27T21:48:33Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/vercel/vercel/releases/tag/%40vercel/node%405.8.22"
-          },
-          {
-            "version": "@vercel/nestjs@0.2.102",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-06-27T21:48:30Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/vercel/vercel/releases/tag/%40vercel/nestjs%400.2.102"
           }
         ],
         "downloads": [
+          {
+            "id": "vercel-darwin-arm64",
+            "version": "ercel@54.20.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 80824496
+          },
+          {
+            "id": "vercel-darwin-arm64.sha256",
+            "version": "ercel@54.20.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-darwin-arm64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 95
+          },
+          {
+            "id": "vercel-darwin-x64",
+            "version": "ercel@54.20.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-darwin-x64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 139592064
+          },
+          {
+            "id": "vercel-darwin-x64.sha256",
+            "version": "ercel@54.20.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-darwin-x64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 93
+          },
+          {
+            "id": "vercel-linux-arm64",
+            "version": "ercel@54.20.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 91447232
+          },
+          {
+            "id": "vercel-linux-arm64.sha256",
+            "version": "ercel@54.20.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-linux-arm64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 94
+          },
+          {
+            "id": "vercel-linux-x64",
+            "version": "ercel@54.20.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-linux-x64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96172128
+          },
+          {
+            "id": "vercel-linux-x64.sha256",
+            "version": "ercel@54.20.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-linux-x64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 92
+          },
+          {
+            "id": "vercel-windows-x64.exe",
+            "version": "ercel@54.20.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-windows-x64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 76797440
+          },
+          {
+            "id": "vercel-windows-x64.exe.sha256",
+            "version": "ercel@54.20.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.20.0/vercel-windows-x64.exe.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 98
+          },
+          {
+            "id": "vercel-darwin-arm64",
+            "version": "ercel@54.19.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 80824496
+          },
+          {
+            "id": "vercel-darwin-arm64.sha256",
+            "version": "ercel@54.19.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-darwin-arm64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 95
+          },
+          {
+            "id": "vercel-darwin-x64",
+            "version": "ercel@54.19.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-darwin-x64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 139587968
+          },
+          {
+            "id": "vercel-darwin-x64.sha256",
+            "version": "ercel@54.19.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-darwin-x64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 93
+          },
+          {
+            "id": "vercel-linux-arm64",
+            "version": "ercel@54.19.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 91443056
+          },
+          {
+            "id": "vercel-linux-arm64.sha256",
+            "version": "ercel@54.19.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-linux-arm64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 94
+          },
+          {
+            "id": "vercel-linux-x64",
+            "version": "ercel@54.19.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-linux-x64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96166864
+          },
+          {
+            "id": "vercel-linux-x64.sha256",
+            "version": "ercel@54.19.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-linux-x64.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 92
+          },
+          {
+            "id": "vercel-windows-x64.exe",
+            "version": "ercel@54.19.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "exe",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-windows-x64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 76795904
+          },
+          {
+            "id": "vercel-windows-x64.exe.sha256",
+            "version": "ercel@54.19.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.19.0/vercel-windows-x64.exe.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 98
+          },
           {
             "id": "vercel-darwin-arm64",
             "version": "ercel@54.18.7",
@@ -1175,126 +1415,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 98
-          },
-          {
-            "id": "vercel-darwin-arm64",
-            "version": "ercel@54.18.1",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-darwin-arm64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 78331056
-          },
-          {
-            "id": "vercel-darwin-arm64.sha256",
-            "version": "ercel@54.18.1",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-darwin-arm64.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 95
-          },
-          {
-            "id": "vercel-darwin-x64",
-            "version": "ercel@54.18.1",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-darwin-x64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 137098624
-          },
-          {
-            "id": "vercel-darwin-x64.sha256",
-            "version": "ercel@54.18.1",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-darwin-x64.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 93
-          },
-          {
-            "id": "vercel-linux-arm64",
-            "version": "ercel@54.18.1",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-linux-arm64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 88973280
-          },
-          {
-            "id": "vercel-linux-arm64.sha256",
-            "version": "ercel@54.18.1",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-linux-arm64.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 94
-          },
-          {
-            "id": "vercel-linux-x64",
-            "version": "ercel@54.18.1",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-linux-x64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 93700224
-          },
-          {
-            "id": "vercel-linux-x64.sha256",
-            "version": "ercel@54.18.1",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-linux-x64.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 92
-          },
-          {
-            "id": "vercel-windows-x64.exe",
-            "version": "ercel@54.18.1",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "exe",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-windows-x64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 74331136
-          },
-          {
-            "id": "vercel-windows-x64.exe.sha256",
-            "version": "ercel@54.18.1",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4054.18.1/vercel-windows-x64.exe.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 98
           }
         ],
         "commands": [],
@@ -1302,7 +1422,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-02T19:52:13.903Z",
+          "lastSuccessfulScanAt": "2026-07-03T04:08:01.982Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

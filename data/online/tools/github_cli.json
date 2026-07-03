@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-02T19:52:35.813Z",
-  "status": "partial",
+  "generatedAt": "2026-07-03T04:08:11.557Z",
+  "status": "ok",
   "tool": {
     "id": "github_cli",
     "name": "GitHub CLI",
@@ -32,7 +32,7 @@
       "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://cli.github.com/",
-      "lastUpdatedAt": "2026-07-02T19:51:32.994Z"
+      "lastUpdatedAt": "2026-07-03T04:07:16.408Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -105,7 +105,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-02T19:51:32.968Z",
+          "scannedAt": "2026-07-03T04:07:16.385Z",
           "errors": []
         },
         "package": {
@@ -122,8 +122,8 @@
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://github.com/cli/cli/releases/download/v2.95.0/gh_2.95.0_windows_amd64.msi",
-          "releases": "https://github.com/cli/cli/releases/tag/v2.95.0",
+          "download": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_windows_amd64.msi",
+          "releases": "https://github.com/cli/cli/releases/tag/v2.96.0",
           "docs": null
         },
         "descriptions": {
@@ -131,7 +131,7 @@
           "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
           "source": "winget",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-07-02T19:51:32.968Z"
+          "lastUpdatedAt": "2026-07-03T04:07:16.385Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -156,9 +156,19 @@
         },
         "versions": [
           {
-            "version": "2.95.0",
+            "version": "2.96.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.95.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -444,29 +454,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.74.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.95.0",
+            "version": "2.96.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/cli/cli/releases/download/v2.95.0/gh_2.95.0_windows_amd64.msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_windows_amd64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "573cf39ececc40c6e04314e3d711353819e3f97059a743093058437135eddfdd",
+            "sha256": "583ee96619753844ae4af9dff29ae6d34076a4d0b74c8354f150473dd21fa5d6",
             "sizeBytes": null
           }
         ],
@@ -564,7 +564,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-02T19:51:32.968Z",
+          "lastSuccessfulScanAt": "2026-07-03T04:07:16.385Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -611,7 +611,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-02T19:51:32.990Z",
+          "scannedAt": "2026-07-03T04:07:16.405Z",
           "errors": []
         },
         "package": {
@@ -630,7 +630,7 @@
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://github.com/cli/cli/archive/refs/tags/v2.95.0.tar.gz",
+          "download": "https://github.com/cli/cli/archive/refs/tags/v2.96.0.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -639,7 +639,7 @@
           "long": "GitHub command-line tool",
           "source": "homebrew",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-07-02T19:51:32.990Z"
+          "lastUpdatedAt": "2026-07-03T04:07:16.405Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -666,7 +666,7 @@
         },
         "versions": [
           {
-            "version": "2.95.0",
+            "version": "2.96.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -679,14 +679,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.95.0",
+            "version": "2.96.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/cli/cli/archive/refs/tags/v2.95.0.tar.gz",
+            "url": "https://github.com/cli/cli/archive/refs/tags/v2.96.0.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "b6a1c88cbd15f49f60a68d210a117a60b349bcb0d028a0dca0ef2d9dc92bd028",
+            "sha256": "8d80d0aeccea7bec8024f8c30365bbfa76852901f2b2cb0afb7ab2cbf6d317c2",
             "sizeBytes": null
           }
         ],
@@ -750,7 +750,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-02T19:51:32.990Z",
+          "lastSuccessfulScanAt": "2026-07-03T04:07:16.405Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -796,7 +796,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-02T19:51:32.992Z",
+          "scannedAt": "2026-07-03T04:07:16.407Z",
           "errors": []
         },
         "package": {
@@ -824,7 +824,7 @@
           "long": "Official GitHub CLI",
           "source": "scoop",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-07-02T19:51:32.992Z"
+          "lastUpdatedAt": "2026-07-03T04:07:16.407Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -850,7 +850,7 @@
         },
         "versions": [
           {
-            "version": "2.95.0",
+            "version": "2.96.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -863,7 +863,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.95.0",
+            "version": "2.96.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -934,7 +934,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-02T19:51:32.992Z",
+          "lastSuccessfulScanAt": "2026-07-03T04:07:16.407Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -980,7 +980,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-02T19:51:32.994Z",
+          "scannedAt": "2026-07-03T04:07:16.408Z",
           "errors": []
         },
         "package": {
@@ -1010,7 +1010,7 @@
           "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-07-02T19:51:32.994Z"
+          "lastUpdatedAt": "2026-07-03T04:07:16.408Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1421,7 +1421,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-02T19:51:32.994Z",
+          "lastSuccessfulScanAt": "2026-07-03T04:07:16.408Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1469,7 +1469,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-02T19:51:33.259Z",
+          "scannedAt": "2026-07-03T04:07:16.611Z",
           "errors": []
         },
         "package": {
@@ -1499,7 +1499,7 @@
           "long": "GitHub’s official command line tool",
           "source": "github",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-07-02T19:51:33.259Z"
+          "lastUpdatedAt": "2026-07-03T04:07:16.611Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1527,9 +1527,19 @@
         },
         "versions": [
           {
-            "version": "2.95.0",
+            "version": "2.96.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-07-02T21:31:04Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.96.0"
+          },
+          {
+            "version": "2.95.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-06-17T19:55:07Z",
@@ -1815,19 +1825,273 @@
             "releaseDate": "2025-07-14T21:51:23Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.75.1"
-          },
-          {
-            "version": "2.75.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2025-07-09T14:28:56Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/cli/cli/releases/tag/v2.75.0"
           }
         ],
         "downloads": [
+          {
+            "id": "gh_2.96.0_checksums.txt",
+            "version": "2.96.0",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1950
+          },
+          {
+            "id": "gh_2.96.0_linux_386.deb",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_386.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13766024
+          },
+          {
+            "id": "gh_2.96.0_linux_386.rpm",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_386.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14307020
+          },
+          {
+            "id": "gh_2.96.0_linux_386.tar.gz",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_386.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13708563
+          },
+          {
+            "id": "gh_2.96.0_linux_amd64.deb",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14725844
+          },
+          {
+            "id": "gh_2.96.0_linux_amd64.rpm",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_amd64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 15323014
+          },
+          {
+            "id": "gh_2.96.0_linux_amd64.tar.gz",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14652560
+          },
+          {
+            "id": "gh_2.96.0_linux_arm64.deb",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13382568
+          },
+          {
+            "id": "gh_2.96.0_linux_arm64.rpm",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_arm64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13858392
+          },
+          {
+            "id": "gh_2.96.0_linux_arm64.tar.gz",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13321232
+          },
+          {
+            "id": "gh_2.96.0_linux_armv6.deb",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_armv6.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13862422
+          },
+          {
+            "id": "gh_2.96.0_linux_armv6.rpm",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "rpm",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_armv6.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14358035
+          },
+          {
+            "id": "gh_2.96.0_linux_armv6.tar.gz",
+            "version": "2.96.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_linux_armv6.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13809937
+          },
+          {
+            "id": "gh_2.96.0_macOS_amd64.zip",
+            "version": "2.96.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_macOS_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 15298430
+          },
+          {
+            "id": "gh_2.96.0_macOS_arm64.zip",
+            "version": "2.96.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_macOS_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13950131
+          },
+          {
+            "id": "gh_2.96.0_macOS_universal.pkg",
+            "version": "2.96.0",
+            "platform": "macos",
+            "architecture": null,
+            "type": "pkg",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_macOS_universal.pkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 28347568
+          },
+          {
+            "id": "gh_2.96.0_windows_386.msi",
+            "version": "2.96.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_windows_386.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14417920
+          },
+          {
+            "id": "gh_2.96.0_windows_386.zip",
+            "version": "2.96.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_windows_386.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14134520
+          },
+          {
+            "id": "gh_2.96.0_windows_amd64.msi",
+            "version": "2.96.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_windows_amd64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 15073280
+          },
+          {
+            "id": "gh_2.96.0_windows_amd64.zip",
+            "version": "2.96.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 14821821
+          },
+          {
+            "id": "gh_2.96.0_windows_arm64.msi",
+            "version": "2.96.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_windows_arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13500416
+          },
+          {
+            "id": "gh_2.96.0_windows_arm64.zip",
+            "version": "2.96.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/cli/cli/releases/download/v2.96.0/gh_2.96.0_windows_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 13284047
+          },
           {
             "id": "gh_2.95.0_checksums.txt",
             "version": "2.95.0",
@@ -2523,270 +2787,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 14960426
-          },
-          {
-            "id": "gh_2.93.0_macOS_arm64.zip",
-            "version": "2.93.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_macOS_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13646335
-          },
-          {
-            "id": "gh_2.93.0_macOS_universal.pkg",
-            "version": "2.93.0",
-            "platform": "macos",
-            "architecture": null,
-            "type": "pkg",
-            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_macOS_universal.pkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 27736519
-          },
-          {
-            "id": "gh_2.93.0_windows_386.msi",
-            "version": "2.93.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "msi",
-            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_386.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14131200
-          },
-          {
-            "id": "gh_2.93.0_windows_386.zip",
-            "version": "2.93.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_386.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13840693
-          },
-          {
-            "id": "gh_2.93.0_windows_amd64.msi",
-            "version": "2.93.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "msi",
-            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_amd64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14757888
-          },
-          {
-            "id": "gh_2.93.0_windows_amd64.zip",
-            "version": "2.93.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14507687
-          },
-          {
-            "id": "gh_2.93.0_windows_arm64.msi",
-            "version": "2.93.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "msi",
-            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_arm64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13225984
-          },
-          {
-            "id": "gh_2.93.0_windows_arm64.zip",
-            "version": "2.93.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_windows_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 12999446
-          },
-          {
-            "id": "gh_2.92.0_checksums.txt",
-            "version": "2.92.0",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1950
-          },
-          {
-            "id": "gh_2.92.0_linux_386.deb",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "deb",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_386.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13450770
-          },
-          {
-            "id": "gh_2.92.0_linux_386.rpm",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "rpm",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_386.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14002428
-          },
-          {
-            "id": "gh_2.92.0_linux_386.tar.gz",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_386.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13396139
-          },
-          {
-            "id": "gh_2.92.0_linux_amd64.deb",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14365816
-          },
-          {
-            "id": "gh_2.92.0_linux_amd64.rpm",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "rpm",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_amd64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14884189
-          },
-          {
-            "id": "gh_2.92.0_linux_amd64.tar.gz",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14296784
-          },
-          {
-            "id": "gh_2.92.0_linux_arm64.deb",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13072194
-          },
-          {
-            "id": "gh_2.92.0_linux_arm64.rpm",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "rpm",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_arm64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13533575
-          },
-          {
-            "id": "gh_2.92.0_linux_arm64.tar.gz",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13002970
-          },
-          {
-            "id": "gh_2.92.0_linux_armv6.deb",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "deb",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_armv6.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13544008
-          },
-          {
-            "id": "gh_2.92.0_linux_armv6.rpm",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "rpm",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_armv6.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14041260
-          },
-          {
-            "id": "gh_2.92.0_linux_armv6.tar.gz",
-            "version": "2.92.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_linux_armv6.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 13493303
-          },
-          {
-            "id": "gh_2.92.0_macOS_amd64.zip",
-            "version": "2.92.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_macOS_amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 14919974
           }
         ],
         "commands": [],
@@ -2794,7 +2794,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-02T19:51:33.259Z",
+          "lastSuccessfulScanAt": "2026-07-03T04:07:16.611Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
