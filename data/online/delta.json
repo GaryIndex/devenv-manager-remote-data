@@ -1,41 +1,104 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-03T19:49:26.872Z",
-  "fromGeneratedAt": "2026-07-03T14:32:38.913Z",
-  "toGeneratedAt": "2026-07-03T19:49:26.872Z",
+  "generatedAt": "2026-07-04T04:01:59.208Z",
+  "fromGeneratedAt": "2026-07-03T19:49:26.872Z",
+  "toGeneratedAt": "2026-07-04T04:01:59.208Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 2,
+    "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "git",
-      "vscode"
+      "github_cli",
+      "github_desktop",
+      "vim",
+      "aws_cli",
+      "vercel_cli",
+      "stripe_cli",
+      "supabase_cli",
+      "erlang",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "git",
+        "toolId": "github_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.55.0",
-        "to": "2.55.0.2"
+        "from": "2.95.0",
+        "to": "2.96.0"
       },
       {
-        "toolId": "vscode",
+        "toolId": "github_desktop",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.126.0",
-        "to": "1.127.0"
+        "from": "3.6.1",
+        "to": "3.6.2"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0780",
+        "to": "9.2.0782"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.762",
+        "to": "9.2.780"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.35.14",
+        "to": "2.35.15"
+      },
+      {
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@54.20.0",
+        "to": "ercel@54.20.1"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.43.4",
+        "to": "1.43.6"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.109.1-beta.12",
+        "to": "2.109.1-beta.13"
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.0.1",
+        "to": "29.0.3"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.18.3",
+        "to": "3.19.3"
       }
     ],
     "qualityChanges": []
