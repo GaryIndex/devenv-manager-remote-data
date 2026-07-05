@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T19:36:53.408Z",
+  "generatedAt": "2026-07-05T04:19:57.154Z",
   "status": "ok",
   "tool": {
     "id": "git",
@@ -31,7 +31,7 @@
       "long": "Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate user interfaces for experienced Git users and novices alike. Features - Git BASH : Git for Windows provides a BASH emulation used to run Git from the command line. NIX users should feel right at home, as the BASH emulation behaves just like the \"git\" command in LINUX and UNIX environments. - Git GUI : As Windows users commonly expect graphical user interfaces, Git for Windows also provides the Git GUI, a powerful alternative to Git BASH, offering a graphical version of just about every Git command line function, as well as comprehensive visual diff tools. - Shell Integration : Simply right-click on a folder in Windows Explorer to access the BASH or GUI.",
       "source": "choco",
       "homepage": "https://git-for-windows.github.io/",
-      "lastUpdatedAt": "2026-07-04T19:35:58.118Z"
+      "lastUpdatedAt": "2026-07-05T04:19:15.959Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -109,7 +109,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-04T19:35:57.365Z",
+          "scannedAt": "2026-07-05T04:19:15.147Z",
           "errors": []
         },
         "package": {
@@ -125,8 +125,8 @@
         },
         "links": {
           "homepage": "https://gitforwindows.org/",
-          "download": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.1/Git-2.55.0-64-bit.exe",
-          "releases": "https://github.com/git-for-windows/git/releases/tag/v2.55.0.windows.1",
+          "download": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.2/Git-2.55.0.2-64-bit.exe",
+          "releases": "https://github.com/git-for-windows/git/releases/tag/v2.55.0.windows.2",
           "docs": null
         },
         "descriptions": {
@@ -134,7 +134,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://gitforwindows.org/",
-          "lastUpdatedAt": "2026-07-04T19:35:57.365Z"
+          "lastUpdatedAt": "2026-07-05T04:19:15.147Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -156,9 +156,19 @@
         },
         "versions": [
           {
-            "version": "2.55.0",
+            "version": "2.55.0.2",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.55.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -444,29 +454,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.41.0.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.55.0",
+            "version": "2.55.0.2",
             "platform": "windows",
             "architecture": null,
             "type": "inno",
-            "url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.1/Git-2.55.0-64-bit.exe",
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.2/Git-2.55.0.2-64-bit.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "0c66e4a5875da5a74f9754386de7555ba301503b03bbdcdbafa69dc6464e548d",
+            "sha256": "74300da8dfe0d844c5449ffb809662f8eeac47916f83730c879c4084890c6c0e",
             "sizeBytes": null
           }
         ],
@@ -564,7 +564,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-04T19:35:57.365Z",
+          "lastSuccessfulScanAt": "2026-07-05T04:19:15.147Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -619,7 +619,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-04T19:35:57.471Z",
+          "scannedAt": "2026-07-05T04:19:15.260Z",
           "errors": []
         },
         "package": {
@@ -646,7 +646,7 @@
           "long": "Distributed revision control system",
           "source": "homebrew",
           "homepage": "https://git-scm.com",
-          "lastUpdatedAt": "2026-07-04T19:35:57.471Z"
+          "lastUpdatedAt": "2026-07-05T04:19:15.260Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -754,7 +754,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-04T19:35:57.471Z",
+          "lastSuccessfulScanAt": "2026-07-05T04:19:15.260Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -808,7 +808,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-04T19:35:58.116Z",
+          "scannedAt": "2026-07-05T04:19:15.958Z",
           "errors": []
         },
         "package": {
@@ -835,7 +835,7 @@
           "long": "A free and open source distributed version control system.",
           "source": "scoop",
           "homepage": "https://gitforwindows.org",
-          "lastUpdatedAt": "2026-07-04T19:35:58.116Z"
+          "lastUpdatedAt": "2026-07-05T04:19:15.958Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -942,7 +942,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-04T19:35:58.116Z",
+          "lastSuccessfulScanAt": "2026-07-05T04:19:15.958Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -996,7 +996,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-04T19:35:58.118Z",
+          "scannedAt": "2026-07-05T04:19:15.959Z",
           "errors": []
         },
         "package": {
@@ -1028,7 +1028,7 @@
           "long": "Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate user interfaces for experienced Git users and novices alike. Features - Git BASH : Git for Windows provides a BASH emulation used to run Git from the command line. NIX users should feel right at home, as the BASH emulation behaves just like the \"git\" command in LINUX and UNIX environments. - Git GUI : As Windows users commonly expect graphical user interfaces, Git for Windows also provides the Git GUI, a powerful alternative to Git BASH, offering a graphical version of just about every Git command line function, as well as comprehensive visual diff tools. - Shell Integration : Simply right-click on a folder in Windows Explorer to access the BASH or GUI.",
           "source": "choco",
           "homepage": "https://git-for-windows.github.io/",
-          "lastUpdatedAt": "2026-07-04T19:35:58.118Z"
+          "lastUpdatedAt": "2026-07-05T04:19:15.959Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1438,7 +1438,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-04T19:35:58.118Z",
+          "lastSuccessfulScanAt": "2026-07-05T04:19:15.959Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

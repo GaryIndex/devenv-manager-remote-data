@@ -1,41 +1,64 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T19:36:53.408Z",
-  "fromGeneratedAt": "2026-07-04T13:57:54.158Z",
-  "toGeneratedAt": "2026-07-04T19:36:53.408Z",
+  "generatedAt": "2026-07-05T04:19:57.154Z",
+  "fromGeneratedAt": "2026-07-04T19:36:53.408Z",
+  "toGeneratedAt": "2026-07-05T04:19:57.154Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 2,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "zoxide",
-      "supabase_cli"
+      "git",
+      "jetbrains_toolbox",
+      "pnpm",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "zoxide",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "0.9.9",
-        "to": "0.10.0"
+        "toolId": "git",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.55.0",
+        "to": "2.55.0.2"
       },
       {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.109.1-beta.13",
-        "to": "2.109.1-beta.14"
+        "toolId": "jetbrains_toolbox",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.6.0.0",
+        "to": "3.6.1.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "11.9.0",
+        "to": "11.10.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "11.9.0",
+        "to": "11.10.0"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.19.1",
+        "to": "3.19.3"
       }
     ],
     "qualityChanges": []
