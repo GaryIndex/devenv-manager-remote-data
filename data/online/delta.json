@@ -1,33 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-05T14:09:35.742Z",
-  "fromGeneratedAt": "2026-07-05T09:23:12.920Z",
-  "toGeneratedAt": "2026-07-05T14:09:35.742Z",
+  "generatedAt": "2026-07-05T19:42:37.178Z",
+  "fromGeneratedAt": "2026-07-05T14:09:35.742Z",
+  "toGeneratedAt": "2026-07-05T19:42:37.178Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 1,
+    "versionChanges": 4,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "neovim"
+      "neovim",
+      "oh_my_posh",
+      "dbeaver"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "neovim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.12.3",
+        "to": "0.12.4"
+      },
+      {
+        "toolId": "oh_my_posh",
         "sourceId": "github",
         "manager": "github",
-        "from": "nightly",
-        "to": "0.12.4"
+        "from": "29.20.0",
+        "to": "29.20.1"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "26.1.1",
+        "to": "26.1.2"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "26.1.1",
+        "to": "26.1.2"
       }
     ],
     "qualityChanges": []
