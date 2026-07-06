@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T11:02:35.903Z",
+  "generatedAt": "2026-07-06T15:55:32.026Z",
   "status": "ok",
   "tool": {
     "id": "zoxide",
@@ -29,7 +29,7 @@
       "long": "A smarter cd command for your terminal [![crates.io][crates.io-badge]][crates.io] zoxide is a blazing fast replacement for your cd command, inspired by [ z ][z] and [ z.lua ][z.lua]. It keeps track of the directories you use most frequently, and uses a ranking algorithm to navigate to the best match. ![Demo][demo.gif] Examples sh z foo cd into highest ranked directory matching foo z foo bar cd into highest ranked directory matching foo and bar z ~/foo z also works like a regular cd command z foo/ cd into relative path z .. cd one level up z - cd into previous directory zi foo cd with interactive selection (using fzf) Read more about the matching algorithm [here][algorithm-matching]. Getting started Step 1: Install zoxide zoxide works across all major platforms. If your distribution isn't included in the list below, you can download the binary from the [Releases] page and copy it to your $PATH . Step 2: Install fzf (optional) [ fzf ][fzf] is a command-line fuzzy finder, used by zoxide for interactive selection. Installation instructions can be found [here][fzf-installation]. Step 3: Add zoxide to your shell See https://github.com/ajeetdsouza/zoxide step-3-add-zoxide-to-your-shell...",
       "source": "choco",
       "homepage": "https://github.com/ajeetdsouza/zoxide",
-      "lastUpdatedAt": "2026-07-06T11:01:58.673Z"
+      "lastUpdatedAt": "2026-07-06T15:54:40.066Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T11:01:58.498Z",
+          "scannedAt": "2026-07-06T15:54:39.731Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://github.com/ajeetdsouza/zoxide",
-          "download": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.9/zoxide-0.9.9-x86_64-pc-windows-msvc.zip",
-          "releases": "https://github.com/ajeetdsouza/zoxide/releases/tag/v0.9.9",
+          "download": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-pc-windows-msvc.zip",
+          "releases": "https://github.com/ajeetdsouza/zoxide/releases/tag/v0.10.0",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "zoxide is a smarter cd command, inspired by z and autojump. It remembers which directories you use most frequently, so you can \"jump\" to them in just a few keystrokes. zoxide works on all major shells.",
           "source": "winget",
           "homepage": "https://github.com/ajeetdsouza/zoxide",
-          "lastUpdatedAt": "2026-07-06T11:01:58.498Z"
+          "lastUpdatedAt": "2026-07-06T15:54:39.731Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "0.9.9",
+            "version": "0.10.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.9.9",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -242,14 +252,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.9.9",
+            "version": "0.10.0",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.9/zoxide-0.9.9-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-pc-windows-msvc.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "5af00d0916f05631e3030537289eac56605e7c1733318c4d525c8e847f12496d",
+            "sha256": "f465ae548f8754c8e7edbc60b45fbf58c92bfe123db83d790252d6810fa5daf1",
             "sizeBytes": null
           }
         ],
@@ -347,7 +357,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T11:01:58.498Z",
+          "lastSuccessfulScanAt": "2026-07-06T15:54:39.731Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -394,7 +404,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T11:01:58.531Z",
+          "scannedAt": "2026-07-06T15:54:40.004Z",
           "errors": []
         },
         "package": {
@@ -420,7 +430,7 @@
           "long": "Shell extension to navigate your filesystem faster",
           "source": "homebrew",
           "homepage": "https://github.com/ajeetdsouza/zoxide",
-          "lastUpdatedAt": "2026-07-06T11:01:58.531Z"
+          "lastUpdatedAt": "2026-07-06T15:54:40.004Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -525,7 +535,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T11:01:58.531Z",
+          "lastSuccessfulScanAt": "2026-07-06T15:54:40.004Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -571,7 +581,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T11:01:58.606Z",
+          "scannedAt": "2026-07-06T15:54:40.026Z",
           "errors": []
         },
         "package": {
@@ -597,7 +607,7 @@
           "long": "A faster way to navigate your filesystem",
           "source": "scoop",
           "homepage": "https://github.com/ajeetdsouza/zoxide",
-          "lastUpdatedAt": "2026-07-06T11:01:58.606Z"
+          "lastUpdatedAt": "2026-07-06T15:54:40.026Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -701,7 +711,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T11:01:58.606Z",
+          "lastSuccessfulScanAt": "2026-07-06T15:54:40.026Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -747,7 +757,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T11:01:58.673Z",
+          "scannedAt": "2026-07-06T15:54:40.066Z",
           "errors": []
         },
         "package": {
@@ -791,7 +801,7 @@
           "long": "A smarter cd command for your terminal [![crates.io][crates.io-badge]][crates.io] zoxide is a blazing fast replacement for your cd command, inspired by [ z ][z] and [ z.lua ][z.lua]. It keeps track of the directories you use most frequently, and uses a ranking algorithm to navigate to the best match. ![Demo][demo.gif] Examples sh z foo cd into highest ranked directory matching foo z foo bar cd into highest ranked directory matching foo and bar z ~/foo z also works like a regular cd command z foo/ cd into relative path z .. cd one level up z - cd into previous directory zi foo cd with interactive selection (using fzf) Read more about the matching algorithm [here][algorithm-matching]. Getting started Step 1: Install zoxide zoxide works across all major platforms. If your distribution isn't included in the list below, you can download the binary from the [Releases] page and copy it to your $PATH . Step 2: Install fzf (optional) [ fzf ][fzf] is a command-line fuzzy finder, used by zoxide for interactive selection. Installation instructions can be found [here][fzf-installation]. Step 3: Add zoxide to your shell See https://github.com/ajeetdsouza/zoxide step-3-add-zoxide-to-your-shell...",
           "source": "choco",
           "homepage": "https://github.com/ajeetdsouza/zoxide",
-          "lastUpdatedAt": "2026-07-06T11:01:58.673Z"
+          "lastUpdatedAt": "2026-07-06T15:54:40.066Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1062,7 +1072,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T11:01:58.673Z",
+          "lastSuccessfulScanAt": "2026-07-06T15:54:40.066Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1110,7 +1120,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T11:01:58.687Z",
+          "scannedAt": "2026-07-06T15:54:40.141Z",
           "errors": []
         },
         "package": {
@@ -1154,7 +1164,7 @@
           "long": "A smarter cd command. Supports all major shells.",
           "source": "github",
           "homepage": "https://crates.io/crates/zoxide",
-          "lastUpdatedAt": "2026-07-06T11:01:58.687Z"
+          "lastUpdatedAt": "2026-07-06T15:54:40.141Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2460,7 +2470,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T11:01:58.687Z",
+          "lastSuccessfulScanAt": "2026-07-06T15:54:40.141Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

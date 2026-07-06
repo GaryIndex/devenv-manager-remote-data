@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T11:02:35.903Z",
-  "fromGeneratedAt": "2026-07-06T04:39:04.873Z",
-  "toGeneratedAt": "2026-07-06T11:02:35.903Z",
+  "generatedAt": "2026-07-06T15:55:32.026Z",
+  "fromGeneratedAt": "2026-07-06T11:02:35.903Z",
+  "toGeneratedAt": "2026-07-06T15:55:32.026Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
@@ -10,7 +10,7 @@
     "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 10,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,85 +18,71 @@
     "removedTools": [],
     "changedTools": [
       "oh_my_posh",
-      "pnpm",
-      "google_cloud_sdk",
+      "fzf",
+      "zoxide",
+      "docker_desktop",
+      "terraform",
       "postman",
-      "dbeaver",
-      "supabase_cli",
-      "unity_hub"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "29.20.1",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.20.0",
         "to": "29.21.0"
       },
       {
-        "toolId": "oh_my_posh",
+        "toolId": "fzf",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.73.1",
+        "to": "0.74.0"
+      },
+      {
+        "toolId": "fzf",
         "sourceId": "github",
         "manager": "github",
-        "from": "29.20.1",
-        "to": "29.21.0"
+        "from": "0.73.1",
+        "to": "0.74.0"
       },
       {
-        "toolId": "pnpm",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "11.9.0",
-        "to": "11.10.0"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "574.0.0",
-        "to": "575.0.0"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "zoxide",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.17.5",
-        "to": "12.18.0"
+        "from": "0.9.9",
+        "to": "0.10.0"
       },
       {
-        "toolId": "postman",
+        "toolId": "docker_desktop",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.17.3",
-        "to": "12.18.0"
+        "from": "4.80.0,232116",
+        "to": "4.81.0,232925"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.16.0-alpha20260701",
+        "to": "1.16.0-alpha20260706"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "12.17.5",
         "to": "12.18.0"
-      },
-      {
-        "toolId": "dbeaver",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "26.1.1",
-        "to": "26.1.2"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.1-beta.14",
-        "to": "2.109.1-beta.18"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.19.2",
-        "to": "3.19.3"
+        "from": "2.109.1-beta.18",
+        "to": "2.109.1-beta.20"
       }
     ],
     "qualityChanges": []
