@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T15:55:32.026Z",
-  "fromGeneratedAt": "2026-07-06T11:02:35.903Z",
-  "toGeneratedAt": "2026-07-06T15:55:32.026Z",
+  "generatedAt": "2026-07-06T20:15:00.555Z",
+  "fromGeneratedAt": "2026-07-06T15:55:32.026Z",
+  "toGeneratedAt": "2026-07-06T20:15:00.555Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 7,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
@@ -19,70 +19,46 @@
     "changedTools": [
       "oh_my_posh",
       "fzf",
-      "zoxide",
-      "docker_desktop",
-      "terraform",
-      "postman",
-      "supabase_cli"
+      "beekeeper_studio",
+      "hugo"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "oh_my_posh",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "29.20.0",
-        "to": "29.21.0"
-      },
-      {
-        "toolId": "fzf",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.73.1",
-        "to": "0.74.0"
-      },
-      {
-        "toolId": "fzf",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "0.73.1",
-        "to": "0.74.0"
-      },
-      {
-        "toolId": "zoxide",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "0.9.9",
-        "to": "0.10.0"
+        "from": "29.18.0",
+        "to": "29.19.0"
       },
       {
-        "toolId": "docker_desktop",
+        "toolId": "fzf",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "4.80.0,232116",
-        "to": "4.81.0,232925"
+        "from": "0.73.1",
+        "to": "0.74.0"
       },
       {
-        "toolId": "terraform",
+        "toolId": "beekeeper_studio",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.16.0-alpha20260701",
-        "to": "1.16.0-alpha20260706"
+        "from": "5.9.0-beta.4",
+        "to": "5.9.0"
       },
       {
-        "toolId": "postman",
+        "toolId": "hugo",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "12.17.5",
-        "to": "12.18.0"
+        "from": "0.163.3",
+        "to": "0.164.0"
       },
       {
-        "toolId": "supabase_cli",
+        "toolId": "hugo",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.1-beta.18",
-        "to": "2.109.1-beta.20"
+        "from": "0.163.3",
+        "to": "0.164.0"
       }
     ],
     "qualityChanges": []
