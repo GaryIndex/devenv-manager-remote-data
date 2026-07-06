@@ -1,56 +1,102 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T04:39:04.873Z",
-  "fromGeneratedAt": "2026-07-05T19:42:37.178Z",
-  "toGeneratedAt": "2026-07-06T04:39:04.873Z",
+  "generatedAt": "2026-07-06T11:02:35.903Z",
+  "fromGeneratedAt": "2026-07-06T04:39:04.873Z",
+  "toGeneratedAt": "2026-07-06T11:02:35.903Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "neovim",
       "oh_my_posh",
-      "dbeaver"
+      "pnpm",
+      "google_cloud_sdk",
+      "postman",
+      "dbeaver",
+      "supabase_cli",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "neovim",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "0.12.3",
-        "to": "0.12.4"
-      },
-      {
         "toolId": "oh_my_posh",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "29.20.0",
-        "to": "29.20.1"
+        "from": "29.20.1",
+        "to": "29.21.0"
       },
       {
-        "toolId": "dbeaver",
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.20.1",
+        "to": "29.21.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "11.9.0",
+        "to": "11.10.0"
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "574.0.0",
+        "to": "575.0.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.17.5",
+        "to": "12.18.0"
+      },
+      {
+        "toolId": "postman",
         "sourceId": "homebrew",
         "manager": "homebrew",
+        "from": "12.17.3",
+        "to": "12.18.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.17.5",
+        "to": "12.18.0"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "26.1.1",
         "to": "26.1.2"
       },
       {
-        "toolId": "dbeaver",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "26.1.1",
-        "to": "26.1.2"
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.109.1-beta.14",
+        "to": "2.109.1-beta.18"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.19.2",
+        "to": "3.19.3"
       }
     ],
     "qualityChanges": []
