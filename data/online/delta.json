@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T15:14:55.720Z",
-  "fromGeneratedAt": "2026-07-07T10:00:59.091Z",
-  "toGeneratedAt": "2026-07-07T15:14:55.720Z",
-  "status": "ok",
+  "generatedAt": "2026-07-07T20:14:23.714Z",
+  "fromGeneratedAt": "2026-07-07T15:14:55.720Z",
+  "toGeneratedAt": "2026-07-07T20:14:23.714Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 6,
-    "qualityChanges": 0
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
@@ -19,8 +19,7 @@
     "changedTools": [
       "vscodium",
       "oh_my_posh",
-      "docker_desktop",
-      "azure_cli",
+      "visual_studio_community",
       "postman",
       "supabase_cli"
     ],
@@ -29,47 +28,55 @@
     "versionChanges": [
       {
         "toolId": "vscodium",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.121.03429",
+        "to": "1.126.04524"
+      },
+      {
+        "toolId": "vscodium",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "1.121.03429",
         "to": "1.126.04524"
       },
       {
         "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "29.21.0",
         "to": "29.22.0"
       },
       {
-        "toolId": "docker_desktop",
+        "toolId": "postman",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "4.80.0",
-        "to": "4.81.0"
-      },
-      {
-        "toolId": "azure_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.87.0",
-        "to": "2.88.0"
+        "from": "12.18.0",
+        "to": "12.18.1"
       },
       {
         "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.18.0",
-        "to": "12.18.1"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.18.1",
+        "to": "12.18.2"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.1",
-        "to": "2.110.0-beta.5"
+        "from": "2.110.0-beta.5",
+        "to": "2.110.0-beta.7"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "visual_studio_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }

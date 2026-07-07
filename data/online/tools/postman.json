@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T15:14:55.720Z",
-  "status": "ok",
+  "generatedAt": "2026-07-07T20:14:23.714Z",
+  "status": "partial",
   "tool": {
     "id": "postman",
     "name": "Postman",
@@ -28,7 +28,7 @@
       "long": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
       "source": "winget",
       "homepage": "https://www.postman.com/downloads/",
-      "lastUpdatedAt": "2026-07-07T15:14:27.341Z"
+      "lastUpdatedAt": "2026-07-07T20:14:02.706Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -83,7 +83,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-07T15:14:27.341Z",
+          "scannedAt": "2026-07-07T20:14:02.706Z",
           "errors": []
         },
         "package": {
@@ -97,7 +97,7 @@
         },
         "links": {
           "homepage": "https://www.postman.com/downloads/",
-          "download": "https://dl.pstmn.io/download/version/12.18.0/windows_64",
+          "download": "https://dl.pstmn.io/download/version/12.18.1/windows_64",
           "releases": null,
           "docs": null
         },
@@ -106,7 +106,7 @@
           "long": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
           "source": "winget",
           "homepage": "https://www.postman.com/downloads/",
-          "lastUpdatedAt": "2026-07-07T15:14:27.341Z"
+          "lastUpdatedAt": "2026-07-07T20:14:02.706Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -126,9 +126,19 @@
         },
         "versions": [
           {
-            "version": "12.18.0",
+            "version": "12.18.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.18.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -414,29 +424,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "12.12.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "12.18.0",
+            "version": "12.18.1",
             "platform": "windows",
             "architecture": null,
             "type": "exe",
-            "url": "https://dl.pstmn.io/download/version/12.18.0/windows_64",
+            "url": "https://dl.pstmn.io/download/version/12.18.1/windows_64",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "2519f6ba4469ca5125ab7f93d74637408483ab201b45d52479d964e841a44a3d",
+            "sha256": "b835c7cb5ba7242593f668f59dfd0215a96b19ff4949a826552a7317333f4ada",
             "sizeBytes": null
           }
         ],
@@ -534,7 +534,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-07T15:14:27.341Z",
+          "lastSuccessfulScanAt": "2026-07-07T20:14:02.706Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -567,7 +567,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-07T15:14:27.440Z",
+          "scannedAt": "2026-07-07T20:14:03.237Z",
           "errors": []
         },
         "package": {
@@ -584,7 +584,7 @@
         },
         "links": {
           "homepage": "https://www.postman.com/",
-          "download": "https://dl.pstmn.io/download/version/12.18.1/osx_arm64",
+          "download": "https://dl.pstmn.io/download/version/12.18.2/osx_arm64",
           "releases": null,
           "docs": null
         },
@@ -593,7 +593,7 @@
           "long": "Collaboration platform for API development",
           "source": "homebrew",
           "homepage": "https://www.postman.com/",
-          "lastUpdatedAt": "2026-07-07T15:14:27.440Z"
+          "lastUpdatedAt": "2026-07-07T20:14:03.237Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -615,7 +615,7 @@
         },
         "versions": [
           {
-            "version": "12.18.1",
+            "version": "12.18.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -628,14 +628,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "12.18.1",
+            "version": "12.18.2",
             "platform": "macos",
             "architecture": null,
             "type": "cask",
-            "url": "https://dl.pstmn.io/download/version/12.18.1/osx_arm64",
+            "url": "https://dl.pstmn.io/download/version/12.18.2/osx_arm64",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e165f132feb9aeb53ca5359d66df46f85554fd129295cf8ca027fa9520970f33",
+            "sha256": "7be784ed134cc21738ca7aa00496c70d6f0d438bc9ee9aaafd2b8a8514d7887c",
             "sizeBytes": null
           }
         ],
@@ -699,7 +699,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-07T15:14:27.440Z",
+          "lastSuccessfulScanAt": "2026-07-07T20:14:03.237Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -732,7 +732,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-07T15:14:27.536Z",
+          "scannedAt": "2026-07-07T20:14:03.266Z",
           "errors": []
         },
         "package": {
@@ -758,7 +758,7 @@
           "long": "Complete API development environment.",
           "source": "scoop",
           "homepage": "https://www.getpostman.com/",
-          "lastUpdatedAt": "2026-07-07T15:14:27.536Z"
+          "lastUpdatedAt": "2026-07-07T20:14:03.266Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -863,7 +863,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-07T15:14:27.536Z",
+          "lastSuccessfulScanAt": "2026-07-07T20:14:03.266Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -896,7 +896,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-07T15:14:27.542Z",
+          "scannedAt": "2026-07-07T20:14:03.346Z",
           "errors": []
         },
         "package": {
@@ -921,7 +921,7 @@
           "long": "Postman helps you be more efficient while working with APIs. Using Postman, you can construct complex HTTP requests quickly, organize them in collections and share them with your co-workers.",
           "source": "choco",
           "homepage": "https://www.postman.com/",
-          "lastUpdatedAt": "2026-07-07T15:14:27.542Z"
+          "lastUpdatedAt": "2026-07-07T20:14:03.346Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1323,7 +1323,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-07T15:14:27.542Z",
+          "lastSuccessfulScanAt": "2026-07-07T20:14:03.346Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
