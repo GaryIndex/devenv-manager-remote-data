@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T04:16:52.761Z",
-  "fromGeneratedAt": "2026-07-06T20:15:00.555Z",
-  "toGeneratedAt": "2026-07-07T04:16:52.761Z",
+  "generatedAt": "2026-07-07T10:00:59.091Z",
+  "fromGeneratedAt": "2026-07-07T04:16:52.761Z",
+  "toGeneratedAt": "2026-07-07T10:00:59.091Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 11,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 20,
+    "versionChanges": 14,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,159 +18,116 @@
     "removedTools": [],
     "changedTools": [
       "neovim",
-      "oh_my_posh",
       "fzf",
-      "uv",
-      "packer",
+      "terraform",
       "aws_cli",
+      "azure_cli",
+      "postman",
       "beekeeper_studio",
-      "flutter",
       "vercel_cli",
-      "supabase_cli",
-      "hugo"
+      "netlify_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "neovim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.12.3",
-        "to": "0.12.4"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "29.19.0",
-        "to": "29.21.0"
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.12.4",
+        "to": "nightly"
       },
       {
         "toolId": "fzf",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "0.73.1",
         "to": "0.74.0"
       },
       {
-        "toolId": "uv",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "0.11.26",
-        "to": "0.11.27"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.11.26",
-        "to": "0.11.27"
-      },
-      {
-        "toolId": "uv",
+        "toolId": "terraform",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.11.26",
-        "to": "0.11.27"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "0.11.26",
-        "to": "0.11.27"
-      },
-      {
-        "toolId": "packer",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.15.4",
-        "to": "nightly"
+        "from": "1.16.0-alpha20260701",
+        "to": "1.16.0-alpha20260706"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.35.15",
         "to": "2.35.16"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.35.15",
-        "to": "2.35.16"
-      },
-      {
-        "toolId": "beekeeper_studio",
+        "toolId": "azure_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "5.8.1",
-        "to": "5.9.1"
+        "from": "2.87.0",
+        "to": "2.88.0"
       },
       {
-        "toolId": "beekeeper_studio",
+        "toolId": "azure_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "5.8.1",
-        "to": "5.9.1"
+        "from": "2.87.0",
+        "to": "2.88.0"
       },
       {
-        "toolId": "beekeeper_studio",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "5.9.0",
-        "to": "5.9.1"
-      },
-      {
-        "toolId": "flutter",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.44.4",
-        "to": "3.44.5"
-      },
-      {
-        "toolId": "flutter",
+        "toolId": "azure_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.44.4",
-        "to": "3.44.5"
+        "from": "2.87.0",
+        "to": "2.88.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.18.0",
+        "to": "12.18.1"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.18.0",
+        "to": "12.18.1"
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "5.5.7",
+        "to": "5.9.1"
       },
       {
         "toolId": "vercel_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "ercel@54.20.1",
-        "to": "ercel@54.21.0"
+        "from": "ercel@54.21.0",
+        "to": "ercel@54.21.1"
+      },
+      {
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "26.1.0",
+        "to": "26.2.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.109.0",
+        "to": "2.109.1"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.109.1-beta.20",
-        "to": "2.109.1-beta.21"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.163.3",
-        "to": "0.164.0"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "0.163.3",
-        "to": "0.164.0"
-      },
-      {
-        "toolId": "hugo",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.163.3",
-        "to": "0.164.0"
+        "from": "2.109.1-beta.21",
+        "to": "2.109.1"
       }
     ],
     "qualityChanges": []
