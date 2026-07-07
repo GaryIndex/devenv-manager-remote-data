@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T20:15:00.555Z",
+  "generatedAt": "2026-07-07T04:16:52.761Z",
   "status": "ok",
   "tool": {
     "id": "hugo",
@@ -29,7 +29,7 @@
       "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://gohugo.io/",
-      "lastUpdatedAt": "2026-07-06T20:14:57.104Z"
+      "lastUpdatedAt": "2026-07-07T04:16:50.143Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T20:14:56.613Z",
+          "scannedAt": "2026-07-07T04:16:49.582Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://gohugo.io/",
-          "download": "https://github.com/gohugoio/hugo/releases/download/v0.163.3/hugo_extended_0.163.3_windows-amd64.zip",
-          "releases": "https://github.com/gohugoio/hugo/releases/tag/v0.163.3",
+          "download": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_extended_0.164.0_windows-amd64.zip",
+          "releases": "https://github.com/gohugoio/hugo/releases/tag/v0.164.0",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-07-06T20:14:56.613Z"
+          "lastUpdatedAt": "2026-07-07T04:16:49.582Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "0.163.3",
+            "version": "0.164.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.163.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -429,29 +439,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.153.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.163.3",
+            "version": "0.164.0",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/gohugoio/hugo/releases/download/v0.163.3/hugo_extended_0.163.3_windows-amd64.zip",
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_extended_0.164.0_windows-amd64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "10ce84261773a52aa2dabb4f51b9fe86309592248dbeeef093c6b36b1dacf252",
+            "sha256": "59109d4e05d0cc9e1743688166e5323a71bd8b67a6e928db07c61720cc49a7cc",
             "sizeBytes": null
           }
         ],
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T20:14:56.613Z",
+          "lastSuccessfulScanAt": "2026-07-07T04:16:49.582Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T20:14:57.003Z",
+          "scannedAt": "2026-07-07T04:16:49.960Z",
           "errors": []
         },
         "package": {
@@ -613,7 +613,7 @@
         },
         "links": {
           "homepage": "https://gohugo.io/",
-          "download": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.163.3.tar.gz",
+          "download": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.164.0.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -622,7 +622,7 @@
           "long": "Configurable static site generator",
           "source": "homebrew",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-07-06T20:14:57.003Z"
+          "lastUpdatedAt": "2026-07-07T04:16:49.960Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -644,7 +644,7 @@
         },
         "versions": [
           {
-            "version": "0.163.3",
+            "version": "0.164.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -657,14 +657,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.163.3",
+            "version": "0.164.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.163.3.tar.gz",
+            "url": "https://github.com/gohugoio/hugo/archive/refs/tags/v0.164.0.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e51d50afd870c601a85c9e9077e18e452d427c5e4f59856b9e83e6565de9c53e",
+            "sha256": "4d32803c88e76179bc48cf640821977dd1cd83a8aa64ee17766557a15e538825",
             "sizeBytes": null
           }
         ],
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T20:14:57.003Z",
+          "lastSuccessfulScanAt": "2026-07-07T04:16:49.960Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T20:14:57.008Z",
+          "scannedAt": "2026-07-07T04:16:49.981Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Speedy and flexible static site generator (without Sass/SCSS support)",
           "source": "scoop",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-07-06T20:14:57.008Z"
+          "lastUpdatedAt": "2026-07-07T04:16:49.981Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -821,7 +821,7 @@
         },
         "versions": [
           {
-            "version": "0.163.3",
+            "version": "0.164.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -834,7 +834,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.163.3",
+            "version": "0.164.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T20:14:57.008Z",
+          "lastSuccessfulScanAt": "2026-07-07T04:16:49.981Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T20:14:57.104Z",
+          "scannedAt": "2026-07-07T04:16:50.143Z",
           "errors": []
         },
         "package": {
@@ -979,7 +979,7 @@
           "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-07-06T20:14:57.104Z"
+          "lastUpdatedAt": "2026-07-07T04:16:50.143Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1384,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T20:14:57.104Z",
+          "lastSuccessfulScanAt": "2026-07-07T04:16:50.143Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1432,7 +1432,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-06T20:14:57.408Z",
+          "scannedAt": "2026-07-07T04:16:50.359Z",
           "errors": []
         },
         "package": {
@@ -1463,7 +1463,7 @@
           "long": "The world’s fastest framework for building websites.",
           "source": "github",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-07-06T20:14:57.408Z"
+          "lastUpdatedAt": "2026-07-07T04:16:50.359Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2756,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-06T20:14:57.408Z",
+          "lastSuccessfulScanAt": "2026-07-07T04:16:50.359Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
