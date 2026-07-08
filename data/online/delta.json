@@ -1,25 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T20:14:23.714Z",
-  "fromGeneratedAt": "2026-07-07T15:14:55.720Z",
-  "toGeneratedAt": "2026-07-07T20:14:23.714Z",
-  "status": "partial",
+  "generatedAt": "2026-07-08T03:43:56.411Z",
+  "fromGeneratedAt": "2026-07-07T20:14:23.714Z",
+  "toGeneratedAt": "2026-07-08T03:43:56.411Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 10,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscodium",
-      "oh_my_posh",
+      "uv",
+      "go",
       "visual_studio_community",
+      "aws_cli",
       "postman",
       "supabase_cli"
     ],
@@ -27,37 +28,65 @@
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscodium",
+        "toolId": "uv",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.121.03429",
-        "to": "1.126.04524"
+        "from": "0.11.27",
+        "to": "0.11.28"
       },
       {
-        "toolId": "vscodium",
+        "toolId": "uv",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.121.03429",
-        "to": "1.126.04524"
+        "from": "0.11.27",
+        "to": "0.11.28"
       },
       {
-        "toolId": "oh_my_posh",
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.11.27",
+        "to": "0.11.28"
+      },
+      {
+        "toolId": "go",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.26.4",
+        "to": "1.26.5"
+      },
+      {
+        "toolId": "go",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "29.21.0",
-        "to": "29.22.0"
+        "from": "1.26.4",
+        "to": "1.26.5"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.35.15",
+        "to": "2.35.17"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.35.16",
+        "to": "2.35.17"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.35.16",
+        "to": "2.35.17"
       },
       {
         "toolId": "postman",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.18.0",
-        "to": "12.18.1"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
         "from": "12.18.1",
         "to": "12.18.2"
       },
@@ -65,8 +94,8 @@
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.5",
-        "to": "2.110.0-beta.7"
+        "from": "2.110.0-beta.7",
+        "to": "2.110.0-beta.9"
       }
     ],
     "qualityChanges": [
@@ -74,8 +103,8 @@
         "toolId": "visual_studio_community",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
