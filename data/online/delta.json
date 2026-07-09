@@ -1,155 +1,225 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-08T19:55:43.205Z",
-  "fromGeneratedAt": "2026-07-08T14:41:20.095Z",
-  "toGeneratedAt": "2026-07-08T19:55:43.205Z",
-  "status": "ok",
+  "generatedAt": "2026-07-09T04:13:32.312Z",
+  "fromGeneratedAt": "2026-07-08T19:55:43.205Z",
+  "toGeneratedAt": "2026-07-09T04:13:32.312Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 9,
+    "changedTools": 15,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 17,
-    "qualityChanges": 0
+    "versionChanges": 23,
+    "qualityChanges": 3
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
       "oh_my_posh",
       "node_current",
       "deno",
-      "miniconda",
+      "nvm_windows",
+      "docker_desktop",
       "podman",
+      "terraform",
+      "vagrant",
       "pulumi",
-      "google_cloud_sdk",
-      "cloudflared"
+      "aws_cli",
+      "cloudflared",
+      "android_platform_tools",
+      "wireshark",
+      "nmap",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
+        "toolId": "oh_my_posh",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.127.0",
-        "to": "1.128.0"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "29.21.0",
+        "from": "29.22.0",
         "to": "29.22.1"
       },
       {
         "toolId": "node_current",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "26.4.0",
         "to": "26.5.0"
       },
       {
         "toolId": "deno",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.9.1",
         "to": "2.9.2"
       },
       {
-        "toolId": "deno",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.9.1",
-        "to": "2.9.2"
-      },
-      {
-        "toolId": "deno",
+        "toolId": "nvm_windows",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "2.9.1",
-        "to": "2.9.2"
+        "from": "1.2.2",
+        "to": null
       },
       {
-        "toolId": "miniconda",
+        "toolId": "docker_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.80.0",
+        "to": "4.81.0"
+      },
+      {
+        "toolId": "podman",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "py313_26.3.2-2",
-        "to": "py314_26.5.3-1"
+        "from": "6.0.0",
+        "to": "6.0.1"
       },
       {
-        "toolId": "miniconda",
+        "toolId": "podman",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "26.3.2-2",
-        "to": "26.5.3-1"
+        "from": "6.0.0",
+        "to": "6.0.1"
       },
       {
         "toolId": "podman",
         "sourceId": "github",
         "manager": "github",
-        "from": "5.8.4",
-        "to": "5.8.5"
+        "from": "5.8.5",
+        "to": "6.0.1"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.15.7",
+        "to": "1.15.8"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.15.7",
+        "to": "1.15.8"
+      },
+      {
+        "toolId": "vagrant",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.4.9",
+        "to": null
       },
       {
         "toolId": "pulumi",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "3.250.0",
         "to": "3.251.0"
       },
       {
-        "toolId": "pulumi",
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.35.17",
+        "to": "2.35.18"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.250.0",
-        "to": "3.251.0"
+        "from": "2.35.17",
+        "to": "2.35.18"
       },
       {
-        "toolId": "pulumi",
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.250.0",
-        "to": "3.251.0"
+        "from": "2.35.17",
+        "to": "2.35.19"
       },
       {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "575.0.0",
-        "to": "575.0.1"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "575.0.0",
-        "to": "575.0.1"
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.35.16",
+        "to": "2.35.17"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2026.6.1",
         "to": "2026.7.0"
       },
       {
-        "toolId": "cloudflared",
+        "toolId": "android_platform_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "37.0.0",
+        "to": "37.0.1"
+      },
+      {
+        "toolId": "wireshark",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2026.6.1",
-        "to": "2026.7.0"
+        "from": "4.6.6",
+        "to": "4.6.7"
       },
       {
-        "toolId": "cloudflared",
+        "toolId": "wireshark",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "2026.6.1",
-        "to": "2026.7.0"
+        "from": "4.6.6",
+        "to": "4.6.7"
+      },
+      {
+        "toolId": "wireshark",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.6.6",
+        "to": "4.6.7"
+      },
+      {
+        "toolId": "nmap",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "7.99",
+        "to": null
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.110.0-beta.9",
+        "to": "2.110.0-beta.16"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "nvm_windows",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "vagrant",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "nmap",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": 100,
+        "to": 40
+      }
+    ]
   }
 }

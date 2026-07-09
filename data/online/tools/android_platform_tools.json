@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-08T19:55:43.205Z",
-  "status": "ok",
+  "generatedAt": "2026-07-09T04:13:32.312Z",
+  "status": "partial",
   "tool": {
     "id": "android_platform_tools",
     "name": "Android SDK Platform-Tools",
@@ -28,7 +28,7 @@
       "long": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. This package also includes the fastboot.exe command.",
       "source": "choco",
       "homepage": "https://developer.android.com/studio/command-line/adb",
-      "lastUpdatedAt": "2026-07-08T19:55:30.233Z"
+      "lastUpdatedAt": "2026-07-09T04:13:16.397Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-08T19:55:29.472Z",
+          "scannedAt": "2026-07-09T04:13:16.175Z",
           "errors": []
         },
         "package": {
@@ -111,7 +111,7 @@
         },
         "links": {
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "download": "https://dl.google.com/android/repository/platform-tools_r37.0.0-win.zip",
+          "download": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
           "releases": "https://developer.android.com/tools/releases/platform-tools",
           "docs": null
         },
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-07-08T19:55:29.472Z"
+          "lastUpdatedAt": "2026-07-09T04:13:16.175Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "37.0.0",
+            "version": "37.0.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "37.0.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -244,14 +254,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "37.0.0",
+            "version": "37.0.1",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://dl.google.com/android/repository/platform-tools_r37.0.0-win.zip",
+            "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "4fe305812db074cea32903a489d061eb4454cbc90a49e8fea677f4b7af764918",
+            "sha256": "84df1e5628bc7e6a9f2bf750ab98c591a99a6d622fd48f789cf278336bab5b99",
             "sizeBytes": null
           }
         ],
@@ -349,7 +359,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-08T19:55:29.472Z",
+          "lastSuccessfulScanAt": "2026-07-09T04:13:16.175Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -395,7 +405,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-08T19:55:30.151Z",
+          "scannedAt": "2026-07-09T04:13:16.384Z",
           "errors": []
         },
         "package": {
@@ -421,7 +431,7 @@
           "long": "Android SDK component",
           "source": "homebrew",
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-07-08T19:55:30.151Z"
+          "lastUpdatedAt": "2026-07-09T04:13:16.384Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -528,7 +538,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-08T19:55:30.151Z",
+          "lastSuccessfulScanAt": "2026-07-09T04:13:16.384Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -574,7 +584,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-08T19:55:30.180Z",
+          "scannedAt": "2026-07-09T04:13:16.389Z",
           "errors": []
         },
         "package": {
@@ -600,7 +610,7 @@
           "long": "Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot",
           "source": "scoop",
           "homepage": "https://developer.android.com/studio/releases/platform-tools",
-          "lastUpdatedAt": "2026-07-08T19:55:30.180Z"
+          "lastUpdatedAt": "2026-07-09T04:13:16.389Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -706,7 +716,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-08T19:55:30.180Z",
+          "lastSuccessfulScanAt": "2026-07-09T04:13:16.389Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -752,7 +762,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-08T19:55:30.233Z",
+          "scannedAt": "2026-07-09T04:13:16.397Z",
           "errors": []
         },
         "package": {
@@ -781,7 +791,7 @@
           "long": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. This package also includes the fastboot.exe command.",
           "source": "choco",
           "homepage": "https://developer.android.com/studio/command-line/adb",
-          "lastUpdatedAt": "2026-07-08T19:55:30.233Z"
+          "lastUpdatedAt": "2026-07-09T04:13:16.397Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1188,7 +1198,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-08T19:55:30.233Z",
+          "lastSuccessfulScanAt": "2026-07-09T04:13:16.397Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
