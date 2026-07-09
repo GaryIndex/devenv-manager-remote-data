@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T10:02:23.190Z",
+  "generatedAt": "2026-07-09T15:34:00.936Z",
   "status": "partial",
   "tool": {
     "id": "mongodb_compass",
@@ -27,7 +27,7 @@
       "long": "The GUI for MongoDB. Visually explore your data. Run ad hoc queries in seconds. Interact with your data with full CRUD functionality. View and optimize your query performance. Available on Linux, Mac, or Windows. Compass empowers you to make smarter decisions about indexing, document validation, and more.",
       "source": "winget",
       "homepage": "https://www.mongodb.com/products/compass",
-      "lastUpdatedAt": "2026-07-09T10:02:02.849Z"
+      "lastUpdatedAt": "2026-07-09T15:33:28.378Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -79,7 +79,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T10:02:02.849Z",
+          "scannedAt": "2026-07-09T15:33:28.378Z",
           "errors": []
         },
         "package": {
@@ -93,8 +93,8 @@
         },
         "links": {
           "homepage": "https://www.mongodb.com/products/compass",
-          "download": "https://github.com/mongodb-js/compass/releases/download/v1.49.10/mongodb-compass-1.49.10-win32-x64.msi",
-          "releases": "https://github.com/mongodb-js/compass/releases/tag/v1.49.10",
+          "download": "https://github.com/mongodb-js/compass/releases/download/v1.49.11/mongodb-compass-1.49.11-win32-x64.msi",
+          "releases": "https://github.com/mongodb-js/compass/releases/tag/v1.49.11",
           "docs": null
         },
         "descriptions": {
@@ -102,7 +102,7 @@
           "long": "The GUI for MongoDB. Visually explore your data. Run ad hoc queries in seconds. Interact with your data with full CRUD functionality. View and optimize your query performance. Available on Linux, Mac, or Windows. Compass empowers you to make smarter decisions about indexing, document validation, and more.",
           "source": "winget",
           "homepage": "https://www.mongodb.com/products/compass",
-          "lastUpdatedAt": "2026-07-09T10:02:02.849Z"
+          "lastUpdatedAt": "2026-07-09T15:33:28.378Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -122,9 +122,19 @@
         },
         "versions": [
           {
-            "version": "1.49.10.0",
+            "version": "1.49.11.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.49.10.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -322,7 +332,7 @@
             "changelogUrl": null
           },
           {
-            "version": "1.46.7",
+            "version": "1.46.7.0",
             "channel": "stable",
             "latest": false,
             "prerelease": false,
@@ -332,7 +342,7 @@
             "changelogUrl": null
           },
           {
-            "version": "1.46.7.0",
+            "version": "1.46.7",
             "channel": "stable",
             "latest": false,
             "prerelease": false,
@@ -410,29 +420,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.46.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.49.10.0",
+            "version": "1.49.11.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/mongodb-js/compass/releases/download/v1.49.10/mongodb-compass-1.49.10-win32-x64.msi",
+            "url": "https://github.com/mongodb-js/compass/releases/download/v1.49.11/mongodb-compass-1.49.11-win32-x64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "bf4f43c2d962756656a13bf9885096e9da655eb4053e936083c9d5fbbd6e72f7",
+            "sha256": "16bf031913c6ccce5485960fda52b57e0933934e3bb3c18192e9a97c5e32b2c5",
             "sizeBytes": null
           }
         ],
@@ -530,7 +530,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T10:02:02.849Z",
+          "lastSuccessfulScanAt": "2026-07-09T15:33:28.378Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

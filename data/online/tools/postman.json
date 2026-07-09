@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T10:02:23.190Z",
+  "generatedAt": "2026-07-09T15:34:00.936Z",
   "status": "partial",
   "tool": {
     "id": "postman",
@@ -28,7 +28,7 @@
       "long": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
       "source": "winget",
       "homepage": "https://www.postman.com/downloads/",
-      "lastUpdatedAt": "2026-07-09T10:01:58.954Z"
+      "lastUpdatedAt": "2026-07-09T15:33:24.402Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -83,7 +83,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T10:01:58.954Z",
+          "scannedAt": "2026-07-09T15:33:24.402Z",
           "errors": []
         },
         "package": {
@@ -106,7 +106,7 @@
           "long": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
           "source": "winget",
           "homepage": "https://www.postman.com/downloads/",
-          "lastUpdatedAt": "2026-07-09T10:01:58.954Z"
+          "lastUpdatedAt": "2026-07-09T15:33:24.402Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -534,7 +534,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T10:01:58.954Z",
+          "lastSuccessfulScanAt": "2026-07-09T15:33:24.402Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -567,7 +567,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T10:01:58.984Z",
+          "scannedAt": "2026-07-09T15:33:24.936Z",
           "errors": []
         },
         "package": {
@@ -593,7 +593,7 @@
           "long": "Collaboration platform for API development",
           "source": "homebrew",
           "homepage": "https://www.postman.com/",
-          "lastUpdatedAt": "2026-07-09T10:01:58.984Z"
+          "lastUpdatedAt": "2026-07-09T15:33:24.936Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -699,7 +699,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T10:01:58.984Z",
+          "lastSuccessfulScanAt": "2026-07-09T15:33:24.936Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -732,7 +732,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T10:01:59.105Z",
+          "scannedAt": "2026-07-09T15:33:25.036Z",
           "errors": []
         },
         "package": {
@@ -758,7 +758,7 @@
           "long": "Complete API development environment.",
           "source": "scoop",
           "homepage": "https://www.getpostman.com/",
-          "lastUpdatedAt": "2026-07-09T10:01:59.105Z"
+          "lastUpdatedAt": "2026-07-09T15:33:25.036Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -863,7 +863,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T10:01:59.105Z",
+          "lastSuccessfulScanAt": "2026-07-09T15:33:25.036Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -895,34 +895,33 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-09T10:01:59.397Z",
-          "errors": [
-            "details: 503 Service Unavailable: ",
-            "versions: 503 Service Unavailable: "
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-09T15:33:25.300Z",
+          "errors": []
         },
         "package": {
-          "name": "Postman",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Postman for Windows",
+          "publisher": "Postdot Technologies, Inc.",
+          "author": "Postdot Technologies, Inc.",
+          "description": "Postman for Windows",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "",
+          "tags": [
+            "postman"
+          ]
         },
         "links": {
           "homepage": "https://www.postman.com/",
-          "download": "https://www.postman.com/",
-          "releases": null,
+          "download": "https://community.chocolatey.org/api/v2/package/postman/12.18.3",
+          "releases": "",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Postman for Windows",
+          "long": "Postman helps you be more efficient while working with APIs. Using Postman, you can construct complex HTTP requests quickly, organize them in collections and share them with your co-workers.",
           "source": "choco",
           "homepage": "https://www.postman.com/",
-          "lastUpdatedAt": "2026-07-09T10:01:59.397Z"
+          "lastUpdatedAt": "2026-07-09T15:33:25.300Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -940,18 +939,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "12.18.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.18.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.18.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.17.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.17.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.17.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.17.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.17.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.16.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.16.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.16.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.16.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.15.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.15.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.15.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.14.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.14.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.14.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.14.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.13.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.13.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.13.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.13.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.12.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.12.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.12.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.12.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.12.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "12.18.3",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://www.postman.com/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/postman/12.18.3",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "7AQSdQAWU27t4q0zH8/9A4YN1NJu62La0dASWaL8txPTU6IxM63BD1NX5XX+dm2cZoAdCGfszxCX8brQF4z5ww==",
             "sizeBytes": null
           }
         ],
@@ -1020,11 +1320,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-09T15:33:25.300Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

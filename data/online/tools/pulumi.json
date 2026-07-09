@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T10:02:23.190Z",
+  "generatedAt": "2026-07-09T15:34:00.936Z",
   "status": "partial",
   "tool": {
     "id": "pulumi",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Pulumi CLI for managing modern infrastructure as code",
-      "long": "Pulumi CLI for managing modern infrastructure as code",
-      "source": "winget",
-      "homepage": "https://www.pulumi.com",
-      "lastUpdatedAt": "2026-07-09T10:01:56.550Z"
+      "short": "Pulumi - Modern Infrastructure as Code",
+      "long": "Modern Infrastructure as Code Declare cloud infrastructure using real languages. Enable developers and operators to work better together.",
+      "source": "choco",
+      "homepage": "https://www.pulumi.com/",
+      "lastUpdatedAt": "2026-07-09T15:33:22.844Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T10:01:56.550Z",
+          "scannedAt": "2026-07-09T15:33:22.503Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "Pulumi CLI for managing modern infrastructure as code",
           "source": "winget",
           "homepage": "https://www.pulumi.com",
-          "lastUpdatedAt": "2026-07-09T10:01:56.550Z"
+          "lastUpdatedAt": "2026-07-09T15:33:22.503Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T10:01:56.550Z",
+          "lastSuccessfulScanAt": "2026-07-09T15:33:22.503Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T10:01:57.235Z",
+          "scannedAt": "2026-07-09T15:33:22.617Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Cloud native development platform",
           "source": "homebrew",
           "homepage": "https://www.pulumi.com/",
-          "lastUpdatedAt": "2026-07-09T10:01:57.235Z"
+          "lastUpdatedAt": "2026-07-09T15:33:22.617Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T10:01:57.235Z",
+          "lastSuccessfulScanAt": "2026-07-09T15:33:22.617Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T10:01:57.318Z",
+          "scannedAt": "2026-07-09T15:33:22.718Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Create, deploy, and manage infrastructure on any cloud using any language.",
           "source": "scoop",
           "homepage": "https://www.pulumi.com",
-          "lastUpdatedAt": "2026-07-09T10:01:57.318Z"
+          "lastUpdatedAt": "2026-07-09T15:33:22.718Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T10:01:57.318Z",
+          "lastSuccessfulScanAt": "2026-07-09T15:33:22.718Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -950,34 +950,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-09T10:01:57.397Z",
-          "errors": [
-            "details: 503 Service Unavailable: ",
-            "versions: 503 Service Unavailable: "
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-09T15:33:22.844Z",
+          "errors": []
         },
         "package": {
-          "name": "Pulumi",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "name": "Pulumi (Portable)",
+          "publisher": "Pulumi",
+          "author": "Pulumi",
+          "description": "Pulumi - Modern Infrastructure as Code",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/pulumi/pulumi/blob/master/LICENSE",
+          "tags": [
+            "pulumi",
+            "sdk"
+          ]
         },
         "links": {
           "homepage": "https://www.pulumi.com/",
-          "download": "https://www.pulumi.com/",
-          "releases": null,
+          "download": "https://community.chocolatey.org/api/v2/package/pulumi/3.251.0",
+          "releases": "https://github.com/pulumi/pulumi/blob/master/CHANGELOG.md",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Pulumi - Modern Infrastructure as Code",
+          "long": "Modern Infrastructure as Code Declare cloud infrastructure using real languages. Enable developers and operators to work better together.",
           "source": "choco",
           "homepage": "https://www.pulumi.com/",
-          "lastUpdatedAt": "2026-07-09T10:01:57.397Z"
+          "lastUpdatedAt": "2026-07-09T15:33:22.844Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -986,7 +986,8 @@
           "keywords": [
             "pulumi",
             "Pulumi",
-            "choco"
+            "choco",
+            "sdk"
           ],
           "relatedTools": []
         },
@@ -995,18 +996,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "3.251.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.250.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.249.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.248.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.247.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.245.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.244.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.243.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.242.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.241.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.239.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.238.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.237.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.236.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.235.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.234.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.233.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.231.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.230.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.229.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.228.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.227.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.226.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.225.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.225.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.224.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.222.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.221.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.220.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.219.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "3.251.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://www.pulumi.com/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/pulumi/3.251.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "pBCS7e9Fw2J1gc4wlRU9ACwsQwxG3wU9qb7JoBZuNxJIxQ2Io33LEjzpq8PrkwCwpOxWoUwe9uNh3E2awUeLmw==",
             "sizeBytes": null
           }
         ],
@@ -1075,11 +1377,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-09T15:33:22.844Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1126,7 +1428,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T10:01:57.535Z",
+          "scannedAt": "2026-07-09T15:33:22.852Z",
           "errors": []
         },
         "package": {
@@ -1168,7 +1470,7 @@
           "long": "Pulumi - Infrastructure as Code in any programming language 🚀",
           "source": "github",
           "homepage": "https://www.pulumi.com",
-          "lastUpdatedAt": "2026-07-09T10:01:57.535Z"
+          "lastUpdatedAt": "2026-07-09T15:33:22.852Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2473,7 +2775,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T10:01:57.535Z",
+          "lastSuccessfulScanAt": "2026-07-09T15:33:22.852Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
