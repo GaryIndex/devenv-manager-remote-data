@@ -1,180 +1,68 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T15:34:00.936Z",
-  "fromGeneratedAt": "2026-07-09T10:02:23.190Z",
-  "toGeneratedAt": "2026-07-09T15:34:00.936Z",
-  "status": "partial",
+  "generatedAt": "2026-07-09T20:04:07.255Z",
+  "fromGeneratedAt": "2026-07-09T15:34:00.936Z",
+  "toGeneratedAt": "2026-07-09T20:04:07.255Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 24,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 26,
-    "qualityChanges": 21
+    "versionChanges": 11,
+    "qualityChanges": 3
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "github_cli",
-      "vscode",
-      "vscodium",
-      "neovim",
-      "oh_my_posh",
-      "ripgrep",
-      "node_current",
-      "deno",
-      "rustup",
-      "temurin_21",
+      "miniconda",
       "cmake",
       "docker_desktop",
-      "kubectl",
-      "pulumi",
-      "aws_cli",
-      "azure_cli",
       "cloudflared",
       "postman",
-      "mongodb_compass",
       "flutter",
+      "wireshark",
       "nmap",
-      "stripe_cli",
-      "supabase_cli",
-      "elixir"
+      "vercel_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "github_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "2.96.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.128.0"
-      },
-      {
-        "toolId": "vscodium",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.121.03429",
-        "to": "1.126.04524"
-      },
-      {
-        "toolId": "neovim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "0.12.4"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "29.23.0"
-      },
-      {
-        "toolId": "ripgrep",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "14.1.0"
-      },
-      {
-        "toolId": "node_current",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "26.5.0"
-      },
-      {
-        "toolId": "deno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "2.9.2"
-      },
-      {
-        "toolId": "rustup",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.11.0-beta1"
-      },
-      {
-        "toolId": "temurin_21",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "21.0.9.10"
+        "toolId": "miniconda",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.5.3-1",
+        "to": "26.3.2-2"
       },
       {
         "toolId": "cmake",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "4.4.0-rc3"
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.4.0-rc3",
+        "to": "4.4.0"
       },
       {
         "toolId": "docker_desktop",
         "sourceId": "choco",
         "manager": "choco",
-        "from": null,
-        "to": "4.81.0"
-      },
-      {
-        "toolId": "kubectl",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.36.2"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "3.251.0"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "2.35.19"
-      },
-      {
-        "toolId": "azure_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "2.88.0"
+        "from": "4.81.0",
+        "to": "4.81.0.20260709"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2026.7.0",
         "to": "2026.7.1"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "2026.7.0"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2026.7.0",
         "to": "2026.7.1"
       },
@@ -182,195 +70,62 @@
         "toolId": "postman",
         "sourceId": "choco",
         "manager": "choco",
-        "from": null,
-        "to": "12.18.3"
-      },
-      {
-        "toolId": "mongodb_compass",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.49.10.0",
-        "to": "1.49.11.0"
+        "from": "12.18.3",
+        "to": "12.18.4"
       },
       {
         "toolId": "flutter",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.41.9",
-        "to": null
+        "from": null,
+        "to": "3.41.9"
+      },
+      {
+        "toolId": "wireshark",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": null,
+        "to": "4.6.7"
       },
       {
         "toolId": "nmap",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "7.99.0",
-        "to": null
+        "from": null,
+        "to": "7.99.0"
       },
       {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.43.6"
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@54.21.1",
+        "to": "ercel@55.0.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.18",
-        "to": "2.110.0-beta.20"
-      },
-      {
-        "toolId": "elixir",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.20.2"
+        "from": "2.110.0-beta.20",
+        "to": "2.110.0-beta.21"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "github_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "neovim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "ripgrep",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "node_current",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "deno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "rustup",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "temurin_21",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "docker_desktop",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "kubectl",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "azure_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
         "toolId": "flutter",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
-        "toolId": "nmap",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 100,
-        "to": 40
-      },
-      {
-        "toolId": "stripe_cli",
+        "toolId": "wireshark",
         "sourceId": "choco",
         "manager": "choco",
         "from": 40,
         "to": 100
       },
       {
-        "toolId": "elixir",
+        "toolId": "nmap",
         "sourceId": "choco",
         "manager": "choco",
         "from": 40,
