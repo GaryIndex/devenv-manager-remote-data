@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T04:13:32.312Z",
+  "generatedAt": "2026-07-09T10:02:23.190Z",
   "status": "partial",
   "tool": {
     "id": "neovim",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Vim-fork focused on extensibility and usability.",
-      "long": "Features Extensible - API is first-class: discoverable, versioned, documented. - MessagePack structured communication enables extensions in any language. - Remote plugins run as co-processes, safely and asynchronously. - GUIs, IDEs, web browsers can --embed Neovim as an editor or script host. - Lua plugins are easy to create just like Vimscript plugins. Your config can live in init.lua! - AST-producing parsing engine enables faster, more accurate syntax highlighting, code navigation, refactoring, text objects, and motions. Usable - Strong defaults including a unique, minimalist colorscheme. - Builtin LSP client for semantic code inspection and refactoring (go-to definition, 'find references', format, ...). - Client-server architecture allows you to detach the UI and keep the editor session running (like tmux). Attach multiple UIs to any Nvim session. - Works the same everywhere: one build-type, one command. - Modern terminal features such as cursor styling, focus events, bracketed paste. - Builtin :terminal set the standard for 'TTY as a basic component'. Drop-in Vim - Fully compatible with Vim's editing model and Vimscript v1. - Start with :help nvim-from-vim if you already use...",
-      "source": "choco",
+      "short": "Ambitious Vim-fork focused on extensibility and agility",
+      "long": "Ambitious Vim-fork focused on extensibility and agility",
+      "source": "homebrew",
       "homepage": "https://neovim.io/",
-      "lastUpdatedAt": "2026-07-09T04:12:37.853Z"
+      "lastUpdatedAt": "2026-07-09T10:01:32.261Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -99,7 +99,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T04:12:37.558Z",
+          "scannedAt": "2026-07-09T10:01:32.173Z",
           "errors": []
         },
         "package": {
@@ -122,7 +122,7 @@
           "long": "Vim-fork focused on extensibility and usability",
           "source": "winget",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-07-09T04:12:37.558Z"
+          "lastUpdatedAt": "2026-07-09T10:01:32.173Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -501,7 +501,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T04:12:37.558Z",
+          "lastSuccessfulScanAt": "2026-07-09T10:01:32.173Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -548,7 +548,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T04:12:37.789Z",
+          "scannedAt": "2026-07-09T10:01:32.261Z",
           "errors": []
         },
         "package": {
@@ -574,7 +574,7 @@
           "long": "Ambitious Vim-fork focused on extensibility and agility",
           "source": "homebrew",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-07-09T04:12:37.789Z"
+          "lastUpdatedAt": "2026-07-09T10:01:32.261Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -681,7 +681,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T04:12:37.789Z",
+          "lastSuccessfulScanAt": "2026-07-09T10:01:32.261Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -727,7 +727,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T04:12:37.800Z",
+          "scannedAt": "2026-07-09T10:01:32.348Z",
           "errors": []
         },
         "package": {
@@ -753,7 +753,7 @@
           "long": "Vim-fork focused on extensibility and usability",
           "source": "scoop",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-07-09T04:12:37.800Z"
+          "lastUpdatedAt": "2026-07-09T10:01:32.348Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -859,7 +859,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T04:12:37.800Z",
+          "lastSuccessfulScanAt": "2026-07-09T10:01:32.348Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -904,42 +904,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-09T04:12:37.853Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-09T10:01:32.536Z",
+          "errors": [
+            "details: 503 Service Unavailable: ",
+            "versions: 503 Service Unavailable: "
+          ]
         },
         "package": {
           "name": "Neovim",
-          "publisher": "Neovim contributors",
-          "author": "Neovim contributors",
-          "description": "Vim-fork focused on extensibility and usability.",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://raw.githubusercontent.com/neovim/neovim/master/LICENSE.txt",
-          "tags": [
-            "vi",
-            "vim",
-            "gvim",
-            "neovim",
-            "text",
-            "editor",
-            "sublime",
-            "atom",
-            "emacs",
-            "notepad"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
           "homepage": "https://neovim.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/neovim/0.12.4",
-          "releases": "Release notes [here](https://github.com/neovim/neovim/releases/tag/v0.12.4).",
+          "download": "https://neovim.io/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Vim-fork focused on extensibility and usability.",
-          "long": "Features Extensible - API is first-class: discoverable, versioned, documented. - MessagePack structured communication enables extensions in any language. - Remote plugins run as co-processes, safely and asynchronously. - GUIs, IDEs, web browsers can --embed Neovim as an editor or script host. - Lua plugins are easy to create just like Vimscript plugins. Your config can live in init.lua! - AST-producing parsing engine enables faster, more accurate syntax highlighting, code navigation, refactoring, text objects, and motions. Usable - Strong defaults including a unique, minimalist colorscheme. - Builtin LSP client for semantic code inspection and refactoring (go-to definition, 'find references', format, ...). - Client-server architecture allows you to detach the UI and keep the editor session running (like tmux). Attach multiple UIs to any Nvim session. - Works the same everywhere: one build-type, one command. - Modern terminal features such as cursor styling, focus events, bracketed paste. - Builtin :terminal set the standard for 'TTY as a basic component'. Drop-in Vim - Fully compatible with Vim's editing model and Vimscript v1. - Start with :help nvim-from-vim if you already use...",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-07-09T04:12:37.853Z"
+          "lastUpdatedAt": "2026-07-09T10:01:32.536Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -949,16 +941,7 @@
             "neovim",
             "Neovim",
             "nvim",
-            "choco",
-            "vi",
-            "vim",
-            "gvim",
-            "text",
-            "editor",
-            "sublime",
-            "atom",
-            "emacs",
-            "notepad"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -967,319 +950,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "0.12.4",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.5-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.4-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.3-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.1-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.8-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.7-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.6-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.5-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.6.0.20211125-beta",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.0.0.928-nightly",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.0.0.926-nightly",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.0.0.924-nightly",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.0.0.866-nightly",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.10.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.2.0.20170610",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "0.12.4",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/neovim/0.12.4",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "mbrbkdfP9zLSMcnsCOe8W51akE2O3ClMx5Czx17XmpeqroQAcQlH0rcE/q9zrB6ClZSf/esV/JrBIV1obmyNGA==",
+            "url": "https://neovim.io/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1348,11 +1030,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T04:12:37.853Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1399,7 +1081,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-09T04:12:37.910Z",
+          "scannedAt": "2026-07-09T10:01:32.667Z",
           "errors": []
         },
         "package": {
@@ -1430,7 +1112,7 @@
           "long": "Vim-fork focused on extensibility and usability",
           "source": "github",
           "homepage": "https://neovim.io",
-          "lastUpdatedAt": "2026-07-09T04:12:37.910Z"
+          "lastUpdatedAt": "2026-07-09T10:01:32.667Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1461,7 +1143,7 @@
             "latest": true,
             "prerelease": true,
             "lts": null,
-            "releaseDate": "2026-07-08T06:08:33Z",
+            "releaseDate": "2026-07-09T06:43:47Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/neovim/neovim/releases/tag/nightly"
           },
@@ -1767,7 +1449,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 20142600
+            "sizeBytes": 20134408
           },
           {
             "id": "nvim-linux-arm64.appimage.zsync",
@@ -1779,7 +1461,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 69073
+            "sizeBytes": 69045
           },
           {
             "id": "nvim-linux-arm64.tar.gz",
@@ -1791,7 +1473,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 21325593
+            "sizeBytes": 21326895
           },
           {
             "id": "nvim-linux-x86_64.appimage",
@@ -1803,7 +1485,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 20163064
+            "sizeBytes": 20167160
           },
           {
             "id": "nvim-linux-x86_64.appimage.zsync",
@@ -1815,7 +1497,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 69145
+            "sizeBytes": 69159
           },
           {
             "id": "nvim-linux-x86_64.tar.gz",
@@ -1827,7 +1509,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 21194242
+            "sizeBytes": 21195543
           },
           {
             "id": "nvim-macos-arm64.tar.gz",
@@ -1839,7 +1521,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 9878850
+            "sizeBytes": 9879569
           },
           {
             "id": "nvim-macos-x86_64.tar.gz",
@@ -1851,7 +1533,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 10130445
+            "sizeBytes": 10131625
           },
           {
             "id": "nvim-win-arm64.msi",
@@ -1863,7 +1545,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 18932444
+            "sizeBytes": 18924252
           },
           {
             "id": "nvim-win-arm64.zip",
@@ -1875,7 +1557,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 19197072
+            "sizeBytes": 19193512
           },
           {
             "id": "nvim-win64.msi",
@@ -1887,7 +1569,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 18735836
+            "sizeBytes": 18694876
           },
           {
             "id": "nvim-win64.zip",
@@ -1899,7 +1581,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 18976228
+            "sizeBytes": 18938965
           },
           {
             "id": "nvim-linux-arm64.appimage",
@@ -2723,7 +2405,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-09T04:12:37.910Z",
+          "lastSuccessfulScanAt": "2026-07-09T10:01:32.667Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
