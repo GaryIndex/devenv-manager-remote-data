@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-10T14:51:41.594Z",
-  "status": "ok",
+  "generatedAt": "2026-07-10T19:52:07.786Z",
+  "status": "partial",
   "tool": {
     "id": "pgadmin",
     "name": "pgAdmin",
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -78,31 +78,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-10T14:51:20.951Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-10T19:51:42.056Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r                                                                                                                        \rAn unexpected error occurred while executing the command:\nDownload request status is not success.\n0x801901f8 : Gateway timeout (504)."
+          ]
         },
         "package": {
           "name": "pgAdmin",
-          "publisher": "The pgAdmin Development Team",
-          "author": "The pgAdmin Development Team",
+          "publisher": null,
+          "author": null,
           "description": null,
-          "license": "PostgreSQL",
-          "licenseUrl": "https://www.pgadmin.org/licence/",
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://www.pgadmin.org/download/pgadmin-4-windows/",
-          "download": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/windows/pgadmin4-9.16-x64.exe",
-          "releases": "https://www.pgadmin.org/docs/pgadmin4/9.16/release_notes_9_16.html",
+          "homepage": "https://www.pgadmin.org/",
+          "download": "https://www.pgadmin.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://www.pgadmin.org/download/pgadmin-4-windows/",
-          "lastUpdatedAt": "2026-07-10T14:51:20.951Z"
+          "homepage": "https://www.pgadmin.org/",
+          "lastUpdatedAt": "2026-07-10T19:51:42.056Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -388,11 +390,11 @@
             "version": "9.16",
             "platform": "windows",
             "architecture": null,
-            "type": "inno",
-            "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/windows/pgadmin4-9.16-x64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "06a0e2f2586099e038d7dc34da20f94f86465696c0238e9c86032bc933d00067",
+            "type": "package-manager",
+            "url": "https://www.pgadmin.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -487,11 +489,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-10T14:51:20.951Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
