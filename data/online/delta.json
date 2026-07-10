@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-10T04:14:45.954Z",
-  "fromGeneratedAt": "2026-07-09T20:04:07.255Z",
-  "toGeneratedAt": "2026-07-10T04:14:45.954Z",
+  "generatedAt": "2026-07-10T09:53:28.938Z",
+  "fromGeneratedAt": "2026-07-10T04:14:45.954Z",
+  "toGeneratedAt": "2026-07-10T09:53:28.938Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 13,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 23,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,16 +18,8 @@
     "removedTools": [],
     "changedTools": [
       "oh_my_posh",
-      "pnpm",
-      "miniconda",
-      "rust_msvc",
       "cmake",
-      "helm",
-      "aws_cli",
-      "cloudflared",
-      "android_platform_tools",
-      "flutter",
-      "sysinternals_suite",
+      "postman",
       "stripe_cli",
       "supabase_cli"
     ],
@@ -36,155 +28,50 @@
     "versionChanges": [
       {
         "toolId": "oh_my_posh",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "29.22.1",
-        "to": "29.24.0"
-      },
-      {
-        "toolId": "oh_my_posh",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "29.23.0",
-        "to": "29.24.0"
+        "from": "29.24.0",
+        "to": "29.24.1"
       },
       {
         "toolId": "oh_my_posh",
         "sourceId": "github",
         "manager": "github",
-        "from": "29.23.0",
-        "to": "29.24.0"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "11.10.0",
-        "to": "11.11.0"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "11.10.0",
-        "to": "11.11.0"
-      },
-      {
-        "toolId": "miniconda",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "26.3.2-2",
-        "to": "26.5.3-1"
-      },
-      {
-        "toolId": "rust_msvc",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.96.1",
-        "to": "1.97.0"
+        "from": "29.24.0",
+        "to": "29.24.1"
       },
       {
         "toolId": "cmake",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "4.3.4",
         "to": "4.4.0"
       },
       {
-        "toolId": "helm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.2.2",
-        "to": "4.2.3"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.2.2",
-        "to": "4.2.3"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "4.2.2",
-        "to": "4.2.3"
-      },
-      {
-        "toolId": "helm",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "3.21.2",
-        "to": "4.2.3"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.35.19",
-        "to": "2.35.20"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.35.19",
-        "to": "2.35.20"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.35.19",
-        "to": "2.35.20"
-      },
-      {
-        "toolId": "cloudflared",
+        "toolId": "cmake",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2026.7.0",
-        "to": "2026.7.1"
+        "from": "4.4.0-rc3",
+        "to": "4.4.0"
       },
       {
-        "toolId": "android_platform_tools",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "37.0.0",
-        "to": "37.0.1"
-      },
-      {
-        "toolId": "flutter",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.44.5",
-        "to": "3.44.6"
-      },
-      {
-        "toolId": "flutter",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "3.44.5",
-        "to": "3.44.6"
-      },
-      {
-        "toolId": "sysinternals_suite",
+        "toolId": "postman",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "2026-06-17",
-        "to": "2026-07-09"
+        "from": "12.18.4",
+        "to": "12.18.5"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.18.4",
+        "to": "12.18.5"
       },
       {
         "toolId": "stripe_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.43.6",
-        "to": "1.43.7"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.43.6",
         "to": "1.43.7"
       },
@@ -192,8 +79,8 @@
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.21",
-        "to": "2.110.0-beta.22"
+        "from": "2.110.0-beta.22",
+        "to": "2.110.0-beta.23"
       }
     ],
     "qualityChanges": []
