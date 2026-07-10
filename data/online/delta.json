@@ -1,136 +1,201 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T20:04:07.255Z",
-  "fromGeneratedAt": "2026-07-09T15:34:00.936Z",
-  "toGeneratedAt": "2026-07-09T20:04:07.255Z",
+  "generatedAt": "2026-07-10T04:14:45.954Z",
+  "fromGeneratedAt": "2026-07-09T20:04:07.255Z",
+  "toGeneratedAt": "2026-07-10T04:14:45.954Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 13,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
-    "qualityChanges": 3
+    "versionChanges": 23,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "oh_my_posh",
+      "pnpm",
       "miniconda",
+      "rust_msvc",
       "cmake",
-      "docker_desktop",
+      "helm",
+      "aws_cli",
       "cloudflared",
-      "postman",
+      "android_platform_tools",
       "flutter",
-      "wireshark",
-      "nmap",
-      "vercel_cli",
+      "sysinternals_suite",
+      "stripe_cli",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "29.22.1",
+        "to": "29.24.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.23.0",
+        "to": "29.24.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.23.0",
+        "to": "29.24.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "11.10.0",
+        "to": "11.11.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "11.10.0",
+        "to": "11.11.0"
+      },
+      {
         "toolId": "miniconda",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "26.5.3-1",
-        "to": "26.3.2-2"
+        "from": "26.3.2-2",
+        "to": "26.5.3-1"
+      },
+      {
+        "toolId": "rust_msvc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.96.1",
+        "to": "1.97.0"
       },
       {
         "toolId": "cmake",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "4.4.0-rc3",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "4.3.4",
         "to": "4.4.0"
       },
       {
-        "toolId": "docker_desktop",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "4.81.0",
-        "to": "4.81.0.20260709"
-      },
-      {
-        "toolId": "cloudflared",
+        "toolId": "helm",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "2026.7.0",
-        "to": "2026.7.1"
+        "from": "4.2.2",
+        "to": "4.2.3"
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "4.2.2",
+        "to": "4.2.3"
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "4.2.2",
+        "to": "4.2.3"
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.21.2",
+        "to": "4.2.3"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.35.19",
+        "to": "2.35.20"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.35.19",
+        "to": "2.35.20"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.35.19",
+        "to": "2.35.20"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2026.7.0",
         "to": "2026.7.1"
       },
       {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.18.3",
-        "to": "12.18.4"
+        "toolId": "android_platform_tools",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "37.0.0",
+        "to": "37.0.1"
       },
       {
         "toolId": "flutter",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "3.41.9"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.44.5",
+        "to": "3.44.6"
       },
       {
-        "toolId": "wireshark",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "4.6.7"
+        "toolId": "flutter",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.44.5",
+        "to": "3.44.6"
       },
       {
-        "toolId": "nmap",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "7.99.0"
+        "toolId": "sysinternals_suite",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2026-06-17",
+        "to": "2026-07-09"
       },
       {
-        "toolId": "vercel_cli",
+        "toolId": "stripe_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.43.6",
+        "to": "1.43.7"
+      },
+      {
+        "toolId": "stripe_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "ercel@54.21.1",
-        "to": "ercel@55.0.0"
+        "from": "1.43.6",
+        "to": "1.43.7"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.20",
-        "to": "2.110.0-beta.21"
+        "from": "2.110.0-beta.21",
+        "to": "2.110.0-beta.22"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "flutter",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "wireshark",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "nmap",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
