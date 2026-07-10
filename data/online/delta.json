@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-10T09:53:28.938Z",
-  "fromGeneratedAt": "2026-07-10T04:14:45.954Z",
-  "toGeneratedAt": "2026-07-10T09:53:28.938Z",
+  "generatedAt": "2026-07-10T14:51:41.594Z",
+  "fromGeneratedAt": "2026-07-10T09:53:28.938Z",
+  "toGeneratedAt": "2026-07-10T14:51:41.594Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,10 +18,11 @@
     "removedTools": [],
     "changedTools": [
       "oh_my_posh",
-      "cmake",
-      "postman",
-      "stripe_cli",
-      "supabase_cli"
+      "pnpm",
+      "terraform",
+      "aws_cli",
+      "supabase_cli",
+      "godot"
     ],
     "addedSources": [],
     "removedSources": [],
@@ -30,57 +31,50 @@
         "toolId": "oh_my_posh",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "29.24.0",
-        "to": "29.24.1"
+        "from": "29.24.1",
+        "to": "29.25.0"
       },
       {
         "toolId": "oh_my_posh",
         "sourceId": "github",
         "manager": "github",
-        "from": "29.24.0",
-        "to": "29.24.1"
+        "from": "29.24.1",
+        "to": "29.25.0"
       },
       {
-        "toolId": "cmake",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.3.4",
-        "to": "4.4.0"
-      },
-      {
-        "toolId": "cmake",
+        "toolId": "pnpm",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "4.4.0-rc3",
-        "to": "4.4.0"
+        "from": "11.10.0",
+        "to": "11.11.0"
       },
       {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.18.4",
-        "to": "12.18.5"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.18.4",
-        "to": "12.18.5"
-      },
-      {
-        "toolId": "stripe_cli",
+        "toolId": "terraform",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.43.6",
-        "to": "1.43.7"
+        "from": "1.16.0-alpha20260706",
+        "to": "1.15.8"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.35.19",
+        "to": "2.35.20"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.22",
-        "to": "2.110.0-beta.23"
+        "from": "2.110.0-beta.23",
+        "to": "2.110.0-beta.25"
+      },
+      {
+        "toolId": "godot",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.7.1-rc1",
+        "to": "4.7.1-rc2"
       }
     ],
     "qualityChanges": []
