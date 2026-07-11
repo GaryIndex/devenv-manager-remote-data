@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-11T03:42:11.535Z",
+  "generatedAt": "2026-07-11T08:14:48.221Z",
   "status": "ok",
   "tool": {
     "id": "cmake",
@@ -29,7 +29,7 @@
       "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
       "source": "choco",
       "homepage": "https://www.cmake.org/",
-      "lastUpdatedAt": "2026-07-11T03:41:33.772Z"
+      "lastUpdatedAt": "2026-07-11T08:14:17.036Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -100,7 +100,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T03:41:33.560Z",
+          "scannedAt": "2026-07-11T08:14:16.902Z",
           "errors": []
         },
         "package": {
@@ -114,8 +114,8 @@
         },
         "links": {
           "homepage": "https://cmake.org/",
-          "download": "https://github.com/Kitware/CMake/releases/download/v4.3.4/cmake-4.3.4-windows-x86_64.msi",
-          "releases": "https://github.com/Kitware/CMake/releases/tag/v4.3.4",
+          "download": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0-windows-x86_64.msi",
+          "releases": "https://github.com/Kitware/CMake/releases/tag/v4.4.0",
           "docs": null
         },
         "descriptions": {
@@ -123,7 +123,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://cmake.org/",
-          "lastUpdatedAt": "2026-07-11T03:41:33.560Z"
+          "lastUpdatedAt": "2026-07-11T08:14:16.902Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -143,9 +143,19 @@
         },
         "versions": [
           {
-            "version": "4.3.4",
+            "version": "4.4.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.4",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -431,29 +441,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.30.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "4.3.4",
+            "version": "4.4.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/Kitware/CMake/releases/download/v4.3.4/cmake-4.3.4-windows-x86_64.msi",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0-windows-x86_64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "6f54ab92a19bf7d6695a40f3a774a8d1a54e90730c726fad8afb44544db892da",
+            "sha256": "82db53fcb8f38be541a26093489f39d5ed79b71b53cd121fc32a022a6bf310b1",
             "sizeBytes": null
           }
         ],
@@ -551,7 +551,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T03:41:33.560Z",
+          "lastSuccessfulScanAt": "2026-07-11T08:14:16.902Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -600,7 +600,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T03:41:33.676Z",
+          "scannedAt": "2026-07-11T08:14:16.969Z",
           "errors": []
         },
         "package": {
@@ -626,7 +626,7 @@
           "long": "Cross-platform make",
           "source": "homebrew",
           "homepage": "https://www.cmake.org/",
-          "lastUpdatedAt": "2026-07-11T03:41:33.676Z"
+          "lastUpdatedAt": "2026-07-11T08:14:16.969Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -732,7 +732,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T03:41:33.676Z",
+          "lastSuccessfulScanAt": "2026-07-11T08:14:16.969Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -780,7 +780,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T03:41:33.708Z",
+          "scannedAt": "2026-07-11T08:14:16.985Z",
           "errors": []
         },
         "package": {
@@ -806,7 +806,7 @@
           "long": "Family of tools designed to build, test and package software",
           "source": "scoop",
           "homepage": "https://cmake.org",
-          "lastUpdatedAt": "2026-07-11T03:41:33.708Z"
+          "lastUpdatedAt": "2026-07-11T08:14:16.985Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -911,7 +911,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T03:41:33.708Z",
+          "lastSuccessfulScanAt": "2026-07-11T08:14:16.985Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -959,7 +959,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T03:41:33.772Z",
+          "scannedAt": "2026-07-11T08:14:17.036Z",
           "errors": []
         },
         "package": {
@@ -989,7 +989,7 @@
           "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
           "source": "choco",
           "homepage": "https://www.cmake.org/",
-          "lastUpdatedAt": "2026-07-11T03:41:33.772Z"
+          "lastUpdatedAt": "2026-07-11T08:14:17.036Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1396,7 +1396,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T03:41:33.772Z",
+          "lastSuccessfulScanAt": "2026-07-11T08:14:17.036Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1446,7 +1446,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T03:41:33.814Z",
+          "scannedAt": "2026-07-11T08:14:17.108Z",
           "errors": []
         },
         "package": {
@@ -1469,7 +1469,7 @@
           "long": "Mirror of CMake upstream repository",
           "source": "github",
           "homepage": "https://gitlab.kitware.com/cmake/cmake",
-          "lastUpdatedAt": "2026-07-11T03:41:33.814Z"
+          "lastUpdatedAt": "2026-07-11T08:14:17.108Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2756,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T03:41:33.814Z",
+          "lastSuccessfulScanAt": "2026-07-11T08:14:17.108Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
