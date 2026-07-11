@@ -1,64 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-11T08:14:48.221Z",
-  "fromGeneratedAt": "2026-07-11T03:42:11.535Z",
-  "toGeneratedAt": "2026-07-11T08:14:48.221Z",
+  "generatedAt": "2026-07-11T13:53:55.380Z",
+  "fromGeneratedAt": "2026-07-11T08:14:48.221Z",
+  "toGeneratedAt": "2026-07-11T13:53:55.380Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 3,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
-      "cmake",
-      "wireshark",
-      "unity_hub"
+      "oh_my_posh",
+      "aws_cli",
+      "beekeeper_studio"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.128.0",
-        "to": "1.127.0"
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.25.1",
+        "to": "29.26.0"
       },
       {
-        "toolId": "cmake",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.3.4",
-        "to": "4.4.0"
-      },
-      {
-        "toolId": "wireshark",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.6.6",
-        "to": "4.6.7"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.19.4",
-        "to": "3.19.5"
-      },
-      {
-        "toolId": "unity_hub",
+        "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.19.4",
-        "to": "3.19.5"
+        "from": "2.35.20",
+        "to": "2.35.21"
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "5.9.1",
+        "to": "5.9.2"
       }
     ],
     "qualityChanges": []
