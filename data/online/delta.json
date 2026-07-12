@@ -1,62 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-11T19:32:10.339Z",
-  "fromGeneratedAt": "2026-07-11T13:53:55.380Z",
-  "toGeneratedAt": "2026-07-11T19:32:10.339Z",
+  "generatedAt": "2026-07-12T03:56:52.190Z",
+  "fromGeneratedAt": "2026-07-11T19:32:10.339Z",
+  "toGeneratedAt": "2026-07-12T03:56:52.190Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 2,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 4,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "neovim",
       "oh_my_posh",
-      "uv"
+      "pnpm"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
+        "toolId": "neovim",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "29.25.1",
-        "to": "29.26.0"
+        "from": "0.12.3",
+        "to": "0.12.4"
       },
       {
         "toolId": "oh_my_posh",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "29.25.1",
-        "to": "29.26.0"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "29.25.1",
-        "to": "29.26.0"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
         "from": "29.26.0",
         "to": "29.26.1"
       },
       {
-        "toolId": "uv",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.11.26",
-        "to": "0.11.28"
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "11.11.0",
+        "to": "11.12.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "11.11.0",
+        "to": "11.12.0"
       }
     ],
     "qualityChanges": []

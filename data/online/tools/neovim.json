@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-11T19:32:10.339Z",
+  "generatedAt": "2026-07-12T03:56:52.190Z",
   "status": "ok",
   "tool": {
     "id": "neovim",
@@ -29,7 +29,7 @@
       "long": "Features Extensible - API is first-class: discoverable, versioned, documented. - MessagePack structured communication enables extensions in any language. - Remote plugins run as co-processes, safely and asynchronously. - GUIs, IDEs, web browsers can --embed Neovim as an editor or script host. - Lua plugins are easy to create just like Vimscript plugins. Your config can live in init.lua! - AST-producing parsing engine enables faster, more accurate syntax highlighting, code navigation, refactoring, text objects, and motions. Usable - Strong defaults including a unique, minimalist colorscheme. - Builtin LSP client for semantic code inspection and refactoring (go-to definition, 'find references', format, ...). - Client-server architecture allows you to detach the UI and keep the editor session running (like tmux). Attach multiple UIs to any Nvim session. - Works the same everywhere: one build-type, one command. - Modern terminal features such as cursor styling, focus events, bracketed paste. - Builtin :terminal set the standard for 'TTY as a basic component'. Drop-in Vim - Fully compatible with Vim's editing model and Vimscript v1. - Start with :help nvim-from-vim if you already use...",
       "source": "choco",
       "homepage": "https://neovim.io/",
-      "lastUpdatedAt": "2026-07-11T19:31:19.940Z"
+      "lastUpdatedAt": "2026-07-12T03:56:13.444Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -99,7 +99,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T19:31:19.084Z",
+          "scannedAt": "2026-07-12T03:56:12.822Z",
           "errors": []
         },
         "package": {
@@ -107,14 +107,14 @@
           "publisher": "neovim.io",
           "author": null,
           "description": "Vim-fork focused on extensibility and usability",
-          "license": "Apache-2.0 or Vim",
+          "license": "Apache-2.0 AND Vim",
           "licenseUrl": "https://github.com/neovim/neovim/blob/HEAD/LICENSE.txt",
           "tags": []
         },
         "links": {
           "homepage": "https://neovim.io/",
-          "download": "https://github.com/neovim/neovim/releases/download/v0.12.3/nvim-win64.msi",
-          "releases": "https://github.com/neovim/neovim/releases/tag/v0.12.3",
+          "download": "https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-win64.msi",
+          "releases": "https://github.com/neovim/neovim/commit/68ea43cd0c28af25cd47731308c94fedfcfd1b0b",
           "docs": null
         },
         "descriptions": {
@@ -122,7 +122,7 @@
           "long": "Vim-fork focused on extensibility and usability",
           "source": "winget",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-07-11T19:31:19.084Z"
+          "lastUpdatedAt": "2026-07-12T03:56:12.822Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -143,9 +143,19 @@
         },
         "versions": [
           {
-            "version": "0.12.3",
+            "version": "0.12.4",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.12.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -396,14 +406,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.12.3",
+            "version": "0.12.4",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/neovim/neovim/releases/download/v0.12.3/nvim-win64.msi",
+            "url": "https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-win64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "cec5ffca1ef03c39d6dcfffd59c2a3500a1cf967c6e6d7311f0005fcfd7b20b4",
+            "sha256": "37985e9d393f45e478ba704e2dcd631db1df28b3addbd99d0263413a5f64a0ce",
             "sizeBytes": null
           }
         ],
@@ -501,7 +511,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T19:31:19.084Z",
+          "lastSuccessfulScanAt": "2026-07-12T03:56:12.822Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -548,7 +558,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T19:31:19.847Z",
+          "scannedAt": "2026-07-12T03:56:13.294Z",
           "errors": []
         },
         "package": {
@@ -574,7 +584,7 @@
           "long": "Ambitious Vim-fork focused on extensibility and agility",
           "source": "homebrew",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-07-11T19:31:19.847Z"
+          "lastUpdatedAt": "2026-07-12T03:56:13.294Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -681,7 +691,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T19:31:19.847Z",
+          "lastSuccessfulScanAt": "2026-07-12T03:56:13.294Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -727,7 +737,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T19:31:19.867Z",
+          "scannedAt": "2026-07-12T03:56:13.409Z",
           "errors": []
         },
         "package": {
@@ -753,7 +763,7 @@
           "long": "Vim-fork focused on extensibility and usability",
           "source": "scoop",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-07-11T19:31:19.867Z"
+          "lastUpdatedAt": "2026-07-12T03:56:13.409Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -859,7 +869,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T19:31:19.867Z",
+          "lastSuccessfulScanAt": "2026-07-12T03:56:13.409Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -905,7 +915,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T19:31:19.940Z",
+          "scannedAt": "2026-07-12T03:56:13.444Z",
           "errors": []
         },
         "package": {
@@ -939,7 +949,7 @@
           "long": "Features Extensible - API is first-class: discoverable, versioned, documented. - MessagePack structured communication enables extensions in any language. - Remote plugins run as co-processes, safely and asynchronously. - GUIs, IDEs, web browsers can --embed Neovim as an editor or script host. - Lua plugins are easy to create just like Vimscript plugins. Your config can live in init.lua! - AST-producing parsing engine enables faster, more accurate syntax highlighting, code navigation, refactoring, text objects, and motions. Usable - Strong defaults including a unique, minimalist colorscheme. - Builtin LSP client for semantic code inspection and refactoring (go-to definition, 'find references', format, ...). - Client-server architecture allows you to detach the UI and keep the editor session running (like tmux). Attach multiple UIs to any Nvim session. - Works the same everywhere: one build-type, one command. - Modern terminal features such as cursor styling, focus events, bracketed paste. - Builtin :terminal set the standard for 'TTY as a basic component'. Drop-in Vim - Fully compatible with Vim's editing model and Vimscript v1. - Start with :help nvim-from-vim if you already use...",
           "source": "choco",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-07-11T19:31:19.940Z"
+          "lastUpdatedAt": "2026-07-12T03:56:13.444Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1351,7 +1361,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T19:31:19.940Z",
+          "lastSuccessfulScanAt": "2026-07-12T03:56:13.444Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1399,7 +1409,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-11T19:31:19.957Z",
+          "scannedAt": "2026-07-12T03:56:13.533Z",
           "errors": []
         },
         "package": {
@@ -1430,7 +1440,7 @@
           "long": "Vim-fork focused on extensibility and usability",
           "source": "github",
           "homepage": "https://neovim.io",
-          "lastUpdatedAt": "2026-07-11T19:31:19.957Z"
+          "lastUpdatedAt": "2026-07-12T03:56:13.533Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2723,7 +2733,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-11T19:31:19.957Z",
+          "lastSuccessfulScanAt": "2026-07-12T03:56:13.533Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
