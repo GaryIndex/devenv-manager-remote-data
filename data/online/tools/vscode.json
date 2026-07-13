@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T09:48:44.628Z",
+  "generatedAt": "2026-07-13T15:11:34.013Z",
   "status": "partial",
   "tool": {
     "id": "vscode",
@@ -29,7 +29,7 @@
       "long": "Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows. Features Meet IntelliSense: Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules. Print statement debugging is a thing of the past: Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console. Git commands built-in: Working with Git has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted Git service. Extensible and customizable: Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.",
       "source": "choco",
       "homepage": "https://code.visualstudio.com/",
-      "lastUpdatedAt": "2026-07-13T09:47:43.858Z"
+      "lastUpdatedAt": "2026-07-13T15:10:50.269Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -100,33 +100,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-13T09:47:43.490Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-13T15:10:49.396Z",
+          "errors": []
         },
         "package": {
           "name": "Visual Studio Code",
-          "publisher": null,
+          "publisher": "Microsoft Corporation",
           "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "description": "Microsoft Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Microsoft Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
+          "license": "Microsoft Software License",
+          "licenseUrl": "https://code.visualstudio.com/license",
           "tags": []
         },
         "links": {
-          "homepage": "https://code.visualstudio.com/",
-          "download": "https://code.visualstudio.com/",
+          "homepage": "https://code.visualstudio.com",
+          "download": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/7e7950df89d055b5a378379db9ee14290772148a/VSCodeUserSetup-x64-1.126.0.exe",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Microsoft Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Microsoft Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
+          "long": "Microsoft Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Microsoft Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
           "source": "winget",
-          "homepage": "https://code.visualstudio.com/",
-          "lastUpdatedAt": "2026-07-13T09:47:43.490Z"
+          "homepage": "https://code.visualstudio.com",
+          "lastUpdatedAt": "2026-07-13T15:10:49.396Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -453,11 +451,11 @@
             "version": "1.126.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://code.visualstudio.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "inno",
+            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/7e7950df89d055b5a378379db9ee14290772148a/VSCodeUserSetup-x64-1.126.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "1e883039671841218ef4be1fc308f79d0512ed7bc3213578f4931a2581a7de37",
             "sizeBytes": null
           }
         ],
@@ -552,11 +550,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-07-13T15:10:49.396Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -603,7 +601,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-13T09:47:43.572Z",
+          "scannedAt": "2026-07-13T15:10:49.552Z",
           "errors": []
         },
         "package": {
@@ -629,7 +627,7 @@
           "long": "Open-source code editor",
           "source": "homebrew",
           "homepage": "https://code.visualstudio.com/",
-          "lastUpdatedAt": "2026-07-13T09:47:43.572Z"
+          "lastUpdatedAt": "2026-07-13T15:10:49.552Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -736,7 +734,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-13T09:47:43.572Z",
+          "lastSuccessfulScanAt": "2026-07-13T15:10:49.552Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -784,7 +782,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-13T09:47:43.590Z",
+          "scannedAt": "2026-07-13T15:10:50.061Z",
           "errors": []
         },
         "package": {
@@ -810,7 +808,7 @@
           "long": "Lightweight but powerful source code editor",
           "source": "scoop",
           "homepage": "https://code.visualstudio.com/",
-          "lastUpdatedAt": "2026-07-13T09:47:43.590Z"
+          "lastUpdatedAt": "2026-07-13T15:10:50.061Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -916,7 +914,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-13T09:47:43.590Z",
+          "lastSuccessfulScanAt": "2026-07-13T15:10:50.061Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -964,7 +962,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-13T09:47:43.858Z",
+          "scannedAt": "2026-07-13T15:10:50.269Z",
           "errors": []
         },
         "package": {
@@ -999,7 +997,7 @@
           "long": "Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows. Features Meet IntelliSense: Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules. Print statement debugging is a thing of the past: Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console. Git commands built-in: Working with Git has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted Git service. Extensible and customizable: Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.",
           "source": "choco",
           "homepage": "https://code.visualstudio.com/",
-          "lastUpdatedAt": "2026-07-13T09:47:43.858Z"
+          "lastUpdatedAt": "2026-07-13T15:10:50.269Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1412,7 +1410,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-13T09:47:43.858Z",
+          "lastSuccessfulScanAt": "2026-07-13T15:10:50.269Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1462,7 +1460,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-13T09:47:44.294Z",
+          "scannedAt": "2026-07-13T15:10:50.799Z",
           "errors": []
         },
         "package": {
@@ -1491,7 +1489,7 @@
           "long": "Visual Studio Code",
           "source": "github",
           "homepage": "https://code.visualstudio.com",
-          "lastUpdatedAt": "2026-07-13T09:47:44.294Z"
+          "lastUpdatedAt": "2026-07-13T15:10:50.799Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1860,7 +1858,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-13T09:47:44.294Z",
+          "lastSuccessfulScanAt": "2026-07-13T15:10:50.799Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

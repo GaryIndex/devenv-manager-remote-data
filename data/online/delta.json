@@ -1,76 +1,78 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T09:48:44.628Z",
-  "fromGeneratedAt": "2026-07-13T03:59:18.791Z",
-  "toGeneratedAt": "2026-07-13T09:48:44.628Z",
+  "generatedAt": "2026-07-13T15:11:34.013Z",
+  "fromGeneratedAt": "2026-07-13T09:48:44.628Z",
+  "toGeneratedAt": "2026-07-13T15:11:34.013Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
-    "qualityChanges": 1
+    "versionChanges": 5,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "vscode",
-      "pnpm",
+      "dotnet_9",
       "sbt",
-      "postman"
+      "pulumi",
+      "postman",
+      "bruno"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pnpm",
+        "toolId": "sbt",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "11.11.0",
-        "to": "11.12.0"
-      },
-      {
-        "toolId": "sbt",
-        "sourceId": "winget",
-        "manager": "winget",
         "from": "2.0.1",
         "to": "2.0.2"
       },
       {
-        "toolId": "sbt",
+        "toolId": "pulumi",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.0.1",
-        "to": "2.0.2"
+        "from": "3.251.0",
+        "to": "3.252.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.251.0",
+        "to": "3.252.0"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "12.18.5",
         "to": "12.19.0"
       },
       {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.18.4",
-        "to": "12.19.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.18.5",
-        "to": "12.19.0"
+        "toolId": "bruno",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.5.1",
+        "to": "3.5.2"
       }
     ],
     "qualityChanges": [
       {
         "toolId": "vscode",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 65,
+        "to": 100
+      },
+      {
+        "toolId": "dotnet_9",
         "sourceId": "winget",
         "manager": "winget",
         "from": 100,
