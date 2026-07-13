@@ -1,82 +1,141 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T15:11:34.013Z",
-  "fromGeneratedAt": "2026-07-13T09:48:44.628Z",
-  "toGeneratedAt": "2026-07-13T15:11:34.013Z",
-  "status": "partial",
+  "generatedAt": "2026-07-13T19:49:14.453Z",
+  "fromGeneratedAt": "2026-07-13T15:11:34.013Z",
+  "toGeneratedAt": "2026-07-13T19:49:14.453Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
-    "qualityChanges": 2
+    "versionChanges": 14,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
+      "oh_my_posh",
       "dotnet_9",
       "sbt",
+      "docker_desktop",
+      "opentofu",
       "pulumi",
-      "postman",
-      "bruno"
+      "bruno",
+      "quarto",
+      "vercel_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "29.26.0",
+        "to": "29.27.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.26.1",
+        "to": "29.27.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.26.1",
+        "to": "29.27.0"
+      },
+      {
         "toolId": "sbt",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "2.0.1",
         "to": "2.0.2"
       },
       {
-        "toolId": "pulumi",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.251.0",
-        "to": "3.252.0"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "3.251.0",
-        "to": "3.252.0"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "docker_desktop",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "12.18.5",
-        "to": "12.19.0"
+        "from": "4.81.0.20260709",
+        "to": "4.82.0"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.12.3",
+        "to": "1.12.4"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.12.3",
+        "to": "1.12.4"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.11.11",
+        "to": "1.12.4"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.251.0",
+        "to": "3.252.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.251.0",
+        "to": "3.252.0"
       },
       {
         "toolId": "bruno",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "3.5.1",
         "to": "3.5.2"
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.5.1",
+        "to": "3.5.2"
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.10.14",
+        "to": "1.10.15"
+      },
+      {
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@55.0.0",
+        "to": "ercel@56.0.0"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "vscode",
+        "toolId": "dotnet_9",
         "sourceId": "winget",
         "manager": "winget",
         "from": 65,
         "to": 100
-      },
-      {
-        "toolId": "dotnet_9",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 100,
-        "to": 65
       }
     ]
   }

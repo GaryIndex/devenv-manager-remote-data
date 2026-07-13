@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T15:11:34.013Z",
-  "status": "partial",
+  "generatedAt": "2026-07-13T19:49:14.453Z",
+  "status": "ok",
   "tool": {
     "id": "dotnet_9",
     "name": ".NET SDK 9",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
-      "homepage": "https://dotnet.microsoft.com/",
-      "lastUpdatedAt": null
+      "short": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
+      "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
+      "source": "winget",
+      "homepage": "https://dotnet.microsoft.com",
+      "lastUpdatedAt": "2026-07-13T19:48:40.243Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "medium",
-      "score": 65
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -92,33 +92,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-13T15:11:04.367Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-13T19:48:40.243Z",
+          "errors": []
         },
         "package": {
           "name": ".NET SDK 9",
-          "publisher": null,
+          "publisher": "Microsoft Corporation",
           "author": null,
-          "description": null,
-          "license": null,
+          "description": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
+          "license": "MIT",
           "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://dotnet.microsoft.com/",
-          "download": "https://dotnet.microsoft.com/",
+          "homepage": "https://dotnet.microsoft.com",
+          "download": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.315/dotnet-sdk-9.0.315-win-x64.exe",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
+          "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
           "source": "winget",
-          "homepage": "https://dotnet.microsoft.com/",
-          "lastUpdatedAt": "2026-07-13T15:11:04.367Z"
+          "homepage": "https://dotnet.microsoft.com",
+          "lastUpdatedAt": "2026-07-13T19:48:40.243Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -445,11 +443,11 @@
             "version": "9.0.315",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://dotnet.microsoft.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "burn",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.315/dotnet-sdk-9.0.315-win-x64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "7c44f508b9d19429061f914dcadbb41bdaafbba3c8b8bb6c2d02e6f41ff55960",
             "sizeBytes": null
           }
         ],
@@ -544,11 +542,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-07-13T19:48:40.243Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
