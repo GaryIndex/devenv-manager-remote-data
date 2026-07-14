@@ -1,73 +1,99 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T08:28:00.967Z",
-  "fromGeneratedAt": "2026-07-14T03:32:43.947Z",
-  "toGeneratedAt": "2026-07-14T08:28:00.967Z",
+  "generatedAt": "2026-07-14T14:13:52.939Z",
+  "fromGeneratedAt": "2026-07-14T08:28:00.967Z",
+  "toGeneratedAt": "2026-07-14T14:13:52.939Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "pnpm",
-      "docker_desktop",
-      "aws_cli",
-      "bruno",
-      "beekeeper_studio",
-      "stripe_cli"
+      "oh_my_posh",
+      "opentofu",
+      "pulumi",
+      "blender"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pnpm",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "11.12.0",
-        "to": "11.13.0"
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.27.0",
+        "to": "29.28.0"
       },
       {
-        "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.81.0,232925",
-        "to": "4.82.0,233772"
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "29.27.0",
+        "to": "29.28.0"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.35.21",
-        "to": "2.35.22"
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.5.1",
-        "to": "3.5.2"
-      },
-      {
-        "toolId": "beekeeper_studio",
+        "toolId": "opentofu",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "5.9.1",
-        "to": "5.9.2"
+        "from": "1.12.3",
+        "to": "1.12.4"
       },
       {
-        "toolId": "stripe_cli",
+        "toolId": "pulumi",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.252.0",
+        "to": "3.253.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.252.0",
+        "to": "3.253.0"
+      },
+      {
+        "toolId": "pulumi",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.43.7",
-        "to": "1.43.8"
+        "from": "3.252.0",
+        "to": "3.253.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.252.0",
+        "to": "3.253.0"
+      },
+      {
+        "toolId": "blender",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "5.1.2",
+        "to": "5.2.0"
+      },
+      {
+        "toolId": "blender",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "5.1.2",
+        "to": "5.2.0"
+      },
+      {
+        "toolId": "blender",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "5.1.2",
+        "to": "5.2.0"
       }
     ],
     "qualityChanges": []
