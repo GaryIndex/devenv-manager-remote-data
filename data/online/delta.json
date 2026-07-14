@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T03:32:43.947Z",
-  "fromGeneratedAt": "2026-07-13T19:49:14.453Z",
-  "toGeneratedAt": "2026-07-14T03:32:43.947Z",
+  "generatedAt": "2026-07-14T08:28:00.967Z",
+  "fromGeneratedAt": "2026-07-14T03:32:43.947Z",
+  "toGeneratedAt": "2026-07-14T08:28:00.967Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 8,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
+    "versionChanges": 6,
     "qualityChanges": 0
   },
   "changes": {
@@ -20,91 +20,54 @@
       "pnpm",
       "docker_desktop",
       "aws_cli",
-      "insomnia",
       "bruno",
-      "vercel_cli",
-      "stripe_cli",
-      "supabase_cli"
+      "beekeeper_studio",
+      "stripe_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "pnpm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "11.12.0",
-        "to": "11.13.0"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "11.12.0",
         "to": "11.13.0"
       },
       {
         "toolId": "docker_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.81.0",
-        "to": "4.82.0"
-      },
-      {
-        "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.35.21",
-        "to": "2.35.22"
+        "from": "4.81.0,232925",
+        "to": "4.82.0,233772"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.35.21",
         "to": "2.35.22"
-      },
-      {
-        "toolId": "insomnia",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "core@13.0.2",
-        "to": "core@13.1.0-beta.0"
       },
       {
         "toolId": "bruno",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "3.5.1",
         "to": "3.5.2"
       },
       {
-        "toolId": "vercel_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "ercel@56.0.0",
-        "to": "ercel@56.1.0"
+        "toolId": "beekeeper_studio",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "5.9.1",
+        "to": "5.9.2"
       },
       {
         "toolId": "stripe_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.43.7",
         "to": "1.43.8"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.43.7",
-        "to": "1.43.8"
-      },
-      {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.110.0-beta.26",
-        "to": "2.110.0-beta.27"
       }
     ],
     "qualityChanges": []
