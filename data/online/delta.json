@@ -1,73 +1,102 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T14:09:43.111Z",
-  "fromGeneratedAt": "2026-07-15T08:36:05.388Z",
-  "toGeneratedAt": "2026-07-15T14:09:43.111Z",
+  "generatedAt": "2026-07-15T19:36:13.260Z",
+  "fromGeneratedAt": "2026-07-15T14:09:43.111Z",
+  "toGeneratedAt": "2026-07-15T19:36:13.260Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "oh_my_posh",
-      "terraform",
-      "pulumi",
+      "git",
+      "vscode",
+      "ripgrep",
+      "deno",
+      "uv",
       "cloudflared",
-      "rstudio",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "29.29.0",
-        "to": "29.31.0"
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.16.0-alpha20260708",
-        "to": "1.16.0-alpha20260715"
-      },
-      {
-        "toolId": "pulumi",
+        "toolId": "git",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.253.0",
-        "to": "3.246.0"
+        "from": "2.55.0.2",
+        "to": "2.55.0.3"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.128.0",
+        "to": "1.128.1"
+      },
+      {
+        "toolId": "ripgrep",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "15.1.0",
+        "to": "15.2.0"
+      },
+      {
+        "toolId": "ripgrep",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "15.1.0",
+        "to": "15.2.0"
+      },
+      {
+        "toolId": "deno",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.9.2",
+        "to": "2.9.3"
+      },
+      {
+        "toolId": "deno",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.9.2",
+        "to": "2.9.3"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.11.28",
+        "to": "0.11.29"
       },
       {
         "toolId": "cloudflared",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2026.7.1",
         "to": "2026.7.2"
       },
       {
-        "toolId": "rstudio",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2026.6.0",
-        "to": "2026.7.0"
+        "toolId": "cloudflared",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2026.7.1",
+        "to": "2026.7.2"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.27",
-        "to": "2.110.0-beta.28"
+        "from": "2.110.0-beta.28",
+        "to": "2.110.0-beta.29"
       }
     ],
     "qualityChanges": []
