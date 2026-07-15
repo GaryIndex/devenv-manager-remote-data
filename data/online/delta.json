@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T19:42:59.106Z",
-  "fromGeneratedAt": "2026-07-14T14:13:52.939Z",
-  "toGeneratedAt": "2026-07-14T19:42:59.106Z",
+  "generatedAt": "2026-07-15T03:33:08.749Z",
+  "fromGeneratedAt": "2026-07-14T19:42:59.106Z",
+  "toGeneratedAt": "2026-07-15T03:33:08.749Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
@@ -17,95 +17,95 @@
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "git",
+      "github_desktop",
       "vscode",
-      "notepad_plus_plus",
+      "aws_cli",
       "google_cloud_sdk",
       "postman",
-      "android_studio",
-      "rstudio",
-      "vercel_cli",
       "ruby",
-      "godot"
+      "godot",
+      "blender"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
+        "toolId": "git",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.55.0.2",
+        "to": "2.55.0.3"
+      },
+      {
+        "toolId": "github_desktop",
         "sourceId": "homebrew",
         "manager": "homebrew",
+        "from": "3.6.2-57f0b637",
+        "to": "3.6.3-931da4a1"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.127.0",
+        "to": "1.128.1"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "github",
+        "manager": "github",
         "from": "1.128.0",
         "to": "1.128.1"
       },
       {
-        "toolId": "notepad_plus_plus",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "8.9.6.4",
-        "to": "8.9.7"
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.35.22",
+        "to": "2.35.23"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.35.22",
+        "to": "2.35.23"
       },
       {
         "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "575.0.1",
         "to": "576.0.0"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.19.0",
-        "to": "12.19.2"
-      },
-      {
-        "toolId": "postman",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.19.0",
-        "to": "12.19.2"
-      },
-      {
-        "toolId": "android_studio",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2026.1.1.10",
-        "to": "2026.1.2.10"
-      },
-      {
-        "toolId": "android_studio",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2026.1.1.10,quail1-patch2",
-        "to": "2026.1.2.10,quail2"
-      },
-      {
-        "toolId": "rstudio",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2026.06.0,242",
-        "to": "2026.07.0,139"
-      },
-      {
-        "toolId": "vercel_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "ercel@56.1.0",
-        "to": "ercel@56.2.0"
+        "from": "12.19.2",
+        "to": "12.19.3"
       },
       {
         "toolId": "ruby",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.0.5",
-        "to": "4.0.6"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "4.0.5-1",
+        "to": "4.0.6-1"
       },
       {
         "toolId": "godot",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "4.7-stable",
-        "to": "4.7.1-stable"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "4.7",
+        "to": "4.7.1"
+      },
+      {
+        "toolId": "blender",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "5.1.2",
+        "to": "5.2.0"
       }
     ],
     "qualityChanges": []
