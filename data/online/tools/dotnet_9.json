@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T03:33:08.749Z",
+  "generatedAt": "2026-07-15T08:36:05.388Z",
   "status": "ok",
   "tool": {
     "id": "dotnet_9",
@@ -27,7 +27,7 @@
       "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
       "source": "winget",
       "homepage": "https://dotnet.microsoft.com",
-      "lastUpdatedAt": "2026-07-15T03:32:29.555Z"
+      "lastUpdatedAt": "2026-07-15T08:35:26.334Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,7 +93,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-15T03:32:29.555Z",
+          "scannedAt": "2026-07-15T08:35:26.334Z",
           "errors": []
         },
         "package": {
@@ -107,7 +107,7 @@
         },
         "links": {
           "homepage": "https://dotnet.microsoft.com",
-          "download": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.315/dotnet-sdk-9.0.315-win-x64.exe",
+          "download": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.316/dotnet-sdk-9.0.316-win-x64.exe",
           "releases": null,
           "docs": null
         },
@@ -116,7 +116,7 @@
           "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
           "source": "winget",
           "homepage": "https://dotnet.microsoft.com",
-          "lastUpdatedAt": "2026-07-15T03:32:29.555Z"
+          "lastUpdatedAt": "2026-07-15T08:35:26.334Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,9 +137,19 @@
         },
         "versions": [
           {
-            "version": "9.0.315",
+            "version": "9.0.316",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.0.315",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -357,6 +367,16 @@
             "changelogUrl": null
           },
           {
+            "version": "9.0.119",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
             "version": "9.0.118",
             "channel": "stable",
             "latest": false,
@@ -415,39 +435,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "9.0.112",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "9.0.111",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "9.0.315",
+            "version": "9.0.316",
             "platform": "windows",
             "architecture": null,
             "type": "burn",
-            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.315/dotnet-sdk-9.0.315-win-x64.exe",
+            "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.316/dotnet-sdk-9.0.316-win-x64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "7c44f508b9d19429061f914dcadbb41bdaafbba3c8b8bb6c2d02e6f41ff55960",
+            "sha256": "591130b2499225974b5347bc1bcfcc93796abbdd9115db3b5a8b6a1fcec4e3f8",
             "sizeBytes": null
           }
         ],
@@ -545,7 +545,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-15T03:32:29.555Z",
+          "lastSuccessfulScanAt": "2026-07-15T08:35:26.334Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
