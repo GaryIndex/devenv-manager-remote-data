@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T14:22:22.651Z",
+  "generatedAt": "2026-07-16T19:34:34.419Z",
   "status": "ok",
   "tool": {
     "id": "rust_msvc",
@@ -27,7 +27,7 @@
       "long": "this is the rust-lang built with msvc toolchain",
       "source": "winget",
       "homepage": "https://www.rust-lang.org/",
-      "lastUpdatedAt": "2026-07-16T14:21:49.520Z"
+      "lastUpdatedAt": "2026-07-16T19:33:57.366Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,7 +93,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-16T14:21:49.520Z",
+          "scannedAt": "2026-07-16T19:33:57.366Z",
           "errors": []
         },
         "package": {
@@ -107,8 +107,8 @@
         },
         "links": {
           "homepage": "https://www.rust-lang.org/",
-          "download": "https://static.rust-lang.org/dist/rust-1.97.0-x86_64-pc-windows-msvc.msi",
-          "releases": "https://github.com/rust-lang/rust/releases/tag/1.97.0",
+          "download": "https://static.rust-lang.org/dist/rust-1.97.1-x86_64-pc-windows-msvc.msi",
+          "releases": "https://github.com/rust-lang/rust/releases/tag/1.97.1",
           "docs": null
         },
         "descriptions": {
@@ -116,7 +116,7 @@
           "long": "this is the rust-lang built with msvc toolchain",
           "source": "winget",
           "homepage": "https://www.rust-lang.org/",
-          "lastUpdatedAt": "2026-07-16T14:21:49.520Z"
+          "lastUpdatedAt": "2026-07-16T19:33:57.366Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,9 +137,19 @@
         },
         "versions": [
           {
-            "version": "1.97.0",
+            "version": "1.97.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.97.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -425,29 +435,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.77.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.97.0",
+            "version": "1.97.1",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://static.rust-lang.org/dist/rust-1.97.0-x86_64-pc-windows-msvc.msi",
+            "url": "https://static.rust-lang.org/dist/rust-1.97.1-x86_64-pc-windows-msvc.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "0b5104b7b33253cd0685ea75ae0b0a808d883ea7076085cc3e6217751c4edd64",
+            "sha256": "58ec069612df27fd21c58c3d438258b2161ceedfc343e23387d5a4811c5cd539",
             "sizeBytes": null
           }
         ],
@@ -545,7 +545,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-16T14:21:49.520Z",
+          "lastSuccessfulScanAt": "2026-07-16T19:33:57.366Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

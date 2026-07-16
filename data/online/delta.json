@@ -1,165 +1,43 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T14:22:22.651Z",
-  "fromGeneratedAt": "2026-07-16T08:34:40.172Z",
-  "toGeneratedAt": "2026-07-16T14:22:22.651Z",
+  "generatedAt": "2026-07-16T19:34:34.419Z",
+  "fromGeneratedAt": "2026-07-16T14:22:22.651Z",
+  "toGeneratedAt": "2026-07-16T19:34:34.419Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 11,
+    "changedTools": 2,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
-    "qualityChanges": 7
+    "versionChanges": 2,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "github_cli",
-      "git_lfs",
-      "github_desktop",
-      "tortoisegit",
-      "vscode",
-      "deno",
-      "uv",
-      "cmake",
-      "postman",
-      "mongodb_compass",
-      "supabase_cli"
+      "rust_msvc",
+      "postman"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "github_cli",
+        "toolId": "rust_msvc",
         "sourceId": "winget",
         "manager": "winget",
-        "from": null,
-        "to": "2.96.0"
-      },
-      {
-        "toolId": "git_lfs",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "3.7.1"
-      },
-      {
-        "toolId": "github_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "3.6.3"
-      },
-      {
-        "toolId": "tortoisegit",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "2.19.1.0"
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "1.126.0"
-      },
-      {
-        "toolId": "deno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.9.2",
-        "to": "2.9.3"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.11.28",
-        "to": "0.11.29"
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "4.4.0"
+        "from": "1.97.0",
+        "to": "1.97.1"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.19.3",
         "to": "12.19.5"
-      },
-      {
-        "toolId": "mongodb_compass",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "1.49.12.0"
-      },
-      {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.110.0-beta.29",
-        "to": "2.110.0-beta.30"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "github_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "git_lfs",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "github_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "tortoisegit",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "vscode",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "mongodb_compass",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
