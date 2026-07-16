@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T19:36:13.260Z",
+  "generatedAt": "2026-07-16T03:36:52.612Z",
   "status": "ok",
   "tool": {
     "id": "git_extensions",
@@ -27,7 +27,7 @@
       "long": "Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).",
       "source": "winget",
       "homepage": "https://gitextensions.github.io/",
-      "lastUpdatedAt": "2026-07-15T19:35:26.111Z"
+      "lastUpdatedAt": "2026-07-16T03:35:55.724Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -79,7 +79,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-15T19:35:26.111Z",
+          "scannedAt": "2026-07-16T03:35:55.724Z",
           "errors": []
         },
         "package": {
@@ -93,8 +93,8 @@
         },
         "links": {
           "homepage": "https://gitextensions.github.io/",
-          "download": "https://github.com/gitextensions/gitextensions/releases/download/v7.0.1/GitExtensions-x64-7.0.1.86-c119a52.msi",
-          "releases": "https://github.com/gitextensions/gitextensions/releases/tag/v7.0.1",
+          "download": "https://github.com/gitextensions/gitextensions/releases/download/v7.2.0/GitExtensions-x64-7.2.0.92-501f831.msi",
+          "releases": "https://github.com/gitextensions/gitextensions/releases/tag/v7.2.0",
           "docs": null
         },
         "descriptions": {
@@ -102,7 +102,7 @@
           "long": "Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio (2015/2017/2019).",
           "source": "winget",
           "homepage": "https://gitextensions.github.io/",
-          "lastUpdatedAt": "2026-07-15T19:35:26.111Z"
+          "lastUpdatedAt": "2026-07-16T03:35:55.724Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -122,9 +122,19 @@
         },
         "versions": [
           {
-            "version": "7.0.1.86",
+            "version": "7.2.0.92",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.0.1.86",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -335,14 +345,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "7.0.1.86",
+            "version": "7.2.0.92",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/gitextensions/gitextensions/releases/download/v7.0.1/GitExtensions-x64-7.0.1.86-c119a52.msi",
+            "url": "https://github.com/gitextensions/gitextensions/releases/download/v7.2.0/GitExtensions-x64-7.2.0.92-501f831.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "53792d2bf39e0949319ca711a189120e41d53b60d7b74d6a11d66120cd0725ed",
+            "sha256": "32b9a9997bb36b36d14c9fe06c9a7a521b8234280dc21e19c22db29fcaf0cbbe",
             "sizeBytes": null
           }
         ],
@@ -440,7 +450,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-15T19:35:26.111Z",
+          "lastSuccessfulScanAt": "2026-07-16T03:35:55.724Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

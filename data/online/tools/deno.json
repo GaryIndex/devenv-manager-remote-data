@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T19:36:13.260Z",
+  "generatedAt": "2026-07-16T03:36:52.612Z",
   "status": "ok",
   "tool": {
     "id": "deno",
@@ -29,7 +29,7 @@
       "long": "Deno aims to be a productive and secure scripting environment for the modern programmer. Deno will always be distributed as a single executable. Given a URL to a Deno program, it is runnable with nothing more than the 10 megabyte zipped executable. Deno explicitly takes on the role of both runtime and package manager. It uses a standard browser-compatible protocol for loading modules: URLs. Deno provides security guarantees about how programs can access your system with the default being the most restrictive secure sandbox. Deno provides a set of reviewed (audited) standard modules that are guaranteed to work with Deno.",
       "source": "choco",
       "homepage": "http://deno.land/",
-      "lastUpdatedAt": "2026-07-15T19:35:35.797Z"
+      "lastUpdatedAt": "2026-07-16T03:36:07.005Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-15T19:35:35.630Z",
+          "scannedAt": "2026-07-16T03:36:06.601Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://deno.com/",
-          "download": "https://github.com/denoland/deno/releases/download/v2.9.2/deno-x86_64-pc-windows-msvc.zip",
-          "releases": "https://github.com/denoland/deno/releases/tag/v2.9.2",
+          "download": "https://github.com/denoland/deno/releases/download/v2.9.3/deno-x86_64-pc-windows-msvc.zip",
+          "releases": "https://github.com/denoland/deno/releases/tag/v2.9.3",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": "Deno is a simple, modern and secure runtime for JavaScript, TypeScript, and WebAssembly that uses V8 and is built in Rust.",
           "source": "winget",
           "homepage": "https://deno.com/",
-          "lastUpdatedAt": "2026-07-15T19:35:35.630Z"
+          "lastUpdatedAt": "2026-07-16T03:36:06.601Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "2.9.2",
+            "version": "2.9.3",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.9.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -429,29 +439,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.6.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.9.2",
+            "version": "2.9.3",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/denoland/deno/releases/download/v2.9.2/deno-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/denoland/deno/releases/download/v2.9.3/deno-x86_64-pc-windows-msvc.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "5fe194d26ac5ef77fcc5288c2c438c7a0465f3b6180440ebf04092714bf2dcdf",
+            "sha256": "60343461ac5fe3a31f4ef12667f2946bb852e20655c8610aeb7e751e87f7df3a",
             "sizeBytes": null
           }
         ],
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-15T19:35:35.630Z",
+          "lastSuccessfulScanAt": "2026-07-16T03:36:06.601Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-15T19:35:35.710Z",
+          "scannedAt": "2026-07-16T03:36:06.769Z",
           "errors": []
         },
         "package": {
@@ -613,7 +613,7 @@
         },
         "links": {
           "homepage": "https://deno.com/",
-          "download": "https://github.com/denoland/deno/releases/download/v2.9.2/deno_src.tar.gz",
+          "download": "https://github.com/denoland/deno/releases/download/v2.9.3/deno_src.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -622,7 +622,7 @@
           "long": "Secure runtime for JavaScript and TypeScript",
           "source": "homebrew",
           "homepage": "https://deno.com/",
-          "lastUpdatedAt": "2026-07-15T19:35:35.710Z"
+          "lastUpdatedAt": "2026-07-16T03:36:06.769Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -644,7 +644,7 @@
         },
         "versions": [
           {
-            "version": "2.9.2",
+            "version": "2.9.3",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -657,14 +657,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.9.2",
+            "version": "2.9.3",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/denoland/deno/releases/download/v2.9.2/deno_src.tar.gz",
+            "url": "https://github.com/denoland/deno/releases/download/v2.9.3/deno_src.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "c1bbd632c2384a13be4ef8fd274649e80cd3ca5ba6b6e669e22d3743edd35dac",
+            "sha256": "58da10e48968a80a6c205b31584d1f1f4583226e59ebb08cb3783b12e7f22d4d",
             "sizeBytes": null
           }
         ],
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-15T19:35:35.710Z",
+          "lastSuccessfulScanAt": "2026-07-16T03:36:06.769Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-15T19:35:35.729Z",
+          "scannedAt": "2026-07-16T03:36:06.888Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "A secure runtime for JavaScript and TypeScript",
           "source": "scoop",
           "homepage": "https://deno.com",
-          "lastUpdatedAt": "2026-07-15T19:35:35.729Z"
+          "lastUpdatedAt": "2026-07-16T03:36:06.888Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-15T19:35:35.729Z",
+          "lastSuccessfulScanAt": "2026-07-16T03:36:06.888Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-15T19:35:35.797Z",
+          "scannedAt": "2026-07-16T03:36:07.005Z",
           "errors": []
         },
         "package": {
@@ -984,7 +984,7 @@
           "long": "Deno aims to be a productive and secure scripting environment for the modern programmer. Deno will always be distributed as a single executable. Given a URL to a Deno program, it is runnable with nothing more than the 10 megabyte zipped executable. Deno explicitly takes on the role of both runtime and package manager. It uses a standard browser-compatible protocol for loading modules: URLs. Deno provides security guarantees about how programs can access your system with the default being the most restrictive secure sandbox. Deno provides a set of reviewed (audited) standard modules that are guaranteed to work with Deno.",
           "source": "choco",
           "homepage": "http://deno.land/",
-          "lastUpdatedAt": "2026-07-15T19:35:35.797Z"
+          "lastUpdatedAt": "2026-07-16T03:36:07.005Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1394,7 +1394,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-15T19:35:35.797Z",
+          "lastSuccessfulScanAt": "2026-07-16T03:36:07.005Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1442,7 +1442,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-15T19:35:35.935Z",
+          "scannedAt": "2026-07-16T03:36:07.193Z",
           "errors": []
         },
         "package": {
@@ -1470,7 +1470,7 @@
           "long": "A modern runtime for JavaScript and TypeScript.",
           "source": "github",
           "homepage": "https://deno.com",
-          "lastUpdatedAt": "2026-07-15T19:35:35.935Z"
+          "lastUpdatedAt": "2026-07-16T03:36:07.193Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2760,7 +2760,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-15T19:35:35.935Z",
+          "lastSuccessfulScanAt": "2026-07-16T03:36:07.193Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
