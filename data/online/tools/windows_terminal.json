@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T19:34:34.419Z",
+  "generatedAt": "2026-07-17T03:36:48.274Z",
   "status": "ok",
   "tool": {
     "id": "windows_terminal",
@@ -27,7 +27,7 @@
       "long": "The new Windows Terminal, a tabbed command line experience for Windows.",
       "source": "winget",
       "homepage": "https://docs.microsoft.com/windows/terminal",
-      "lastUpdatedAt": "2026-07-16T19:33:48.697Z"
+      "lastUpdatedAt": "2026-07-17T03:35:59.709Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -94,7 +94,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-16T19:33:48.697Z",
+          "scannedAt": "2026-07-17T03:35:59.709Z",
           "errors": []
         },
         "package": {
@@ -117,7 +117,7 @@
           "long": "The new Windows Terminal, a tabbed command line experience for Windows.",
           "source": "winget",
           "homepage": "https://docs.microsoft.com/windows/terminal",
-          "lastUpdatedAt": "2026-07-16T19:33:48.697Z"
+          "lastUpdatedAt": "2026-07-17T03:35:59.709Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -546,7 +546,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-16T19:33:48.697Z",
+          "lastSuccessfulScanAt": "2026-07-17T03:35:59.709Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -592,7 +592,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-16T19:33:48.746Z",
+          "scannedAt": "2026-07-17T03:35:59.774Z",
           "errors": []
         },
         "package": {
@@ -627,7 +627,7 @@
           "long": "The new Windows Terminal and the original Windows console host, all in the same place!",
           "source": "github",
           "homepage": "https://github.com/microsoft/terminal",
-          "lastUpdatedAt": "2026-07-16T19:33:48.746Z"
+          "lastUpdatedAt": "2026-07-17T03:35:59.774Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -659,9 +659,29 @@
         },
         "versions": [
           {
-            "version": "1.25.1322.0",
+            "version": "1.25.1912.0",
             "channel": "prerelease",
             "latest": true,
+            "prerelease": true,
+            "lts": null,
+            "releaseDate": "2026-07-16T21:56:13Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/microsoft/terminal/releases/tag/v1.25.1912.0"
+          },
+          {
+            "version": "1.24.11911.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-07-16T21:56:12Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/microsoft/terminal/releases/tag/v1.24.11911.0"
+          },
+          {
+            "version": "1.25.1322.0",
+            "channel": "prerelease",
+            "latest": false,
             "prerelease": true,
             "lts": null,
             "releaseDate": "2026-05-13T21:15:14Z",
@@ -937,29 +957,165 @@
             "releaseDate": "2025-02-06T00:50:14Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/microsoft/terminal/releases/tag/v1.22.10352.0"
-          },
-          {
-            "version": "1.21.10351.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2025-02-06T00:50:11Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/microsoft/terminal/releases/tag/v1.21.10351.0"
-          },
-          {
-            "version": "1.22.3232.0",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": "2024-11-19T20:28:15Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/microsoft/terminal/releases/tag/v1.22.3232.0"
           }
         ],
         "downloads": [
+          {
+            "id": "GroupPolicyTemplates_1.25.1912.0.zip",
+            "version": "1.25.1912.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.25.1912.0/GroupPolicyTemplates_1.25.1912.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2518
+          },
+          {
+            "id": "Microsoft.Windows.Console.ConPTY.1.25.260710002-preview.nupkg",
+            "version": "1.25.1912.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.25.1912.0/Microsoft.Windows.Console.ConPTY.1.25.260710002-preview.nupkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1717498
+          },
+          {
+            "id": "Microsoft.WindowsTerminalPreview_1.25.1912.0_8wekyb3d8bbwe.msixbundle",
+            "version": "1.25.1912.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.25.1912.0/Microsoft.WindowsTerminalPreview_1.25.1912.0_8wekyb3d8bbwe.msixbundle",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 24029967
+          },
+          {
+            "id": "Microsoft.WindowsTerminalPreview_1.25.1912.0_arm64.zip",
+            "version": "1.25.1912.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.25.1912.0/Microsoft.WindowsTerminalPreview_1.25.1912.0_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12115970
+          },
+          {
+            "id": "Microsoft.WindowsTerminalPreview_1.25.1912.0_x64.zip",
+            "version": "1.25.1912.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.25.1912.0/Microsoft.WindowsTerminalPreview_1.25.1912.0_x64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 12121083
+          },
+          {
+            "id": "Microsoft.WindowsTerminalPreview_1.25.1912.0_x86.zip",
+            "version": "1.25.1912.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.25.1912.0/Microsoft.WindowsTerminalPreview_1.25.1912.0_x86.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10971651
+          },
+          {
+            "id": "GroupPolicyTemplates_1.24.11911.0.zip",
+            "version": "1.24.11911.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.11911.0/GroupPolicyTemplates_1.24.11911.0.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2518
+          },
+          {
+            "id": "Microsoft.Windows.Console.ConPTY.1.24.260710001.nupkg",
+            "version": "1.24.11911.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.11911.0/Microsoft.Windows.Console.ConPTY.1.24.260710001.nupkg",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1719438
+          },
+          {
+            "id": "Microsoft.WindowsTerminal_1.24.11911.0_8wekyb3d8bbwe.msixbundle",
+            "version": "1.24.11911.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.11911.0/Microsoft.WindowsTerminal_1.24.11911.0_8wekyb3d8bbwe.msixbundle",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22304127
+          },
+          {
+            "id": "Microsoft.WindowsTerminal_1.24.11911.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
+            "version": "1.24.11911.0",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.11911.0/Microsoft.WindowsTerminal_1.24.11911.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 41378557
+          },
+          {
+            "id": "Microsoft.WindowsTerminal_1.24.11911.0_arm64.zip",
+            "version": "1.24.11911.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.11911.0/Microsoft.WindowsTerminal_1.24.11911.0_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11628172
+          },
+          {
+            "id": "Microsoft.WindowsTerminal_1.24.11911.0_x64.zip",
+            "version": "1.24.11911.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.11911.0/Microsoft.WindowsTerminal_1.24.11911.0_x64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11651776
+          },
+          {
+            "id": "Microsoft.WindowsTerminal_1.24.11911.0_x86.zip",
+            "version": "1.24.11911.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.11911.0/Microsoft.WindowsTerminal_1.24.11911.0_x86.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10575377
+          },
           {
             "id": "GroupPolicyTemplates_1.25.1322.0.zip",
             "version": "1.25.1322.0",
@@ -1763,162 +1919,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 22725377
-          },
-          {
-            "id": "Microsoft.WindowsTerminalPreview_1.24.3504.0_arm64.zip",
-            "version": "1.24.3504.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.3504.0/Microsoft.WindowsTerminalPreview_1.24.3504.0_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11684829
-          },
-          {
-            "id": "Microsoft.WindowsTerminalPreview_1.24.3504.0_x64.zip",
-            "version": "1.24.3504.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.3504.0/Microsoft.WindowsTerminalPreview_1.24.3504.0_x64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11585562
-          },
-          {
-            "id": "Microsoft.WindowsTerminalPreview_1.24.3504.0_x86.zip",
-            "version": "1.24.3504.0",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.3504.0/Microsoft.WindowsTerminalPreview_1.24.3504.0_x86.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10665349
-          },
-          {
-            "id": "GroupPolicyTemplates_1.23.13503.0.zip",
-            "version": "1.23.13503.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.23.13503.0/GroupPolicyTemplates_1.23.13503.0.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 2541
-          },
-          {
-            "id": "Microsoft.Windows.Console.ConPTY.1.23.251216003.nupkg",
-            "version": "1.23.13503.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.23.13503.0/Microsoft.Windows.Console.ConPTY.1.23.251216003.nupkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1772916
-          },
-          {
-            "id": "Microsoft.WindowsTerminal_1.23.13503.0_8wekyb3d8bbwe.msixbundle",
-            "version": "1.23.13503.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.23.13503.0/Microsoft.WindowsTerminal_1.23.13503.0_8wekyb3d8bbwe.msixbundle",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 23199511
-          },
-          {
-            "id": "Microsoft.WindowsTerminal_1.23.13503.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
-            "version": "1.23.13503.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.23.13503.0/Microsoft.WindowsTerminal_1.23.13503.0_8wekyb3d8bbwe.msixbundle_Windows10_PreinstallKit.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 42248358
-          },
-          {
-            "id": "Microsoft.WindowsTerminal_1.23.13503.0_arm64.zip",
-            "version": "1.23.13503.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.23.13503.0/Microsoft.WindowsTerminal_1.23.13503.0_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11975181
-          },
-          {
-            "id": "Microsoft.WindowsTerminal_1.23.13503.0_x64.zip",
-            "version": "1.23.13503.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.23.13503.0/Microsoft.WindowsTerminal_1.23.13503.0_x64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 11752941
-          },
-          {
-            "id": "Microsoft.WindowsTerminal_1.23.13503.0_x86.zip",
-            "version": "1.23.13503.0",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.23.13503.0/Microsoft.WindowsTerminal_1.23.13503.0_x86.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10903804
-          },
-          {
-            "id": "GroupPolicyTemplates_1.24.2812.0.zip",
-            "version": "1.24.2812.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.2812.0/GroupPolicyTemplates_1.24.2812.0.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 2542
-          },
-          {
-            "id": "Microsoft.Windows.Console.ConPTY.1.24.251008002-preview.nupkg",
-            "version": "1.24.2812.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.2812.0/Microsoft.Windows.Console.ConPTY.1.24.251008002-preview.nupkg",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1777143
-          },
-          {
-            "id": "Microsoft.WindowsTerminalPreview_1.24.2812.0_8wekyb3d8bbwe.msixbundle",
-            "version": "1.24.2812.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.24.2812.0/Microsoft.WindowsTerminalPreview_1.24.2812.0_8wekyb3d8bbwe.msixbundle",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 22722545
           }
         ],
         "commands": [],
@@ -1926,7 +1926,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-16T19:33:48.746Z",
+          "lastSuccessfulScanAt": "2026-07-17T03:35:59.774Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
