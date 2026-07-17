@@ -1,103 +1,57 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-17T03:36:48.274Z",
-  "fromGeneratedAt": "2026-07-16T19:34:34.419Z",
-  "toGeneratedAt": "2026-07-17T03:36:48.274Z",
+  "generatedAt": "2026-07-17T08:28:35.562Z",
+  "fromGeneratedAt": "2026-07-17T03:36:48.274Z",
+  "toGeneratedAt": "2026-07-17T08:28:35.562Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 8,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 10,
+    "versionChanges": 4,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
-      "windows_terminal",
-      "oh_my_posh",
-      "pnpm",
-      "uv",
+      "sbt",
       "aws_cli",
       "postman",
-      "vercel_cli"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.128.1",
-        "to": "1.129.0"
-      },
-      {
-        "toolId": "windows_terminal",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.25.1322.0",
-        "to": "1.25.1912.0"
-      },
-      {
-        "toolId": "oh_my_posh",
+        "toolId": "sbt",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "29.30.0",
-        "to": "29.31.1"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "11.13.0",
-        "to": "11.13.1"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.11.28",
-        "to": "0.11.29"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.35.24",
-        "to": "2.36.1"
+        "from": "2.0.2",
+        "to": "2.0.3"
       },
       {
         "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2.35.24",
-        "to": "2.36.0"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.35.24",
+        "from": "2.36.0",
         "to": "2.36.1"
       },
       {
         "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "12.19.3",
-        "to": "12.19.5"
+        "to": "12.19.6"
       },
       {
-        "toolId": "vercel_cli",
+        "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "ercel@56.2.1",
-        "to": "ercel@56.3.1"
+        "from": "2.110.0-beta.30",
+        "to": "2.110.0-beta.31"
       }
     ],
     "qualityChanges": []
