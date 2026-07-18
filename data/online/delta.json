@@ -1,66 +1,58 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T08:08:43.504Z",
-  "fromGeneratedAt": "2026-07-18T03:31:20.559Z",
-  "toGeneratedAt": "2026-07-18T08:08:43.504Z",
-  "status": "ok",
+  "generatedAt": "2026-07-18T13:48:07.968Z",
+  "fromGeneratedAt": "2026-07-18T08:08:43.504Z",
+  "toGeneratedAt": "2026-07-18T13:48:07.968Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 3,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
-      "vim",
-      "rustup",
-      "aws_cli"
+      "fzf",
+      "pnpm",
+      "oracle_jdk_21"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.129.0",
-        "to": "1.129.1"
+        "toolId": "fzf",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.74.0",
+        "to": "0.74.1"
       },
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.782",
-        "to": "9.2.785"
+        "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "11.13.0",
+        "to": "11.14.0"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.36.1",
-        "to": "2.36.2"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.1",
-        "to": "2.36.2"
+        "toolId": "oracle_jdk_21",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "21.0.11.0",
+        "to": null
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "rustup",
+        "toolId": "oracle_jdk_21",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 65,
-        "to": 100
+        "from": 100,
+        "to": 65
       }
     ]
   }

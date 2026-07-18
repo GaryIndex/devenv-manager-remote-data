@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T08:08:43.504Z",
-  "status": "ok",
+  "generatedAt": "2026-07-18T13:48:07.968Z",
+  "status": "partial",
   "tool": {
     "id": "oracle_jdk_21",
     "name": "Oracle JDK 21",
@@ -27,7 +27,7 @@
       "long": "The JDK is a development environment for building applications and components using the Java programming language.",
       "source": "winget",
       "homepage": "https://www.oracle.com/java/",
-      "lastUpdatedAt": "2026-07-18T08:08:00.255Z"
+      "lastUpdatedAt": "2026-07-18T13:47:49.107Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -92,9 +92,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-18T08:08:00.255Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-18T13:47:49.107Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Oracle JDK 21",
@@ -116,7 +118,7 @@
           "long": "The JDK is a development environment for building applications and components using the Java programming language.",
           "source": "winget",
           "homepage": "https://www.oracle.com/java/",
-          "lastUpdatedAt": "2026-07-18T08:08:00.255Z"
+          "lastUpdatedAt": "2026-07-18T13:47:49.107Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -135,92 +137,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "21.0.11.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "21.0.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "21.0.9.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "21.0.8.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "21.0.7.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "21.0.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "21.0.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "21.0.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "21.0.11.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "wix",
@@ -322,11 +243,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-18T08:08:00.255Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
