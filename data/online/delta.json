@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T19:31:14.024Z",
-  "fromGeneratedAt": "2026-07-18T13:48:07.968Z",
-  "toGeneratedAt": "2026-07-18T19:31:14.024Z",
+  "generatedAt": "2026-07-19T03:53:16.930Z",
+  "fromGeneratedAt": "2026-07-18T19:31:14.024Z",
+  "toGeneratedAt": "2026-07-19T03:53:16.930Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
-    "qualityChanges": 1
+    "versionChanges": 3,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
@@ -19,79 +19,33 @@
     "changedTools": [
       "vim",
       "oh_my_posh",
-      "fzf",
-      "pnpm",
-      "oracle_jdk_21",
-      "vercel_cli"
+      "pnpm"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vim",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "9.2.0750",
-        "to": "9.2.0800"
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.785",
+        "to": "9.2.804"
       },
       {
         "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "29.32.0",
         "to": "29.33.0"
       },
       {
-        "toolId": "fzf",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.74.0",
-        "to": "0.74.1"
-      },
-      {
-        "toolId": "fzf",
+        "toolId": "pnpm",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "0.74.0",
-        "to": "0.74.1"
-      },
-      {
-        "toolId": "fzf",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.74.0",
-        "to": "0.74.1"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "scoop",
-        "manager": "scoop",
         "from": "11.14.0",
         "to": "11.15.0"
-      },
-      {
-        "toolId": "oracle_jdk_21",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "21.0.11.0"
-      },
-      {
-        "toolId": "vercel_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "ercel@56.3.1",
-        "to": "ercel@56.3.2"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "oracle_jdk_21",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
