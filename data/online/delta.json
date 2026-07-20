@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T14:33:45.801Z",
-  "fromGeneratedAt": "2026-07-20T09:34:04.921Z",
-  "toGeneratedAt": "2026-07-20T14:33:45.801Z",
-  "status": "partial",
+  "generatedAt": "2026-07-20T19:56:22.303Z",
+  "fromGeneratedAt": "2026-07-20T14:33:45.801Z",
+  "toGeneratedAt": "2026-07-20T19:56:22.303Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 6,
     "qualityChanges": 2
   },
   "changes": {
@@ -18,40 +18,57 @@
     "removedTools": [],
     "changedTools": [
       "github_desktop",
+      "oh_my_posh",
       "sbt",
       "docker_desktop",
-      "bruno"
+      "bruno",
+      "vercel_cli",
+      "stripe_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "29.31.1",
+        "to": "29.33.0"
+      },
+      {
         "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.82.0,233772",
-        "to": "4.83.0,234302"
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.82.0",
+        "to": "4.83.0"
       },
       {
         "toolId": "bruno",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "3.5.2",
         "to": "3.5.3"
       },
       {
-        "toolId": "bruno",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "3.5.2",
-        "to": "3.5.3"
-      },
-      {
-        "toolId": "bruno",
+        "toolId": "vercel_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "3.5.2",
-        "to": "3.5.3"
+        "from": "ercel@56.3.2",
+        "to": "ercel@56.4.0"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.43.8",
+        "to": "1.44.0"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.43.8",
+        "to": "1.44.0"
       }
     ],
     "qualityChanges": [
@@ -59,15 +76,15 @@
         "toolId": "github_desktop",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       },
       {
         "toolId": "sbt",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }

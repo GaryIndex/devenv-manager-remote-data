@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T14:33:45.801Z",
-  "status": "partial",
+  "generatedAt": "2026-07-20T19:56:22.303Z",
+  "status": "ok",
   "tool": {
     "id": "github_desktop",
     "name": "GitHub Desktop",
@@ -28,7 +28,7 @@
       "long": "With GitHub Desktop, you can interact with GitHub using a GUI instead of the command line or a web browser. You can use GitHub Desktop to complete most Git commands from your desktop, such as pushing to, pulling from, and cloning remote repositories, attributing commits, and creating pull requests, with visual confirmation of changes. This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.",
       "source": "choco",
       "homepage": "https://github.com/apps/desktop",
-      "lastUpdatedAt": "2026-07-20T14:32:45.406Z"
+      "lastUpdatedAt": "2026-07-20T19:55:27.810Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -81,33 +81,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-20T14:32:45.343Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed in attempting to update the source: winget"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-20T19:55:27.740Z",
+          "errors": []
         },
         "package": {
           "name": "GitHub Desktop",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "GitHub, Inc.",
+          "author": "GitHub, Inc.",
+          "description": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/desktop/desktop/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
-          "homepage": "https://desktop.github.com/",
-          "download": "https://desktop.github.com/",
+          "homepage": "https://github.com/apps/desktop",
+          "download": "https://desktop.githubusercontent.com/releases/3.6.3-931da4a1/GitHubDesktopSetup-x64.exe",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
+          "long": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
           "source": "winget",
-          "homepage": "https://desktop.github.com/",
-          "lastUpdatedAt": "2026-07-20T14:32:45.343Z"
+          "homepage": "https://github.com/apps/desktop",
+          "lastUpdatedAt": "2026-07-20T19:55:27.740Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -433,11 +431,11 @@
             "version": "3.6.3",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://desktop.github.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "exe",
+            "url": "https://desktop.githubusercontent.com/releases/3.6.3-931da4a1/GitHubDesktopSetup-x64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "71e939b98b8bdd77b8178362399d5a6a49bc24d8cf7882f4ab1030be3e14d435",
             "sizeBytes": null
           }
         ],
@@ -532,11 +530,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-07-20T19:55:27.740Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -568,7 +566,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T14:32:45.396Z",
+          "scannedAt": "2026-07-20T19:55:27.785Z",
           "errors": []
         },
         "package": {
@@ -594,7 +592,7 @@
           "long": "Desktop client for GitHub repositories",
           "source": "homebrew",
           "homepage": "https://desktop.github.com/",
-          "lastUpdatedAt": "2026-07-20T14:32:45.396Z"
+          "lastUpdatedAt": "2026-07-20T19:55:27.785Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -700,7 +698,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T14:32:45.396Z",
+          "lastSuccessfulScanAt": "2026-07-20T19:55:27.785Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -733,7 +731,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T14:32:45.406Z",
+          "scannedAt": "2026-07-20T19:55:27.810Z",
           "errors": []
         },
         "package": {
@@ -764,7 +762,7 @@
           "long": "With GitHub Desktop, you can interact with GitHub using a GUI instead of the command line or a web browser. You can use GitHub Desktop to complete most Git commands from your desktop, such as pushing to, pulling from, and cloning remote repositories, attributing commits, and creating pull requests, with visual confirmation of changes. This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.",
           "source": "choco",
           "homepage": "https://github.com/apps/desktop",
-          "lastUpdatedAt": "2026-07-20T14:32:45.406Z"
+          "lastUpdatedAt": "2026-07-20T19:55:27.810Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1173,7 +1171,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T14:32:45.406Z",
+          "lastSuccessfulScanAt": "2026-07-20T19:55:27.810Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T14:33:45.801Z",
-  "status": "partial",
+  "generatedAt": "2026-07-20T19:56:22.303Z",
+  "status": "ok",
   "tool": {
     "id": "sbt",
     "name": "sbt",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Build tool for Scala projects",
-      "long": "Build tool for Scala projects",
-      "source": "homebrew",
+      "short": "A build tool for Scala, Java, and more",
+      "long": "A build tool for Scala, Java, and more",
+      "source": "winget",
       "homepage": "https://www.scala-sbt.org/",
-      "lastUpdatedAt": "2026-07-20T14:33:04.848Z"
+      "lastUpdatedAt": "2026-07-20T19:55:45.552Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -95,33 +95,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-20T14:33:04.823Z",
-          "errors": [
-            "details: winget exited with 0"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-20T19:55:45.552Z",
+          "errors": []
         },
         "package": {
           "name": "sbt",
-          "publisher": null,
+          "publisher": "Lightbend, Inc.",
           "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "description": "A build tool for Scala, Java, and more",
+          "license": "Apache-2.0",
+          "licenseUrl": "https://github.com/sbt/sbt/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://www.scala-sbt.org/",
-          "download": "https://www.scala-sbt.org/",
-          "releases": null,
+          "download": "https://github.com/sbt/sbt/releases/download/v2.0.3/sbt-2.0.3.msi",
+          "releases": "https://github.com/sbt/sbt/releases/tag/v2.0.3",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "A build tool for Scala, Java, and more",
+          "long": "A build tool for Scala, Java, and more",
           "source": "winget",
           "homepage": "https://www.scala-sbt.org/",
-          "lastUpdatedAt": "2026-07-20T14:33:04.823Z"
+          "lastUpdatedAt": "2026-07-20T19:55:45.552Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -446,11 +444,11 @@
             "version": "2.0.3",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.scala-sbt.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://github.com/sbt/sbt/releases/download/v2.0.3/sbt-2.0.3.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "83f7e03b045d9feb3658c0d1335d732a3f46399b2f0a5195e70c351bfe775175",
             "sizeBytes": null
           }
         ],
@@ -545,11 +543,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-07-20T19:55:45.552Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -595,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T14:33:04.848Z",
+          "scannedAt": "2026-07-20T19:55:45.633Z",
           "errors": []
         },
         "package": {
@@ -621,7 +619,7 @@
           "long": "Build tool for Scala projects",
           "source": "homebrew",
           "homepage": "https://www.scala-sbt.org/",
-          "lastUpdatedAt": "2026-07-20T14:33:04.848Z"
+          "lastUpdatedAt": "2026-07-20T19:55:45.633Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -726,7 +724,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T14:33:04.848Z",
+          "lastSuccessfulScanAt": "2026-07-20T19:55:45.633Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -772,7 +770,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T14:33:04.864Z",
+          "scannedAt": "2026-07-20T19:55:45.662Z",
           "errors": []
         },
         "package": {
@@ -798,7 +796,7 @@
           "long": "A build tool for Scala, Java, and more",
           "source": "scoop",
           "homepage": "https://www.scala-sbt.org",
-          "lastUpdatedAt": "2026-07-20T14:33:04.864Z"
+          "lastUpdatedAt": "2026-07-20T19:55:45.662Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -902,7 +900,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T14:33:04.864Z",
+          "lastSuccessfulScanAt": "2026-07-20T19:55:45.662Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -948,7 +946,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T14:33:04.923Z",
+          "scannedAt": "2026-07-20T19:55:45.722Z",
           "errors": []
         },
         "package": {
@@ -979,7 +977,7 @@
           "long": "sbt is a build tool for Scala, Java, and more.",
           "source": "choco",
           "homepage": "https://www.scala-sbt.org/",
-          "lastUpdatedAt": "2026-07-20T14:33:04.923Z"
+          "lastUpdatedAt": "2026-07-20T19:55:45.722Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1386,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T14:33:04.923Z",
+          "lastSuccessfulScanAt": "2026-07-20T19:55:45.722Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
