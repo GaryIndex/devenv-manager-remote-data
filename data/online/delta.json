@@ -1,40 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-19T19:32:07.157Z",
-  "fromGeneratedAt": "2026-07-19T13:53:08.654Z",
-  "toGeneratedAt": "2026-07-19T19:32:07.157Z",
+  "generatedAt": "2026-07-20T04:04:06.742Z",
+  "fromGeneratedAt": "2026-07-19T19:32:07.157Z",
+  "toGeneratedAt": "2026-07-20T04:04:06.742Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "dbeaver"
+      "pnpm",
+      "dbeaver",
+      "android_studio"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "11.15.0",
+        "to": "11.15.1"
+      },
+      {
         "toolId": "dbeaver",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "26.1.2",
         "to": "26.1.3"
       },
       {
         "toolId": "dbeaver",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "26.1.2",
         "to": "26.1.3"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "26.1.2",
+        "to": "26.1.3"
+      },
+      {
+        "toolId": "android_studio",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.1.2.10,quail2",
+        "to": "2026.1.2.10,quail2,AI-261.25134.95.2612.15822958"
       }
     ],
     "qualityChanges": []
