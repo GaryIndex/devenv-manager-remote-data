@@ -1,80 +1,74 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T09:34:04.921Z",
-  "fromGeneratedAt": "2026-07-20T04:04:06.742Z",
-  "toGeneratedAt": "2026-07-20T09:34:04.921Z",
-  "status": "ok",
+  "generatedAt": "2026-07-20T14:33:45.801Z",
+  "fromGeneratedAt": "2026-07-20T09:34:04.921Z",
+  "toGeneratedAt": "2026-07-20T14:33:45.801Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
     "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
-    "qualityChanges": 0
+    "versionChanges": 4,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "pnpm",
-      "google_cloud_sdk",
-      "postman"
+      "github_desktop",
+      "sbt",
+      "docker_desktop",
+      "bruno"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.804",
-        "to": "9.2.810"
-      },
-      {
-        "toolId": "pnpm",
+        "toolId": "docker_desktop",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "11.15.0",
-        "to": "11.15.1"
+        "from": "4.82.0,233772",
+        "to": "4.83.0,234302"
       },
       {
-        "toolId": "pnpm",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "11.13.1",
-        "to": "11.15.1"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "575.0.1",
-        "to": "576.0.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.19.6",
-        "to": "12.20.0"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "bruno",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.19.6",
-        "to": "12.20.0"
+        "from": "3.5.2",
+        "to": "3.5.3"
       },
       {
-        "toolId": "postman",
+        "toolId": "bruno",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.19.6",
-        "to": "12.20.0"
+        "from": "3.5.2",
+        "to": "3.5.3"
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.5.2",
+        "to": "3.5.3"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "github_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      },
+      {
+        "toolId": "sbt",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }
