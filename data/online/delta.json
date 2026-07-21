@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T08:44:22.236Z",
-  "fromGeneratedAt": "2026-07-21T03:44:29.132Z",
-  "toGeneratedAt": "2026-07-21T08:44:22.236Z",
+  "generatedAt": "2026-07-21T14:21:13.682Z",
+  "fromGeneratedAt": "2026-07-21T08:44:22.236Z",
+  "toGeneratedAt": "2026-07-21T14:21:13.682Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,40 +18,84 @@
     "removedTools": [],
     "changedTools": [
       "oh_my_posh",
-      "uv",
+      "pnpm",
+      "docker_desktop",
+      "opentofu",
       "postman",
-      "prisma_cli"
+      "bruno"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "29.33.0",
         "to": "29.34.0"
       },
       {
-        "toolId": "uv",
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.33.0",
+        "to": "29.34.0"
+      },
+      {
+        "toolId": "pnpm",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "0.11.29",
-        "to": "0.11.30"
+        "from": "11.15.0",
+        "to": "11.15.1"
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.82.0",
+        "to": "4.83.0"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.12.4",
+        "to": "1.12.5"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.12.4",
+        "to": "1.12.5"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.12.4",
+        "to": "1.12.5"
       },
       {
         "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.20.0",
         "to": "12.20.1"
       },
       {
-        "toolId": "prisma_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "7.8.0",
-        "to": "7.9.0"
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.20.0",
+        "to": "12.20.1"
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.5.2",
+        "to": "3.5.3"
       }
     ],
     "qualityChanges": []
