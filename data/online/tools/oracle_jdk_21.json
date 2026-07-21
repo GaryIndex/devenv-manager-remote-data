@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T14:21:13.682Z",
+  "generatedAt": "2026-07-21T19:51:32.747Z",
   "status": "ok",
   "tool": {
     "id": "oracle_jdk_21",
@@ -27,7 +27,7 @@
       "long": "The JDK is a development environment for building applications and components using the Java programming language.",
       "source": "winget",
       "homepage": "https://www.oracle.com/java/",
-      "lastUpdatedAt": "2026-07-21T14:20:39.659Z"
+      "lastUpdatedAt": "2026-07-21T19:50:57.872Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,7 +93,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-21T14:20:39.659Z",
+          "scannedAt": "2026-07-21T19:50:57.872Z",
           "errors": []
         },
         "package": {
@@ -107,7 +107,7 @@
         },
         "links": {
           "homepage": "https://www.oracle.com/java/",
-          "download": "https://download.oracle.com/java/21/archive/jdk-21.0.11_windows-x64_bin.msi",
+          "download": "https://download.oracle.com/java/21/archive/jdk-21.0.12_windows-x64_bin.msi",
           "releases": null,
           "docs": null
         },
@@ -116,7 +116,7 @@
           "long": "The JDK is a development environment for building applications and components using the Java programming language.",
           "source": "winget",
           "homepage": "https://www.oracle.com/java/",
-          "lastUpdatedAt": "2026-07-21T14:20:39.659Z"
+          "lastUpdatedAt": "2026-07-21T19:50:57.872Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,9 +137,19 @@
         },
         "versions": [
           {
-            "version": "21.0.11.0",
+            "version": "21.0.12.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.0.11.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -220,14 +230,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "21.0.11.0",
+            "version": "21.0.12.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://download.oracle.com/java/21/archive/jdk-21.0.11_windows-x64_bin.msi",
+            "url": "https://download.oracle.com/java/21/archive/jdk-21.0.12_windows-x64_bin.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "be8b61113b0961b7cd0f78fb09734897f31f1598d3dca472e21c4872693de0c1",
+            "sha256": "0e15b56fc917f95e0f49478f966e31716054d95a80960fe7e2c36a585f2a5efd",
             "sizeBytes": null
           }
         ],
@@ -325,7 +335,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-21T14:20:39.659Z",
+          "lastSuccessfulScanAt": "2026-07-21T19:50:57.872Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

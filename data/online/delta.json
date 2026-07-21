@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T14:21:13.682Z",
-  "fromGeneratedAt": "2026-07-21T08:44:22.236Z",
-  "toGeneratedAt": "2026-07-21T14:21:13.682Z",
+  "generatedAt": "2026-07-21T19:51:32.747Z",
+  "fromGeneratedAt": "2026-07-21T14:21:13.682Z",
+  "toGeneratedAt": "2026-07-21T19:51:32.747Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 10,
@@ -17,85 +17,88 @@
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "oh_my_posh",
-      "pnpm",
-      "docker_desktop",
+      "vim",
+      "uv",
+      "pipx",
+      "oracle_jdk_21",
       "opentofu",
-      "postman",
-      "bruno"
+      "google_cloud_sdk",
+      "rstudio",
+      "quarto",
+      "stripe_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "29.33.0",
-        "to": "29.34.0"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "29.33.0",
-        "to": "29.34.0"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "11.15.0",
-        "to": "11.15.1"
-      },
-      {
-        "toolId": "docker_desktop",
+        "toolId": "vim",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "4.82.0",
-        "to": "4.83.0"
+        "from": "9.2.810",
+        "to": "9.2.818"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.11.29",
+        "to": "0.11.30"
+      },
+      {
+        "toolId": "pipx",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.16.1",
+        "to": "1.16.2"
+      },
+      {
+        "toolId": "oracle_jdk_21",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "21.0.11.0",
+        "to": "21.0.12.0"
       },
       {
         "toolId": "opentofu",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.12.4",
+        "to": "1.12.5"
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "576.0.0",
+        "to": "577.0.0"
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "576.0.0",
+        "to": "577.0.0"
+      },
+      {
+        "toolId": "rstudio",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.12.4",
-        "to": "1.12.5"
+        "from": "2026.07.0,139",
+        "to": "2026.07.1,147"
       },
       {
-        "toolId": "opentofu",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.12.4",
-        "to": "1.12.5"
-      },
-      {
-        "toolId": "opentofu",
+        "toolId": "quarto",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.12.4",
-        "to": "1.12.5"
+        "from": "1.10.15",
+        "to": "1.10.16"
       },
       {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.20.0",
-        "to": "12.20.1"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.20.0",
-        "to": "12.20.1"
-      },
-      {
-        "toolId": "bruno",
+        "toolId": "stripe_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.5.2",
-        "to": "3.5.3"
+        "from": "1.43.8",
+        "to": "1.44.0"
       }
     ],
     "qualityChanges": []
