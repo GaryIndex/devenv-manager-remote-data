@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T19:56:22.303Z",
+  "generatedAt": "2026-07-21T03:44:29.132Z",
   "status": "ok",
   "tool": {
     "id": "aws_cli",
@@ -29,7 +29,7 @@
       "long": "AWS Command Line Interface The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS Single Sign-On (SSO), and various interactive features.",
       "source": "choco",
       "homepage": "https://aws.amazon.com/cli/",
-      "lastUpdatedAt": "2026-07-20T19:55:56.002Z"
+      "lastUpdatedAt": "2026-07-21T03:44:02.036Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T19:55:55.752Z",
+          "scannedAt": "2026-07-21T03:44:01.874Z",
           "errors": []
         },
         "package": {
@@ -112,7 +112,7 @@
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
-          "download": "https://awscli.amazonaws.com/AWSCLIV2-2.36.2.msi",
+          "download": "https://awscli.amazonaws.com/AWSCLIV2-2.36.4.msi",
           "releases": null,
           "docs": null
         },
@@ -121,7 +121,7 @@
           "long": "The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell. With minimal configuration, the AWS CLI enables you to start running commands that implement functionality equivalent to that provided by the browser-based AWS Management Console from the command prompt in your terminal program.",
           "source": "winget",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-07-20T19:55:55.752Z"
+          "lastUpdatedAt": "2026-07-21T03:44:01.874Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,29 @@
         },
         "versions": [
           {
-            "version": "2.36.2",
+            "version": "2.36.4",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -420,39 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.34.64",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.34.63",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.36.2",
+            "version": "2.36.4",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.36.2.msi",
+            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.36.4.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "d7ffc23e31159bf9ae42e993ab12673408e6e9aa231fd94564bb238a0d99b3b4",
+            "sha256": "efd30424b75807bd0f4b79f090cedcec8a370fdd030e7c0d3514a42c6d9a22c7",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T19:55:55.752Z",
+          "lastSuccessfulScanAt": "2026-07-21T03:44:01.874Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T19:55:55.917Z",
+          "scannedAt": "2026-07-21T03:44:01.919Z",
           "errors": []
         },
         "package": {
@@ -614,7 +614,7 @@
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
-          "download": "https://github.com/aws/aws-cli/archive/refs/tags/2.36.2.tar.gz",
+          "download": "https://github.com/aws/aws-cli/archive/refs/tags/2.36.4.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -623,7 +623,7 @@
           "long": "Official Amazon AWS command-line interface",
           "source": "homebrew",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-07-20T19:55:55.917Z"
+          "lastUpdatedAt": "2026-07-21T03:44:01.919Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -646,7 +646,7 @@
         },
         "versions": [
           {
-            "version": "2.36.2",
+            "version": "2.36.4",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -669,14 +669,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.36.2",
+            "version": "2.36.4",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/aws/aws-cli/archive/refs/tags/2.36.2.tar.gz",
+            "url": "https://github.com/aws/aws-cli/archive/refs/tags/2.36.4.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "c9e8a6029318b960577acf1cbddb0255032fe943846f611e24f418c14c4b41bd",
+            "sha256": "0c949a76dec28f954ae0f112b36ec706498e2bd619325adc83ab29c554f7a0fa",
             "sizeBytes": null
           }
         ],
@@ -740,7 +740,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T19:55:55.917Z",
+          "lastSuccessfulScanAt": "2026-07-21T03:44:01.919Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -786,7 +786,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T19:55:55.927Z",
+          "scannedAt": "2026-07-21T03:44:02.026Z",
           "errors": []
         },
         "package": {
@@ -812,7 +812,7 @@
           "long": "Unified tool to manage AWS services",
           "source": "scoop",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-07-20T19:55:55.927Z"
+          "lastUpdatedAt": "2026-07-21T03:44:02.026Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -834,7 +834,7 @@
         },
         "versions": [
           {
-            "version": "2.36.2",
+            "version": "2.36.4",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -847,7 +847,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.36.2",
+            "version": "2.36.4",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -918,7 +918,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T19:55:55.927Z",
+          "lastSuccessfulScanAt": "2026-07-21T03:44:02.026Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -964,7 +964,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-20T19:55:56.002Z",
+          "scannedAt": "2026-07-21T03:44:02.036Z",
           "errors": []
         },
         "package": {
@@ -998,7 +998,7 @@
           "long": "AWS Command Line Interface The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. The AWS CLI v2 offers several new features including improved installers, new configuration options such as AWS Single Sign-On (SSO), and various interactive features.",
           "source": "choco",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-07-20T19:55:56.002Z"
+          "lastUpdatedAt": "2026-07-21T03:44:02.036Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1410,7 +1410,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-20T19:55:56.002Z",
+          "lastSuccessfulScanAt": "2026-07-21T03:44:02.036Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
