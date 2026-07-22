@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T19:51:32.747Z",
-  "fromGeneratedAt": "2026-07-21T14:21:13.682Z",
-  "toGeneratedAt": "2026-07-21T19:51:32.747Z",
+  "generatedAt": "2026-07-22T03:45:29.050Z",
+  "fromGeneratedAt": "2026-07-21T19:51:32.747Z",
+  "toGeneratedAt": "2026-07-22T03:45:29.050Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
@@ -10,7 +10,7 @@
     "changedTools": 9,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 10,
+    "versionChanges": 12,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,87 +18,101 @@
     "removedTools": [],
     "changedTools": [
       "vim",
+      "powershell",
+      "zoxide",
       "uv",
       "pipx",
-      "oracle_jdk_21",
-      "opentofu",
-      "google_cloud_sdk",
+      "podman",
+      "aws_cli",
       "rstudio",
-      "quarto",
-      "stripe_cli"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0818",
+        "to": "9.2.0823"
+      },
+      {
+        "toolId": "powershell",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.810",
-        "to": "9.2.818"
+        "from": "6.0.0",
+        "to": "7.6.4"
+      },
+      {
+        "toolId": "zoxide",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.9.2",
+        "to": "0.7.0"
       },
       {
         "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.11.29",
-        "to": "0.11.30"
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.11.30",
+        "to": "0.11.31"
       },
       {
         "toolId": "pipx",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.16.0",
+        "to": "1.16.1"
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "6.0.1",
+        "to": "6.0.2"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.36.4",
+        "to": "2.36.5"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.4",
+        "to": "2.36.5"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.16.1",
-        "to": "1.16.2"
+        "from": "2.36.4",
+        "to": "2.36.5"
       },
       {
-        "toolId": "oracle_jdk_21",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "21.0.11.0",
-        "to": "21.0.12.0"
-      },
-      {
-        "toolId": "opentofu",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.12.4",
-        "to": "1.12.5"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "576.0.0",
-        "to": "577.0.0"
-      },
-      {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "576.0.0",
-        "to": "577.0.0"
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.36.2",
+        "to": "2.36.4"
       },
       {
         "toolId": "rstudio",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2026.07.0,139",
-        "to": "2026.07.1,147"
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2026.07.0+139",
+        "to": "2026.07.1+147"
       },
       {
-        "toolId": "quarto",
+        "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.10.15",
-        "to": "1.10.16"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.43.8",
-        "to": "1.44.0"
+        "from": "2.110.0-beta.32",
+        "to": "2.110.0-beta.33"
       }
     ],
     "qualityChanges": []
