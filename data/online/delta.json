@@ -1,79 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-22T08:44:24.221Z",
-  "fromGeneratedAt": "2026-07-22T03:45:29.050Z",
-  "toGeneratedAt": "2026-07-22T08:44:24.221Z",
+  "generatedAt": "2026-07-22T14:21:26.640Z",
+  "fromGeneratedAt": "2026-07-22T08:44:24.221Z",
+  "toGeneratedAt": "2026-07-22T14:21:26.640Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 3,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "uv",
       "podman",
       "postman",
-      "insomnia",
-      "vercel_cli"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "uv",
+        "toolId": "podman",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "0.11.30",
-        "to": "0.11.31"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.11.30",
-        "to": "0.11.31"
-      },
-      {
-        "toolId": "podman",
-        "sourceId": "scoop",
-        "manager": "scoop",
         "from": "6.0.1",
         "to": "6.0.2"
       },
       {
         "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "12.20.1",
         "to": "12.20.2"
       },
       {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.20.1",
-        "to": "12.20.2"
-      },
-      {
-        "toolId": "insomnia",
+        "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "core@13.1.0-beta.0",
-        "to": "core@13.1.0-beta.1"
-      },
-      {
-        "toolId": "vercel_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "ercel@56.4.1",
-        "to": "ercel@56.5.0"
+        "from": "2.110.0-beta.33",
+        "to": "2.110.0-beta.36"
       }
     ],
     "qualityChanges": []
