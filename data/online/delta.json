@@ -1,112 +1,86 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T08:42:15.584Z",
-  "fromGeneratedAt": "2026-07-24T03:43:22.515Z",
-  "toGeneratedAt": "2026-07-24T08:42:15.584Z",
+  "generatedAt": "2026-07-24T14:12:15.334Z",
+  "fromGeneratedAt": "2026-07-24T08:42:15.584Z",
+  "toGeneratedAt": "2026-07-24T14:12:15.334Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 11,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
       "oh_my_posh",
-      "uv",
-      "visual_studio_community",
-      "pulumi",
-      "cloudflared",
-      "insomnia",
+      "packer",
       "bruno",
-      "redis",
+      "quarto",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "oh_my_posh",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.2.0838",
-        "to": "9.2.0843"
+        "from": "29.35.2",
+        "to": "29.36.0"
       },
       {
         "toolId": "oh_my_posh",
         "sourceId": "github",
         "manager": "github",
-        "from": "29.35.2",
-        "to": "29.35.3"
+        "from": "29.35.3",
+        "to": "29.36.0"
       },
       {
-        "toolId": "uv",
+        "toolId": "packer",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "0.11.30",
-        "to": "0.11.32"
+        "from": "1.15.4",
+        "to": "1.16.0"
       },
       {
-        "toolId": "visual_studio_community",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "17.14.36",
-        "to": "17.14.37"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.253.0",
-        "to": "3.254.0"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.246.0",
-        "to": "3.254.0"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2026.7.1",
-        "to": "2026.7.3"
-      },
-      {
-        "toolId": "insomnia",
+        "toolId": "packer",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "13.0.2",
-        "to": "13.1.0"
+        "from": "1.15.4",
+        "to": "1.16.0"
+      },
+      {
+        "toolId": "packer",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "nightly",
+        "to": "1.16.0"
       },
       {
         "toolId": "bruno",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "3.5.3",
         "to": "4.0.0"
       },
       {
-        "toolId": "redis",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "8.8.0",
-        "to": "8.8.1"
+        "toolId": "quarto",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.10.17",
+        "to": "1.10.18"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.37",
-        "to": "2.110.0-beta.38"
+        "from": "2.110.0-beta.38",
+        "to": "2.110.0-beta.39"
       }
     ],
     "qualityChanges": []
