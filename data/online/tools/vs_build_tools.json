@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T19:45:37.290Z",
+  "generatedAt": "2026-07-24T03:43:22.515Z",
   "status": "ok",
   "tool": {
     "id": "vs_build_tools",
@@ -27,7 +27,7 @@
       "long": "These Build Tools allow you to build Visual Studio projects from a command-line interface.",
       "source": "winget",
       "homepage": "https://visualstudio.microsoft.com/",
-      "lastUpdatedAt": "2026-07-23T19:45:12.800Z"
+      "lastUpdatedAt": "2026-07-24T03:42:57.508Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -79,7 +79,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-23T19:45:12.800Z",
+          "scannedAt": "2026-07-24T03:42:57.508Z",
           "errors": []
         },
         "package": {
@@ -93,7 +93,7 @@
         },
         "links": {
           "homepage": "https://visualstudio.microsoft.com/",
-          "download": "https://download.visualstudio.microsoft.com/download/pr/12aa1305-dd17-4f26-8429-d072cda64c80/5ae95bb02bb3442441a8d891e5bb1d2975445e2e3ee16ada5bc7bd17227f1dd7/vs_BuildTools.exe",
+          "download": "https://download.visualstudio.microsoft.com/download/pr/f7f5ecbc-83ca-4cf0-bdb2-aaf70efb6d97/e0b8ea16494b4a79c68da26773131562aefecc8d87f1923c24d579c7a72e0575/vs_BuildTools.exe",
           "releases": null,
           "docs": null
         },
@@ -102,7 +102,7 @@
           "long": "These Build Tools allow you to build Visual Studio projects from a command-line interface.",
           "source": "winget",
           "homepage": "https://visualstudio.microsoft.com/",
-          "lastUpdatedAt": "2026-07-23T19:45:12.800Z"
+          "lastUpdatedAt": "2026-07-24T03:42:57.508Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -122,9 +122,19 @@
         },
         "versions": [
           {
-            "version": "17.14.36",
+            "version": "17.14.37",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "17.14.36",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -410,29 +420,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "17.14.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "17.14.36",
+            "version": "17.14.37",
             "platform": "windows",
             "architecture": null,
             "type": "exe",
-            "url": "https://download.visualstudio.microsoft.com/download/pr/12aa1305-dd17-4f26-8429-d072cda64c80/5ae95bb02bb3442441a8d891e5bb1d2975445e2e3ee16ada5bc7bd17227f1dd7/vs_BuildTools.exe",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/f7f5ecbc-83ca-4cf0-bdb2-aaf70efb6d97/e0b8ea16494b4a79c68da26773131562aefecc8d87f1923c24d579c7a72e0575/vs_BuildTools.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "5ae95bb02bb3442441a8d891e5bb1d2975445e2e3ee16ada5bc7bd17227f1dd7",
+            "sha256": "e0b8ea16494b4a79c68da26773131562aefecc8d87f1923c24d579c7a72e0575",
             "sizeBytes": null
           }
         ],
@@ -530,7 +530,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-23T19:45:12.800Z",
+          "lastSuccessfulScanAt": "2026-07-24T03:42:57.508Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
