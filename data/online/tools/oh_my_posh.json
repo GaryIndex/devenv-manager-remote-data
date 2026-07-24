@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T14:12:15.334Z",
-  "status": "ok",
+  "generatedAt": "2026-07-24T19:46:02.775Z",
+  "status": "partial",
   "tool": {
     "id": "oh_my_posh",
     "name": "Oh My Posh",
@@ -29,7 +29,7 @@
       "long": "Introduction What started as the offspring of oh-my-posh2 for PowerShell resulted in a cross platform, highly customizable and extensible prompt theme engine. After 4 years of working on oh-my-posh, a modern and more efficient tool was needed to suit my personal needs. Features Shell independent Git status indications Failed command indication Admin indication Current session indications Language info Shell info Configurable Fast Package Specific Flags Versions after 8.5.0 default to Installing for All Users. Flag CURRENTUSER can be used to install only for the current user. See Issue 34 on the package repo for more info on why this change was made. Virus Scan Results There are some false positives associated with Oh-My-Posh and they are being tracked in Issue 767 and is a somewhat common issue with programs written in Go.",
       "source": "choco",
       "homepage": "https://ohmyposh.dev/",
-      "lastUpdatedAt": "2026-07-24T14:11:30.092Z"
+      "lastUpdatedAt": "2026-07-24T19:45:00.637Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T14:11:29.881Z",
+          "scannedAt": "2026-07-24T19:45:00.485Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://ohmyposh.dev/",
-          "download": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.35.1/install-x64.msix",
-          "releases": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v29.35.1",
+          "download": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.36.0/install-x64.msix",
+          "releases": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v29.36.0",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": "Prompt theme engine for any shell",
           "source": "winget",
           "homepage": "https://ohmyposh.dev/",
-          "lastUpdatedAt": "2026-07-24T14:11:29.881Z"
+          "lastUpdatedAt": "2026-07-24T19:45:00.485Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,39 @@
         },
         "versions": [
           {
-            "version": "29.35.1",
+            "version": "29.36.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.35.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.35.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.35.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -410,49 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "29.15.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "29.14.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "29.13.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "29.35.1",
+            "version": "29.36.0",
             "platform": "windows",
             "architecture": null,
             "type": "msix",
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.35.1/install-x64.msix",
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.36.0/install-x64.msix",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "94ab32650eb4f5f10dd30bd7432b253f650f1ee1e3e5a9cfcafc1550276324c4",
+            "sha256": "52858c9776e6640a839b1607912323f7cbf5b9010cacb7dc645e825631bc8ed9",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T14:11:29.881Z",
+          "lastSuccessfulScanAt": "2026-07-24T19:45:00.485Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T14:11:30.023Z",
+          "scannedAt": "2026-07-24T19:45:00.567Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "A prompt theme engine for any shell",
           "source": "scoop",
           "homepage": "https://ohmyposh.dev",
-          "lastUpdatedAt": "2026-07-24T14:11:30.023Z"
+          "lastUpdatedAt": "2026-07-24T19:45:00.567Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T14:11:30.023Z",
+          "lastSuccessfulScanAt": "2026-07-24T19:45:00.567Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T14:11:30.092Z",
+          "scannedAt": "2026-07-24T19:45:00.637Z",
           "errors": []
         },
         "package": {
@@ -802,7 +802,7 @@
           "long": "Introduction What started as the offspring of oh-my-posh2 for PowerShell resulted in a cross platform, highly customizable and extensible prompt theme engine. After 4 years of working on oh-my-posh, a modern and more efficient tool was needed to suit my personal needs. Features Shell independent Git status indications Failed command indication Admin indication Current session indications Language info Shell info Configurable Fast Package Specific Flags Versions after 8.5.0 default to Installing for All Users. Flag CURRENTUSER can be used to install only for the current user. See Issue 34 on the package repo for more info on why this change was made. Virus Scan Results There are some false positives associated with Oh-My-Posh and they are being tracked in Issue 767 and is a somewhat common issue with programs written in Go.",
           "source": "choco",
           "homepage": "https://ohmyposh.dev/",
-          "lastUpdatedAt": "2026-07-24T14:11:30.092Z"
+          "lastUpdatedAt": "2026-07-24T19:45:00.637Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1208,7 +1208,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T14:11:30.092Z",
+          "lastSuccessfulScanAt": "2026-07-24T19:45:00.637Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1256,7 +1256,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T14:11:30.218Z",
+          "scannedAt": "2026-07-24T19:45:00.772Z",
           "errors": []
         },
         "package": {
@@ -1297,7 +1297,7 @@
           "long": "The most customisable and low-latency cross platform/shell prompt renderer",
           "source": "github",
           "homepage": "https://ohmyposh.dev",
-          "lastUpdatedAt": "2026-07-24T14:11:30.218Z"
+          "lastUpdatedAt": "2026-07-24T19:45:00.772Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2602,7 +2602,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T14:11:30.218Z",
+          "lastSuccessfulScanAt": "2026-07-24T19:45:00.772Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
