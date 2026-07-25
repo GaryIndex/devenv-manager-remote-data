@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T19:46:02.775Z",
-  "status": "partial",
+  "generatedAt": "2026-07-25T03:36:20.160Z",
+  "status": "ok",
   "tool": {
     "id": "blender",
     "name": "Blender",
@@ -28,7 +28,7 @@
       "long": "Blender is a free and open-source professional-grade 3D computer graphics and video compositing program. Realistic Materials !Realistic Materials Fluid Simulations !Fluid Simulations Features Blender is a fully integrated 3D content creation suite, offering a broad range of essential tools: Modeling Rendering Animation Video Editing and Compositing Texturing Rigging Simulations Game Creation. Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts). High-quality 3D architecture enabling fast and efficient creation work-flow. Excellent community support from forums and IRC. Small executable size, optionally portable. Notes - If you have multiple installations of the Blender software, the uninstallation of the Chocolatey package will likely fail. Please manually uninstall the Blender software (through 'Add and Remove Programs' or 'Programs and Features') and then run choco uninstall blender to remove the package. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Com...",
       "source": "choco",
       "homepage": "https://www.blender.org/",
-      "lastUpdatedAt": "2026-07-24T19:45:42.553Z"
+      "lastUpdatedAt": "2026-07-25T03:36:15.349Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,7 +96,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T19:45:41.975Z",
+          "scannedAt": "2026-07-25T03:36:15.017Z",
           "errors": []
         },
         "package": {
@@ -119,7 +119,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-07-24T19:45:41.975Z"
+          "lastUpdatedAt": "2026-07-25T03:36:15.017Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T19:45:41.975Z",
+          "lastSuccessfulScanAt": "2026-07-25T03:36:15.017Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -593,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T19:45:42.363Z",
+          "scannedAt": "2026-07-25T03:36:15.134Z",
           "errors": []
         },
         "package": {
@@ -619,7 +619,7 @@
           "long": "3D creation suite",
           "source": "homebrew",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-07-24T19:45:42.363Z"
+          "lastUpdatedAt": "2026-07-25T03:36:15.134Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T19:45:42.363Z",
+          "lastSuccessfulScanAt": "2026-07-25T03:36:15.134Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -770,34 +770,34 @@
         "official": true,
         "priority": 25,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-24T19:45:42.418Z",
-          "errors": [
-            "details: ScoopInstaller/Main: 404 Not Found: 404: Not Found; ScoopInstaller/Extras: This operation was aborted; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found",
-            "versions: ScoopInstaller/Main: 404 Not Found: 404: Not Found; ScoopInstaller/Extras: This operation was aborted; ScoopInstaller/Versions: 404 Not Found: 404: Not Found; ScoopInstaller/Java: 404 Not Found: 404: Not Found; ScoopInstaller/Nonportable: 404 Not Found: 404: Not Found"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-25T03:36:15.182Z",
+          "errors": []
         },
         "package": {
           "name": "Blender",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "ScoopInstaller/Extras",
+          "author": "ScoopInstaller/Extras",
+          "description": "3D creation suite",
+          "license": "GPL-3.0-or-later",
           "licenseUrl": null,
-          "tags": []
+          "tags": [
+            "scoop",
+            "ScoopInstaller/Extras"
+          ]
         },
         "links": {
-          "homepage": "https://www.blender.org/",
+          "homepage": "https://www.blender.org",
           "download": "https://www.blender.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "3D creation suite",
+          "long": "3D creation suite",
           "source": "scoop",
-          "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-07-24T19:45:42.418Z"
+          "homepage": "https://www.blender.org",
+          "lastUpdatedAt": "2026-07-25T03:36:15.182Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -806,7 +806,8 @@
           "keywords": [
             "blender",
             "Blender",
-            "scoop"
+            "scoop",
+            "ScoopInstaller/Extras"
           ],
           "relatedTools": []
         },
@@ -815,17 +816,28 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "5.2.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "5.2.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
             "url": "https://www.blender.org/",
-            "urlType": "download-page",
-            "direct": false,
+            "urlType": "direct-installer",
+            "direct": true,
             "sha256": null,
             "sizeBytes": null
           }
@@ -887,11 +899,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-25T03:36:15.182Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -936,7 +948,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T19:45:42.553Z",
+          "scannedAt": "2026-07-25T03:36:15.349Z",
           "errors": []
         },
         "package": {
@@ -968,7 +980,7 @@
           "long": "Blender is a free and open-source professional-grade 3D computer graphics and video compositing program. Realistic Materials !Realistic Materials Fluid Simulations !Fluid Simulations Features Blender is a fully integrated 3D content creation suite, offering a broad range of essential tools: Modeling Rendering Animation Video Editing and Compositing Texturing Rigging Simulations Game Creation. Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts). High-quality 3D architecture enabling fast and efficient creation work-flow. Excellent community support from forums and IRC. Small executable size, optionally portable. Notes - If you have multiple installations of the Blender software, the uninstallation of the Chocolatey package will likely fail. Please manually uninstall the Blender software (through 'Add and Remove Programs' or 'Programs and Features') and then run choco uninstall blender to remove the package. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Com...",
           "source": "choco",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-07-24T19:45:42.553Z"
+          "lastUpdatedAt": "2026-07-25T03:36:15.349Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1377,7 +1389,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T19:45:42.553Z",
+          "lastSuccessfulScanAt": "2026-07-25T03:36:15.349Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

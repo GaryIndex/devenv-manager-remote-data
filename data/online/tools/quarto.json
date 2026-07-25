@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T19:46:02.775Z",
-  "status": "partial",
+  "generatedAt": "2026-07-25T03:36:20.160Z",
+  "status": "ok",
   "tool": {
     "id": "quarto",
     "name": "Quarto",
@@ -29,7 +29,7 @@
       "long": "Features of Quarto: Create dynamic content with Python, R, Julia, and Observable. Author documents as plain text markdown or Jupyter notebooks. Publish high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more. Author with scientific markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.",
       "source": "choco",
       "homepage": "https://quarto.org/",
-      "lastUpdatedAt": "2026-07-24T19:45:39.094Z"
+      "lastUpdatedAt": "2026-07-25T03:36:11.961Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T19:45:37.162Z",
+          "scannedAt": "2026-07-25T03:36:11.550Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://quarto.org/",
-          "download": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.38/quarto-1.9.38-win.msi",
-          "releases": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.9.38",
+          "download": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.10.18/quarto-1.10.18-win.msi",
+          "releases": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.10.18",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://quarto.org/",
-          "lastUpdatedAt": "2026-07-24T19:45:37.162Z"
+          "lastUpdatedAt": "2026-07-25T03:36:11.550Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "1.9.38",
+            "version": "1.10.18",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.38",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -429,29 +439,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.4.554",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.9.38",
+            "version": "1.10.18",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.38/quarto-1.9.38-win.msi",
+            "url": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.10.18/quarto-1.10.18-win.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "910c7faf64d045bab8a1c7e8a09c6a27374f546cbb0de7fd49ac33e385584d3b",
+            "sha256": "8b98a10b429b1a70e949df31d0171e7ba9c1808470d6c84a46f659315ab67e31",
             "sizeBytes": null
           }
         ],
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T19:45:37.162Z",
+          "lastSuccessfulScanAt": "2026-07-25T03:36:11.550Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -595,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T19:45:38.840Z",
+          "scannedAt": "2026-07-25T03:36:11.627Z",
           "errors": []
         },
         "package": {
@@ -621,7 +621,7 @@
           "long": "Scientific and technical publishing system built on Pandoc",
           "source": "homebrew",
           "homepage": "https://www.quarto.org/",
-          "lastUpdatedAt": "2026-07-24T19:45:38.840Z"
+          "lastUpdatedAt": "2026-07-25T03:36:11.627Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -727,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T19:45:38.840Z",
+          "lastSuccessfulScanAt": "2026-07-25T03:36:11.627Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -773,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T19:45:38.911Z",
+          "scannedAt": "2026-07-25T03:36:11.679Z",
           "errors": []
         },
         "package": {
@@ -799,7 +799,7 @@
           "long": "Open-source scientific and technical publishing system built on Pandoc",
           "source": "scoop",
           "homepage": "https://quarto.org",
-          "lastUpdatedAt": "2026-07-24T19:45:38.911Z"
+          "lastUpdatedAt": "2026-07-25T03:36:11.679Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -904,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T19:45:38.911Z",
+          "lastSuccessfulScanAt": "2026-07-25T03:36:11.679Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -950,7 +950,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T19:45:39.094Z",
+          "scannedAt": "2026-07-25T03:36:11.961Z",
           "errors": []
         },
         "package": {
@@ -983,7 +983,7 @@
           "long": "Features of Quarto: Create dynamic content with Python, R, Julia, and Observable. Author documents as plain text markdown or Jupyter notebooks. Publish high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more. Author with scientific markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.",
           "source": "choco",
           "homepage": "https://quarto.org/",
-          "lastUpdatedAt": "2026-07-24T19:45:39.094Z"
+          "lastUpdatedAt": "2026-07-25T03:36:11.961Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1393,7 +1393,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T19:45:39.094Z",
+          "lastSuccessfulScanAt": "2026-07-25T03:36:11.961Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1441,7 +1441,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-24T19:45:39.257Z",
+          "scannedAt": "2026-07-25T03:36:12.293Z",
           "errors": []
         },
         "package": {
@@ -1464,7 +1464,7 @@
           "long": "Open-source scientific and technical publishing system built on Pandoc.",
           "source": "github",
           "homepage": "https://quarto.org",
-          "lastUpdatedAt": "2026-07-24T19:45:39.257Z"
+          "lastUpdatedAt": "2026-07-25T03:36:12.293Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2751,7 +2751,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-24T19:45:39.257Z",
+          "lastSuccessfulScanAt": "2026-07-25T03:36:12.293Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

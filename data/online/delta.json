@@ -1,119 +1,87 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T19:46:02.775Z",
-  "fromGeneratedAt": "2026-07-24T14:12:15.334Z",
-  "toGeneratedAt": "2026-07-24T19:46:02.775Z",
-  "status": "partial",
+  "generatedAt": "2026-07-25T03:36:20.160Z",
+  "fromGeneratedAt": "2026-07-24T19:46:02.775Z",
+  "toGeneratedAt": "2026-07-25T03:36:20.160Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 12,
+    "versionChanges": 8,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vscode",
       "vim",
-      "oh_my_posh",
-      "pnpm",
-      "deno",
-      "uv",
-      "terraform",
+      "aws_cli",
+      "postman",
       "quarto",
-      "vercel_cli",
-      "netlify_cli",
       "blender"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.838",
-        "to": "9.2.843"
-      },
-      {
-        "toolId": "oh_my_posh",
+        "toolId": "vscode",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "29.35.1",
-        "to": "29.36.0"
+        "from": "1.126.0",
+        "to": "1.129.0"
       },
       {
-        "toolId": "pnpm",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "11.16.0",
-        "to": "11.17.0"
-      },
-      {
-        "toolId": "deno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.9.3",
-        "to": "2.9.4"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.11.31",
-        "to": "0.11.32"
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.16.0-alpha20260715",
-        "to": "1.16.0-beta1"
-      },
-      {
-        "toolId": "quarto",
+        "toolId": "vim",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.9.38",
-        "to": "1.10.18"
+        "from": "9.2.0800",
+        "to": "9.2.0850"
       },
       {
-        "toolId": "quarto",
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.36.7",
+        "to": "2.36.8"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.7",
+        "to": "2.36.8"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.9.38",
-        "to": "1.10.18"
+        "from": "2.36.7",
+        "to": "2.36.8"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.20.2",
+        "to": "12.20.4"
       },
       {
         "toolId": "quarto",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.10.18",
-        "to": "1.11.0"
-      },
-      {
-        "toolId": "vercel_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "ercel@56.5.0",
-        "to": "ercel@57.0.0"
-      },
-      {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "26.2.0",
-        "to": "27.0.0"
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.9.38",
+        "to": "1.10.18"
       },
       {
         "toolId": "blender",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "5.2.0",
-        "to": null
+        "from": null,
+        "to": "5.2.0"
       }
     ],
     "qualityChanges": [
@@ -121,8 +89,8 @@
         "toolId": "blender",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
