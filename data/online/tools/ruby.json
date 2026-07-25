@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-25T14:01:31.590Z",
-  "status": "ok",
+  "generatedAt": "2026-07-25T19:34:41.554Z",
+  "status": "partial",
   "tool": {
     "id": "ruby",
     "name": "RubyInstaller with Devkit",
@@ -29,7 +29,7 @@
       "long": "Ruby is a dynamic, open source programming language focusing on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. This package provides a self-contained Windows-based installer that includes the Ruby language, an execution environment, important documentation, and more.",
       "source": "choco",
       "homepage": "https://www.ruby-lang.org/",
-      "lastUpdatedAt": "2026-07-25T14:01:25.216Z"
+      "lastUpdatedAt": "2026-07-25T19:34:36.681Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,9 +96,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-25T14:01:25.042Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-25T19:34:36.453Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "RubyInstaller with Devkit",
@@ -120,7 +122,7 @@
           "long": "The RubyInstaller project provides a self-contained Windows-based installer that includes a Ruby-language execution environment and a baseline set of required RubyGems and extensions, integrated with a MSYS2 installation.",
           "source": "winget",
           "homepage": "https://rubyinstaller.org/downloads/",
-          "lastUpdatedAt": "2026-07-25T14:01:25.042Z"
+          "lastUpdatedAt": "2026-07-25T19:34:36.453Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,102 +140,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "3.2.11-1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.10-1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.9-1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.8-1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.7-1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.4-1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.2-1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.1-1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.0-1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "3.2.11-1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "inno",
@@ -335,11 +246,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-25T14:01:25.042Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -385,7 +296,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-25T14:01:25.133Z",
+          "scannedAt": "2026-07-25T19:34:36.533Z",
           "errors": []
         },
         "package": {
@@ -411,7 +322,7 @@
           "long": "Powerful, clean, object-oriented scripting language",
           "source": "homebrew",
           "homepage": "https://www.ruby-lang.org/",
-          "lastUpdatedAt": "2026-07-25T14:01:25.133Z"
+          "lastUpdatedAt": "2026-07-25T19:34:36.533Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -557,7 +468,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-25T14:01:25.133Z",
+          "lastSuccessfulScanAt": "2026-07-25T19:34:36.533Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -603,7 +514,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-25T14:01:25.184Z",
+          "scannedAt": "2026-07-25T19:34:36.597Z",
           "errors": []
         },
         "package": {
@@ -629,7 +540,7 @@
           "long": "A dynamic programming language with a focus on simplicity and productivity.",
           "source": "scoop",
           "homepage": "https://rubyinstaller.org",
-          "lastUpdatedAt": "2026-07-25T14:01:25.184Z"
+          "lastUpdatedAt": "2026-07-25T19:34:36.597Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -734,7 +645,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-25T14:01:25.184Z",
+          "lastSuccessfulScanAt": "2026-07-25T19:34:36.597Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -780,7 +691,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-25T14:01:25.216Z",
+          "scannedAt": "2026-07-25T19:34:36.681Z",
           "errors": []
         },
         "package": {
@@ -811,7 +722,7 @@
           "long": "Ruby is a dynamic, open source programming language focusing on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. This package provides a self-contained Windows-based installer that includes the Ruby language, an execution environment, important documentation, and more.",
           "source": "choco",
           "homepage": "https://www.ruby-lang.org/",
-          "lastUpdatedAt": "2026-07-25T14:01:25.216Z"
+          "lastUpdatedAt": "2026-07-25T19:34:36.681Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1219,7 +1130,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-25T14:01:25.216Z",
+          "lastSuccessfulScanAt": "2026-07-25T19:34:36.681Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
