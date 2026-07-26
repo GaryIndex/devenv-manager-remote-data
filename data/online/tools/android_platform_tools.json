@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "android_platform_tools",
     "name": "Android SDK Platform-Tools",
@@ -28,7 +28,7 @@
       "long": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. This package also includes the fastboot.exe command.",
       "source": "choco",
       "homepage": "https://developer.android.com/studio/command-line/adb",
-      "lastUpdatedAt": "2026-07-26T08:40:49.312Z"
+      "lastUpdatedAt": "2026-07-26T13:55:32.799Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,26 +96,23 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:40:47.532Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:32.411Z",
+          "errors": []
         },
         "package": {
           "name": "Android SDK Platform-Tools",
-          "publisher": null,
+          "publisher": "Google LLC",
           "author": null,
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Apache-2.0",
+          "licenseUrl": "https://android.googlesource.com/platform/packages/modules/adb/+/refs/heads/main/NOTICE",
           "tags": []
         },
         "links": {
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "download": "https://developer.android.com/tools/releases/platform-tools",
-          "releases": null,
+          "download": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+          "releases": "https://developer.android.com/tools/releases/platform-tools",
           "docs": null
         },
         "descriptions": {
@@ -123,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-07-26T08:40:47.532Z"
+          "lastUpdatedAt": "2026-07-26T13:55:32.411Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,18 +139,129 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "37.0.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "37.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "36.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "35.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "34.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "37.0.1",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://developer.android.com/tools/releases/platform-tools",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "84df1e5628bc7e6a9f2bf750ab98c591a99a6d622fd48f789cf278336bab5b99",
             "sizeBytes": null
           }
         ],
@@ -248,11 +356,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:32.411Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -297,7 +405,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:49.265Z",
+          "scannedAt": "2026-07-26T13:55:32.575Z",
           "errors": []
         },
         "package": {
@@ -323,7 +431,7 @@
           "long": "Android SDK component",
           "source": "homebrew",
           "homepage": "https://developer.android.com/tools/releases/platform-tools",
-          "lastUpdatedAt": "2026-07-26T08:40:49.265Z"
+          "lastUpdatedAt": "2026-07-26T13:55:32.575Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -430,7 +538,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:49.265Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:32.575Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -476,7 +584,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:49.278Z",
+          "scannedAt": "2026-07-26T13:55:32.677Z",
           "errors": []
         },
         "package": {
@@ -502,7 +610,7 @@
           "long": "Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot",
           "source": "scoop",
           "homepage": "https://developer.android.com/studio/releases/platform-tools",
-          "lastUpdatedAt": "2026-07-26T08:40:49.278Z"
+          "lastUpdatedAt": "2026-07-26T13:55:32.677Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -608,7 +716,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:49.278Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:32.677Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -654,7 +762,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:49.312Z",
+          "scannedAt": "2026-07-26T13:55:32.799Z",
           "errors": []
         },
         "package": {
@@ -683,7 +791,7 @@
           "long": "Android Debug Bridge (adb) is a versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. This package also includes the fastboot.exe command.",
           "source": "choco",
           "homepage": "https://developer.android.com/studio/command-line/adb",
-          "lastUpdatedAt": "2026-07-26T08:40:49.312Z"
+          "lastUpdatedAt": "2026-07-26T13:55:32.799Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1090,7 +1198,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:49.312Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:32.799Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

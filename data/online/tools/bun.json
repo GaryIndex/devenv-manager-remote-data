@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "bun",
     "name": "Bun",
@@ -29,7 +29,7 @@
       "long": "Develop, test, run, and bundle JavaScript & TypeScript projects—all with Bun. Bun is an all-in-one JavaScript runtime & toolkit designed for speed, complete with a bundler, test runner, and Node.js-compatible package manager.",
       "source": "choco",
       "homepage": "https://bun.sh/",
-      "lastUpdatedAt": "2026-07-26T08:39:16.956Z"
+      "lastUpdatedAt": "2026-07-26T13:55:03.779Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,34 +97,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:39:16.810Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:03.530Z",
+          "errors": []
         },
         "package": {
           "name": "Bun",
-          "publisher": null,
+          "publisher": "Oven-sh",
           "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/oven-sh/bun/blob/HEAD/LICENSE.md",
           "tags": []
         },
         "links": {
           "homepage": "https://bun.sh/",
-          "download": "https://bun.sh/",
-          "releases": null,
+          "download": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-windows-x64.zip",
+          "releases": "https://bun.com/blog/bun-v1.3.14",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+          "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
           "source": "winget",
           "homepage": "https://bun.sh/",
-          "lastUpdatedAt": "2026-07-26T08:39:16.810Z"
+          "lastUpdatedAt": "2026-07-26T13:55:03.530Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,18 +139,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.3.14",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.23",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.22",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.21",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.19",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.18",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.17",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.16",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.15",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.14",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.3.14",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://bun.sh/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-windows-x64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "0a0620930b6675d7ba440e81f4e0e00d3cfbe096c4b140d3fff02205e9e18922",
             "sizeBytes": null
           }
         ],
@@ -248,11 +546,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:03.530Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -298,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:16.904Z",
+          "scannedAt": "2026-07-26T13:55:03.668Z",
           "errors": []
         },
         "package": {
@@ -324,7 +622,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager",
           "source": "homebrew",
           "homepage": "https://bun.com/",
-          "lastUpdatedAt": "2026-07-26T08:39:16.904Z"
+          "lastUpdatedAt": "2026-07-26T13:55:03.668Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -430,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:16.904Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:03.668Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -476,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:16.929Z",
+          "scannedAt": "2026-07-26T13:55:03.759Z",
           "errors": []
         },
         "package": {
@@ -502,7 +800,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.",
           "source": "scoop",
           "homepage": "https://bun.sh/",
-          "lastUpdatedAt": "2026-07-26T08:39:16.929Z"
+          "lastUpdatedAt": "2026-07-26T13:55:03.759Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -607,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:16.929Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:03.759Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -653,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:16.956Z",
+          "scannedAt": "2026-07-26T13:55:03.779Z",
           "errors": []
         },
         "package": {
@@ -681,7 +979,7 @@
           "long": "Develop, test, run, and bundle JavaScript & TypeScript projects—all with Bun. Bun is an all-in-one JavaScript runtime & toolkit designed for speed, complete with a bundler, test runner, and Node.js-compatible package manager.",
           "source": "choco",
           "homepage": "https://bun.sh/",
-          "lastUpdatedAt": "2026-07-26T08:39:16.956Z"
+          "lastUpdatedAt": "2026-07-26T13:55:03.779Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1086,7 +1384,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:16.956Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:03.779Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1134,7 +1432,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:17.233Z",
+          "scannedAt": "2026-07-26T13:55:03.877Z",
           "errors": []
         },
         "package": {
@@ -1170,7 +1468,7 @@
           "long": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
           "source": "github",
           "homepage": "https://bun.com",
-          "lastUpdatedAt": "2026-07-26T08:39:17.233Z"
+          "lastUpdatedAt": "2026-07-26T13:55:03.877Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2468,7 +2766,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:17.233Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:03.877Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

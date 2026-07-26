@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "volta",
     "name": "Volta",
@@ -29,7 +29,7 @@
       "long": "Fast: Install and run any JS tool quickly and seamlessly! Volta is built in Rust and ships as a snappy static binary. Reliable: Ensure everyone in your project has the same tools—without interfering with their workflow. Universal: No matter the package manager, Node runtime, or OS, one command is all you need: volta install.",
       "source": "choco",
       "homepage": "https://volta.sh/",
-      "lastUpdatedAt": "2026-07-26T08:39:19.978Z"
+      "lastUpdatedAt": "2026-07-26T13:55:04.958Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,34 +97,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:39:18.808Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:04.567Z",
+          "errors": []
         },
         "package": {
           "name": "Volta",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "The Volta Maintainers",
+          "author": "The Volta Maintainers",
+          "description": "The Hassle-Free JavaScript Tool Manager",
+          "license": "BSD-2-Clause-Views",
+          "licenseUrl": "https://github.com/volta-cli/volta/blob/main/LICENSE",
           "tags": []
         },
         "links": {
-          "homepage": "https://volta.sh/",
-          "download": "https://volta.sh/",
-          "releases": null,
+          "homepage": "https://volta.sh",
+          "download": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-windows-x86_64.msi",
+          "releases": "https://github.com/volta-cli/volta/releases/tag/v2.0.2",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "The Hassle-Free JavaScript Tool Manager",
+          "long": "The Hassle-Free JavaScript Tool Manager",
           "source": "winget",
-          "homepage": "https://volta.sh/",
-          "lastUpdatedAt": "2026-07-26T08:39:18.808Z"
+          "homepage": "https://volta.sh",
+          "lastUpdatedAt": "2026-07-26T13:55:04.567Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,18 +139,109 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "2.0.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "2.0.2",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://volta.sh/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://github.com/volta-cli/volta/releases/download/v2.0.2/volta-2.0.2-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "104bf5518177990e4c4de78097caa747eb8f64e1149bfdfa9106f4a3d3e5f10b",
             "sizeBytes": null
           }
         ],
@@ -248,11 +336,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:04.567Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -298,7 +386,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:19.936Z",
+          "scannedAt": "2026-07-26T13:55:04.807Z",
           "errors": []
         },
         "package": {
@@ -324,7 +412,7 @@
           "long": "JavaScript toolchain manager for reproducible environments",
           "source": "homebrew",
           "homepage": "https://volta.sh",
-          "lastUpdatedAt": "2026-07-26T08:39:19.936Z"
+          "lastUpdatedAt": "2026-07-26T13:55:04.807Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -430,7 +518,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:19.936Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:04.807Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -476,7 +564,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:19.953Z",
+          "scannedAt": "2026-07-26T13:55:04.923Z",
           "errors": []
         },
         "package": {
@@ -502,7 +590,7 @@
           "long": "Volta is a hassle-free way to manage your JavaScript command-line tools",
           "source": "scoop",
           "homepage": "https://volta.sh/",
-          "lastUpdatedAt": "2026-07-26T08:39:19.953Z"
+          "lastUpdatedAt": "2026-07-26T13:55:04.923Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -607,7 +695,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:19.953Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:04.923Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -653,7 +741,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:19.978Z",
+          "scannedAt": "2026-07-26T13:55:04.958Z",
           "errors": []
         },
         "package": {
@@ -679,7 +767,7 @@
           "long": "Fast: Install and run any JS tool quickly and seamlessly! Volta is built in Rust and ships as a snappy static binary. Reliable: Ensure everyone in your project has the same tools—without interfering with their workflow. Universal: No matter the package manager, Node runtime, or OS, one command is all you need: volta install.",
           "source": "choco",
           "homepage": "https://volta.sh/",
-          "lastUpdatedAt": "2026-07-26T08:39:19.978Z"
+          "lastUpdatedAt": "2026-07-26T13:55:04.958Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -832,7 +920,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:19.978Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:04.958Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -880,7 +968,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:20.191Z",
+          "scannedAt": "2026-07-26T13:55:05.055Z",
           "errors": []
         },
         "package": {
@@ -907,7 +995,7 @@
           "long": "Volta: JS Toolchains as Code. ⚡",
           "source": "github",
           "homepage": "https://volta.sh",
-          "lastUpdatedAt": "2026-07-26T08:39:20.191Z"
+          "lastUpdatedAt": "2026-07-26T13:55:05.055Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2197,7 +2285,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:20.191Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:05.055Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

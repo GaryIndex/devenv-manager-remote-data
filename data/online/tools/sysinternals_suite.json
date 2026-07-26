@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "sysinternals_suite",
     "name": "Sysinternals Suite",
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "low",
-      "score": 40
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -78,25 +78,22 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:40:52.882Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:35.292Z",
+          "errors": []
         },
         "package": {
           "name": "Sysinternals Suite",
-          "publisher": null,
-          "author": null,
+          "publisher": "Sysinternals",
+          "author": "Sysinternals Team",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Proprietary",
+          "licenseUrl": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
           "tags": []
         },
         "links": {
-          "homepage": "https://learn.microsoft.com/sysinternals/",
-          "download": "https://learn.microsoft.com/sysinternals/",
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+          "download": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
           "releases": null,
           "docs": null
         },
@@ -104,8 +101,8 @@
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://learn.microsoft.com/sysinternals/",
-          "lastUpdatedAt": "2026-07-26T08:40:52.882Z"
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+          "lastUpdatedAt": "2026-07-26T13:55:35.292Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -123,18 +120,29 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "2026-07-09",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "2026-07-09",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://learn.microsoft.com/sysinternals/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "9012aa4d47692054ccca7d03a4375f4ad8c48a2941085f9435ce375a47986c80",
             "sizeBytes": null
           }
         ],
@@ -229,11 +237,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:35.292Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

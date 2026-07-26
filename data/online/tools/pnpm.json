@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "pnpm",
     "name": "pnpm",
@@ -29,7 +29,7 @@
       "long": "Background pnpm uses a content-addressable filesystem to store all files from all module directories on a disk. When using npm, if you have 100 projects using lodash, you will have 100 copies of lodash on disk. With pnpm, lodash will be stored in a content-addressable storage, so: 1. If you depend on different versions of lodash, only the files that differ are added to the store. If lodash has 100 files, and a new version has a change only in one of those files, pnpm update will only add 1 new file to the storage. 1. All the files are saved in a single place on the disk. When packages are installed, their files are linked from that single place consuming no additional disk space. Linking is performed using either hard-links or reflinks (copy-on-write). As a result, you save gigabytes of space on your disk and you have a lot faster installations! If you'd like more details about the unique node modules structure that pnpm creates and why it works fine with the Node.js ecosystem, read this small article: Flat node modules is not the only way. Getting Started - Installation - Usage - Frequently Asked Questions - Chat - X - Bluesky Benchmark pnpm is up to 2x faster than npm and Yarn...",
       "source": "choco",
       "homepage": "https://pnpm.io/",
-      "lastUpdatedAt": "2026-07-26T08:39:14.965Z"
+      "lastUpdatedAt": "2026-07-26T13:55:02.941Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -95,34 +95,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:39:13.830Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:02.761Z",
+          "errors": []
         },
         "package": {
           "name": "pnpm",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "pnpm",
+          "author": "pnpm contributors",
+          "description": "Fast, disk space efficient package manager.",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/pnpm/pnpm/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://pnpm.io/",
-          "download": "https://pnpm.io/",
-          "releases": null,
+          "download": "https://github.com/pnpm/pnpm/releases/download/v11.15.1/pnpm-win32-x64.zip",
+          "releases": "https://github.com/pnpm/pnpm/releases/tag/v11.15.1",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Fast, disk space efficient package manager.",
+          "long": "Fast, disk space efficient package manager.",
           "source": "winget",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-07-26T08:39:13.830Z"
+          "lastUpdatedAt": "2026-07-26T13:55:02.761Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,18 +136,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "11.15.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.14.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.13.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "11.0.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.33.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.33.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.33.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.33.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.33.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.32.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.32.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.30.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.30.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.30.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.30.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.29.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.29.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.29.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.28.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.28.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.28.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.27.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.26.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.26.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.25.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.24.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "11.15.1",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://pnpm.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://github.com/pnpm/pnpm/releases/download/v11.15.1/pnpm-win32-x64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "e9179d727211d5556e969fccfa36f828392892c54728a711c9da1cc3093f7900",
             "sizeBytes": null
           }
         ],
@@ -245,11 +543,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:02.761Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -295,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:14.926Z",
+          "scannedAt": "2026-07-26T13:55:02.795Z",
           "errors": []
         },
         "package": {
@@ -321,7 +619,7 @@
           "long": "Fast, disk space efficient package manager",
           "source": "homebrew",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-07-26T08:39:14.926Z"
+          "lastUpdatedAt": "2026-07-26T13:55:02.795Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -446,7 +744,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:14.926Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:02.795Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -492,7 +790,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:14.941Z",
+          "scannedAt": "2026-07-26T13:55:02.904Z",
           "errors": []
         },
         "package": {
@@ -518,7 +816,7 @@
           "long": "A fast and disk space efficient Node package manager.",
           "source": "scoop",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-07-26T08:39:14.941Z"
+          "lastUpdatedAt": "2026-07-26T13:55:02.904Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -622,7 +920,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:14.941Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:02.904Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -668,7 +966,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:39:14.965Z",
+          "scannedAt": "2026-07-26T13:55:02.941Z",
           "errors": []
         },
         "package": {
@@ -695,7 +993,7 @@
           "long": "Background pnpm uses a content-addressable filesystem to store all files from all module directories on a disk. When using npm, if you have 100 projects using lodash, you will have 100 copies of lodash on disk. With pnpm, lodash will be stored in a content-addressable storage, so: 1. If you depend on different versions of lodash, only the files that differ are added to the store. If lodash has 100 files, and a new version has a change only in one of those files, pnpm update will only add 1 new file to the storage. 1. All the files are saved in a single place on the disk. When packages are installed, their files are linked from that single place consuming no additional disk space. Linking is performed using either hard-links or reflinks (copy-on-write). As a result, you save gigabytes of space on your disk and you have a lot faster installations! If you'd like more details about the unique node modules structure that pnpm creates and why it works fine with the Node.js ecosystem, read this small article: Flat node modules is not the only way. Getting Started - Installation - Usage - Frequently Asked Questions - Chat - X - Bluesky Benchmark pnpm is up to 2x faster than npm and Yarn...",
           "source": "choco",
           "homepage": "https://pnpm.io/",
-          "lastUpdatedAt": "2026-07-26T08:39:14.965Z"
+          "lastUpdatedAt": "2026-07-26T13:55:02.941Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1098,7 +1396,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:39:14.965Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:02.941Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

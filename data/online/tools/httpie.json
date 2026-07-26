@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "httpie",
     "name": "HTTPie",
@@ -29,7 +29,7 @@
       "long": "HTTPie aitch-tee-tee-pie is a user-friendly command-line HTTP client for the API era. It comes with JSON support, syntax highlighting, persistent sessions, wget-like downloads, plugins, and more. The project's goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs and HTTP servers. The http and https commands allow for creating and sending arbitrary HTTP requests. They use simple and natural syntax and provide formatted and colorized output. Main features: - Built-in JSON support - Colorized and formatted terminal output - Sensible defaults for the API era - Persistent sessions - Forms and file uploads - HTTPS, proxies, and authentication support - Support for arbitrary request data and headers - Wget-like downloads - Extensions API - Expressive and intuitive syntax - Linux, macOS, Windows, and FreeBSD support - All that and more in 2 simple commands: http + https",
       "source": "choco",
       "homepage": "https://httpie.io/",
-      "lastUpdatedAt": "2026-07-26T08:40:32.965Z"
+      "lastUpdatedAt": "2026-07-26T13:55:26.667Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,34 +97,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:40:32.216Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:26.482Z",
+          "errors": []
         },
         "package": {
           "name": "HTTPie",
-          "publisher": null,
-          "author": null,
+          "publisher": "HTTPie",
+          "author": "HTTPie, Inc.",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Freeware",
+          "licenseUrl": "https://httpie.io/terms",
           "tags": []
         },
         "links": {
-          "homepage": "https://httpie.io/",
-          "download": "https://httpie.io/",
-          "releases": null,
+          "homepage": "https://httpie.io/desktop",
+          "download": "https://github.com/httpie/desktop/releases/download/v2025.2.0/HTTPie-Setup-2025.2.0.exe",
+          "releases": "https://github.com/httpie/desktop/releases/tag/v2025.2.0",
           "docs": null
         },
         "descriptions": {
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://httpie.io/",
-          "lastUpdatedAt": "2026-07-26T08:40:32.216Z"
+          "homepage": "https://httpie.io/desktop",
+          "lastUpdatedAt": "2026-07-26T13:55:26.482Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -143,18 +140,119 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "2025.2.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2025.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2024.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2023.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "2025.2.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://httpie.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "nullsoft",
+            "url": "https://github.com/httpie/desktop/releases/download/v2025.2.0/HTTPie-Setup-2025.2.0.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "17f0e0312ac813cd6517b271bff4c0af74d452822075e97bc26e420de0800ed5",
             "sizeBytes": null
           }
         ],
@@ -249,11 +347,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:26.482Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -299,7 +397,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:32.952Z",
+          "scannedAt": "2026-07-26T13:55:26.559Z",
           "errors": []
         },
         "package": {
@@ -325,7 +423,7 @@
           "long": "User-friendly cURL replacement (command-line HTTP client)",
           "source": "homebrew",
           "homepage": "https://httpie.io/",
-          "lastUpdatedAt": "2026-07-26T08:40:32.952Z"
+          "lastUpdatedAt": "2026-07-26T13:55:26.559Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -432,7 +530,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:32.952Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:26.559Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -478,7 +576,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:32.965Z",
+          "scannedAt": "2026-07-26T13:55:26.667Z",
           "errors": []
         },
         "package": {
@@ -515,7 +613,7 @@
           "long": "HTTPie aitch-tee-tee-pie is a user-friendly command-line HTTP client for the API era. It comes with JSON support, syntax highlighting, persistent sessions, wget-like downloads, plugins, and more. The project's goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs and HTTP servers. The http and https commands allow for creating and sending arbitrary HTTP requests. They use simple and natural syntax and provide formatted and colorized output. Main features: - Built-in JSON support - Colorized and formatted terminal output - Sensible defaults for the API era - Persistent sessions - Forms and file uploads - HTTPS, proxies, and authentication support - Support for arbitrary request data and headers - Wget-like downloads - Extensions API - Expressive and intuitive syntax - Linux, macOS, Windows, and FreeBSD support - All that and more in 2 simple commands: http + https",
           "source": "choco",
           "homepage": "https://httpie.io/",
-          "lastUpdatedAt": "2026-07-26T08:40:32.965Z"
+          "lastUpdatedAt": "2026-07-26T13:55:26.667Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -699,7 +797,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:32.965Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:26.667Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -747,7 +845,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:32.978Z",
+          "scannedAt": "2026-07-26T13:55:26.740Z",
           "errors": []
         },
         "package": {
@@ -791,7 +889,7 @@
           "long": "🥧 HTTPie CLI — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.",
           "source": "github",
           "homepage": "https://httpie.io",
-          "lastUpdatedAt": "2026-07-26T08:40:32.978Z"
+          "lastUpdatedAt": "2026-07-26T13:55:26.740Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1233,7 +1331,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:32.978Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:26.740Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

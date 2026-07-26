@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "beekeeper_studio",
     "name": "Beekeeper Studio",
@@ -29,7 +29,7 @@
       "long": "Beekeeper Studio is a free and open source SQL editor and database manager. Features Autocomplete SQL query editor with syntax highlighting Tabbed interface, so you can multitask Sort and filter table data to find just what you need Sensible keyboard-shortcuts Save queries for later Query run-history, so you can find that one query you got working 3 days ago Default dark theme !screenshot Notes This package is automatically updated using the Chocolatey Automatic Package Update Model (AU). If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://www.beekeeperstudio.io/",
-      "lastUpdatedAt": "2026-07-26T08:40:45.779Z"
+      "lastUpdatedAt": "2026-07-26T13:55:31.528Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -83,34 +83,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:40:45.190Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:31.177Z",
+          "errors": []
         },
         "package": {
           "name": "Beekeeper Studio",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "Beekeeper Studio Team",
+          "author": "Matthew Rathbone and Gregory Garden",
+          "description": "Beekeeper Studio is a database manager and SQL GUI. It is a desktop app that is easy to use. It's a visual alternative to command line tools like psql or mysql, while also providing a bunch of useful extra features.",
+          "license": "GPL-3.0",
+          "licenseUrl": "https://github.com/beekeeper-studio/beekeeper-studio/blob/HEAD/LICENSE.md",
           "tags": []
         },
         "links": {
           "homepage": "https://www.beekeeperstudio.io/",
-          "download": "https://www.beekeeperstudio.io/",
-          "releases": null,
+          "download": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.9.2/Beekeeper-Studio-Setup-5.9.2.exe",
+          "releases": "https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v5.9.2",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Beekeeper Studio is a database manager and SQL GUI. It is a desktop app that is easy to use. It's a visual alternative to command line tools like psql or mysql, while also providing a bunch of useful extra features.",
+          "long": "Beekeeper Studio is a database manager and SQL GUI. It is a desktop app that is easy to use. It's a visual alternative to command line tools like psql or mysql, while also providing a bunch of useful extra features.",
           "source": "winget",
           "homepage": "https://www.beekeeperstudio.io/",
-          "lastUpdatedAt": "2026-07-26T08:40:45.190Z"
+          "lastUpdatedAt": "2026-07-26T13:55:31.177Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -128,18 +125,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "5.9.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.7.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.5.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.5.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.4.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.4.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.4.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "5.9.2",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.beekeeperstudio.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "nullsoft",
+            "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.9.2/Beekeeper-Studio-Setup-5.9.2.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "b0df0fb81ba4615373b484b77338913c47682f3f78f35806162f9ecd16ec638d",
             "sizeBytes": null
           }
         ],
@@ -234,11 +532,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:31.177Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -270,7 +568,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:45.763Z",
+          "scannedAt": "2026-07-26T13:55:31.415Z",
           "errors": []
         },
         "package": {
@@ -296,7 +594,7 @@
           "long": "Cross platform SQL editor and database management app",
           "source": "homebrew",
           "homepage": "https://www.beekeeperstudio.io/",
-          "lastUpdatedAt": "2026-07-26T08:40:45.763Z"
+          "lastUpdatedAt": "2026-07-26T13:55:31.415Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -402,7 +700,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:45.763Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:31.415Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -435,7 +733,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:45.779Z",
+          "scannedAt": "2026-07-26T13:55:31.528Z",
           "errors": []
         },
         "package": {
@@ -467,7 +765,7 @@
           "long": "Beekeeper Studio is a free and open source SQL editor and database manager. Features Autocomplete SQL query editor with syntax highlighting Tabbed interface, so you can multitask Sort and filter table data to find just what you need Sensible keyboard-shortcuts Save queries for later Query run-history, so you can find that one query you got working 3 days ago Default dark theme !screenshot Notes This package is automatically updated using the Chocolatey Automatic Package Update Model (AU). If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://www.beekeeperstudio.io/",
-          "lastUpdatedAt": "2026-07-26T08:40:45.779Z"
+          "lastUpdatedAt": "2026-07-26T13:55:31.528Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -877,7 +1175,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:45.779Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:31.528Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -912,7 +1210,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:40:45.959Z",
+          "scannedAt": "2026-07-26T13:55:31.587Z",
           "errors": []
         },
         "package": {
@@ -952,7 +1250,7 @@
           "long": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
           "source": "github",
           "homepage": "https://www.beekeeperstudio.io",
-          "lastUpdatedAt": "2026-07-26T08:40:45.959Z"
+          "lastUpdatedAt": "2026-07-26T13:55:31.587Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2255,7 +2553,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:40:45.959Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:31.587Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

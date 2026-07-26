@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "vscodium",
     "name": "VSCodium",
@@ -29,7 +29,7 @@
       "long": "Free/Libre Open Source Software binaries of VS Code. VSCodium is a community-driven, freely-licensed binary distribution of Microsoft's editor VS Code. !screenshot VS Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C , Java, Python, PHP, Go) and runtimes (such as .NET and Unity). Features Meet IntelliSense: Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules. Print statement debugging is a thing of the past: Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console. Git commands built-in: Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service. Extensible and customizable: Want even more features? Install extensions to add new languages, themes, debug...",
       "source": "choco",
       "homepage": "https://vscodium.com/",
-      "lastUpdatedAt": "2026-07-26T08:38:39.842Z"
+      "lastUpdatedAt": "2026-07-26T13:54:55.389Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,26 +98,23 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:38:33.271Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:54:55.012Z",
+          "errors": []
         },
         "package": {
           "name": "VSCodium",
-          "publisher": null,
-          "author": null,
+          "publisher": "VSCodium",
+          "author": "VSCodium",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "MIT",
+          "licenseUrl": "https://github.com/VSCodium/vscodium/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://vscodium.com/",
-          "download": "https://vscodium.com/",
-          "releases": null,
+          "download": "https://github.com/VSCodium/vscodium/releases/download/1.126.04524/VSCodiumUserSetup-x64-1.126.04524.exe",
+          "releases": "https://github.com/VSCodium/vscodium/releases/tag/1.126.04524",
           "docs": null
         },
         "descriptions": {
@@ -125,7 +122,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://vscodium.com/",
-          "lastUpdatedAt": "2026-07-26T08:38:33.271Z"
+          "lastUpdatedAt": "2026-07-26T13:54:55.012Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -144,18 +141,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.126.04524",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.121.03429",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.116.02821",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.112.01907",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.110.11631",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.110.11602",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.110.01571",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.109.51242",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.109.31074",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.109.21026",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.109.01000",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.108.20787",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.108.10359",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.107.18627",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.107.18605",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.106.37943",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.106.37938",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.106.27818",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.105.17075",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.105.17017",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.105.16999",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.105.16954",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.105.06922",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.105.06808",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.104.36664",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.104.26450",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.104.16282",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.104.06131",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.104.06114",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.103.25610",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.126.04524",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://vscodium.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "inno",
+            "url": "https://github.com/VSCodium/vscodium/releases/download/1.126.04524/VSCodiumUserSetup-x64-1.126.04524.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "a8c0516a9b17d1ba4887898f0966445bc61b386fd11578e57433f1e57e9868c9",
             "sizeBytes": null
           }
         ],
@@ -250,11 +548,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:54:55.012Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -299,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:38:39.733Z",
+          "scannedAt": "2026-07-26T13:54:55.112Z",
           "errors": []
         },
         "package": {
@@ -325,7 +623,7 @@
           "long": "Binary releases of VS Code without MS branding/telemetry/licensing",
           "source": "homebrew",
           "homepage": "https://github.com/VSCodium/vscodium",
-          "lastUpdatedAt": "2026-07-26T08:38:39.733Z"
+          "lastUpdatedAt": "2026-07-26T13:54:55.112Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -432,7 +730,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:38:39.733Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:54:55.112Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -478,7 +776,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:38:39.752Z",
+          "scannedAt": "2026-07-26T13:54:55.199Z",
           "errors": []
         },
         "package": {
@@ -504,7 +802,7 @@
           "long": "A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
           "source": "scoop",
           "homepage": "https://vscodium.com/",
-          "lastUpdatedAt": "2026-07-26T08:38:39.752Z"
+          "lastUpdatedAt": "2026-07-26T13:54:55.199Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -610,7 +908,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:38:39.752Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:54:55.199Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -656,7 +954,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:38:39.842Z",
+          "scannedAt": "2026-07-26T13:54:55.389Z",
           "errors": []
         },
         "package": {
@@ -692,7 +990,7 @@
           "long": "Free/Libre Open Source Software binaries of VS Code. VSCodium is a community-driven, freely-licensed binary distribution of Microsoft's editor VS Code. !screenshot VS Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C , Java, Python, PHP, Go) and runtimes (such as .NET and Unity). Features Meet IntelliSense: Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules. Print statement debugging is a thing of the past: Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console. Git commands built-in: Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service. Extensible and customizable: Want even more features? Install extensions to add new languages, themes, debug...",
           "source": "choco",
           "homepage": "https://vscodium.com/",
-          "lastUpdatedAt": "2026-07-26T08:38:39.842Z"
+          "lastUpdatedAt": "2026-07-26T13:54:55.389Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1106,7 +1404,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:38:39.842Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:54:55.389Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1154,7 +1452,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:38:40.002Z",
+          "scannedAt": "2026-07-26T13:54:55.402Z",
           "errors": []
         },
         "package": {
@@ -1183,7 +1481,7 @@
           "long": "binary releases of VS Code without MS branding/telemetry/licensing",
           "source": "github",
           "homepage": "https://vscodium.com",
-          "lastUpdatedAt": "2026-07-26T08:38:40.002Z"
+          "lastUpdatedAt": "2026-07-26T13:54:55.402Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2476,7 +2774,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:38:40.002Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:54:55.402Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

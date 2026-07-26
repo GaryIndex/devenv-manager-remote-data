@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "process_explorer",
     "name": "Process Explorer",
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "low",
-      "score": 40
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -78,25 +78,22 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:40:56.344Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:35.543Z",
+          "errors": []
         },
         "package": {
           "name": "Process Explorer",
-          "publisher": null,
-          "author": null,
+          "publisher": "Sysinternals",
+          "author": "Mark Russinovich",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Proprietary",
+          "licenseUrl": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
           "tags": []
         },
         "links": {
-          "homepage": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
-          "download": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+          "download": "https://download.sysinternals.com/files/ProcessExplorer.zip",
           "releases": null,
           "docs": null
         },
@@ -104,8 +101,8 @@
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
-          "lastUpdatedAt": "2026-07-26T08:40:56.344Z"
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+          "lastUpdatedAt": "2026-07-26T13:55:35.543Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -123,18 +120,29 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "17.12",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "17.12",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "47ff65944e87280a0d40e6eb7a6157f13f46d605df44ff794784b54d56795aa6",
             "sizeBytes": null
           }
         ],
@@ -229,11 +237,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:35.543Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

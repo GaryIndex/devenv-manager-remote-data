@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T08:41:29.114Z",
-  "status": "partial",
+  "generatedAt": "2026-07-26T13:55:51.003Z",
+  "status": "ok",
   "tool": {
     "id": "blender",
     "name": "Blender",
@@ -28,7 +28,7 @@
       "long": "Blender is a free and open-source professional-grade 3D computer graphics and video compositing program. Realistic Materials !Realistic Materials Fluid Simulations !Fluid Simulations Features Blender is a fully integrated 3D content creation suite, offering a broad range of essential tools: Modeling Rendering Animation Video Editing and Compositing Texturing Rigging Simulations Game Creation. Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts). High-quality 3D architecture enabling fast and efficient creation work-flow. Excellent community support from forums and IRC. Small executable size, optionally portable. Notes - If you have multiple installations of the Blender software, the uninstallation of the Chocolatey package will likely fail. Please manually uninstall the Blender software (through 'Add and Remove Programs' or 'Programs and Features') and then run choco uninstall blender to remove the package. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Com...",
       "source": "choco",
       "homepage": "https://www.blender.org/",
-      "lastUpdatedAt": "2026-07-26T08:41:12.341Z"
+      "lastUpdatedAt": "2026-07-26T13:55:45.220Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -95,25 +95,22 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-26T08:41:11.275Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-26T13:55:44.692Z",
+          "errors": []
         },
         "package": {
           "name": "Blender",
-          "publisher": null,
-          "author": null,
+          "publisher": "Blender Foundation",
+          "author": "Blender Foundation",
           "description": null,
-          "license": null,
+          "license": "GPL-3.0-or-later",
           "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.blender.org/",
-          "download": "https://www.blender.org/",
+          "download": "https://download.blender.org/release/Blender5.2/blender-5.2.0-windows-x64.msi",
           "releases": null,
           "docs": null
         },
@@ -122,7 +119,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-07-26T08:41:11.275Z"
+          "lastUpdatedAt": "2026-07-26T13:55:44.692Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,18 +137,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "5.2.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "5.2.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.blender.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://download.blender.org/release/Blender5.2/blender-5.2.0-windows-x64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "8ba59aed79dfc35d65c5e9e0ccc828d618796499483ccdeee0b534a915140606",
             "sizeBytes": null
           }
         ],
@@ -246,11 +544,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-07-26T13:55:44.692Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -295,7 +593,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:41:12.226Z",
+          "scannedAt": "2026-07-26T13:55:44.976Z",
           "errors": []
         },
         "package": {
@@ -321,7 +619,7 @@
           "long": "3D creation suite",
           "source": "homebrew",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-07-26T08:41:12.226Z"
+          "lastUpdatedAt": "2026-07-26T13:55:44.976Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -427,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:41:12.226Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:44.976Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -473,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:41:12.242Z",
+          "scannedAt": "2026-07-26T13:55:44.988Z",
           "errors": []
         },
         "package": {
@@ -499,7 +797,7 @@
           "long": "3D creation suite",
           "source": "scoop",
           "homepage": "https://www.blender.org",
-          "lastUpdatedAt": "2026-07-26T08:41:12.242Z"
+          "lastUpdatedAt": "2026-07-26T13:55:44.988Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -604,7 +902,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:41:12.242Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:44.988Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -650,7 +948,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T08:41:12.341Z",
+          "scannedAt": "2026-07-26T13:55:45.220Z",
           "errors": []
         },
         "package": {
@@ -682,7 +980,7 @@
           "long": "Blender is a free and open-source professional-grade 3D computer graphics and video compositing program. Realistic Materials !Realistic Materials Fluid Simulations !Fluid Simulations Features Blender is a fully integrated 3D content creation suite, offering a broad range of essential tools: Modeling Rendering Animation Video Editing and Compositing Texturing Rigging Simulations Game Creation. Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts). High-quality 3D architecture enabling fast and efficient creation work-flow. Excellent community support from forums and IRC. Small executable size, optionally portable. Notes - If you have multiple installations of the Blender software, the uninstallation of the Chocolatey package will likely fail. Please manually uninstall the Blender software (through 'Add and Remove Programs' or 'Programs and Features') and then run choco uninstall blender to remove the package. - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Com...",
           "source": "choco",
           "homepage": "https://www.blender.org/",
-          "lastUpdatedAt": "2026-07-26T08:41:12.341Z"
+          "lastUpdatedAt": "2026-07-26T13:55:45.220Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1091,7 +1389,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T08:41:12.341Z",
+          "lastSuccessfulScanAt": "2026-07-26T13:55:45.220Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
