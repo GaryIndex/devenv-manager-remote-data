@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T03:54:55.157Z",
+  "generatedAt": "2026-07-26T08:41:29.114Z",
   "status": "partial",
   "tool": {
     "id": "quarto",
@@ -29,7 +29,7 @@
       "long": "Features of Quarto: Create dynamic content with Python, R, Julia, and Observable. Author documents as plain text markdown or Jupyter notebooks. Publish high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more. Author with scientific markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.",
       "source": "choco",
       "homepage": "https://quarto.org/",
-      "lastUpdatedAt": "2026-07-26T03:54:45.551Z"
+      "lastUpdatedAt": "2026-07-26T08:41:03.183Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,23 +97,26 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-26T03:54:45.135Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-26T08:41:02.636Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Quarto",
-          "publisher": "Rstudio, PBC",
-          "author": "J.J. Allaire, Charles Teague, Carlos Scheidegger, Yihui Xie, Christophe Dervieux",
+          "publisher": null,
+          "author": null,
           "description": null,
-          "license": "GPL-2.0",
-          "licenseUrl": "https://quarto.org/license.html",
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://quarto.org/",
-          "download": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.10.18/quarto-1.10.18-win.msi",
-          "releases": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.10.18",
+          "download": "https://quarto.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
@@ -121,7 +124,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://quarto.org/",
-          "lastUpdatedAt": "2026-07-26T03:54:45.135Z"
+          "lastUpdatedAt": "2026-07-26T08:41:02.636Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,319 +142,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.10.18",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.38",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.37",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.36",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.8.27",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.8.26",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.8.25",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.8.24",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.7.34",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.7.33",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.7.32",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.7.31",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.7.30",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.7.29",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.6.43",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.6.42",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.6.41",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.6.40",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.6.39",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.6.38",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.6.37",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.5.57",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.5.56",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.5.55",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.5.54",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.5.53",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.5.52",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.4.557",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.4.556",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.4.555",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.10.18",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.10.18/quarto-1.10.18-win.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "8b98a10b429b1a70e949df31d0171e7ba9c1808470d6c84a46f659315ab67e31",
+            "type": "package-manager",
+            "url": "https://quarto.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -546,11 +248,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:45.135Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -595,7 +297,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:45.395Z",
+          "scannedAt": "2026-07-26T08:41:03.111Z",
           "errors": []
         },
         "package": {
@@ -621,7 +323,7 @@
           "long": "Scientific and technical publishing system built on Pandoc",
           "source": "homebrew",
           "homepage": "https://www.quarto.org/",
-          "lastUpdatedAt": "2026-07-26T03:54:45.395Z"
+          "lastUpdatedAt": "2026-07-26T08:41:03.111Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -727,7 +429,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:45.395Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:41:03.111Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -773,7 +475,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:45.512Z",
+          "scannedAt": "2026-07-26T08:41:03.121Z",
           "errors": []
         },
         "package": {
@@ -799,7 +501,7 @@
           "long": "Open-source scientific and technical publishing system built on Pandoc",
           "source": "scoop",
           "homepage": "https://quarto.org",
-          "lastUpdatedAt": "2026-07-26T03:54:45.512Z"
+          "lastUpdatedAt": "2026-07-26T08:41:03.121Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -904,7 +606,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:45.512Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:41:03.121Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -950,7 +652,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:45.551Z",
+          "scannedAt": "2026-07-26T08:41:03.183Z",
           "errors": []
         },
         "package": {
@@ -983,7 +685,7 @@
           "long": "Features of Quarto: Create dynamic content with Python, R, Julia, and Observable. Author documents as plain text markdown or Jupyter notebooks. Publish high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more. Author with scientific markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.",
           "source": "choco",
           "homepage": "https://quarto.org/",
-          "lastUpdatedAt": "2026-07-26T03:54:45.551Z"
+          "lastUpdatedAt": "2026-07-26T08:41:03.183Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1393,7 +1095,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:45.551Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:41:03.183Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1441,7 +1143,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:45.665Z",
+          "scannedAt": "2026-07-26T08:41:03.213Z",
           "errors": []
         },
         "package": {
@@ -1464,7 +1166,7 @@
           "long": "Open-source scientific and technical publishing system built on Pandoc.",
           "source": "github",
           "homepage": "https://quarto.org",
-          "lastUpdatedAt": "2026-07-26T03:54:45.665Z"
+          "lastUpdatedAt": "2026-07-26T08:41:03.213Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2751,7 +2453,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:45.665Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:41:03.213Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

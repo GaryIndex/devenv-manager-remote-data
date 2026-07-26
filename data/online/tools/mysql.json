@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T03:54:55.157Z",
+  "generatedAt": "2026-07-26T08:41:29.114Z",
   "status": "partial",
   "tool": {
     "id": "mysql",
@@ -29,7 +29,7 @@
       "long": "MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers. Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "http://mysql.com/",
-      "lastUpdatedAt": "2026-07-26T03:54:33.030Z"
+      "lastUpdatedAt": "2026-07-26T08:40:33.507Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,22 +96,25 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-26T03:54:32.741Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-26T08:40:33.372Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "MySQL",
-          "publisher": "Oracle Corporation",
+          "publisher": null,
           "author": null,
           "description": null,
-          "license": "GNU General Public License version 2",
+          "license": null,
           "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.mysql.com/",
-          "download": "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.9-winx64.msi",
+          "download": "https://www.mysql.com/",
           "releases": null,
           "docs": null
         },
@@ -120,7 +123,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.mysql.com/",
-          "lastUpdatedAt": "2026-07-26T03:54:32.741Z"
+          "lastUpdatedAt": "2026-07-26T08:40:33.372Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,99 +141,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "8.4.9",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "8.4.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "8.4.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "8.0.43",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "8.0.42",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "8.0.41",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "8.0.39",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "8.0.36",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "8.4.9",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.9-winx64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "7c3caede97bb4af923505a92e0b9c9fab1e5074a841b632387af7fb059afbd1e",
+            "type": "package-manager",
+            "url": "https://www.mysql.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -325,11 +247,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:32.741Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -375,7 +297,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:32.902Z",
+          "scannedAt": "2026-07-26T08:40:33.469Z",
           "errors": []
         },
         "package": {
@@ -401,7 +323,7 @@
           "long": "Open source relational database management system",
           "source": "homebrew",
           "homepage": "https://github.com/mysql/mysql-server",
-          "lastUpdatedAt": "2026-07-26T03:54:32.902Z"
+          "lastUpdatedAt": "2026-07-26T08:40:33.469Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -527,7 +449,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:32.902Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:33.469Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -573,7 +495,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:33.015Z",
+          "scannedAt": "2026-07-26T08:40:33.480Z",
           "errors": []
         },
         "package": {
@@ -599,7 +521,7 @@
           "long": "The world's most popular open-source database",
           "source": "scoop",
           "homepage": "https://dev.mysql.com/downloads/mysql/#info-tab",
-          "lastUpdatedAt": "2026-07-26T03:54:33.015Z"
+          "lastUpdatedAt": "2026-07-26T08:40:33.480Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -704,7 +626,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:33.015Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:33.480Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -750,7 +672,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:33.030Z",
+          "scannedAt": "2026-07-26T08:40:33.507Z",
           "errors": []
         },
         "package": {
@@ -777,7 +699,7 @@
           "long": "MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers. Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "http://mysql.com/",
-          "lastUpdatedAt": "2026-07-26T03:54:33.030Z"
+          "lastUpdatedAt": "2026-07-26T08:40:33.507Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1181,7 +1103,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:33.030Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:33.507Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

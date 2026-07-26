@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T03:54:55.157Z",
+  "generatedAt": "2026-07-26T08:41:29.114Z",
   "status": "partial",
   "tool": {
     "id": "bruno",
@@ -29,7 +29,7 @@
       "long": "Bruno is a new and innovative API client, aimed at revolutionizing the status quo represented by Postman and similar tools out there. Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, Bru, to save information about API requests. You can use git or any version control of your choice to collaborate over your API collections. Bruno is offline-only. There are no plans to add cloud-sync to Bruno, ever. We value your data privacy and believe it should stay on your device. !screenshot",
       "source": "choco",
       "homepage": "https://www.usebruno.com/",
-      "lastUpdatedAt": "2026-07-26T03:54:31.843Z"
+      "lastUpdatedAt": "2026-07-26T08:40:32.027Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -84,23 +84,26 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-26T03:54:31.357Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-26T08:40:28.575Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Bruno",
-          "publisher": "Anoop M D",
-          "author": "Anoop M D, Anusree P S and Contributors",
+          "publisher": null,
+          "author": null,
           "description": null,
-          "license": "MIT",
-          "licenseUrl": "https://github.com/usebruno/bruno/blob/HEAD/license.md",
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.usebruno.com/",
-          "download": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_win.exe",
-          "releases": "https://github.com/usebruno/bruno/releases/tag/v4.0.0",
+          "download": "https://www.usebruno.com/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
@@ -108,7 +111,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.usebruno.com/",
-          "lastUpdatedAt": "2026-07-26T03:54:31.357Z"
+          "lastUpdatedAt": "2026-07-26T08:40:28.575Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -126,319 +129,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "4.0.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.5.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.5.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.5.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.3.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.0.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.15.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.15.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.14.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.14.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.14.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.13.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.13.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.13.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "4.0.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "nullsoft",
-            "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_win.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "7d1cf8e604dd6321c5da0086a65097d93a41377bad08a6d966ffa30d62e6e24b",
+            "type": "package-manager",
+            "url": "https://www.usebruno.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -533,11 +235,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:31.357Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -569,7 +271,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:31.480Z",
+          "scannedAt": "2026-07-26T08:40:31.916Z",
           "errors": []
         },
         "package": {
@@ -595,7 +297,7 @@
           "long": "Open source IDE for exploring and testing APIs",
           "source": "homebrew",
           "homepage": "https://www.usebruno.com/",
-          "lastUpdatedAt": "2026-07-26T03:54:31.480Z"
+          "lastUpdatedAt": "2026-07-26T08:40:31.916Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -701,7 +403,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:31.480Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:31.916Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -734,7 +436,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:31.592Z",
+          "scannedAt": "2026-07-26T08:40:31.931Z",
           "errors": []
         },
         "package": {
@@ -760,7 +462,7 @@
           "long": "Open source IDE for exploring and testing APIs (lightweight alternative to Postman/Insomnia)",
           "source": "scoop",
           "homepage": "https://www.usebruno.com/",
-          "lastUpdatedAt": "2026-07-26T03:54:31.592Z"
+          "lastUpdatedAt": "2026-07-26T08:40:31.931Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -865,7 +567,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:31.592Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:31.931Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -898,7 +600,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:31.843Z",
+          "scannedAt": "2026-07-26T08:40:32.027Z",
           "errors": []
         },
         "package": {
@@ -927,7 +629,7 @@
           "long": "Bruno is a new and innovative API client, aimed at revolutionizing the status quo represented by Postman and similar tools out there. Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, Bru, to save information about API requests. You can use git or any version control of your choice to collaborate over your API collections. Bruno is offline-only. There are no plans to add cloud-sync to Bruno, ever. We value your data privacy and believe it should stay on your device. !screenshot",
           "source": "choco",
           "homepage": "https://www.usebruno.com/",
-          "lastUpdatedAt": "2026-07-26T03:54:31.843Z"
+          "lastUpdatedAt": "2026-07-26T08:40:32.027Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1333,7 +1035,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:31.843Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:32.027Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1368,7 +1070,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:31.889Z",
+          "scannedAt": "2026-07-26T08:40:32.073Z",
           "errors": []
         },
         "package": {
@@ -1406,7 +1108,7 @@
           "long": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
           "source": "github",
           "homepage": "https://www.usebruno.com/",
-          "lastUpdatedAt": "2026-07-26T03:54:31.889Z"
+          "lastUpdatedAt": "2026-07-26T08:40:32.073Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2707,7 +2409,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:31.889Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:32.073Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

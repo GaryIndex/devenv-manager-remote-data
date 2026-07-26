@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T03:54:55.157Z",
+  "generatedAt": "2026-07-26T08:41:29.114Z",
   "status": "partial",
   "tool": {
     "id": "unity_hub",
@@ -28,7 +28,7 @@
       "long": "Unity Hub Features - Manage your Unity account and Editor licenses. - Create your Project, associate a default version of the Unity Editor with the Project, and manage the installation of multiple versions of the Editor. - Set your preferred version of Unity, but also easily launch other versions from your Project view. - Manage and select Project build targets without launching the Editor. - Run two versions of Unity at the same time. Note that to prevent local conflicts and other odd scenarios, you should only open a Project in one Editor instance at a time. - Add components to existing installations of the Editor. When you download a version of the Editor through Unity Hub, you can find and add additional components (such as specific platform support, Visual Studio, offline docs and Standard Assets) either during initial install or at a later date. - Use Project Templates to jump-start the creation process for common Project types. Unity’s Project Templates provide default values for common settings when you create a new Project. Project Templates preset batches of settings for a target game type or level of visual fidelity. For more information, see Project Templates. Packag...",
       "source": "choco",
       "homepage": "https://unity3d.com/",
-      "lastUpdatedAt": "2026-07-26T03:54:49.722Z"
+      "lastUpdatedAt": "2026-07-26T08:41:11.154Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -81,31 +81,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-26T03:54:49.370Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-26T08:41:09.044Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Unity Hub",
-          "publisher": "Unity Technologies Inc.",
-          "author": "Unity Technologies Inc.",
-          "description": "The Unity Hub is a standalone application that streamlines the way you navigate, download, and manage your Unity projects and installations.",
-          "license": "Proprietary",
-          "licenseUrl": "https://unity.com/legal/terms-of-service",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://unity.com/unity-hub",
-          "download": "https://public-cdn.cloud.unity3d.com/hub/prod/3.19.5/UnityHubSetup-3.19.5-x64.exe",
+          "download": "https://unity.com/unity-hub",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "The Unity Hub is a standalone application that streamlines the way you navigate, download, and manage your Unity projects and installations.",
-          "long": "The Unity Hub is a standalone application that streamlines the way you navigate, download, and manage your Unity projects and installations.",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://unity.com/unity-hub",
-          "lastUpdatedAt": "2026-07-26T03:54:49.370Z"
+          "lastUpdatedAt": "2026-07-26T08:41:09.044Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -123,139 +126,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "3.19.5",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.19.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.19.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.19.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.19.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.17.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.17.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.17.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.14.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.12.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "3.19.5",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "nullsoft",
-            "url": "https://public-cdn.cloud.unity3d.com/hub/prod/3.19.5/UnityHubSetup-3.19.5-x64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "06d09ea17e7973ff9889e46b20ddc9b61221b6c3e9e722d69e34b508616f0497",
+            "type": "package-manager",
+            "url": "https://unity.com/unity-hub",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -350,11 +232,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:49.370Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -386,7 +268,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:49.620Z",
+          "scannedAt": "2026-07-26T08:41:11.128Z",
           "errors": []
         },
         "package": {
@@ -412,7 +294,7 @@
           "long": "Management tool for Unity",
           "source": "homebrew",
           "homepage": "https://unity3d.com/get-unity/download",
-          "lastUpdatedAt": "2026-07-26T03:54:49.620Z"
+          "lastUpdatedAt": "2026-07-26T08:41:11.128Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -518,7 +400,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:49.620Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:41:11.128Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -551,7 +433,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:49.722Z",
+          "scannedAt": "2026-07-26T08:41:11.154Z",
           "errors": []
         },
         "package": {
@@ -581,7 +463,7 @@
           "long": "Unity Hub Features - Manage your Unity account and Editor licenses. - Create your Project, associate a default version of the Unity Editor with the Project, and manage the installation of multiple versions of the Editor. - Set your preferred version of Unity, but also easily launch other versions from your Project view. - Manage and select Project build targets without launching the Editor. - Run two versions of Unity at the same time. Note that to prevent local conflicts and other odd scenarios, you should only open a Project in one Editor instance at a time. - Add components to existing installations of the Editor. When you download a version of the Editor through Unity Hub, you can find and add additional components (such as specific platform support, Visual Studio, offline docs and Standard Assets) either during initial install or at a later date. - Use Project Templates to jump-start the creation process for common Project types. Unity’s Project Templates provide default values for common settings when you create a new Project. Project Templates preset batches of settings for a target game type or level of visual fidelity. For more information, see Project Templates. Packag...",
           "source": "choco",
           "homepage": "https://unity3d.com/",
-          "lastUpdatedAt": "2026-07-26T03:54:49.722Z"
+          "lastUpdatedAt": "2026-07-26T08:41:11.154Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -989,7 +871,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:49.722Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:41:11.154Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T03:54:55.157Z",
+  "generatedAt": "2026-07-26T08:41:29.114Z",
   "status": "partial",
   "tool": {
     "id": "kind",
@@ -29,7 +29,7 @@
       "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
       "source": "choco",
       "homepage": "https://kind.sigs.k8s.io/",
-      "lastUpdatedAt": "2026-07-26T03:54:25.164Z"
+      "lastUpdatedAt": "2026-07-26T08:40:09.285Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,23 +96,26 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-26T03:54:24.462Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-26T08:40:09.098Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "kind",
-          "publisher": "Kubernetes SIGs",
+          "publisher": null,
           "author": null,
           "description": null,
-          "license": "Apache-2.0",
-          "licenseUrl": "https://github.com/kubernetes-sigs/kind/blob/HEAD/LICENSE",
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://kind.sigs.k8s.io/",
-          "download": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-windows-amd64",
-          "releases": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.32.0",
+          "download": "https://kind.sigs.k8s.io/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
@@ -120,7 +123,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-07-26T03:54:24.462Z"
+          "lastUpdatedAt": "2026-07-26T08:40:09.098Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,149 +140,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "0.32.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.31.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.30.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.29.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.28.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.27.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.26.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.25.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.24.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.23.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.22.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.21.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.20.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "0.32.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "portable",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-windows-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "0bcb2d1cfedc1912d664014db716937e8a0e843e91c6807b4db2025dbc8989fa",
+            "type": "package-manager",
+            "url": "https://kind.sigs.k8s.io/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -374,11 +246,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:24.462Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -424,7 +296,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:24.956Z",
+          "scannedAt": "2026-07-26T08:40:09.240Z",
           "errors": []
         },
         "package": {
@@ -450,7 +322,7 @@
           "long": "Run local Kubernetes cluster in Docker",
           "source": "homebrew",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-07-26T03:54:24.956Z"
+          "lastUpdatedAt": "2026-07-26T08:40:09.240Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -555,7 +427,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:24.956Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:09.240Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -601,7 +473,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:25.055Z",
+          "scannedAt": "2026-07-26T08:40:09.247Z",
           "errors": []
         },
         "package": {
@@ -627,7 +499,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container nodes.",
           "source": "scoop",
           "homepage": "https://kind.sigs.k8s.io/docs/user/quick-start",
-          "lastUpdatedAt": "2026-07-26T03:54:25.055Z"
+          "lastUpdatedAt": "2026-07-26T08:40:09.247Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -731,7 +603,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:25.055Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:09.247Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -777,7 +649,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:25.164Z",
+          "scannedAt": "2026-07-26T08:40:09.285Z",
           "errors": []
         },
         "package": {
@@ -807,7 +679,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
           "source": "choco",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-07-26T03:54:25.164Z"
+          "lastUpdatedAt": "2026-07-26T08:40:09.285Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1213,7 +1085,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:25.164Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:09.285Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1261,7 +1133,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:25.263Z",
+          "scannedAt": "2026-07-26T08:40:09.450Z",
           "errors": []
         },
         "package": {
@@ -1291,7 +1163,7 @@
           "long": "Kubernetes IN Docker - local clusters for testing Kubernetes",
           "source": "github",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-07-26T03:54:25.263Z"
+          "lastUpdatedAt": "2026-07-26T08:40:09.450Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2583,7 +2455,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:25.263Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:09.450Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

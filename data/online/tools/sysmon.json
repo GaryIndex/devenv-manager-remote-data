@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T03:54:55.157Z",
+  "generatedAt": "2026-07-26T08:41:29.114Z",
   "status": "partial",
   "tool": {
     "id": "sysmon",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
-      "long": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
-      "source": "winget",
-      "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
-      "lastUpdatedAt": "2026-07-26T03:54:41.836Z"
+      "short": null,
+      "long": null,
+      "source": "catalog",
+      "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "low",
+      "score": 40
     },
     "sources": [
       {
@@ -78,31 +78,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-26T03:54:41.836Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-26T08:40:56.560Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Sysmon",
-          "publisher": "Sysinternals",
-          "author": "Mark Russinovich & Thomas Garnier",
-          "description": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
-          "license": "Proprietary",
-          "licenseUrl": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
-          "download": "https://download.sysinternals.com/files/Sysmon.zip",
+          "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+          "download": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
-          "long": "System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
-          "lastUpdatedAt": "2026-07-26T03:54:41.836Z"
+          "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+          "lastUpdatedAt": "2026-07-26T08:40:56.560Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -120,29 +123,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "15.21",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "15.21",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "portable (zip)",
-            "url": "https://download.sysinternals.com/files/Sysmon.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "6d48089c7fae14944c82b06767b79ccba3cc26d13218a4227ed28c90f80d0f0e",
+            "type": "package-manager",
+            "url": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -237,11 +229,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:41.836Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

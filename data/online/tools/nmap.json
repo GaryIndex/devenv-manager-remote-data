@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T03:54:55.157Z",
+  "generatedAt": "2026-07-26T08:41:29.114Z",
   "status": "partial",
   "tool": {
     "id": "nmap",
@@ -29,7 +29,7 @@
       "long": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. Nmap runs on all major computer operating systems, and official binary packages are available for Linux, Windows, and Mac OS X. In addition to the classic command-line Nmap executable, the Nmap suite includes an advanced GUI and results viewer (Zenmap), a flexible data transfer, redirection, and debugging tool (Ncat), a utility for comparing scan results (Ndiff), and a packet generation and response analysis tool (Nping). Features - Host discovery - Identifying hosts on a network. For example, listing the hosts that respo...",
       "source": "choco",
       "homepage": "https://nmap.org/",
-      "lastUpdatedAt": "2026-07-26T03:54:41.192Z"
+      "lastUpdatedAt": "2026-07-26T08:40:52.705Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,31 +96,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-26T03:54:40.838Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-26T08:40:50.948Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Nmap",
-          "publisher": "Nmap Project",
-          "author": "Nmap Project",
-          "description": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing.",
-          "license": "Modified GNU GPLv2",
-          "licenseUrl": "https://nmap.org/book/man-legal.html",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://nmap.org",
-          "download": "https://nmap.org/dist/nmap-7.80-setup.exe",
+          "homepage": "https://nmap.org/",
+          "download": "https://nmap.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing.",
-          "long": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://nmap.org",
-          "lastUpdatedAt": "2026-07-26T03:54:40.838Z"
+          "homepage": "https://nmap.org/",
+          "lastUpdatedAt": "2026-07-26T08:40:50.948Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,39 +141,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "7.80",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.60",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "7.80",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "nullsoft",
-            "url": "https://nmap.org/dist/nmap-7.80-setup.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "3b4d726bd366e7439367fa78a186dfa9b641d3b2ad354fd915581b6567480f94",
+            "type": "package-manager",
+            "url": "https://nmap.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -265,11 +247,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:40.838Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -315,7 +297,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:41.094Z",
+          "scannedAt": "2026-07-26T08:40:52.669Z",
           "errors": []
         },
         "package": {
@@ -341,7 +323,7 @@
           "long": "Port scanning utility for large networks",
           "source": "homebrew",
           "homepage": "https://nmap.org/",
-          "lastUpdatedAt": "2026-07-26T03:54:41.094Z"
+          "lastUpdatedAt": "2026-07-26T08:40:52.669Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -447,7 +429,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:41.094Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:52.669Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -493,7 +475,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:41.172Z",
+          "scannedAt": "2026-07-26T08:40:52.682Z",
           "errors": []
         },
         "package": {
@@ -519,7 +501,7 @@
           "long": "Network exploration and security auditing utility.",
           "source": "scoop",
           "homepage": "https://nmap.org",
-          "lastUpdatedAt": "2026-07-26T03:54:41.172Z"
+          "lastUpdatedAt": "2026-07-26T08:40:52.682Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -624,7 +606,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:41.172Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:52.682Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -670,7 +652,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-26T03:54:41.192Z",
+          "scannedAt": "2026-07-26T08:40:52.705Z",
           "errors": []
         },
         "package": {
@@ -701,7 +683,7 @@
           "long": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. Nmap runs on all major computer operating systems, and official binary packages are available for Linux, Windows, and Mac OS X. In addition to the classic command-line Nmap executable, the Nmap suite includes an advanced GUI and results viewer (Zenmap), a flexible data transfer, redirection, and debugging tool (Ncat), a utility for comparing scan results (Ndiff), and a packet generation and response analysis tool (Nping). Features - Host discovery - Identifying hosts on a network. For example, listing the hosts that respo...",
           "source": "choco",
           "homepage": "https://nmap.org/",
-          "lastUpdatedAt": "2026-07-26T03:54:41.192Z"
+          "lastUpdatedAt": "2026-07-26T08:40:52.705Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1089,7 +1071,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-26T03:54:41.192Z",
+          "lastSuccessfulScanAt": "2026-07-26T08:40:52.705Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
