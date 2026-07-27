@@ -1,57 +1,81 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27T15:13:03.271Z",
-  "fromGeneratedAt": "2026-07-27T10:08:52.297Z",
-  "toGeneratedAt": "2026-07-27T15:13:03.271Z",
+  "generatedAt": "2026-07-27T19:54:11.586Z",
+  "fromGeneratedAt": "2026-07-27T15:13:03.271Z",
+  "toGeneratedAt": "2026-07-27T19:54:11.586Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "sbt",
+      "oh_my_posh",
+      "docker_desktop",
+      "cloudflared",
+      "postman",
+      "netlify_cli",
       "supabase_cli",
-      "prisma_cli"
+      "erlang"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "oh_my_posh",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.856",
-        "to": "9.2.858"
+        "from": "29.26.1",
+        "to": "29.24.0"
       },
       {
-        "toolId": "sbt",
+        "toolId": "docker_desktop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "4.83.0,234302",
+        "to": "4.84.0,234817"
+      },
+      {
+        "toolId": "cloudflared",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.0.3",
-        "to": "2.0.4"
+        "from": "2026.7.3",
+        "to": "2026.7.2"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.20.4",
+        "to": "12.21.0"
+      },
+      {
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "27.0.0",
+        "to": "27.0.1"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.39",
-        "to": "2.110.0-beta.40"
+        "from": "2.110.0-beta.40",
+        "to": "2.110.1-beta.1"
       },
       {
-        "toolId": "prisma_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "7.9.0",
-        "to": "7.9.1"
+        "toolId": "erlang",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.0.3",
+        "to": "29.0.4"
       }
     ],
     "qualityChanges": []
