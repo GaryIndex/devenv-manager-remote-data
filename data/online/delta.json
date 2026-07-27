@@ -1,33 +1,64 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T19:34:37.359Z",
-  "fromGeneratedAt": "2026-07-26T13:55:51.003Z",
-  "toGeneratedAt": "2026-07-26T19:34:37.359Z",
+  "generatedAt": "2026-07-27T04:01:27.009Z",
+  "fromGeneratedAt": "2026-07-26T19:34:37.359Z",
+  "toGeneratedAt": "2026-07-27T04:01:27.009Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 1,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "google_cloud_sdk"
+      "vscode",
+      "vim",
+      "pipx",
+      "sbt"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "576.0.0",
-        "to": "577.0.0"
+        "toolId": "vscode",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.129.0",
+        "to": "1.130.0"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.2.0758",
+        "to": "9.2.0858"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0856",
+        "to": "9.2.0858"
+      },
+      {
+        "toolId": "pipx",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.16.2",
+        "to": "1.16.3"
+      },
+      {
+        "toolId": "sbt",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.0.3",
+        "to": "2.0.4"
       }
     ],
     "qualityChanges": []
