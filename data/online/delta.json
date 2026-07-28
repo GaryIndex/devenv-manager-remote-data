@@ -1,27 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27T19:54:11.586Z",
-  "fromGeneratedAt": "2026-07-27T15:13:03.271Z",
-  "toGeneratedAt": "2026-07-27T19:54:11.586Z",
+  "generatedAt": "2026-07-28T03:34:17.863Z",
+  "fromGeneratedAt": "2026-07-27T19:54:11.586Z",
+  "toGeneratedAt": "2026-07-28T03:34:17.863Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 7,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "oh_my_posh",
       "docker_desktop",
-      "cloudflared",
-      "postman",
-      "netlify_cli",
+      "aws_cli",
+      "vercel_cli",
       "supabase_cli",
       "erlang"
     ],
@@ -29,51 +27,58 @@
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "29.26.1",
-        "to": "29.24.0"
+        "toolId": "docker_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.83.0",
+        "to": "4.84.0"
       },
       {
         "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.83.0,234302",
-        "to": "4.84.0,234817"
-      },
-      {
-        "toolId": "cloudflared",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2026.7.3",
-        "to": "2026.7.2"
+        "from": "4.83.0",
+        "to": "4.84.0"
       },
       {
-        "toolId": "postman",
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.36.8",
+        "to": "2.36.9"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.20.4",
-        "to": "12.21.0"
+        "from": "2.36.8",
+        "to": "2.36.9"
       },
       {
-        "toolId": "netlify_cli",
+        "toolId": "vercel_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "27.0.0",
-        "to": "27.0.1"
+        "from": "ercel@57.0.0",
+        "to": "ercel@58.0.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.109.1",
+        "to": "2.110.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.0-beta.40",
-        "to": "2.110.1-beta.1"
+        "from": "2.110.1-beta.1",
+        "to": "2.110.1-beta.4"
       },
       {
         "toolId": "erlang",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "29.0.3",
         "to": "29.0.4"
       }
