@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T14:36:32.771Z",
+  "generatedAt": "2026-07-28T19:52:51.532Z",
   "status": "ok",
   "tool": {
     "id": "pulumi",
@@ -29,7 +29,7 @@
       "long": "Modern Infrastructure as Code Declare cloud infrastructure using real languages. Enable developers and operators to work better together.",
       "source": "choco",
       "homepage": "https://www.pulumi.com/",
-      "lastUpdatedAt": "2026-07-28T14:36:06.372Z"
+      "lastUpdatedAt": "2026-07-28T19:52:24.709Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-28T14:36:06.080Z",
+          "scannedAt": "2026-07-28T19:52:24.431Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://www.pulumi.com",
-          "download": "https://github.com/pulumi/pulumi-winget/releases/download/v3.253.0/pulumi-3.253.0-windows-x64.msi",
-          "releases": "https://github.com/pulumi/pulumi-winget/releases/tag/v3.253.0",
+          "download": "https://github.com/pulumi/pulumi-winget/releases/download/v3.255.0/pulumi-3.255.0-windows-x64.msi",
+          "releases": "https://github.com/pulumi/pulumi-winget/releases/tag/v3.255.0",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": "Pulumi CLI for managing modern infrastructure as code",
           "source": "winget",
           "homepage": "https://www.pulumi.com",
-          "lastUpdatedAt": "2026-07-28T14:36:06.080Z"
+          "lastUpdatedAt": "2026-07-28T19:52:24.431Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "3.253.0",
+            "version": "3.255.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.253.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -429,29 +439,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.224.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "3.253.0",
+            "version": "3.255.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/pulumi/pulumi-winget/releases/download/v3.253.0/pulumi-3.253.0-windows-x64.msi",
+            "url": "https://github.com/pulumi/pulumi-winget/releases/download/v3.255.0/pulumi-3.255.0-windows-x64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "b5182f66e14fa0116004e31d27a053cac177aa07eb968f639ec3b83f50ec154c",
+            "sha256": "99510c3f88d839120f68c702767e681be89a6a6dc7ac14ffd10ff3096ee0f749",
             "sizeBytes": null
           }
         ],
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-28T14:36:06.080Z",
+          "lastSuccessfulScanAt": "2026-07-28T19:52:24.431Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-28T14:36:06.201Z",
+          "scannedAt": "2026-07-28T19:52:24.602Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Cloud native development platform",
           "source": "homebrew",
           "homepage": "https://www.pulumi.com/",
-          "lastUpdatedAt": "2026-07-28T14:36:06.201Z"
+          "lastUpdatedAt": "2026-07-28T19:52:24.602Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -644,7 +644,7 @@
         },
         "versions": [
           {
-            "version": "3.254.0",
+            "version": "3.255.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -657,7 +657,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "3.254.0",
+            "version": "3.255.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-28T14:36:06.201Z",
+          "lastSuccessfulScanAt": "2026-07-28T19:52:24.602Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-28T14:36:06.208Z",
+          "scannedAt": "2026-07-28T19:52:24.607Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Create, deploy, and manage infrastructure on any cloud using any language.",
           "source": "scoop",
           "homepage": "https://www.pulumi.com",
-          "lastUpdatedAt": "2026-07-28T14:36:06.208Z"
+          "lastUpdatedAt": "2026-07-28T19:52:24.607Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -821,7 +821,7 @@
         },
         "versions": [
           {
-            "version": "3.254.0",
+            "version": "3.255.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -834,7 +834,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "3.254.0",
+            "version": "3.255.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-28T14:36:06.208Z",
+          "lastSuccessfulScanAt": "2026-07-28T19:52:24.607Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +951,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-28T14:36:06.372Z",
+          "scannedAt": "2026-07-28T19:52:24.709Z",
           "errors": []
         },
         "package": {
@@ -977,7 +977,7 @@
           "long": "Modern Infrastructure as Code Declare cloud infrastructure using real languages. Enable developers and operators to work better together.",
           "source": "choco",
           "homepage": "https://www.pulumi.com/",
-          "lastUpdatedAt": "2026-07-28T14:36:06.372Z"
+          "lastUpdatedAt": "2026-07-28T19:52:24.709Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1380,7 +1380,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-28T14:36:06.372Z",
+          "lastSuccessfulScanAt": "2026-07-28T19:52:24.709Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1428,7 +1428,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-28T14:36:06.621Z",
+          "scannedAt": "2026-07-28T19:52:24.765Z",
           "errors": []
         },
         "package": {
@@ -1470,7 +1470,7 @@
           "long": "Pulumi - Infrastructure as Code in any programming language 🚀",
           "source": "github",
           "homepage": "https://www.pulumi.com",
-          "lastUpdatedAt": "2026-07-28T14:36:06.621Z"
+          "lastUpdatedAt": "2026-07-28T19:52:24.765Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2775,7 +2775,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-28T14:36:06.621Z",
+          "lastSuccessfulScanAt": "2026-07-28T19:52:24.765Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

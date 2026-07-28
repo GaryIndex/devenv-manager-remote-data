@@ -1,47 +1,36 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T14:36:32.771Z",
-  "fromGeneratedAt": "2026-07-28T08:51:42.442Z",
-  "toGeneratedAt": "2026-07-28T14:36:32.771Z",
+  "generatedAt": "2026-07-28T19:52:51.532Z",
+  "fromGeneratedAt": "2026-07-28T14:36:32.771Z",
+  "toGeneratedAt": "2026-07-28T19:52:51.532Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 11,
-    "qualityChanges": 1
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "oh_my_posh",
       "uv",
+      "cmake",
       "pulumi",
-      "aws_cli",
-      "postman",
-      "mysql",
-      "process_explorer",
-      "quarto",
-      "supabase_cli",
-      "erlang"
+      "google_cloud_sdk",
+      "vercel_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "29.36.0",
-        "to": "29.37.0"
-      },
-      {
         "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "0.11.32",
         "to": "0.11.33"
       },
@@ -49,74 +38,73 @@
         "toolId": "uv",
         "sourceId": "github",
         "manager": "github",
-        "from": "0.11.32",
-        "to": "0.11.33"
+        "from": "0.11.33",
+        "to": "0.12.0"
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "4.4.0",
+        "to": "4.4.1"
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.4.0",
+        "to": "4.4.1"
       },
       {
         "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.253.0",
+        "to": "3.255.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "3.254.0",
         "to": "3.255.0"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.8",
-        "to": "2.36.9"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "pulumi",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.21.0",
-        "to": "12.21.1"
+        "from": "3.254.0",
+        "to": "3.255.0"
       },
       {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.20.4",
-        "to": "12.21.1"
+        "toolId": "google_cloud_sdk",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "577.0.0",
+        "to": "578.0.0"
       },
       {
-        "toolId": "mysql",
+        "toolId": "google_cloud_sdk",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.7.1",
-        "to": "26.7.0"
+        "from": "577.0.0",
+        "to": "578.0.0"
       },
       {
-        "toolId": "quarto",
+        "toolId": "vercel_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "1.11.0",
-        "to": "1.11.1"
+        "from": "ercel@58.0.0",
+        "to": "ercel@58.1.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.110.1-beta.4",
-        "to": "2.111.0-beta.2"
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "29.0.3",
-        "to": "29.0.4"
+        "from": "2.111.0-beta.2",
+        "to": "2.111.0-beta.5"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "process_explorer",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
