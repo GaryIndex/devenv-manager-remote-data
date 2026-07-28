@@ -1,73 +1,112 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T08:51:42.442Z",
-  "fromGeneratedAt": "2026-07-28T03:34:17.863Z",
-  "toGeneratedAt": "2026-07-28T08:51:42.442Z",
-  "status": "partial",
+  "generatedAt": "2026-07-28T14:36:32.771Z",
+  "fromGeneratedAt": "2026-07-28T08:51:42.442Z",
+  "toGeneratedAt": "2026-07-28T14:36:32.771Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
+    "versionChanges": 11,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
       "oh_my_posh",
-      "pipx",
+      "uv",
+      "pulumi",
       "aws_cli",
       "postman",
-      "process_explorer"
+      "mysql",
+      "process_explorer",
+      "quarto",
+      "supabase_cli",
+      "erlang"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "oh_my_posh",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.2.0858",
-        "to": "9.2.0865"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.858",
-        "to": "9.2.865"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
         "from": "29.36.0",
         "to": "29.37.0"
       },
       {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.16.2",
-        "to": "1.16.3"
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.11.32",
+        "to": "0.11.33"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.11.32",
+        "to": "0.11.33"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.254.0",
+        "to": "3.255.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.36.8",
         "to": "2.36.9"
       },
       {
         "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.21.0",
+        "to": "12.21.1"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "12.20.4",
         "to": "12.21.1"
+      },
+      {
+        "toolId": "mysql",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.7.1",
+        "to": "26.7.0"
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.11.0",
+        "to": "1.11.1"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.110.1-beta.4",
+        "to": "2.111.0-beta.2"
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.0.3",
+        "to": "29.0.4"
       }
     ],
     "qualityChanges": [
@@ -75,8 +114,8 @@
         "toolId": "process_explorer",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }

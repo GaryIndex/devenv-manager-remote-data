@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T08:51:42.442Z",
-  "status": "partial",
+  "generatedAt": "2026-07-28T14:36:32.771Z",
+  "status": "ok",
   "tool": {
     "id": "process_explorer",
     "name": "Process Explorer",
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "medium",
-      "score": 65
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -78,24 +78,22 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-07-28T08:51:28.710Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-07-28T14:36:20.277Z",
+          "errors": []
         },
         "package": {
           "name": "Process Explorer",
-          "publisher": null,
-          "author": null,
+          "publisher": "Sysinternals",
+          "author": "Mark Russinovich",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Proprietary",
+          "licenseUrl": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
           "tags": []
         },
         "links": {
-          "homepage": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
-          "download": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+          "download": "https://download.sysinternals.com/files/ProcessExplorer.zip",
           "releases": null,
           "docs": null
         },
@@ -103,8 +101,8 @@
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
-          "lastUpdatedAt": "2026-07-28T08:51:28.710Z"
+          "homepage": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+          "lastUpdatedAt": "2026-07-28T14:36:20.277Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,11 +138,11 @@
             "version": "17.12",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "portable (zip)",
+            "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "47ff65944e87280a0d40e6eb7a6157f13f46d605df44ff794784b54d56795aa6",
             "sizeBytes": null
           }
         ],
@@ -239,11 +237,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-07-28T14:36:20.277Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
