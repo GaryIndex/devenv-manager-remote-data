@@ -1,165 +1,105 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T14:31:06.107Z",
-  "fromGeneratedAt": "2026-07-29T09:08:30.620Z",
-  "toGeneratedAt": "2026-07-29T14:31:06.107Z",
+  "generatedAt": "2026-07-29T19:42:40.725Z",
+  "fromGeneratedAt": "2026-07-29T14:31:06.107Z",
+  "toGeneratedAt": "2026-07-29T19:42:40.725Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 12,
+    "changedTools": 8,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 16,
-    "qualityChanges": 2
+    "versionChanges": 9,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
-      "vim",
+      "jetbrains_toolbox",
+      "node_lts",
+      "node_current",
       "pnpm",
-      "python_311",
-      "uv",
-      "temurin_21",
-      "temurin_17",
-      "aws_cli",
-      "postman",
-      "mysql",
-      "supabase_cli",
+      "terraform",
+      "vercel_cli",
+      "stripe_cli",
       "php"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.130.0",
-        "to": "1.131.0"
+        "toolId": "jetbrains_toolbox",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.6.2.0",
+        "to": "3.6.3.0"
       },
       {
-        "toolId": "vscode",
+        "toolId": "node_lts",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.130.0",
-        "to": "1.131.0"
+        "from": "24.18.0",
+        "to": "24.18.1"
       },
       {
-        "toolId": "vscode",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.130.0",
-        "to": "1.131.0"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.865",
-        "to": "9.2.870"
+        "toolId": "node_current",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.5.0",
+        "to": "26.5.1"
       },
       {
         "toolId": "pnpm",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "11.17.0",
         "to": "11.18.0"
       },
       {
-        "toolId": "python_311",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "3.11.9"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.11.33",
-        "to": "0.12.0"
-      },
-      {
-        "toolId": "temurin_21",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "21.0.11-10.0",
-        "to": "21.0.12-8.0"
-      },
-      {
-        "toolId": "temurin_17",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "17.0.19.10",
-        "to": "17.0.20.8"
-      },
-      {
-        "toolId": "temurin_17",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "17.0.19-10",
-        "to": "17.0.20-8"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.7",
-        "to": "2.36.10"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.21.1",
-        "to": "12.21.2"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.21.1",
-        "to": "12.21.2"
-      },
-      {
-        "toolId": "mysql",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "8.0.46",
-        "to": "9.7.2"
-      },
-      {
-        "toolId": "supabase_cli",
+        "toolId": "terraform",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.111.0-beta.5",
-        "to": "2.111.0-beta.9"
+        "from": "1.16.0-beta1",
+        "to": "1.17.0-alpha20260729"
+      },
+      {
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@58.1.0",
+        "to": "ercel@58.4.0"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.44.0",
+        "to": "1.44.1"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.44.0",
+        "to": "1.44.1"
       },
       {
         "toolId": "php",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "8.5.9",
-        "to": "8.3.33"
+        "from": "8.3.33",
+        "to": "8.4.24"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "python_311",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "mysql",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": 100,
+        "to": 75
       }
     ]
   }
