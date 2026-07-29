@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T03:37:20.423Z",
-  "status": "ok",
+  "generatedAt": "2026-07-29T09:08:30.620Z",
+  "status": "partial",
   "tool": {
     "id": "mysql",
     "name": "MySQL",
@@ -29,7 +29,7 @@
       "long": "MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers. Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "http://mysql.com/",
-      "lastUpdatedAt": "2026-07-29T03:36:58.546Z"
+      "lastUpdatedAt": "2026-07-29T09:08:09.250Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,22 +96,24 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-29T03:36:58.416Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-29T09:08:08.882Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "MySQL",
-          "publisher": "Oracle Corporation",
+          "publisher": null,
           "author": null,
           "description": null,
-          "license": "GNU General Public License version 2",
+          "license": null,
           "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.mysql.com/",
-          "download": "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.9-winx64.msi",
+          "download": "https://www.mysql.com/",
           "releases": null,
           "docs": null
         },
@@ -120,7 +122,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.mysql.com/",
-          "lastUpdatedAt": "2026-07-29T03:36:58.416Z"
+          "lastUpdatedAt": "2026-07-29T09:08:08.882Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -226,11 +228,11 @@
             "version": "8.4.9",
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.9-winx64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "7c3caede97bb4af923505a92e0b9c9fab1e5074a841b632387af7fb059afbd1e",
+            "type": "package-manager",
+            "url": "https://www.mysql.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -325,11 +327,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-29T03:36:58.416Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -375,7 +377,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-29T03:36:58.504Z",
+          "scannedAt": "2026-07-29T09:08:09.116Z",
           "errors": []
         },
         "package": {
@@ -401,7 +403,7 @@
           "long": "Open source relational database management system",
           "source": "homebrew",
           "homepage": "https://github.com/mysql/mysql-server",
-          "lastUpdatedAt": "2026-07-29T03:36:58.504Z"
+          "lastUpdatedAt": "2026-07-29T09:08:09.116Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -527,7 +529,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-29T03:36:58.504Z",
+          "lastSuccessfulScanAt": "2026-07-29T09:08:09.116Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -573,7 +575,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-29T03:36:58.519Z",
+          "scannedAt": "2026-07-29T09:08:09.243Z",
           "errors": []
         },
         "package": {
@@ -599,7 +601,7 @@
           "long": "The world's most popular open-source database",
           "source": "scoop",
           "homepage": "https://dev.mysql.com/downloads/mysql/#info-tab",
-          "lastUpdatedAt": "2026-07-29T03:36:58.519Z"
+          "lastUpdatedAt": "2026-07-29T09:08:09.243Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -704,7 +706,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-29T03:36:58.519Z",
+          "lastSuccessfulScanAt": "2026-07-29T09:08:09.243Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -750,7 +752,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-29T03:36:58.546Z",
+          "scannedAt": "2026-07-29T09:08:09.250Z",
           "errors": []
         },
         "package": {
@@ -777,7 +779,7 @@
           "long": "MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers. Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "http://mysql.com/",
-          "lastUpdatedAt": "2026-07-29T03:36:58.546Z"
+          "lastUpdatedAt": "2026-07-29T09:08:09.250Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1181,7 +1183,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-29T03:36:58.546Z",
+          "lastSuccessfulScanAt": "2026-07-29T09:08:09.250Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

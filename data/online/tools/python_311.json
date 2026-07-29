@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T03:37:20.423Z",
-  "status": "ok",
+  "generatedAt": "2026-07-29T09:08:30.620Z",
+  "status": "partial",
   "tool": {
     "id": "python_311",
     "name": "Python 3.11",
@@ -29,7 +29,7 @@
       "long": "Python 3.x is a programming language that lets you work more quickly and integrate your systems more effectively. You can learn to use Python 3.x and see almost immediate gains in productivity and lower maintenance costs.",
       "source": "choco",
       "homepage": "http://www.python.org/",
-      "lastUpdatedAt": "2026-07-29T03:36:38.990Z"
+      "lastUpdatedAt": "2026-07-29T09:07:48.576Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -109,9 +109,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-07-29T03:36:38.803Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-07-29T09:07:48.217Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Python 3.11",
@@ -133,7 +135,7 @@
           "long": "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
           "source": "winget",
           "homepage": "https://www.python.org/",
-          "lastUpdatedAt": "2026-07-29T03:36:38.803Z"
+          "lastUpdatedAt": "2026-07-29T09:07:48.217Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -153,112 +155,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "3.11.9",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "3.11.9",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "burn",
@@ -360,11 +261,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-29T03:36:38.803Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -421,7 +322,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-29T03:36:38.824Z",
+          "scannedAt": "2026-07-29T09:07:48.455Z",
           "errors": []
         },
         "package": {
@@ -447,7 +348,7 @@
           "long": "Interpreted, interactive, object-oriented programming language",
           "source": "homebrew",
           "homepage": "https://www.python.org/",
-          "lastUpdatedAt": "2026-07-29T03:36:38.824Z"
+          "lastUpdatedAt": "2026-07-29T09:07:48.455Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -605,7 +506,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-29T03:36:38.824Z",
+          "lastSuccessfulScanAt": "2026-07-29T09:07:48.455Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -662,7 +563,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-29T03:36:38.884Z",
+          "scannedAt": "2026-07-29T09:07:48.480Z",
           "errors": []
         },
         "package": {
@@ -688,7 +589,7 @@
           "long": "A programming language that lets you work quickly and integrate systems more effectively.",
           "source": "scoop",
           "homepage": "https://www.python.org/",
-          "lastUpdatedAt": "2026-07-29T03:36:38.884Z"
+          "lastUpdatedAt": "2026-07-29T09:07:48.480Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -795,7 +696,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-29T03:36:38.884Z",
+          "lastSuccessfulScanAt": "2026-07-29T09:07:48.480Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -852,7 +753,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-29T03:36:38.990Z",
+          "scannedAt": "2026-07-29T09:07:48.576Z",
           "errors": []
         },
         "package": {
@@ -882,7 +783,7 @@
           "long": "Python 3.x is a programming language that lets you work more quickly and integrate your systems more effectively. You can learn to use Python 3.x and see almost immediate gains in productivity and lower maintenance costs.",
           "source": "choco",
           "homepage": "http://www.python.org/",
-          "lastUpdatedAt": "2026-07-29T03:36:38.990Z"
+          "lastUpdatedAt": "2026-07-29T09:07:48.576Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1071,7 +972,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-29T03:36:38.990Z",
+          "lastSuccessfulScanAt": "2026-07-29T09:07:48.576Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
