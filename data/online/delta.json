@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T08:49:31.040Z",
-  "fromGeneratedAt": "2026-07-30T03:27:28.367Z",
-  "toGeneratedAt": "2026-07-30T08:49:31.040Z",
-  "status": "partial",
+  "generatedAt": "2026-07-30T14:31:21.366Z",
+  "fromGeneratedAt": "2026-07-30T08:49:31.040Z",
+  "toGeneratedAt": "2026-07-30T14:31:21.366Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 10,
+    "versionChanges": 5,
     "qualityChanges": 1
   },
   "changes": {
@@ -18,15 +18,9 @@
     "removedTools": [],
     "changedTools": [
       "git",
-      "oh_my_posh",
       "node_lts",
-      "pnpm",
-      "temurin_21",
-      "terraform",
-      "aws_cli",
       "postman",
-      "redis",
-      "stripe_cli"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
@@ -35,71 +29,36 @@
         "toolId": "git",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "2.55.0.3",
-        "to": null
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "29.36.0",
-        "to": "29.37.0"
+        "from": null,
+        "to": "2.55.0.3"
       },
       {
         "toolId": "node_lts",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "24.18.0",
-        "to": "22.23.2"
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "11.17.0",
-        "to": "11.18.0"
-      },
-      {
-        "toolId": "temurin_21",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "21.0.11.10",
-        "to": "21.0.12.8"
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.16.0-beta1",
-        "to": "1.17.0-alpha20260729"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.10",
-        "to": "2.36.11"
+        "from": "22.23.2",
+        "to": "24.18.1"
       },
       {
         "toolId": "postman",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.20.4",
-        "to": "12.21.2"
+        "from": "12.21.2",
+        "to": "12.21.5"
       },
       {
-        "toolId": "redis",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "8.8.1",
-        "to": "8.10.0"
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.21.2",
+        "to": "12.21.6"
       },
       {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.44.0",
-        "to": "1.44.1"
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.111.0-beta.9",
+        "to": "2.111.0-beta.14"
       }
     ],
     "qualityChanges": [
@@ -107,8 +66,8 @@
         "toolId": "git",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
