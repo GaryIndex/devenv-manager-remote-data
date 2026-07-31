@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T19:51:30.713Z",
+  "generatedAt": "2026-07-31T03:49:06.521Z",
   "status": "ok",
   "tool": {
     "id": "node_lts",
@@ -27,7 +27,7 @@
       "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
       "source": "choco",
       "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-07-30T19:50:40.413Z"
+      "lastUpdatedAt": "2026-07-31T03:48:31.985Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-30T19:50:40.308Z",
+          "scannedAt": "2026-07-31T03:48:31.839Z",
           "errors": []
         },
         "package": {
@@ -106,13 +106,13 @@
           "author": "OpenJS Foundation",
           "description": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "license": "MIT",
-          "licenseUrl": "https://github.com/nodejs/node/blob/v24.18.0/LICENSE",
+          "licenseUrl": "https://github.com/nodejs/node/blob/v24.18.1/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://nodejs.org/",
-          "download": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-x64.msi",
-          "releases": "https://github.com/nodejs/node/releases/tag/v24.18.0",
+          "download": "https://nodejs.org/dist/v24.18.1/node-v24.18.1-x64.msi",
+          "releases": "https://github.com/nodejs/node/releases/tag/v24.18.1",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-07-30T19:50:40.308Z"
+          "lastUpdatedAt": "2026-07-31T03:48:31.839Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,9 +141,19 @@
         },
         "versions": [
           {
-            "version": "24.18.0",
+            "version": "24.18.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.18.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -254,14 +264,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "24.18.0",
+            "version": "24.18.1",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-x64.msi",
+            "url": "https://nodejs.org/dist/v24.18.1/node-v24.18.1-x64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e30cd4ca15529583afe0efc978f1ae3ab3a93c2400c222d0752d17900552ebb3",
+            "sha256": "af4a0651a26f04ac240f00fec872f305547ca2aa56301c41dfd63a29eb2ab836",
             "sizeBytes": null
           }
         ],
@@ -359,7 +369,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-30T19:50:40.308Z",
+          "lastSuccessfulScanAt": "2026-07-31T03:48:31.839Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -407,7 +417,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-30T19:50:40.335Z",
+          "scannedAt": "2026-07-31T03:48:31.876Z",
           "errors": []
         },
         "package": {
@@ -433,7 +443,7 @@
           "long": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
           "source": "scoop",
           "homepage": "https://nodejs.org",
-          "lastUpdatedAt": "2026-07-30T19:50:40.335Z"
+          "lastUpdatedAt": "2026-07-31T03:48:31.876Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -539,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-30T19:50:40.335Z",
+          "lastSuccessfulScanAt": "2026-07-31T03:48:31.876Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -587,7 +597,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-30T19:50:40.413Z",
+          "scannedAt": "2026-07-31T03:48:31.985Z",
           "errors": []
         },
         "package": {
@@ -619,7 +629,7 @@
           "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
           "source": "choco",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-07-30T19:50:40.413Z"
+          "lastUpdatedAt": "2026-07-31T03:48:31.985Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1029,7 +1039,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-30T19:50:40.413Z",
+          "lastSuccessfulScanAt": "2026-07-31T03:48:31.985Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

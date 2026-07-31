@@ -1,78 +1,154 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T19:51:30.713Z",
-  "fromGeneratedAt": "2026-07-30T14:31:21.366Z",
-  "toGeneratedAt": "2026-07-30T19:51:30.713Z",
+  "generatedAt": "2026-07-31T03:49:06.521Z",
+  "fromGeneratedAt": "2026-07-30T19:51:30.713Z",
+  "toGeneratedAt": "2026-07-31T03:49:06.521Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 12,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 17,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_cli",
+      "vim",
       "oh_my_posh",
+      "node_lts",
+      "node_current",
+      "npm",
       "pipx",
-      "cmake",
-      "postman",
-      "android_studio",
+      "opentofu",
+      "aws_cli",
+      "vercel_cli",
+      "stripe_cli",
       "php"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
+        "toolId": "github_cli",
         "sourceId": "github",
         "manager": "github",
+        "from": "2.96.0",
+        "to": "2.97.0"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0875",
+        "to": "9.2.0881"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.875",
+        "to": "9.2.881"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "29.37.0",
         "to": "30.0.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.37.0",
+        "to": "30.0.0"
+      },
+      {
+        "toolId": "node_lts",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.18.0",
+        "to": "24.18.1"
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "26.4.0",
+        "to": "26.5.1"
+      },
+      {
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.18.0",
+        "to": "24.18.1"
       },
       {
         "toolId": "pipx",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.16.3",
-        "to": "1.16.4"
+        "from": "1.16.4",
+        "to": "1.16.5"
       },
       {
-        "toolId": "cmake",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "4.4.0",
-        "to": "4.4.1"
+        "toolId": "opentofu",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.12.3",
+        "to": "1.12.5"
       },
       {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.21.5",
-        "to": "12.21.7"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.21.6",
-        "to": "12.21.7"
+        "from": "2.36.11",
+        "to": "2.36.12"
       },
       {
-        "toolId": "android_studio",
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.36.11",
+        "to": "2.36.12"
+      },
+      {
+        "toolId": "vercel_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "ercel@58.4.0",
+        "to": "ercel@58.4.4"
+      },
+      {
+        "toolId": "stripe_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2026.1.2.11,quail2-patch1,AI-261.25134.95.2612.15914620",
-        "to": "2026.1.3.7,quail3,AI-261.26222.65.2613.15948027"
+        "from": "1.44.1",
+        "to": "1.45.0"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.44.1",
+        "to": "1.45.0"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.44.1",
+        "to": "1.45.0"
       },
       {
         "toolId": "php",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "8.5.8",
         "to": "8.5.9"
       }
