@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T14:34:08.164Z",
+  "generatedAt": "2026-07-31T19:52:27.262Z",
   "status": "ok",
   "tool": {
     "id": "pgadmin",
@@ -79,7 +79,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-31T14:33:48.110Z",
+          "scannedAt": "2026-07-31T19:52:03.340Z",
           "errors": []
         },
         "package": {
@@ -93,8 +93,8 @@
         },
         "links": {
           "homepage": "https://www.pgadmin.org/download/pgadmin-4-windows/",
-          "download": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/windows/pgadmin4-9.16-x64.exe",
-          "releases": "https://www.pgadmin.org/docs/pgadmin4/9.16/release_notes_9_16.html",
+          "download": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.17/windows/pgadmin4-9.17-x64.exe",
+          "releases": "https://www.pgadmin.org/docs/pgadmin4/9.17/release_notes_9_17.html",
           "docs": null
         },
         "descriptions": {
@@ -102,7 +102,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://www.pgadmin.org/download/pgadmin-4-windows/",
-          "lastUpdatedAt": "2026-07-31T14:33:48.110Z"
+          "lastUpdatedAt": "2026-07-31T19:52:03.340Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -122,9 +122,19 @@
         },
         "versions": [
           {
-            "version": "9.16",
+            "version": "9.17",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.16",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -385,14 +395,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "9.16",
+            "version": "9.17",
             "platform": "windows",
             "architecture": null,
             "type": "inno",
-            "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/windows/pgadmin4-9.16-x64.exe",
+            "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.17/windows/pgadmin4-9.17-x64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "06a0e2f2586099e038d7dc34da20f94f86465696c0238e9c86032bc933d00067",
+            "sha256": "f152ab1666d4b4182f5e550d05840c7a05123c77fb992591086ab5e73758300f",
             "sizeBytes": null
           }
         ],
@@ -490,7 +500,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-31T14:33:48.110Z",
+          "lastSuccessfulScanAt": "2026-07-31T19:52:03.340Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
