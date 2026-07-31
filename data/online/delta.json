@@ -1,122 +1,78 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T09:16:40.098Z",
-  "fromGeneratedAt": "2026-07-31T03:49:06.521Z",
-  "toGeneratedAt": "2026-07-31T09:16:40.098Z",
+  "generatedAt": "2026-07-31T14:34:08.164Z",
+  "fromGeneratedAt": "2026-07-31T09:16:40.098Z",
+  "toGeneratedAt": "2026-07-31T14:34:08.164Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 13,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "github_cli",
-      "aws_cli",
+      "pnpm",
+      "cmake",
       "postman",
-      "android_studio",
-      "supabase_cli",
-      "unity_hub"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "github_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.96.0",
-        "to": "2.97.0"
-      },
-      {
-        "toolId": "github_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.96.0",
-        "to": "2.97.0"
-      },
-      {
-        "toolId": "github_cli",
+        "toolId": "pnpm",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "2.96.0",
-        "to": "2.97.0"
+        "from": "11.18.0",
+        "to": "11.19.0"
       },
       {
-        "toolId": "github_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.96.0",
-        "to": "2.97.0"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.36.11",
-        "to": "2.36.13"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.36.12",
-        "to": "2.36.13"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.36.12",
-        "to": "2.36.13"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.11",
-        "to": "2.36.13"
+        "toolId": "cmake",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.4.1",
+        "to": "4.4.2"
       },
       {
         "toolId": "postman",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.21.7",
-        "to": "12.21.8"
+        "from": "12.21.8",
+        "to": "12.21.9"
       },
       {
         "toolId": "postman",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.21.7",
-        "to": "12.21.8"
+        "from": "12.21.8",
+        "to": "12.21.9"
       },
       {
-        "toolId": "android_studio",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2026.1.2.10",
-        "to": "2026.1.3.7"
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.21.2",
+        "to": "12.21.9"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.110.0",
+        "to": "2.111.0"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.111.0-beta.14",
-        "to": "2.111.0"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.19.5",
-        "to": "3.20.0"
+        "from": "2.111.0",
+        "to": "2.111.1-beta.2"
       }
     ],
     "qualityChanges": []
