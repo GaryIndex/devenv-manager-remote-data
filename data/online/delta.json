@@ -1,142 +1,62 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T03:49:17.404Z",
-  "fromGeneratedAt": "2026-07-31T19:52:27.262Z",
-  "toGeneratedAt": "2026-08-01T03:49:17.404Z",
+  "generatedAt": "2026-08-01T08:34:09.537Z",
+  "fromGeneratedAt": "2026-08-01T03:49:17.404Z",
+  "toGeneratedAt": "2026-08-01T08:34:09.537Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 7,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 16,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
+      "ripgrep",
       "fzf",
-      "uv",
-      "cmake",
       "aws_cli",
-      "postman",
       "beekeeper_studio"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.0881",
-        "to": "9.2.0888"
-      },
-      {
-        "toolId": "vim",
+        "toolId": "ripgrep",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.881",
-        "to": "9.2.888"
+        "from": "14.1.0",
+        "to": "0.10.0"
       },
       {
         "toolId": "fzf",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "0.74.1",
         "to": "0.74.2"
       },
       {
         "toolId": "fzf",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.74.1",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.74.0",
         "to": "0.74.2"
       },
       {
-        "toolId": "fzf",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "0.74.1",
-        "to": "0.74.2"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "0.12.0",
-        "to": "0.12.1"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.12.0",
-        "to": "0.12.1"
-      },
-      {
-        "toolId": "uv",
+        "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.12.0",
-        "to": "0.12.1"
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.4.1",
-        "to": "4.4.2"
-      },
-      {
-        "toolId": "cmake",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "4.4.1",
-        "to": "4.4.2"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
         "from": "2.36.13",
         "to": "2.36.14"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.36.13",
-        "to": "2.36.14"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.36.13",
-        "to": "2.36.14"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.21.9",
-        "to": "12.21.10"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.21.9",
-        "to": "12.21.10"
       },
       {
         "toolId": "beekeeper_studio",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "5.9.2",
         "to": "5.9.3"
       }

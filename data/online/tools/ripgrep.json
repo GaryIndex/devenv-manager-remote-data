@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T03:49:17.404Z",
+  "generatedAt": "2026-08-01T08:34:09.537Z",
   "status": "ok",
   "tool": {
     "id": "ripgrep",
@@ -26,10 +26,10 @@
     },
     "descriptions": {
       "short": "A search tool that combines the usability of ag with the raw speed of grep.",
-      "long": "ripgrep is a command line search tool that combines the usability of The Silver Searcher (an ack clone) with the raw speed of GNU grep. ripgrep has first class support on Windows, Mac and Linux, with binary downloads available for every release. Notes on version 14.1.0.20220913 After more carefully reviewing the release notes from version 14.1.0, we are now removing the dependency on vcredist2015.",
+      "long": "ripgrep is a command line search tool that combines the usability of The Silver Searcher (an ack clone) with the raw speed of GNU grep. ripgrep has first class support on Windows, Mac and Linux, with binary downloads available for every release. Notes We are currently depending on Visual C++ Redistributable for Visual Studio 2015 https://chocolatey.org/packages/vcredist2015. This will change once this https://github.com/rust-lang/rust/pull/37545 is resolved and ripgrep can statically link the CRT.",
       "source": "choco",
       "homepage": "https://github.com/BurntSushi/ripgrep",
-      "lastUpdatedAt": "2026-08-01T03:48:19.615Z"
+      "lastUpdatedAt": "2026-08-01T08:33:14.197Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-01T03:48:19.240Z",
+          "scannedAt": "2026-08-01T08:33:13.772Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://github.com/BurntSushi/ripgrep",
-          "lastUpdatedAt": "2026-08-01T03:48:19.240Z"
+          "lastUpdatedAt": "2026-08-01T08:33:13.772Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -329,7 +329,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-01T03:48:19.240Z",
+          "lastSuccessfulScanAt": "2026-08-01T08:33:13.772Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -376,7 +376,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-01T03:48:19.460Z",
+          "scannedAt": "2026-08-01T08:33:14.098Z",
           "errors": []
         },
         "package": {
@@ -402,7 +402,7 @@
           "long": "Search tool like grep and The Silver Searcher",
           "source": "homebrew",
           "homepage": "https://github.com/BurntSushi/ripgrep",
-          "lastUpdatedAt": "2026-08-01T03:48:19.460Z"
+          "lastUpdatedAt": "2026-08-01T08:33:14.098Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -508,7 +508,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-01T03:48:19.460Z",
+          "lastSuccessfulScanAt": "2026-08-01T08:33:14.098Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -554,7 +554,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-01T03:48:19.510Z",
+          "scannedAt": "2026-08-01T08:33:14.120Z",
           "errors": []
         },
         "package": {
@@ -580,7 +580,7 @@
           "long": "Recursively searches directories for a regex pattern.",
           "source": "scoop",
           "homepage": "https://github.com/BurntSushi/ripgrep",
-          "lastUpdatedAt": "2026-08-01T03:48:19.510Z"
+          "lastUpdatedAt": "2026-08-01T08:33:14.120Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -685,7 +685,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-01T03:48:19.510Z",
+          "lastSuccessfulScanAt": "2026-08-01T08:33:14.120Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -731,7 +731,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-01T03:48:19.615Z",
+          "scannedAt": "2026-08-01T08:33:14.197Z",
           "errors": []
         },
         "package": {
@@ -740,7 +740,7 @@
           "author": "BurntSushi",
           "description": "A search tool that combines the usability of ag with the raw speed of grep.",
           "license": null,
-          "licenseUrl": "https://github.com/BurntSushi/ripgrep/blob/14.1.0/LICENSE-MIT",
+          "licenseUrl": "https://github.com/BurntSushi/ripgrep/blob/0.10.0/LICENSE-MIT",
           "tags": [
             "search",
             "ripgrep",
@@ -749,16 +749,16 @@
         },
         "links": {
           "homepage": "https://github.com/BurntSushi/ripgrep",
-          "download": "https://community.chocolatey.org/api/v2/package/ripgrep/14.1.0",
-          "releases": "https://github.com/BurntSushi/ripgrep/releases/tag/14.1.0",
+          "download": "https://community.chocolatey.org/api/v2/package/ripgrep/0.10.0",
+          "releases": "ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern while respecting your gitignore rules. ripgrep has first class support on Windows, macOS and Linux, with binary downloads available for every release. ripgrep is similar to other popular search tools like The Silver Searcher, ack and grep.\n\nThis is a new minor version release of ripgrep that contains some major new\nfeatures, a huge number of bug fixes, and is the first release based on\nlibripgrep. The entirety of ripgrep's core search and printing code has been\nrewritten and generalized so that anyone can make use of it.\n\nMajor new features include PCRE2 support, multi-line search and a JSON output\nformat.\n\n**BREAKING CHANGES**:\n\n* The minimum version required to compile Rust has now changed to track the\n  latest stable version of Rust. Patch releases will continue to compile with\n  the same version of Rust as the previous patch release, but new minor\n  versions will use the current stable version of the Rust compile as its\n  minimum supported version.\n* The match semantics of `-w/--word-regexp` have changed slightly. They used\n  to be `\\\\b(?:<your pattern>)\\\\b`, but now it's\n  `(?:^|\\\\W)(?:<your pattern>)(?:$|\\\\W)`. This matches the behavior of GNU grep\n  and is believed to be closer to the intended semantics of the flag. See\n  [#389](https://github.com/BurntSushi/ripgrep/issues/389) for more details.\n\nFeature enhancements:\n\n* [FEATURE #162](https://github.com/BurntSushi/ripgrep/issues/162):\n  libripgrep is now a thing. The primary crate is\n  [`grep`](https://docs.rs/grep).\n* [FEATURE #176](https://github.com/BurntSushi/ripgrep/issues/176):\n  Add `-U/--multiline` flag that permits matching over multiple lines.\n* [FEATURE #188](https://github.com/BurntSushi/ripgrep/issues/188):\n  Add `-P/--pcre2` flag that gives support for look-around and backreferences.\n* [FEATURE #244](https://github.com/BurntSushi/ripgrep/issues/244):\n  Add `--json` flag that prints results in a JSON Lines format.\n* [FEATURE #321](https://github.com/BurntSushi/ripgrep/issues/321):\n  Add `--one-file-system` flag to skip directories on different file systems.\n* [FEATURE #404](https://github.com/BurntSushi/ripgrep/issues/404):\n  Add `--sort` and `--sortr` flag for more sorting. Deprecate `--sort-files`.\n* [FEATURE #416](https://github.com/BurntSushi/ripgrep/issues/416):\n  Add `--crlf` flag to permit `$` to work with carriage returns on Windows.\n* [FEATURE #917](https://github.com/BurntSushi/ripgrep/issues/917):\n  The `--trim` flag strips prefix whitespace from all lines printed.\n* [FEATURE #993](https://github.com/BurntSushi/ripgrep/issues/993):\n  Add `--null-data` flag, which makes ripgrep use NUL as a line terminator.\n* [FEATURE #997](https://github.com/BurntSushi/ripgrep/issues/997):\n  The `--passthru` flag now works with the `--replace` flag.\n* [FEATURE #1038-1](https://github.com/BurntSushi/ripgrep/issues/1038):\n  Add `--line-buffered` and `--block-buffered` for forcing a buffer strategy.\n* [FEATURE #1038-2](https://github.com/BurntSushi/ripgrep/issues/1038):\n  Add `--pre-glob` for filtering files through the `--pre` flag.\n\nBug fixes:\n\n* [BUG #2](https://github.com/BurntSushi/ripgrep/issues/2):\n  Searching with non-zero context can now use memory maps if appropriate.\n* [BUG #200](https://github.com/BurntSushi/ripgrep/issues/200):\n  ripgrep will now stop correctly when its output pipe is closed.\n* [BUG #389](https://github.com/BurntSushi/ripgrep/issues/389):\n  The `-w/--word-regexp` flag now works more intuitively.\n* [BUG #643](https://github.com/BurntSushi/ripgrep/issues/643):\n  Detection of readable stdin has improved on Windows.\n* [BUG #441](https://github.com/BurntSushi/ripgrep/issues/441),\n  [BUG #690](https://github.com/BurntSushi/ripgrep/issues/690),\n  [BUG #980](https://github.com/BurntSushi/ripgrep/issues/980):\n  Matching empty lines now works correctly in several corner cases.\n* [BUG #764](https://github.com/BurntSushi/ripgrep/issues/764):\n  Color escape sequences now coalesce, which reduces output size.\n* [BUG #842](https://github.com/BurntSushi/ripgrep/issues/842):\n  Add man page to binary Debian package.\n* [BUG #922](https://github.com/BurntSushi/ripgrep/issues/922):\n  ripgrep is now more robust with respect to memory maps failing.\n* [BUG #937](https://github.com/BurntSushi/ripgrep/issues/937):\n  Color escape sequences are no longer emitted for empty matches.\n* [BUG #940](https://github.com/BurntSushi/ripgrep/issues/940):\n  Context from the `--passthru` flag should not impact process exit status.\n* [BUG #984](https://github.com/BurntSushi/ripgrep/issues/984):\n  Fixes bug in `ignore` crate where first path was always treated as a symlink.\n* [BUG #990](https://github.com/BurntSushi/ripgrep/issues/990):\n  Read stderr asynchronously when running a process.\n* [BUG #1013](https://github.com/BurntSushi/ripgrep/issues/1013):\n  Add compile time and runtime CPU features to `--version` output.\n* [BUG #1028](https://github.com/BurntSushi/ripgrep/pull/1028):\n  Don't complete bare pattern after `-f` in zsh.",
           "docs": null
         },
         "descriptions": {
           "short": "A search tool that combines the usability of ag with the raw speed of grep.",
-          "long": "ripgrep is a command line search tool that combines the usability of The Silver Searcher (an ack clone) with the raw speed of GNU grep. ripgrep has first class support on Windows, Mac and Linux, with binary downloads available for every release. Notes on version 14.1.0.20220913 After more carefully reviewing the release notes from version 14.1.0, we are now removing the dependency on vcredist2015.",
+          "long": "ripgrep is a command line search tool that combines the usability of The Silver Searcher (an ack clone) with the raw speed of GNU grep. ripgrep has first class support on Windows, Mac and Linux, with binary downloads available for every release. Notes We are currently depending on Visual C++ Redistributable for Visual Studio 2015 https://chocolatey.org/packages/vcredist2015. This will change once this https://github.com/rust-lang/rust/pull/37545 is resolved and ripgrep can statically link the CRT.",
           "source": "choco",
           "homepage": "https://github.com/BurntSushi/ripgrep",
-          "lastUpdatedAt": "2026-08-01T03:48:19.615Z"
+          "lastUpdatedAt": "2026-08-01T08:33:14.197Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -779,9 +779,19 @@
         },
         "versions": [
           {
-            "version": "14.1.0",
+            "version": "0.10.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "14.1.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -989,16 +999,6 @@
             "changelogUrl": null
           },
           {
-            "version": "0.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
             "version": "14.0.3",
             "channel": "stable",
             "latest": false,
@@ -1082,14 +1082,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "14.1.0",
+            "version": "0.10.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/ripgrep/14.1.0",
+            "url": "https://community.chocolatey.org/api/v2/package/ripgrep/0.10.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "InArUQ733Q6L3ezbVwzHcMUfXfTs5V3/Ft+FezP2/jlcUMRVLlAX9G/NfX8c1miAWRi75oNF85KLDNQAPTMTTg==",
+            "sha256": "V5U4biPH1oXtnZIPZK47cDsHB6FTyaQo5inMNljwgk/7y+AXpUjabSBclN/5UpU47nrlouogyYrD68SxGefbTw==",
             "sizeBytes": null
           }
         ],
@@ -1161,7 +1161,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-01T03:48:19.615Z",
+          "lastSuccessfulScanAt": "2026-08-01T08:33:14.197Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1209,7 +1209,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-01T03:48:19.686Z",
+          "scannedAt": "2026-08-01T08:33:14.255Z",
           "errors": []
         },
         "package": {
@@ -1243,7 +1243,7 @@
           "long": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
           "source": "github",
           "homepage": "https://github.com/BurntSushi/ripgrep",
-          "lastUpdatedAt": "2026-08-01T03:48:19.686Z"
+          "lastUpdatedAt": "2026-08-01T08:33:14.255Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2539,7 +2539,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-01T03:48:19.686Z",
+          "lastSuccessfulScanAt": "2026-08-01T08:33:14.255Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
