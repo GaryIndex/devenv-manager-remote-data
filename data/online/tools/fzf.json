@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T19:52:27.262Z",
+  "generatedAt": "2026-08-01T03:49:17.404Z",
   "status": "ok",
   "tool": {
     "id": "fzf",
@@ -29,7 +29,7 @@
       "long": "It's an interactive filter program for any kind of list; files, command history, processes, hostnames, bookmarks, git commits, etc. It implements a \"fuzzy\" matching algorithm, so you can quickly type in patterns with omitted characters and still get the results you want. Highlights ---------- - Portable — Distributed as a single binary for easy installation - Fast — Optimized to process millions of items instantly - Versatile — Fully customizable through an event-action binding mechanism - All-inclusive — Comes with integrations for Bash, Zsh, Fish, Vim, and Neovim NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://github.com/junegunn/fzf",
-      "lastUpdatedAt": "2026-07-31T19:51:35.786Z"
+      "lastUpdatedAt": "2026-08-01T03:48:20.736Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-31T19:51:35.624Z",
+          "scannedAt": "2026-08-01T03:48:20.549Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://github.com/junegunn/fzf",
-          "download": "https://github.com/junegunn/fzf/releases/download/v0.74.1/fzf-0.74.1-windows_amd64.zip",
-          "releases": "https://github.com/junegunn/fzf/releases/tag/v0.74.1",
+          "download": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-windows_amd64.zip",
+          "releases": "https://github.com/junegunn/fzf/releases/tag/v0.74.2",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "A general-purpose command-line fuzzy finder",
           "source": "winget",
           "homepage": "https://github.com/junegunn/fzf",
-          "lastUpdatedAt": "2026-07-31T19:51:35.624Z"
+          "lastUpdatedAt": "2026-08-01T03:48:20.549Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "0.74.1",
+            "version": "0.74.2",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.74.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -427,29 +437,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.56.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.74.1",
+            "version": "0.74.2",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.1/fzf-0.74.1-windows_amd64.zip",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-windows_amd64.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "d83a94a68a9203f6366754123c0e4d7a61e16be18a5d845f4838664b330c4f5f",
+            "sha256": "a5a3b27dd203469139d10669721952335b9b46f19346e3d1abc102a67ea60804",
             "sizeBytes": null
           }
         ],
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-31T19:51:35.624Z",
+          "lastSuccessfulScanAt": "2026-08-01T03:48:20.549Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-31T19:51:35.701Z",
+          "scannedAt": "2026-08-01T03:48:20.574Z",
           "errors": []
         },
         "package": {
@@ -620,7 +620,7 @@
           "long": "Command-line fuzzy finder written in Go",
           "source": "homebrew",
           "homepage": "https://junegunn.github.io/fzf/",
-          "lastUpdatedAt": "2026-07-31T19:51:35.701Z"
+          "lastUpdatedAt": "2026-08-01T03:48:20.574Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-31T19:51:35.701Z",
+          "lastSuccessfulScanAt": "2026-08-01T03:48:20.574Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-31T19:51:35.725Z",
+          "scannedAt": "2026-08-01T03:48:20.638Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "A general-purpose command-line fuzzy finder",
           "source": "scoop",
           "homepage": "https://github.com/junegunn/fzf",
-          "lastUpdatedAt": "2026-07-31T19:51:35.725Z"
+          "lastUpdatedAt": "2026-08-01T03:48:20.638Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -817,7 +817,7 @@
         },
         "versions": [
           {
-            "version": "0.74.1",
+            "version": "0.74.2",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -830,7 +830,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.74.1",
+            "version": "0.74.2",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -901,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-31T19:51:35.725Z",
+          "lastSuccessfulScanAt": "2026-08-01T03:48:20.638Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -947,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-31T19:51:35.786Z",
+          "scannedAt": "2026-08-01T03:48:20.736Z",
           "errors": []
         },
         "package": {
@@ -973,7 +973,7 @@
           "long": "It's an interactive filter program for any kind of list; files, command history, processes, hostnames, bookmarks, git commits, etc. It implements a \"fuzzy\" matching algorithm, so you can quickly type in patterns with omitted characters and still get the results you want. Highlights ---------- - Portable — Distributed as a single binary for easy installation - Fast — Optimized to process millions of items instantly - Versatile — Fully customizable through an event-action binding mechanism - All-inclusive — Comes with integrations for Bash, Zsh, Fish, Vim, and Neovim NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://github.com/junegunn/fzf",
-          "lastUpdatedAt": "2026-07-31T19:51:35.786Z"
+          "lastUpdatedAt": "2026-08-01T03:48:20.736Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1375,7 +1375,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-31T19:51:35.786Z",
+          "lastSuccessfulScanAt": "2026-08-01T03:48:20.736Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1423,7 +1423,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-07-31T19:51:35.858Z",
+          "scannedAt": "2026-08-01T03:48:20.810Z",
           "errors": []
         },
         "package": {
@@ -1457,7 +1457,7 @@
           "long": ":cherry blossom: A command-line fuzzy finder",
           "source": "github",
           "homepage": "https://junegunn.github.io/fzf/",
-          "lastUpdatedAt": "2026-07-31T19:51:35.858Z"
+          "lastUpdatedAt": "2026-08-01T03:48:20.810Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1485,9 +1485,19 @@
         },
         "versions": [
           {
-            "version": "0.74.1",
+            "version": "0.74.2",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-08-01T00:17:03Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/junegunn/fzf/releases/tag/v0.74.2"
+          },
+          {
+            "version": "0.74.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-07-18T12:54:00Z",
@@ -1773,19 +1783,321 @@
             "releaseDate": "2024-11-15T01:07:53Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/junegunn/fzf/releases/tag/v0.56.3"
-          },
-          {
-            "version": "0.56.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2024-11-11T15:59:57Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/junegunn/fzf/releases/tag/v0.56.2"
           }
         ],
         "downloads": [
+          {
+            "id": "fzf-0.74.2-android_arm64.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-android_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1922267
+          },
+          {
+            "id": "fzf-0.74.2-darwin_amd64.tar.gz",
+            "version": "0.74.2",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-darwin_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2069781
+          },
+          {
+            "id": "fzf-0.74.2-darwin_arm64.tar.gz",
+            "version": "0.74.2",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-darwin_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1905304
+          },
+          {
+            "id": "fzf-0.74.2-freebsd_amd64.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-freebsd_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1982770
+          },
+          {
+            "id": "fzf-0.74.2-linux_amd64.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2013806
+          },
+          {
+            "id": "fzf-0.74.2-linux_arm64.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1845580
+          },
+          {
+            "id": "fzf-0.74.2-linux_armv5.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_armv5.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1902971
+          },
+          {
+            "id": "fzf-0.74.2-linux_armv6.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_armv6.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1895237
+          },
+          {
+            "id": "fzf-0.74.2-linux_armv7.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_armv7.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1891755
+          },
+          {
+            "id": "fzf-0.74.2-linux_loong64.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_loong64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1934507
+          },
+          {
+            "id": "fzf-0.74.2-linux_ppc64le.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_ppc64le.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1863260
+          },
+          {
+            "id": "fzf-0.74.2-linux_riscv64.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_riscv64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1873651
+          },
+          {
+            "id": "fzf-0.74.2-linux_s390x.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-linux_s390x.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1945651
+          },
+          {
+            "id": "fzf-0.74.2-openbsd_amd64.tar.gz",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-openbsd_amd64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1979269
+          },
+          {
+            "id": "fzf-0.74.2-windows_amd64.zip",
+            "version": "0.74.2",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-windows_amd64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2195038
+          },
+          {
+            "id": "fzf-0.74.2-windows_arm64.zip",
+            "version": "0.74.2",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf-0.74.2-windows_arm64.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1992662
+          },
+          {
+            "id": "fzf_0.74.2_amd64.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2041612
+          },
+          {
+            "id": "fzf_0.74.2_arm64.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1873268
+          },
+          {
+            "id": "fzf_0.74.2_armv5.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_armv5.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1930844
+          },
+          {
+            "id": "fzf_0.74.2_armv6.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_armv6.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1922412
+          },
+          {
+            "id": "fzf_0.74.2_armv7.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_armv7.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1919104
+          },
+          {
+            "id": "fzf_0.74.2_checksums.txt",
+            "version": "0.74.2",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_checksums.txt",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 2337
+          },
+          {
+            "id": "fzf_0.74.2_loong64.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_loong64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1962492
+          },
+          {
+            "id": "fzf_0.74.2_ppc64le.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_ppc64le.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1891058
+          },
+          {
+            "id": "fzf_0.74.2_riscv64.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_riscv64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1901132
+          },
+          {
+            "id": "fzf_0.74.2_s390x.deb",
+            "version": "0.74.2",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/junegunn/fzf/releases/download/v0.74.2/fzf_0.74.2_s390x.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1973654
+          },
           {
             "id": "fzf-0.74.1-android_arm64.tar.gz",
             "version": "0.74.1",
@@ -2433,318 +2745,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 1823393
-          },
-          {
-            "id": "fzf-0.73.1-linux_riscv64.tar.gz",
-            "version": "0.73.1",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-linux_riscv64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1833645
-          },
-          {
-            "id": "fzf-0.73.1-linux_s390x.tar.gz",
-            "version": "0.73.1",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-linux_s390x.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1900934
-          },
-          {
-            "id": "fzf-0.73.1-openbsd_amd64.tar.gz",
-            "version": "0.73.1",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-openbsd_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1933759
-          },
-          {
-            "id": "fzf-0.73.1-windows_amd64.zip",
-            "version": "0.73.1",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-windows_amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 2149253
-          },
-          {
-            "id": "fzf-0.73.1-windows_arm64.zip",
-            "version": "0.73.1",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-windows_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1950187
-          },
-          {
-            "id": "fzf_0.73.1_checksums.txt",
-            "version": "0.73.1",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf_0.73.1_checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1548
-          },
-          {
-            "id": "fzf-0.73.0-android_arm64.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-android_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1809501
-          },
-          {
-            "id": "fzf-0.73.0-darwin_amd64.tar.gz",
-            "version": "0.73.0",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-darwin_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1931937
-          },
-          {
-            "id": "fzf-0.73.0-darwin_arm64.tar.gz",
-            "version": "0.73.0",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-darwin_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1806791
-          },
-          {
-            "id": "fzf-0.73.0-freebsd_amd64.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-freebsd_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1842513
-          },
-          {
-            "id": "fzf-0.73.0-linux_amd64.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1862013
-          },
-          {
-            "id": "fzf-0.73.0-linux_arm64.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_arm64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1739790
-          },
-          {
-            "id": "fzf-0.73.0-linux_armv5.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_armv5.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1775973
-          },
-          {
-            "id": "fzf-0.73.0-linux_armv6.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_armv6.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1764859
-          },
-          {
-            "id": "fzf-0.73.0-linux_armv7.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_armv7.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1762508
-          },
-          {
-            "id": "fzf-0.73.0-linux_loong64.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_loong64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1787298
-          },
-          {
-            "id": "fzf-0.73.0-linux_ppc64le.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_ppc64le.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1737088
-          },
-          {
-            "id": "fzf-0.73.0-linux_riscv64.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_riscv64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1753551
-          },
-          {
-            "id": "fzf-0.73.0-linux_s390x.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-linux_s390x.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1804920
-          },
-          {
-            "id": "fzf-0.73.0-openbsd_amd64.tar.gz",
-            "version": "0.73.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-openbsd_amd64.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1844000
-          },
-          {
-            "id": "fzf-0.73.0-windows_amd64.zip",
-            "version": "0.73.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-windows_amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 2047252
-          },
-          {
-            "id": "fzf-0.73.0-windows_arm64.zip",
-            "version": "0.73.0",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-windows_arm64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1895429
-          },
-          {
-            "id": "fzf-0.73.0-windows_armv5.zip",
-            "version": "0.73.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-windows_armv5.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1955237
-          },
-          {
-            "id": "fzf-0.73.0-windows_armv6.zip",
-            "version": "0.73.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-windows_armv6.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1946127
-          },
-          {
-            "id": "fzf-0.73.0-windows_armv7.zip",
-            "version": "0.73.0",
-            "platform": "windows",
-            "architecture": null,
-            "type": "zip",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf-0.73.0-windows_armv7.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1937321
-          },
-          {
-            "id": "fzf_0.73.0_checksums.txt",
-            "version": "0.73.0",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/junegunn/fzf/releases/download/v0.73.0/fzf_0.73.0_checksums.txt",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1833
           }
         ],
         "commands": [],
@@ -2752,7 +2752,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-07-31T19:51:35.858Z",
+          "lastSuccessfulScanAt": "2026-08-01T03:48:20.810Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
