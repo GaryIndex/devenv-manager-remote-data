@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T13:53:21.944Z",
-  "status": "ok",
+  "generatedAt": "2026-08-02T19:34:19.266Z",
+  "status": "partial",
   "tool": {
     "id": "starship",
     "name": "Starship",
@@ -29,7 +29,7 @@
       "long": "Starship is the minimal, blazing fast, and extremely customizable prompt for any shell! Shows the information you need, while staying sleek and minimal.",
       "source": "choco",
       "homepage": "https://starship.rs/",
-      "lastUpdatedAt": "2026-08-02T13:52:44.130Z"
+      "lastUpdatedAt": "2026-08-02T19:33:23.273Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,9 +97,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-02T13:52:43.733Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-02T19:33:22.938Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Starship",
@@ -121,7 +123,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://starship.rs/",
-          "lastUpdatedAt": "2026-08-02T13:52:43.733Z"
+          "lastUpdatedAt": "2026-08-02T19:33:22.938Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,312 +141,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.26.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.25.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.25.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.24.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.24.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.24.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.23.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.21.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.21.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.20.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.19.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.18.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.18.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.18.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.17.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.17.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.16.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.15.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.14.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.14.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.14.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.13.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.13.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.10.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.10.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.9.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.26.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "wix",
@@ -546,11 +247,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-02T13:52:43.733Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -596,7 +297,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-02T13:52:44.097Z",
+          "scannedAt": "2026-08-02T19:33:23.106Z",
           "errors": []
         },
         "package": {
@@ -622,7 +323,7 @@
           "long": "Cross-shell prompt for astronauts",
           "source": "homebrew",
           "homepage": "https://starship.rs/",
-          "lastUpdatedAt": "2026-08-02T13:52:44.097Z"
+          "lastUpdatedAt": "2026-08-02T19:33:23.106Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +429,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-02T13:52:44.097Z",
+          "lastSuccessfulScanAt": "2026-08-02T19:33:23.106Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +475,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-02T13:52:44.119Z",
+          "scannedAt": "2026-08-02T19:33:23.173Z",
           "errors": []
         },
         "package": {
@@ -800,7 +501,7 @@
           "long": "The minimal, blazing fast, and extremely customizable prompt for any shell!",
           "source": "scoop",
           "homepage": "https://starship.rs",
-          "lastUpdatedAt": "2026-08-02T13:52:44.119Z"
+          "lastUpdatedAt": "2026-08-02T19:33:23.173Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -905,7 +606,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-02T13:52:44.119Z",
+          "lastSuccessfulScanAt": "2026-08-02T19:33:23.173Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +652,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-02T13:52:44.130Z",
+          "scannedAt": "2026-08-02T19:33:23.273Z",
           "errors": []
         },
         "package": {
@@ -979,7 +680,7 @@
           "long": "Starship is the minimal, blazing fast, and extremely customizable prompt for any shell! Shows the information you need, while staying sleek and minimal.",
           "source": "choco",
           "homepage": "https://starship.rs/",
-          "lastUpdatedAt": "2026-08-02T13:52:44.130Z"
+          "lastUpdatedAt": "2026-08-02T19:33:23.273Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1384,7 +1085,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-02T13:52:44.130Z",
+          "lastSuccessfulScanAt": "2026-08-02T19:33:23.273Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1432,7 +1133,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-02T13:52:44.191Z",
+          "scannedAt": "2026-08-02T19:33:23.336Z",
           "errors": []
         },
         "package": {
@@ -1468,7 +1169,7 @@
           "long": "☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
           "source": "github",
           "homepage": "https://starship.rs",
-          "lastUpdatedAt": "2026-08-02T13:52:44.191Z"
+          "lastUpdatedAt": "2026-08-02T19:33:23.336Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2766,7 +2467,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-02T13:52:44.191Z",
+          "lastSuccessfulScanAt": "2026-08-02T19:33:23.336Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
