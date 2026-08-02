@@ -1,34 +1,58 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T08:36:49.525Z",
-  "fromGeneratedAt": "2026-08-02T03:52:04.635Z",
-  "toGeneratedAt": "2026-08-02T08:36:49.525Z",
-  "status": "partial",
+  "generatedAt": "2026-08-02T13:53:21.944Z",
+  "fromGeneratedAt": "2026-08-02T08:36:49.525Z",
+  "toGeneratedAt": "2026-08-02T13:53:21.944Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 0,
+    "versionChanges": 3,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vim",
+      "oh_my_posh",
       "msys2"
     ],
     "addedSources": [],
     "removedSources": [],
-    "versionChanges": [],
+    "versionChanges": [
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.888",
+        "to": "9.2.894"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "30.1.1",
+        "to": "30.2.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "30.1.1",
+        "to": "30.2.0"
+      }
+    ],
     "qualityChanges": [
       {
         "toolId": "msys2",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
