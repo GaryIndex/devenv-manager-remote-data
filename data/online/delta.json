@@ -1,22 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T19:34:19.266Z",
-  "fromGeneratedAt": "2026-08-02T13:53:21.944Z",
-  "toGeneratedAt": "2026-08-02T19:34:19.266Z",
-  "status": "partial",
+  "generatedAt": "2026-08-03T03:53:55.405Z",
+  "fromGeneratedAt": "2026-08-02T19:34:19.266Z",
+  "toGeneratedAt": "2026-08-03T03:53:55.405Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 7,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vim",
       "oh_my_posh",
       "starship",
       "dbeaver"
@@ -25,16 +26,23 @@
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "30.1.1",
-        "to": "30.3.0"
+        "toolId": "vim",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "9.2.0850",
+        "to": "9.2.0900"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0894",
+        "to": "9.2.0901"
       },
       {
         "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "30.2.0",
         "to": "30.3.0"
       },
@@ -42,20 +50,27 @@
         "toolId": "starship",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.26.0",
-        "to": null
+        "from": null,
+        "to": "1.26.0"
       },
       {
         "toolId": "dbeaver",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "26.1.3",
         "to": "26.1.4"
       },
       {
         "toolId": "dbeaver",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.1.3",
+        "to": "26.1.4"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "26.1.3",
         "to": "26.1.4"
       }
@@ -65,8 +80,8 @@
         "toolId": "starship",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
