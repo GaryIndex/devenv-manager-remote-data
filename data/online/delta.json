@@ -1,65 +1,78 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T15:15:02.035Z",
-  "fromGeneratedAt": "2026-08-03T10:05:30.381Z",
-  "toGeneratedAt": "2026-08-03T15:15:02.035Z",
+  "generatedAt": "2026-08-03T19:57:15.938Z",
+  "fromGeneratedAt": "2026-08-03T15:15:02.035Z",
+  "toGeneratedAt": "2026-08-03T19:57:15.938Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "ripgrep",
-      "docker_desktop",
-      "postman",
-      "netlify_cli",
-      "supabase_cli"
+      "node_lts",
+      "node_current",
+      "pnpm",
+      "docker_desktop"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "ripgrep",
+        "toolId": "node_lts",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "24.18.1",
+        "to": "24.19.0"
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.5.1",
+        "to": "26.6.0"
+      },
+      {
+        "toolId": "node_current",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.10.0",
-        "to": "15.2.0"
+        "from": "26.5.1",
+        "to": "24.19.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "11.18.0",
+        "to": "11.20.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "11.19.0",
+        "to": "11.20.0"
       },
       {
         "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.84.0,234817",
-        "to": "4.85.0,235549"
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.84.0",
+        "to": "4.85.0"
       },
       {
-        "toolId": "postman",
+        "toolId": "docker_desktop",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "12.21.9",
-        "to": "12.22.0"
-      },
-      {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.0.1",
-        "to": "27.0.2"
-      },
-      {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.111.1-beta.2",
-        "to": "2.111.1-beta.8"
+        "from": "4.84.0",
+        "to": "4.85.0"
       }
     ],
     "qualityChanges": []
