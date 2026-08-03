@@ -1,77 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T10:05:30.381Z",
-  "fromGeneratedAt": "2026-08-03T03:53:55.405Z",
-  "toGeneratedAt": "2026-08-03T10:05:30.381Z",
+  "generatedAt": "2026-08-03T15:15:02.035Z",
+  "fromGeneratedAt": "2026-08-03T10:05:30.381Z",
+  "toGeneratedAt": "2026-08-03T15:15:02.035Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "oh_my_posh",
-      "postman"
+      "ripgrep",
+      "docker_desktop",
+      "postman",
+      "netlify_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "ripgrep",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.894",
-        "to": "9.2.901"
+        "from": "0.10.0",
+        "to": "15.2.0"
       },
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "30.3.0",
-        "to": "30.4.0"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "30.3.0",
-        "to": "30.4.0"
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "30.3.0",
-        "to": "30.4.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.21.10",
-        "to": "12.22.0"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "docker_desktop",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "12.21.10",
-        "to": "12.22.0"
+        "from": "4.84.0,234817",
+        "to": "4.85.0,235549"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "12.21.9",
         "to": "12.22.0"
+      },
+      {
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "27.0.1",
+        "to": "27.0.2"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.111.1-beta.2",
+        "to": "2.111.1-beta.8"
       }
     ],
     "qualityChanges": []
