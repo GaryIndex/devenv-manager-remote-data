@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T19:57:15.938Z",
-  "status": "ok",
+  "generatedAt": "2026-08-04T03:36:03.892Z",
+  "status": "partial",
   "tool": {
     "id": "npm",
     "name": "npm",
@@ -27,7 +27,7 @@
       "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
       "source": "winget",
       "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-08-03T19:56:28.580Z"
+      "lastUpdatedAt": "2026-08-04T03:35:27.949Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,7 +93,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-03T19:56:28.580Z",
+          "scannedAt": "2026-08-04T03:35:27.949Z",
           "errors": []
         },
         "package": {
@@ -102,13 +102,13 @@
           "author": "OpenJS Foundation",
           "description": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "license": "MIT",
-          "licenseUrl": "https://github.com/nodejs/node/blob/v24.18.1/LICENSE",
+          "licenseUrl": "https://github.com/nodejs/node/blob/v24.19.0/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://nodejs.org/",
-          "download": "https://nodejs.org/dist/v24.18.1/node-v24.18.1-x64.msi",
-          "releases": "https://github.com/nodejs/node/releases/tag/v24.18.1",
+          "download": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-x64.msi",
+          "releases": "https://github.com/nodejs/node/releases/tag/v24.19.0",
           "docs": null
         },
         "descriptions": {
@@ -116,7 +116,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-08-03T19:56:28.580Z"
+          "lastUpdatedAt": "2026-08-04T03:35:27.949Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -135,9 +135,19 @@
         },
         "versions": [
           {
-            "version": "24.18.1",
+            "version": "24.19.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.18.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -258,14 +268,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "24.18.1",
+            "version": "24.19.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://nodejs.org/dist/v24.18.1/node-v24.18.1-x64.msi",
+            "url": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-x64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "af4a0651a26f04ac240f00fec872f305547ca2aa56301c41dfd63a29eb2ab836",
+            "sha256": "f0f66c2a80c08a30a5ab5179ee9ea9e45f9b46289436a8cc87ff833b852db351",
             "sizeBytes": null
           }
         ],
@@ -363,7 +373,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-03T19:56:28.580Z",
+          "lastSuccessfulScanAt": "2026-08-04T03:35:27.949Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
