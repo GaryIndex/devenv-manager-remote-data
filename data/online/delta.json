@@ -1,106 +1,115 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T09:06:55.889Z",
-  "fromGeneratedAt": "2026-08-04T03:36:03.892Z",
-  "toGeneratedAt": "2026-08-04T09:06:55.889Z",
+  "generatedAt": "2026-08-04T14:39:14.974Z",
+  "fromGeneratedAt": "2026-08-04T09:06:55.889Z",
+  "toGeneratedAt": "2026-08-04T14:39:14.974Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 8,
+    "changedTools": 11,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 9,
-    "qualityChanges": 1
+    "versionChanges": 11,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "git",
       "oh_my_posh",
-      "node_lts",
-      "pnpm",
-      "sbt",
-      "aws_cli",
+      "temurin_21",
+      "temurin_17",
       "azure_cli",
-      "google_cloud_sdk"
+      "google_cloud_sdk",
+      "postman",
+      "android_platform_tools",
+      "netlify_cli",
+      "supabase_cli",
+      "prisma_cli",
+      "erlang"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "git",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "2.55.0.3"
-      },
-      {
         "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "30.4.0",
         "to": "30.5.0"
       },
       {
-        "toolId": "node_lts",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "24.18.1",
-        "to": "24.19.0"
+        "toolId": "temurin_21",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "21.0.11,10",
+        "to": "21.0.12,8"
       },
       {
-        "toolId": "pnpm",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "11.18.0",
-        "to": "11.20.0"
-      },
-      {
-        "toolId": "sbt",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.0.4",
-        "to": "2.0.5"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.36.14",
-        "to": "2.36.15"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.14",
-        "to": "2.36.15"
+        "toolId": "temurin_17",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "17.0.19,10",
+        "to": "17.0.20,8"
       },
       {
         "toolId": "azure_cli",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.88.0",
         "to": "2.89.0"
       },
       {
         "toolId": "google_cloud_sdk",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "577.0.0",
-        "to": "578.0.0"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "578.0.0",
+        "to": "579.0.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.22.0",
+        "to": "12.22.2"
+      },
+      {
+        "toolId": "android_platform_tools",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "37.0.0",
+        "to": "37.0.1"
+      },
+      {
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "27.0.2",
+        "to": "27.0.3"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.111.1-beta.8",
+        "to": "2.111.1-beta.9"
+      },
+      {
+        "toolId": "prisma_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "7.9.1",
+        "to": "0.17.0"
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.0.4",
+        "to": "29.0.5"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "git",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
