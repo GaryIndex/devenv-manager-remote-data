@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T14:39:14.974Z",
+  "generatedAt": "2026-08-04T19:55:54.030Z",
   "status": "ok",
   "tool": {
     "id": "erlang",
@@ -29,7 +29,7 @@
       "long": "OTP is a set of Erlang libraries, which consists of the Erlang runtime system, a number of ready-to-use components mainly written in Erlang, and a set of design principles for Erlang programs. Features Concurrency - Lightweight processes with message passing Distribution - Built-in support for distributed systems Fault Tolerance - Supervision trees and hot code swapping Soft Real-Time - Predictable low-latency response times High Availability - Design for systems that never stop Use Cases Erlang is used in telecoms, banking, e-commerce, instant messaging, and any system requiring high availability and scalability. Learn more at erlang.org.",
       "source": "choco",
       "homepage": "http://www.erlang.org/",
-      "lastUpdatedAt": "2026-08-04T14:39:08.526Z"
+      "lastUpdatedAt": "2026-08-04T19:55:47.608Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T14:39:08.240Z",
+          "scannedAt": "2026-08-04T19:55:47.431Z",
           "errors": []
         },
         "package": {
@@ -112,8 +112,8 @@
         },
         "links": {
           "homepage": "https://www.erlang.org/downloads",
-          "download": "https://github.com/erlang/otp/releases/download/OTP-29.0.4/otp_win64_29.0.4.exe",
-          "releases": "https://github.com/erlang/otp/releases/tag/OTP-29.0.4",
+          "download": "https://github.com/erlang/otp/releases/download/OTP-29.0.5/otp_win64_29.0.5.exe",
+          "releases": "https://github.com/erlang/otp/releases/tag/OTP-29.0.5",
           "docs": null
         },
         "descriptions": {
@@ -121,7 +121,7 @@
           "long": "Erlang is a programming language and runtime system for building massively scalable soft real-time systems with requirements on high availability.",
           "source": "winget",
           "homepage": "https://www.erlang.org/downloads",
-          "lastUpdatedAt": "2026-08-04T14:39:08.240Z"
+          "lastUpdatedAt": "2026-08-04T19:55:47.431Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,19 @@
         },
         "versions": [
           {
-            "version": "29.0.4",
+            "version": "29.0.5",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "29.0.4",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -183,6 +193,16 @@
           },
           {
             "version": "29.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "28.5.0.5",
             "channel": "stable",
             "latest": false,
             "prerelease": false,
@@ -420,39 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "27.3.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "27.3.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "29.0.4",
+            "version": "29.0.5",
             "platform": "windows",
             "architecture": null,
             "type": "nullsoft",
-            "url": "https://github.com/erlang/otp/releases/download/OTP-29.0.4/otp_win64_29.0.4.exe",
+            "url": "https://github.com/erlang/otp/releases/download/OTP-29.0.5/otp_win64_29.0.5.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "c119a52ac90363ea4526840fc0d421be13b6e1afe6703a81ec546cbe6160899a",
+            "sha256": "24958095a89f0ec76dc9f6e381fa671b940afce2b9187c5c6859b193fe8922fe",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T14:39:08.240Z",
+          "lastSuccessfulScanAt": "2026-08-04T19:55:47.431Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T14:39:08.341Z",
+          "scannedAt": "2026-08-04T19:55:47.541Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Programming language for highly scalable real-time systems",
           "source": "homebrew",
           "homepage": "https://www.erlang.org/",
-          "lastUpdatedAt": "2026-08-04T14:39:08.341Z"
+          "lastUpdatedAt": "2026-08-04T19:55:47.541Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -770,7 +770,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T14:39:08.341Z",
+          "lastSuccessfulScanAt": "2026-08-04T19:55:47.541Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -816,7 +816,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T14:39:08.429Z",
+          "scannedAt": "2026-08-04T19:55:47.571Z",
           "errors": []
         },
         "package": {
@@ -842,7 +842,7 @@
           "long": "A programming language used to build massively scalable soft real-time systems with requirements on high availability.",
           "source": "scoop",
           "homepage": "https://www.erlang.org",
-          "lastUpdatedAt": "2026-08-04T14:39:08.429Z"
+          "lastUpdatedAt": "2026-08-04T19:55:47.571Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -948,7 +948,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T14:39:08.429Z",
+          "lastSuccessfulScanAt": "2026-08-04T19:55:47.571Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -994,7 +994,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T14:39:08.526Z",
+          "scannedAt": "2026-08-04T19:55:47.608Z",
           "errors": []
         },
         "package": {
@@ -1020,7 +1020,7 @@
           "long": "OTP is a set of Erlang libraries, which consists of the Erlang runtime system, a number of ready-to-use components mainly written in Erlang, and a set of design principles for Erlang programs. Features Concurrency - Lightweight processes with message passing Distribution - Built-in support for distributed systems Fault Tolerance - Supervision trees and hot code swapping Soft Real-Time - Predictable low-latency response times High Availability - Design for systems that never stop Use Cases Erlang is used in telecoms, banking, e-commerce, instant messaging, and any system requiring high availability and scalability. Learn more at erlang.org.",
           "source": "choco",
           "homepage": "http://www.erlang.org/",
-          "lastUpdatedAt": "2026-08-04T14:39:08.526Z"
+          "lastUpdatedAt": "2026-08-04T19:55:47.608Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1424,7 +1424,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T14:39:08.526Z",
+          "lastSuccessfulScanAt": "2026-08-04T19:55:47.608Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
