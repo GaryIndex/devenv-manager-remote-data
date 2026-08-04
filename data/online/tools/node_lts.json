@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T03:36:03.892Z",
-  "status": "partial",
+  "generatedAt": "2026-08-04T09:06:55.889Z",
+  "status": "ok",
   "tool": {
     "id": "node_lts",
     "name": "Node.js LTS",
@@ -27,7 +27,7 @@
       "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
       "source": "choco",
       "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-08-04T03:35:27.560Z"
+      "lastUpdatedAt": "2026-08-04T09:06:07.255Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T03:35:27.499Z",
+          "scannedAt": "2026-08-04T09:06:07.020Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-08-04T03:35:27.499Z"
+          "lastUpdatedAt": "2026-08-04T09:06:07.020Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -379,7 +379,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T03:35:27.499Z",
+          "lastSuccessfulScanAt": "2026-08-04T09:06:07.020Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -427,7 +427,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T03:35:27.554Z",
+          "scannedAt": "2026-08-04T09:06:07.254Z",
           "errors": []
         },
         "package": {
@@ -453,7 +453,7 @@
           "long": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
           "source": "scoop",
           "homepage": "https://nodejs.org",
-          "lastUpdatedAt": "2026-08-04T03:35:27.554Z"
+          "lastUpdatedAt": "2026-08-04T09:06:07.254Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -559,7 +559,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T03:35:27.554Z",
+          "lastSuccessfulScanAt": "2026-08-04T09:06:07.254Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -607,7 +607,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T03:35:27.560Z",
+          "scannedAt": "2026-08-04T09:06:07.255Z",
           "errors": []
         },
         "package": {
@@ -630,8 +630,8 @@
         },
         "links": {
           "homepage": "https://nodejs.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.18.1",
-          "releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V24.md#24.18.1",
+          "download": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.19.0",
+          "releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V24.md#24.19.0",
           "docs": null
         },
         "descriptions": {
@@ -639,7 +639,7 @@
           "long": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. This package is the LTS (Long Term Support) release of Node.js. See the LTS schedule for more information. If you want the Current release, install the nodejs package instead.",
           "source": "choco",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-08-04T03:35:27.560Z"
+          "lastUpdatedAt": "2026-08-04T09:06:07.255Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -667,9 +667,19 @@
         },
         "versions": [
           {
-            "version": "24.18.1",
+            "version": "24.19.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "24.18.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -955,29 +965,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "22.19.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "24.18.1",
+            "version": "24.19.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.18.1",
+            "url": "https://community.chocolatey.org/api/v2/package/nodejs-lts/24.19.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "Zw6PiQebsUpMTzVOcqbOU5btEF0j9BgZXEC8geh8uToA16+pAlIi11WB++zemUwDoywxvhDc87cbc5la1whLZw==",
+            "sha256": "z4rRTJXzecBF1wcs4he5MnEikHW7YGB8x0nryo+XmWeTQz38fes4iccupFdjxo5Zne9csu863Sf+CSMjNV530g==",
             "sizeBytes": null
           }
         ],
@@ -1049,7 +1049,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T03:35:27.560Z",
+          "lastSuccessfulScanAt": "2026-08-04T09:06:07.255Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
