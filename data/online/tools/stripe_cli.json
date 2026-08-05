@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T19:55:54.030Z",
+  "generatedAt": "2026-08-05T03:31:50.522Z",
   "status": "ok",
   "tool": {
     "id": "stripe_cli",
@@ -29,7 +29,7 @@
       "long": "The Stripe CLI helps you build, test, and manage your Stripe integration right from the terminal. With the CLI, you can: - Securely test webhooks without relying on 3rd party software - Trigger webhook events or resend events for easy testing - Tail your API request logs in real-time - Create, retrieve, update, or delete API objects.",
       "source": "choco",
       "homepage": "https://stripe.com/docs/cli",
-      "lastUpdatedAt": "2026-08-04T19:55:46.516Z"
+      "lastUpdatedAt": "2026-08-05T03:31:41.605Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T19:55:46.505Z",
+          "scannedAt": "2026-08-05T03:31:41.552Z",
           "errors": []
         },
         "package": {
@@ -115,7 +115,7 @@
         },
         "links": {
           "homepage": "https://docs.stripe.com/stripe-cli",
-          "download": "https://github.com/stripe/stripe-cli/archive/refs/tags/v1.45.0.tar.gz",
+          "download": "https://github.com/stripe/stripe-cli/archive/refs/tags/v1.45.1.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -124,7 +124,7 @@
           "long": "Command-line tool for Stripe",
           "source": "homebrew",
           "homepage": "https://docs.stripe.com/stripe-cli",
-          "lastUpdatedAt": "2026-08-04T19:55:46.505Z"
+          "lastUpdatedAt": "2026-08-05T03:31:41.552Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -147,7 +147,7 @@
         },
         "versions": [
           {
-            "version": "1.45.0",
+            "version": "1.45.1",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -160,14 +160,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.45.0",
+            "version": "1.45.1",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/stripe/stripe-cli/archive/refs/tags/v1.45.0.tar.gz",
+            "url": "https://github.com/stripe/stripe-cli/archive/refs/tags/v1.45.1.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "c61bee07f7f76172abe0a735297313801ae4b0c1fd5909435af97a9fecd185bf",
+            "sha256": "fa23d92eb8ec6dcac398891bac3eb9e73b904e9c7c97b34f233871f10fc1a837",
             "sizeBytes": null
           }
         ],
@@ -231,7 +231,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T19:55:46.505Z",
+          "lastSuccessfulScanAt": "2026-08-05T03:31:41.552Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -277,7 +277,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T19:55:46.516Z",
+          "scannedAt": "2026-08-05T03:31:41.605Z",
           "errors": []
         },
         "package": {
@@ -295,7 +295,7 @@
         },
         "links": {
           "homepage": "https://stripe.com/docs/cli",
-          "download": "https://community.chocolatey.org/api/v2/package/stripe-cli/1.45.0",
+          "download": "https://community.chocolatey.org/api/v2/package/stripe-cli/1.45.1",
           "releases": "https://github.com/stripe/stripe-cli/releases",
           "docs": null
         },
@@ -304,7 +304,7 @@
           "long": "The Stripe CLI helps you build, test, and manage your Stripe integration right from the terminal. With the CLI, you can: - Securely test webhooks without relying on 3rd party software - Trigger webhook events or resend events for easy testing - Tail your API request logs in real-time - Create, retrieve, update, or delete API objects.",
           "source": "choco",
           "homepage": "https://stripe.com/docs/cli",
-          "lastUpdatedAt": "2026-08-04T19:55:46.516Z"
+          "lastUpdatedAt": "2026-08-05T03:31:41.605Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -327,9 +327,19 @@
         },
         "versions": [
           {
-            "version": "1.45.0",
+            "version": "1.45.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.45.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -615,29 +625,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.38.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.45.0",
+            "version": "1.45.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/stripe-cli/1.45.0",
+            "url": "https://community.chocolatey.org/api/v2/package/stripe-cli/1.45.1",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "60+TWrnRNsULamawFhQpBpNgRGZpWVfgr7iUDazW8BoKN1sObgF9o6fazMrvewH6FocZzYa0QVeeq2qvuA9f3Q==",
+            "sha256": "QTpA8AXrF3cunpfx9AdfR4fnMHU7kEejEZFHHFGm8kQqGqFJWg6bHQ2yPhNjPxPb28GU44mqEEV74MiMWt1e/w==",
             "sizeBytes": null
           }
         ],
@@ -709,7 +709,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T19:55:46.516Z",
+          "lastSuccessfulScanAt": "2026-08-05T03:31:41.605Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -757,7 +757,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-04T19:55:46.524Z",
+          "scannedAt": "2026-08-05T03:31:41.660Z",
           "errors": []
         },
         "package": {
@@ -780,7 +780,7 @@
           "long": "A command-line tool for Stripe",
           "source": "github",
           "homepage": "https://stripe.com/docs/stripe-cli",
-          "lastUpdatedAt": "2026-08-04T19:55:46.524Z"
+          "lastUpdatedAt": "2026-08-05T03:31:41.660Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2068,7 +2068,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-04T19:55:46.524Z",
+          "lastSuccessfulScanAt": "2026-08-05T03:31:41.660Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
