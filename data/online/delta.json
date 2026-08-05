@@ -1,100 +1,64 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T03:31:50.522Z",
-  "fromGeneratedAt": "2026-08-04T19:55:54.030Z",
-  "toGeneratedAt": "2026-08-05T03:31:50.522Z",
+  "generatedAt": "2026-08-05T08:52:17.633Z",
+  "fromGeneratedAt": "2026-08-05T03:31:50.522Z",
+  "toGeneratedAt": "2026-08-05T08:52:17.633Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 10,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "uv",
-      "pulumi",
-      "aws_cli",
-      "stripe_cli",
-      "erlang"
+      "oh_my_posh",
+      "postman",
+      "netlify_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "uv",
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "30.5.0",
+        "to": "30.6.1"
+      },
+      {
+        "toolId": "postman",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "0.11.32",
-        "to": "0.12.0"
+        "from": "12.22.0",
+        "to": "12.22.2"
       },
       {
-        "toolId": "pulumi",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.255.0",
-        "to": "3.256.0"
-      },
-      {
-        "toolId": "pulumi",
+        "toolId": "postman",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.255.0",
-        "to": "3.256.0"
+        "from": "12.22.2",
+        "to": "12.22.3"
       },
       {
-        "toolId": "pulumi",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.255.0",
-        "to": "3.256.0"
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "27.0.3",
+        "to": "27.1.0"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.36.15",
-        "to": "2.36.16"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.36.15",
-        "to": "2.36.16"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.36.15",
-        "to": "2.36.16"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.45.0",
-        "to": "1.45.1"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.45.0",
-        "to": "1.45.1"
-      },
-      {
-        "toolId": "erlang",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "29.0.4",
-        "to": "29.0.5"
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.111.1-beta.9",
+        "to": "2.111.1-beta.13"
       }
     ],
     "qualityChanges": []
