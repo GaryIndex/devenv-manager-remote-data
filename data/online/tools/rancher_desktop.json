@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T14:32:08.541Z",
-  "status": "ok",
+  "generatedAt": "2026-08-05T19:55:36.172Z",
+  "status": "partial",
   "tool": {
     "id": "rancher_desktop",
     "name": "Rancher Desktop",
@@ -79,7 +79,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T14:31:32.917Z",
+          "scannedAt": "2026-08-05T19:54:11.114Z",
           "errors": []
         },
         "package": {
@@ -93,7 +93,7 @@
         },
         "links": {
           "homepage": "https://rancherdesktop.io/",
-          "download": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.23.1/Rancher.Desktop.Setup.1.23.1.msi",
+          "download": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.24.0/Rancher.Desktop.Setup.1.24.0.msi",
           "releases": "https://github.com/rancher-sandbox/rancher-desktop/releases/tag/v1.23.1",
           "docs": null
         },
@@ -102,7 +102,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://rancherdesktop.io/",
-          "lastUpdatedAt": "2026-08-05T14:31:32.917Z"
+          "lastUpdatedAt": "2026-08-05T19:54:11.114Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -122,9 +122,19 @@
         },
         "versions": [
           {
-            "version": "1.23.1",
+            "version": "1.24.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.23.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -410,29 +420,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.23.1",
+            "version": "1.24.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.23.1/Rancher.Desktop.Setup.1.23.1.msi",
+            "url": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.24.0/Rancher.Desktop.Setup.1.24.0.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "65c2daa6e7d6b5dbd172d51f9eb72d4a318869deb722a99decc82e87ae068102",
+            "sha256": "5fc4e795a1c3bf72a2dac9144d55daab181f30d1a3049d96a4c025985769960b",
             "sizeBytes": null
           }
         ],
@@ -530,7 +530,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T14:31:32.917Z",
+          "lastSuccessfulScanAt": "2026-08-05T19:54:11.114Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
