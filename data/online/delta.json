@@ -1,64 +1,124 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T08:52:17.633Z",
-  "fromGeneratedAt": "2026-08-05T03:31:50.522Z",
-  "toGeneratedAt": "2026-08-05T08:52:17.633Z",
+  "generatedAt": "2026-08-05T14:32:08.541Z",
+  "fromGeneratedAt": "2026-08-05T08:52:17.633Z",
+  "toGeneratedAt": "2026-08-05T14:32:08.541Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 8,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 13,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vscode",
       "oh_my_posh",
+      "aws_cli",
       "postman",
-      "netlify_cli",
-      "supabase_cli"
+      "supabase_cli",
+      "erlang",
+      "elixir",
+      "godot"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "oh_my_posh",
+        "toolId": "vscode",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.131.0",
+        "to": "1.132.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.131.0",
+        "to": "1.132.0"
+      },
+      {
+        "toolId": "vscode",
         "sourceId": "github",
         "manager": "github",
+        "from": "1.131.0",
+        "to": "1.132.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "30.4.0",
+        "to": "30.6.1"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "30.5.0",
         "to": "30.6.1"
       },
       {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.22.0",
-        "to": "12.22.2"
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "30.6.1",
+        "to": "30.6.2"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.36.15",
+        "to": "1.46.0"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "12.22.2",
         "to": "12.22.3"
       },
       {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.0.3",
-        "to": "27.1.0"
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.22.0",
+        "to": "12.22.3"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.111.1-beta.9",
-        "to": "2.111.1-beta.13"
+        "from": "2.111.1-beta.13",
+        "to": "2.112.0-beta.3"
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.0.4",
+        "to": "29.0.5"
+      },
+      {
+        "toolId": "elixir",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.20.2",
+        "to": "1.20.3"
+      },
+      {
+        "toolId": "godot",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.8.0-dev2",
+        "to": "4.7.2-rc1"
       }
     ],
     "qualityChanges": []
