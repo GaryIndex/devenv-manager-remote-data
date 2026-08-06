@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T19:55:36.172Z",
-  "status": "partial",
+  "generatedAt": "2026-08-06T03:35:45.462Z",
+  "status": "ok",
   "tool": {
     "id": "aws_cli",
     "name": "AWS CLI",
@@ -29,7 +29,7 @@
       "long": "The AWS CLI is an open source tool built on top of the AWS SDK for Python (Boto) that provides commands for interacting with AWS services. With minimal configuration, you can start using all of the functionality provided by the AWS Management Console from your favorite terminal program. Linux shells – Use common shell programs such as Bash, Zsh, and tsch to run commands in Linux, macOS, or Unix. Windows command line – On Microsoft Windows, run commands in either PowerShell or the Windows Command Processor. Remotely – Run commands on Amazon EC2 instances through a remote terminal such as PuTTY or SSH, or with Amazon EC2 systems manager. The AWS CLI provides direct access to AWS services' public APIs. Explore a service's capabilities with the AWS CLI, and develop shell scripts to manage your resources. Or take what you've learned to develop programs in other languages with the AWS SDK. In addition to the low level, API equivalent commands, the AWS CLI also provides customizations for several services. Customizations are higher level commands that simplify using a service with a complex API. For example, the aws s3 set of commands provide a familiar syntax for managing files in Ama...",
       "source": "choco",
       "homepage": "https://aws.amazon.com/cli/",
-      "lastUpdatedAt": "2026-08-05T19:54:22.253Z"
+      "lastUpdatedAt": "2026-08-06T03:35:21.626Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:54:21.304Z",
+          "scannedAt": "2026-08-06T03:35:21.498Z",
           "errors": []
         },
         "package": {
@@ -112,7 +112,7 @@
         },
         "links": {
           "homepage": "https://aws.amazon.com/cli/",
-          "download": "https://awscli.amazonaws.com/AWSCLIV2-2.36.16.msi",
+          "download": "https://awscli.amazonaws.com/AWSCLIV2-2.36.17.msi",
           "releases": null,
           "docs": null
         },
@@ -121,7 +121,7 @@
           "long": "The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell. With minimal configuration, the AWS CLI enables you to start running commands that implement functionality equivalent to that provided by the browser-based AWS Management Console from the command prompt in your terminal program.",
           "source": "winget",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-08-05T19:54:21.304Z"
+          "lastUpdatedAt": "2026-08-06T03:35:21.498Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,19 @@
         },
         "versions": [
           {
-            "version": "2.36.16",
+            "version": "2.36.17",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.36.16",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -430,29 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.35.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.36.16",
+            "version": "2.36.17",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.36.16.msi",
+            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.36.17.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "0b94de55cd02d573f7ea0c4ec0eef14917f79563c0e3cd8ac1bf8478b0dcdb39",
+            "sha256": "cd4068921a64f5f0a753130f59806fde687cdeab73538a9d2fbf5dd55f1cee8c",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:54:21.304Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:21.498Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:54:22.045Z",
+          "scannedAt": "2026-08-06T03:35:21.565Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Official Amazon AWS command-line interface",
           "source": "homebrew",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-08-05T19:54:22.045Z"
+          "lastUpdatedAt": "2026-08-06T03:35:21.565Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -740,7 +740,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:54:22.045Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:21.565Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -786,7 +786,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:54:22.133Z",
+          "scannedAt": "2026-08-06T03:35:21.610Z",
           "errors": []
         },
         "package": {
@@ -812,7 +812,7 @@
           "long": "Unified tool to manage AWS services",
           "source": "scoop",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-08-05T19:54:22.133Z"
+          "lastUpdatedAt": "2026-08-06T03:35:21.610Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -834,7 +834,7 @@
         },
         "versions": [
           {
-            "version": "2.36.16",
+            "version": "2.36.17",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -847,7 +847,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "2.36.16",
+            "version": "2.36.17",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -918,7 +918,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:54:22.133Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:21.610Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -964,7 +964,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:54:22.253Z",
+          "scannedAt": "2026-08-06T03:35:21.626Z",
           "errors": []
         },
         "package": {
@@ -998,7 +998,7 @@
           "long": "The AWS CLI is an open source tool built on top of the AWS SDK for Python (Boto) that provides commands for interacting with AWS services. With minimal configuration, you can start using all of the functionality provided by the AWS Management Console from your favorite terminal program. Linux shells – Use common shell programs such as Bash, Zsh, and tsch to run commands in Linux, macOS, or Unix. Windows command line – On Microsoft Windows, run commands in either PowerShell or the Windows Command Processor. Remotely – Run commands on Amazon EC2 instances through a remote terminal such as PuTTY or SSH, or with Amazon EC2 systems manager. The AWS CLI provides direct access to AWS services' public APIs. Explore a service's capabilities with the AWS CLI, and develop shell scripts to manage your resources. Or take what you've learned to develop programs in other languages with the AWS SDK. In addition to the low level, API equivalent commands, the AWS CLI also provides customizations for several services. Customizations are higher level commands that simplify using a service with a complex API. For example, the aws s3 set of commands provide a familiar syntax for managing files in Ama...",
           "source": "choco",
           "homepage": "https://aws.amazon.com/cli/",
-          "lastUpdatedAt": "2026-08-05T19:54:22.253Z"
+          "lastUpdatedAt": "2026-08-06T03:35:21.626Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1410,7 +1410,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:54:22.253Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:21.626Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

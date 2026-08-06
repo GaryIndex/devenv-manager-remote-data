@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T19:55:36.172Z",
-  "fromGeneratedAt": "2026-08-05T14:32:08.541Z",
-  "toGeneratedAt": "2026-08-05T19:55:36.172Z",
-  "status": "partial",
+  "generatedAt": "2026-08-06T03:35:45.462Z",
+  "fromGeneratedAt": "2026-08-05T19:55:36.172Z",
+  "toGeneratedAt": "2026-08-06T03:35:45.462Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 33,
+    "changedTools": 32,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 34,
+    "versionChanges": 35,
     "qualityChanges": 26
   },
   "changes": {
@@ -30,17 +30,14 @@
       "node_lts",
       "node_current",
       "uv",
-      "pipx",
       "maven",
       "gradle",
       "scala",
       "ninja",
-      "rancher_desktop",
-      "terraform",
       "opentofu",
       "packer",
+      "aws_cli",
       "azure_cli",
-      "postman",
       "insomnia",
       "r",
       "rstudio",
@@ -49,6 +46,8 @@
       "stripe_cli",
       "supabase_cli",
       "php",
+      "elixir",
+      "unity_hub",
       "mkdocs"
     ],
     "addedSources": [],
@@ -58,239 +57,246 @@
         "toolId": "git_lfs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.7.1",
-        "to": null
+        "from": null,
+        "to": "3.7.1"
       },
       {
         "toolId": "vscode",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.131.0",
-        "to": null
+        "from": null,
+        "to": "1.132.0"
       },
       {
         "toolId": "neovim",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.12.4",
-        "to": null
+        "from": null,
+        "to": "0.12.4"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0907",
+        "to": "9.2.0914"
       },
       {
         "toolId": "vim",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.907",
-        "to": null
+        "from": null,
+        "to": "9.2.907"
       },
       {
         "toolId": "emacs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "30.1.0",
-        "to": null
+        "from": null,
+        "to": "30.1.0"
       },
       {
         "toolId": "powershell",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "7.6.4",
-        "to": null
-      },
-      {
-        "toolId": "oh_my_posh",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "30.6.1",
-        "to": "30.6.2"
+        "from": null,
+        "to": "7.6.4"
       },
       {
         "toolId": "oh_my_posh",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "29.24.0",
-        "to": null
+        "from": null,
+        "to": "29.24.0"
       },
       {
         "toolId": "starship",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.26.0",
-        "to": null
+        "from": null,
+        "to": "1.26.0"
       },
       {
         "toolId": "ripgrep",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "15.2.0",
-        "to": null
+        "from": null,
+        "to": "15.2.0"
       },
       {
         "toolId": "fzf",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.74.2",
-        "to": null
+        "from": null,
+        "to": "0.74.2"
       },
       {
         "toolId": "node_lts",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "24.19.0",
-        "to": null
+        "from": null,
+        "to": "24.19.0"
       },
       {
         "toolId": "node_current",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "26.5.1",
+        "to": "26.7.0"
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "26.6.0",
         "to": "26.7.0"
       },
       {
         "toolId": "uv",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "0.12.1",
         "to": "0.12.2"
-      },
-      {
-        "toolId": "pipx",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.16.5",
-        "to": "1.16.6"
       },
       {
         "toolId": "maven",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.9.16",
-        "to": null
+        "from": null,
+        "to": "3.9.16"
       },
       {
         "toolId": "gradle",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.6.0",
-        "to": null
+        "from": null,
+        "to": "9.6.0"
       },
       {
         "toolId": "scala",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.3.8",
-        "to": null
+        "from": null,
+        "to": "3.3.8"
       },
       {
         "toolId": "ninja",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.13.2",
-        "to": null
-      },
-      {
-        "toolId": "rancher_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.23.1",
-        "to": "1.24.0"
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.17.0-alpha20260729",
-        "to": "1.16.0-beta2"
+        "from": null,
+        "to": "1.13.2"
       },
       {
         "toolId": "opentofu",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.12.5",
-        "to": null
+        "from": null,
+        "to": "1.12.5"
       },
       {
         "toolId": "packer",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.16.0",
-        "to": null
+        "from": null,
+        "to": "1.16.0"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.36.16",
+        "to": "2.36.17"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.36.16",
+        "to": "2.36.17"
       },
       {
         "toolId": "azure_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.89.0",
-        "to": null
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.22.2",
-        "to": "12.22.3"
+        "from": null,
+        "to": "2.89.0"
       },
       {
         "toolId": "insomnia",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2023.11.2",
-        "to": null
+        "from": null,
+        "to": "2023.11.2"
       },
       {
         "toolId": "r",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "4.6.1",
-        "to": null
+        "from": null,
+        "to": "4.6.1"
       },
       {
         "toolId": "rstudio",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2026.7.1",
-        "to": null
+        "from": null,
+        "to": "2026.7.1"
       },
       {
         "toolId": "julia",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.12.0",
-        "to": null
+        "from": null,
+        "to": "1.12.0"
       },
       {
         "toolId": "quarto",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.10.18",
-        "to": null
+        "from": null,
+        "to": "1.10.18"
       },
       {
         "toolId": "stripe_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.45.1",
-        "to": null
+        "from": null,
+        "to": "1.45.1"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.112.0-beta.3",
-        "to": "2.112.0-beta.5"
+        "from": "2.112.0-beta.5",
+        "to": "2.112.0-beta.6"
       },
       {
         "toolId": "php",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "8.4.24",
-        "to": null
+        "from": null,
+        "to": "8.4.24"
+      },
+      {
+        "toolId": "elixir",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.20.2",
+        "to": "1.20.3"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.19.5",
+        "to": "3.20.0"
       },
       {
         "toolId": "mkdocs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.6.1",
-        "to": null
+        "from": null,
+        "to": "1.6.1"
       }
     ],
     "qualityChanges": [
@@ -298,183 +304,183 @@
         "toolId": "git_lfs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "vscode",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "neovim",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "vim",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "emacs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "powershell",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "oh_my_posh",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "starship",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "ripgrep",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "fzf",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "node_lts",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "maven",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "gradle",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "scala",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "ninja",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "opentofu",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "packer",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "azure_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "insomnia",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "r",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "rstudio",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "julia",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "quarto",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "stripe_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "php",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "mkdocs",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }

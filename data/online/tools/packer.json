@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T19:55:36.172Z",
-  "status": "partial",
+  "generatedAt": "2026-08-06T03:35:45.462Z",
+  "status": "ok",
   "tool": {
     "id": "packer",
     "name": "Packer",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
-      "long": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
-      "source": "github",
-      "homepage": "https://developer.hashicorp.com/packer",
-      "lastUpdatedAt": "2026-08-05T19:54:17.838Z"
+      "short": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration.",
+      "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
+      "source": "choco",
+      "homepage": "http://packer.io/",
+      "lastUpdatedAt": "2026-08-06T03:35:19.377Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:54:16.430Z",
+          "scannedAt": "2026-08-06T03:35:19.219Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-08-05T19:54:16.430Z"
+          "lastUpdatedAt": "2026-08-06T03:35:19.219Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -528,7 +528,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:54:16.430Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:19.219Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -574,7 +574,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:54:17.305Z",
+          "scannedAt": "2026-08-06T03:35:19.277Z",
           "errors": []
         },
         "package": {
@@ -600,7 +600,7 @@
           "long": "Automates the creation of any type of virtual machine image.",
           "source": "scoop",
           "homepage": "https://www.packer.io",
-          "lastUpdatedAt": "2026-08-05T19:54:17.305Z"
+          "lastUpdatedAt": "2026-08-06T03:35:19.277Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -705,7 +705,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:54:17.305Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:19.277Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -750,34 +750,42 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-05T19:54:17.453Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-06T03:35:19.377Z",
+          "errors": []
         },
         "package": {
           "name": "Packer",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "publisher": "Mitchell Hashimoto, Jack Pearkes, Mark Peek, Ross Smith II, Rickard von Essen",
+          "author": "Mitchell Hashimoto, Jack Pearkes, Mark Peek, Ross Smith II, Rickard von Essen",
+          "description": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/hashicorp/packer/blob/master/LICENSE",
+          "tags": [
+            "packer",
+            "vagrant",
+            "virtual",
+            "machine",
+            "VM",
+            "VirtualBox",
+            "VMware",
+            "puppet",
+            "chef",
+            "hashicorp"
+          ]
         },
         "links": {
-          "homepage": "https://www.packer.io/",
-          "download": "https://www.packer.io/",
-          "releases": null,
+          "homepage": "http://packer.io/",
+          "download": "https://community.chocolatey.org/api/v2/package/packer/1.16.0",
+          "releases": "",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration.",
+          "long": "Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.",
           "source": "choco",
-          "homepage": "https://www.packer.io/",
-          "lastUpdatedAt": "2026-08-05T19:54:17.453Z"
+          "homepage": "http://packer.io/",
+          "lastUpdatedAt": "2026-08-06T03:35:19.377Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -786,7 +794,16 @@
           "keywords": [
             "packer",
             "Packer",
-            "choco"
+            "choco",
+            "vagrant",
+            "virtual",
+            "machine",
+            "VM",
+            "VirtualBox",
+            "VMware",
+            "puppet",
+            "chef",
+            "hashicorp"
           ],
           "relatedTools": []
         },
@@ -795,18 +812,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.16.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.15.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.14.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.4.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.8.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.5.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.3.20181213",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.16.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://www.packer.io/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/packer/1.16.0",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "5RbSsE0np1CenI+MJiMO8TxBlN05a6WIDzPhAEjii8PutROHEhzTNDQLJCZHdtWher9rsLB25HWYHF6Vt6ISBw==",
             "sizeBytes": null
           }
         ],
@@ -875,11 +1193,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-06T03:35:19.377Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -926,7 +1244,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:54:17.838Z",
+          "scannedAt": "2026-08-06T03:35:19.453Z",
           "errors": []
         },
         "package": {
@@ -949,7 +1267,7 @@
           "long": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
           "source": "github",
           "homepage": "https://developer.hashicorp.com/packer",
-          "lastUpdatedAt": "2026-08-05T19:54:17.838Z"
+          "lastUpdatedAt": "2026-08-06T03:35:19.453Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1271,96 +1589,96 @@
         ],
         "downloads": [
           {
-            "id": "docker_tag_list_release-full.386.2875.json",
+            "id": "docker_tag_list_release-full.386.3512.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.386.2875.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.386.3512.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 386
           },
           {
-            "id": "docker_tag_list_release-full.amd64.6452.json",
+            "id": "docker_tag_list_release-full.amd64.9545.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": "x64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.amd64.6452.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.amd64.9545.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 386
           },
           {
-            "id": "docker_tag_list_release-full.arm.29651.json",
+            "id": "docker_tag_list_release-full.arm.10022.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.arm.29651.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.arm.10022.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 386
           },
           {
-            "id": "docker_tag_list_release-full.arm64.17898.json",
+            "id": "docker_tag_list_release-full.arm64.25116.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": "arm64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.arm64.17898.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-full.arm64.25116.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 386
           },
           {
-            "id": "docker_tag_list_release-light.386.33873.json",
+            "id": "docker_tag_list_release-light.386.13301.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.386.33873.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.386.13301.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 467
           },
           {
-            "id": "docker_tag_list_release-light.amd64.30638.json",
+            "id": "docker_tag_list_release-light.amd64.22013.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": "x64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.amd64.30638.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.amd64.22013.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 467
           },
           {
-            "id": "docker_tag_list_release-light.arm.9183.json",
+            "id": "docker_tag_list_release-light.arm.22943.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.arm.9183.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.arm.22943.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
             "sizeBytes": 467
           },
           {
-            "id": "docker_tag_list_release-light.arm64.23433.json",
+            "id": "docker_tag_list_release-light.arm64.29029.json",
             "version": "nightly",
             "platform": "unknown",
             "architecture": "arm64",
             "type": "release-asset",
-            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.arm64.23433.json",
+            "url": "https://github.com/hashicorp/packer/releases/download/nightly/docker_tag_list_release-light.arm64.29029.json",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
@@ -1460,7 +1778,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 31207538
+            "sizeBytes": 31207548
           },
           {
             "id": "packer_1.16.0-1_armhf.deb",
@@ -1472,7 +1790,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 32395494
+            "sizeBytes": 32395524
           },
           {
             "id": "packer_1.16.0-1_i386.deb",
@@ -1484,7 +1802,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 32060720
+            "sizeBytes": 32060736
           },
           {
             "id": "packer_1.16.0-1_ppc64el.deb",
@@ -1496,7 +1814,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 31101166
+            "sizeBytes": 31101192
           },
           {
             "id": "packer_1.16.0_darwin_amd64.zip",
@@ -1520,7 +1838,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7229
+            "sizeBytes": 7232
           },
           {
             "id": "packer_1.16.0_darwin_arm64.zip",
@@ -1544,7 +1862,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7231
+            "sizeBytes": 7230
           },
           {
             "id": "packer_1.16.0_freebsd_386.zip",
@@ -1568,7 +1886,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7184
+            "sizeBytes": 7181
           },
           {
             "id": "packer_1.16.0_freebsd_amd64.zip",
@@ -1592,7 +1910,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7215
+            "sizeBytes": 7216
           },
           {
             "id": "packer_1.16.0_freebsd_arm.zip",
@@ -1616,7 +1934,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7184
+            "sizeBytes": 7183
           },
           {
             "id": "packer_1.16.0_linux_386.zip",
@@ -1664,7 +1982,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7184
+            "sizeBytes": 7186
           },
           {
             "id": "packer_1.16.0_linux_arm.zip",
@@ -1712,7 +2030,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7183
+            "sizeBytes": 7186
           },
           {
             "id": "packer_1.16.0_linux_ppc64le.zip",
@@ -1736,7 +2054,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7215
+            "sizeBytes": 7216
           },
           {
             "id": "packer_1.16.0_netbsd_386.zip",
@@ -1784,7 +2102,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7194
+            "sizeBytes": 7199
           },
           {
             "id": "packer_1.16.0_netbsd_arm.zip",
@@ -1808,7 +2126,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7169
+            "sizeBytes": 7168
           },
           {
             "id": "packer_1.16.0_openbsd_386.zip",
@@ -1832,7 +2150,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7184
+            "sizeBytes": 7183
           },
           {
             "id": "packer_1.16.0_openbsd_amd64.zip",
@@ -1856,7 +2174,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7211
+            "sizeBytes": 7212
           },
           {
             "id": "packer_1.16.0_openbsd_arm.zip",
@@ -1928,7 +2246,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7229
+            "sizeBytes": 7230
           },
           {
             "id": "packer_1.16.0_windows_amd64.zip",
@@ -1952,7 +2270,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 7259
+            "sizeBytes": 7260
           },
           {
             "id": "packer_release-full_linux_386_1.16.0_856572ec8313eab942dce5bca8e623ce2171d7cb.docker.dev.tar",
@@ -2152,7 +2470,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:54:17.838Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:19.453Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

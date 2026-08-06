@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T19:55:36.172Z",
-  "status": "partial",
+  "generatedAt": "2026-08-06T03:35:45.462Z",
+  "status": "ok",
   "tool": {
     "id": "elixir",
     "name": "Elixir",
@@ -29,7 +29,7 @@
       "long": "Elixir is a dynamic, functional language for building scalable and maintainable applications. Elixir runs on the Erlang VM, known for creating low-latency, distributed, and fault-tolerant systems. Features Scalability - Lightweight processes for concurrent operations Fault-tolerance - Supervisors for automatic error recovery Functional - Immutable data and pattern matching Extensibility - Metaprogramming with macros Tooling - Mix build tool, IEx interactive shell, ExUnit testing Documentation - First-class documentation support Compatibility - Seamless Erlang interoperability Usage After installation, Elixir commands are available: iex Interactive Elixir shell elixir script.exs Run Elixir script elixirc file.ex Compile Elixir file mix new myapp Create new project mix compile Compile project mix test Run tests Requirements This package requires Erlang/OTP 29.x. The erlang Chocolatey package will be installed automatically if not present. Documentation Full documentation available at hexdocs.pm/elixir",
       "source": "choco",
       "homepage": "https://elixir-lang.org/",
-      "lastUpdatedAt": "2026-08-05T19:55:01.536Z"
+      "lastUpdatedAt": "2026-08-06T03:35:39.806Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:55:01.320Z",
+          "scannedAt": "2026-08-06T03:35:39.736Z",
           "errors": []
         },
         "package": {
@@ -114,7 +114,7 @@
         },
         "links": {
           "homepage": "https://elixir-lang.org/",
-          "download": "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.2.tar.gz",
+          "download": "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.3.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -123,7 +123,7 @@
           "long": "Functional metaprogramming aware language built on Erlang VM",
           "source": "homebrew",
           "homepage": "https://elixir-lang.org/",
-          "lastUpdatedAt": "2026-08-05T19:55:01.320Z"
+          "lastUpdatedAt": "2026-08-06T03:35:39.736Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -145,7 +145,7 @@
         },
         "versions": [
           {
-            "version": "1.20.2",
+            "version": "1.20.3",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -158,14 +158,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.20.2",
+            "version": "1.20.3",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.2.tar.gz",
+            "url": "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.3.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "1a25bbf9a9016651fc332eecc02bb9681d0b8e722c2e256e73ddb88fbce6e6b0",
+            "sha256": "ff22a894b130631443db1a193b4e8cb4762f697128566e43da848fd16c3777bd",
             "sizeBytes": null
           }
         ],
@@ -229,7 +229,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:55:01.320Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:39.736Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -275,7 +275,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:55:01.397Z",
+          "scannedAt": "2026-08-06T03:35:39.801Z",
           "errors": []
         },
         "package": {
@@ -301,7 +301,7 @@
           "long": "A dynamic and functional programming language designed for building scalable and maintainable applications.",
           "source": "scoop",
           "homepage": "https://elixir-lang.org/",
-          "lastUpdatedAt": "2026-08-05T19:55:01.397Z"
+          "lastUpdatedAt": "2026-08-06T03:35:39.801Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -406,7 +406,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:55:01.397Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:39.801Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -452,7 +452,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-05T19:55:01.536Z",
+          "scannedAt": "2026-08-06T03:35:39.806Z",
           "errors": []
         },
         "package": {
@@ -481,7 +481,7 @@
           "long": "Elixir is a dynamic, functional language for building scalable and maintainable applications. Elixir runs on the Erlang VM, known for creating low-latency, distributed, and fault-tolerant systems. Features Scalability - Lightweight processes for concurrent operations Fault-tolerance - Supervisors for automatic error recovery Functional - Immutable data and pattern matching Extensibility - Metaprogramming with macros Tooling - Mix build tool, IEx interactive shell, ExUnit testing Documentation - First-class documentation support Compatibility - Seamless Erlang interoperability Usage After installation, Elixir commands are available: iex Interactive Elixir shell elixir script.exs Run Elixir script elixirc file.ex Compile Elixir file mix new myapp Create new project mix compile Compile project mix test Run tests Requirements This package requires Erlang/OTP 29.x. The erlang Chocolatey package will be installed automatically if not present. Documentation Full documentation available at hexdocs.pm/elixir",
           "source": "choco",
           "homepage": "https://elixir-lang.org/",
-          "lastUpdatedAt": "2026-08-05T19:55:01.536Z"
+          "lastUpdatedAt": "2026-08-06T03:35:39.806Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -887,7 +887,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-05T19:55:01.536Z",
+          "lastSuccessfulScanAt": "2026-08-06T03:35:39.806Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
