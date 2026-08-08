@@ -1,57 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T07:14:01.287Z",
-  "fromGeneratedAt": "2026-08-08T02:21:21.475Z",
-  "toGeneratedAt": "2026-08-08T07:14:01.287Z",
+  "generatedAt": "2026-08-08T13:12:04.880Z",
+  "fromGeneratedAt": "2026-08-08T07:14:01.287Z",
+  "toGeneratedAt": "2026-08-08T13:12:04.880Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 2,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 3,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "uv",
-      "aws_cli",
-      "godot"
+      "postman",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "postman",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.920",
-        "to": "9.2.925"
+        "from": "12.22.6",
+        "to": "12.22.8"
       },
       {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.12.2",
-        "to": "0.12.3"
+        "toolId": "supabase_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.112.0",
+        "to": "2.113.0"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.18",
-        "to": "2.36.19"
-      },
-      {
-        "toolId": "godot",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "4.7.2-rc1",
-        "to": "4.8.0-dev3"
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.113.0-beta.5",
+        "to": "2.113.0"
       }
     ],
     "qualityChanges": []
