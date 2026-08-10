@@ -1,40 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T19:00:49.766Z",
-  "fromGeneratedAt": "2026-08-09T13:15:20.693Z",
-  "toGeneratedAt": "2026-08-09T19:00:49.766Z",
+  "generatedAt": "2026-08-10T02:33:56.479Z",
+  "fromGeneratedAt": "2026-08-09T19:00:49.766Z",
+  "toGeneratedAt": "2026-08-10T02:33:56.479Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 2,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
+    "versionChanges": 3,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "pnpm"
+      "vim",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pnpm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "11.20.0",
-        "to": "11.21.0"
-      },
-      {
-        "toolId": "pnpm",
+        "toolId": "vim",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "11.20.0",
-        "to": "11.21.0"
+        "from": "9.2.0926",
+        "to": "9.2.0927"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.926",
+        "to": "9.2.927"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.113.1-beta.1",
+        "to": "2.114.0-beta.2"
       }
     ],
     "qualityChanges": []
