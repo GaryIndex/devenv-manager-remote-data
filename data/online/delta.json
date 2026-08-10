@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T13:43:49.898Z",
-  "fromGeneratedAt": "2026-08-10T08:03:48.558Z",
-  "toGeneratedAt": "2026-08-10T13:43:49.898Z",
-  "status": "partial",
+  "generatedAt": "2026-08-10T19:16:17.241Z",
+  "fromGeneratedAt": "2026-08-10T13:43:49.898Z",
+  "toGeneratedAt": "2026-08-10T19:16:17.241Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
@@ -19,7 +19,7 @@
     "changedTools": [
       "vscodium",
       "rustup",
-      "docker_desktop",
+      "stripe_cli",
       "supabase_cli"
     ],
     "addedSources": [],
@@ -29,29 +29,29 @@
         "toolId": "vscodium",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.126.04524",
-        "to": null
+        "from": null,
+        "to": "1.126.04524"
       },
       {
         "toolId": "rustup",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.11.0-beta1",
-        "to": null
+        "from": null,
+        "to": "1.11.0-beta1"
       },
       {
-        "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.85.0,235549",
-        "to": "4.86.0,236216"
+        "toolId": "stripe_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.45.1",
+        "to": "1.45.2"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.114.0-beta.2",
-        "to": "2.114.0-beta.3"
+        "from": "2.114.0-beta.3",
+        "to": "2.114.0-beta.5"
       }
     ],
     "qualityChanges": [
@@ -59,15 +59,15 @@
         "toolId": "vscodium",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       },
       {
         "toolId": "rustup",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
