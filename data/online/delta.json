@@ -1,55 +1,78 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T13:42:11.875Z",
-  "fromGeneratedAt": "2026-08-11T07:36:34.359Z",
-  "toGeneratedAt": "2026-08-11T13:42:11.875Z",
+  "generatedAt": "2026-08-11T19:19:16.864Z",
+  "fromGeneratedAt": "2026-08-11T13:42:11.875Z",
+  "toGeneratedAt": "2026-08-11T19:19:16.864Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "docker_desktop",
-      "postman",
+      "vscode",
+      "aws_cli",
+      "google_cloud_sdk",
+      "beekeeper_studio",
+      "supabase_cli",
       "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.927",
-        "to": "9.2.933"
-      },
-      {
-        "toolId": "docker_desktop",
+        "toolId": "vscode",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "4.85.0",
-        "to": "4.86.0"
+        "from": "1.130.0",
+        "to": "1.132.0"
       },
       {
-        "toolId": "postman",
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.36.19",
+        "to": "2.36.20"
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "579.0.0",
+        "to": "580.0.0"
+      },
+      {
+        "toolId": "google_cloud_sdk",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.22.8",
-        "to": "12.23.1"
+        "from": "579.0.0",
+        "to": "580.0.0"
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "5.9.3",
+        "to": "6.0.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.114.0-beta.7",
+        "to": "2.114.0-beta.8"
       },
       {
         "toolId": "unity_hub",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "3.20.0",
         "to": "3.20.1"
       }
