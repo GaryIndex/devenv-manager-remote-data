@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T07:36:34.359Z",
-  "fromGeneratedAt": "2026-08-11T02:26:44.858Z",
-  "toGeneratedAt": "2026-08-11T07:36:34.359Z",
+  "generatedAt": "2026-08-11T13:42:11.875Z",
+  "fromGeneratedAt": "2026-08-11T07:36:34.359Z",
+  "toGeneratedAt": "2026-08-11T13:42:11.875Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 4,
@@ -18,39 +18,40 @@
     "removedTools": [],
     "changedTools": [
       "vim",
+      "docker_desktop",
       "postman",
-      "stripe_cli"
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vim",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "9.2.0858",
-        "to": "9.2.0927"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.22.8",
-        "to": "12.23.1"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.22.8",
-        "to": "12.23.1"
-      },
-      {
-        "toolId": "stripe_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.45.1",
-        "to": "1.45.2"
+        "from": "9.2.927",
+        "to": "9.2.933"
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.85.0",
+        "to": "4.86.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.22.8",
+        "to": "12.23.1"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.20.0",
+        "to": "3.20.1"
       }
     ],
     "qualityChanges": []
