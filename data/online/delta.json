@@ -1,64 +1,100 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T19:19:16.864Z",
-  "fromGeneratedAt": "2026-08-11T13:42:11.875Z",
-  "toGeneratedAt": "2026-08-11T19:19:16.864Z",
+  "generatedAt": "2026-08-12T02:43:36.701Z",
+  "fromGeneratedAt": "2026-08-11T19:19:16.864Z",
+  "toGeneratedAt": "2026-08-12T02:43:36.701Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 11,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "git",
       "vscode",
+      "uv",
+      "dotnet_8",
       "aws_cli",
-      "google_cloud_sdk",
       "beekeeper_studio",
-      "supabase_cli",
-      "unity_hub"
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "git",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.55.0.3",
+        "to": "2.55.0.4"
+      },
+      {
+        "toolId": "git",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.55.0.3",
+        "to": "2.55.0.4"
+      },
+      {
         "toolId": "vscode",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.132.0",
+        "to": "1.132.1"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.132.0",
+        "to": "1.132.1"
+      },
+      {
+        "toolId": "uv",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.130.0",
-        "to": "1.132.0"
+        "from": "0.12.2",
+        "to": "0.12.3"
+      },
+      {
+        "toolId": "dotnet_8",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "8.0.423",
+        "to": "8.0.424"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.19",
-        "to": "2.36.20"
-      },
-      {
-        "toolId": "google_cloud_sdk",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "579.0.0",
-        "to": "580.0.0"
+        "from": "2.36.17",
+        "to": "2.36.21"
       },
       {
-        "toolId": "google_cloud_sdk",
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.20",
+        "to": "2.36.21"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "579.0.0",
-        "to": "580.0.0"
+        "from": "2.36.20",
+        "to": "2.36.21"
       },
       {
         "toolId": "beekeeper_studio",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "5.9.3",
         "to": "6.0.0"
       },
@@ -66,15 +102,8 @@
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.114.0-beta.7",
-        "to": "2.114.0-beta.8"
-      },
-      {
-        "toolId": "unity_hub",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.20.0",
-        "to": "3.20.1"
+        "from": "2.114.0-beta.8",
+        "to": "2.114.0-beta.9"
       }
     ],
     "qualityChanges": []
