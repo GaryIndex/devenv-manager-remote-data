@@ -1,33 +1,86 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T07:51:33.603Z",
-  "fromGeneratedAt": "2026-08-12T02:43:36.701Z",
-  "toGeneratedAt": "2026-08-12T07:51:33.603Z",
+  "generatedAt": "2026-08-12T13:46:06.822Z",
+  "fromGeneratedAt": "2026-08-12T07:51:33.603Z",
+  "toGeneratedAt": "2026-08-12T13:46:06.822Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 1,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "github_desktop"
+      "vscode",
+      "terraform",
+      "azure_cli",
+      "postman",
+      "beekeeper_studio"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "github_desktop",
+        "toolId": "vscode",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.132.1",
+        "to": "1.133.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.132.1",
+        "to": "1.133.0"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.16.0-beta2",
+        "to": "1.17.0-alpha20260812"
+      },
+      {
+        "toolId": "azure_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.6.3-931da4a1",
-        "to": "3.6.4-28955b81"
+        "from": "2.89.0",
+        "to": "2.89.1"
+      },
+      {
+        "toolId": "azure_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.89.0",
+        "to": "2.89.1"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.23.1",
+        "to": "12.23.2"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.23.1",
+        "to": "12.23.2"
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "5.9.3",
+        "to": "6.0.0"
       }
     ],
     "qualityChanges": []
