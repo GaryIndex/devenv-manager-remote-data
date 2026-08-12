@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T13:46:06.822Z",
-  "status": "ok",
+  "generatedAt": "2026-08-12T19:19:48.299Z",
+  "status": "partial",
   "tool": {
     "id": "azure_cli",
     "name": "Azure CLI",
@@ -29,7 +29,7 @@
       "long": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
       "source": "winget",
       "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
-      "lastUpdatedAt": "2026-08-12T13:45:39.681Z"
+      "lastUpdatedAt": "2026-08-12T19:19:23.985Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T13:45:39.681Z",
+          "scannedAt": "2026-08-12T19:19:23.985Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
           "source": "winget",
           "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
-          "lastUpdatedAt": "2026-08-12T13:45:39.681Z"
+          "lastUpdatedAt": "2026-08-12T19:19:23.985Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T13:45:39.681Z",
+          "lastSuccessfulScanAt": "2026-08-12T19:19:23.985Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T13:45:39.718Z",
+          "scannedAt": "2026-08-12T19:19:24.074Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Microsoft Azure CLI 2.0",
           "source": "homebrew",
           "homepage": "https://docs.microsoft.com/cli/azure/overview",
-          "lastUpdatedAt": "2026-08-12T13:45:39.718Z"
+          "lastUpdatedAt": "2026-08-12T19:19:24.074Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -730,7 +730,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T13:45:39.718Z",
+          "lastSuccessfulScanAt": "2026-08-12T19:19:24.074Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -776,7 +776,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T13:45:39.742Z",
+          "scannedAt": "2026-08-12T19:19:24.146Z",
           "errors": []
         },
         "package": {
@@ -802,7 +802,7 @@
           "long": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
           "source": "scoop",
           "homepage": "https://aka.ms/cli",
-          "lastUpdatedAt": "2026-08-12T13:45:39.742Z"
+          "lastUpdatedAt": "2026-08-12T19:19:24.146Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -908,7 +908,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T13:45:39.742Z",
+          "lastSuccessfulScanAt": "2026-08-12T19:19:24.146Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -954,7 +954,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T13:45:39.789Z",
+          "scannedAt": "2026-08-12T19:19:24.182Z",
           "errors": []
         },
         "package": {
@@ -973,7 +973,7 @@
         },
         "links": {
           "homepage": "https://github.com/azure/azure-cli/",
-          "download": "https://community.chocolatey.org/api/v2/package/azure-cli/2.89.0",
+          "download": "https://community.chocolatey.org/api/v2/package/azure-cli/2.89.1",
           "releases": "https://docs.microsoft.com/en-us/cli/azure/release-notes-azure-cli?view=azure-cli-latest",
           "docs": null
         },
@@ -982,7 +982,7 @@
           "long": "The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
           "source": "choco",
           "homepage": "https://github.com/azure/azure-cli/",
-          "lastUpdatedAt": "2026-08-12T13:45:39.789Z"
+          "lastUpdatedAt": "2026-08-12T19:19:24.182Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1007,9 +1007,19 @@
         },
         "versions": [
           {
-            "version": "2.89.0",
+            "version": "2.89.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.89.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1295,29 +1305,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.17.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.89.0",
+            "version": "2.89.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/azure-cli/2.89.0",
+            "url": "https://community.chocolatey.org/api/v2/package/azure-cli/2.89.1",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "E7dWovL4XnR++5EaC43NpN19aW9pKGr8HInHJUETIvDyErnVH7lwtp1buqd8nL7TZNYuWNo6H+3d8rgP4mTifQ==",
+            "sha256": "zErylcseFPd0Z1M/S26XdewKHEeRW2KVqY9iXZGuRO6flzbHHENoc3bBGdv9hXh6CDbSWPV4PQmxw4OwsWmvIg==",
             "sizeBytes": null
           }
         ],
@@ -1389,7 +1389,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T13:45:39.789Z",
+          "lastSuccessfulScanAt": "2026-08-12T19:19:24.182Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
