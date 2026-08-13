@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T02:49:39.930Z",
-  "status": "partial",
+  "generatedAt": "2026-08-13T07:52:17.016Z",
+  "status": "ok",
   "tool": {
     "id": "github_desktop",
     "name": "GitHub Desktop",
@@ -24,11 +24,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
-      "long": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
-      "source": "winget",
+      "short": "Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.",
+      "long": "With GitHub Desktop, you can interact with GitHub using a GUI instead of the command line or a web browser. You can use GitHub Desktop to complete most Git commands from your desktop, such as pushing to, pulling from, and cloning remote repositories, attributing commits, and creating pull requests, with visual confirmation of changes. This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.",
+      "source": "choco",
       "homepage": "https://github.com/apps/desktop",
-      "lastUpdatedAt": "2026-08-13T02:45:34.979Z"
+      "lastUpdatedAt": "2026-08-13T07:51:27.865Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -82,7 +82,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-13T02:45:34.979Z",
+          "scannedAt": "2026-08-13T07:51:27.781Z",
           "errors": []
         },
         "package": {
@@ -96,7 +96,7 @@
         },
         "links": {
           "homepage": "https://github.com/apps/desktop",
-          "download": "https://desktop.githubusercontent.com/releases/3.6.3-931da4a1/GitHubDesktopSetup-x64.exe",
+          "download": "https://desktop.githubusercontent.com/releases/3.6.4-28955b81/GitHubDesktopSetup-x64.exe",
           "releases": null,
           "docs": null
         },
@@ -105,7 +105,7 @@
           "long": "GitHub Desktop is an open-source Electron-based GitHub app. It is written in TypeScript and uses React.",
           "source": "winget",
           "homepage": "https://github.com/apps/desktop",
-          "lastUpdatedAt": "2026-08-13T02:45:34.979Z"
+          "lastUpdatedAt": "2026-08-13T07:51:27.781Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -125,9 +125,19 @@
         },
         "versions": [
           {
-            "version": "3.6.3",
+            "version": "3.6.4",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -413,29 +423,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "3.4.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "3.6.3",
+            "version": "3.6.4",
             "platform": "windows",
             "architecture": null,
             "type": "exe",
-            "url": "https://desktop.githubusercontent.com/releases/3.6.3-931da4a1/GitHubDesktopSetup-x64.exe",
+            "url": "https://desktop.githubusercontent.com/releases/3.6.4-28955b81/GitHubDesktopSetup-x64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "71e939b98b8bdd77b8178362399d5a6a49bc24d8cf7882f4ab1030be3e14d435",
+            "sha256": "436b928ccef4729b0e37ffcab4cfe3b64662895a3003fd1535aca3301a51dc4a",
             "sizeBytes": null
           }
         ],
@@ -533,7 +533,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-13T02:45:34.979Z",
+          "lastSuccessfulScanAt": "2026-08-13T07:51:27.781Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -566,7 +566,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-13T02:45:35.170Z",
+          "scannedAt": "2026-08-13T07:51:27.810Z",
           "errors": []
         },
         "package": {
@@ -592,7 +592,7 @@
           "long": "Desktop client for GitHub repositories",
           "source": "homebrew",
           "homepage": "https://desktop.github.com/",
-          "lastUpdatedAt": "2026-08-13T02:45:35.170Z"
+          "lastUpdatedAt": "2026-08-13T07:51:27.810Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -698,7 +698,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-13T02:45:35.170Z",
+          "lastSuccessfulScanAt": "2026-08-13T07:51:27.810Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -730,34 +730,39 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-13T02:45:35.195Z",
-          "errors": [
-            "details: This operation was aborted",
-            "versions: This operation was aborted"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-13T07:51:27.865Z",
+          "errors": []
         },
         "package": {
           "name": "GitHub Desktop",
-          "publisher": null,
-          "author": null,
-          "description": null,
+          "publisher": "GitHub",
+          "author": "GitHub",
+          "description": "Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.",
           "license": null,
-          "licenseUrl": null,
-          "tags": []
+          "licenseUrl": "https://github.com/desktop/desktop/blob/development/LICENSE",
+          "tags": [
+            "admin",
+            "electron",
+            "git",
+            "github",
+            "desktop",
+            "typescript",
+            "developer"
+          ]
         },
         "links": {
-          "homepage": "https://desktop.github.com/",
-          "download": "https://desktop.github.com/",
-          "releases": null,
+          "homepage": "https://github.com/apps/desktop",
+          "download": "https://community.chocolatey.org/api/v2/package/github-desktop/3.6.3",
+          "releases": "https://desktop.github.com/release-notes/",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.",
+          "long": "With GitHub Desktop, you can interact with GitHub using a GUI instead of the command line or a web browser. You can use GitHub Desktop to complete most Git commands from your desktop, such as pushing to, pulling from, and cloning remote repositories, attributing commits, and creating pull requests, with visual confirmation of changes. This essentially replaces https://chocolatey.org/packages/GitHub but is a different application.",
           "source": "choco",
-          "homepage": "https://desktop.github.com/",
-          "lastUpdatedAt": "2026-08-13T02:45:35.195Z"
+          "homepage": "https://github.com/apps/desktop",
+          "lastUpdatedAt": "2026-08-13T07:51:27.865Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -766,7 +771,14 @@
           "keywords": [
             "github_desktop",
             "GitHub Desktop",
-            "choco"
+            "choco",
+            "admin",
+            "electron",
+            "git",
+            "github",
+            "desktop",
+            "typescript",
+            "developer"
           ],
           "relatedTools": []
         },
@@ -775,18 +787,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "3.6.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.12",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.11",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.4.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.4.13",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.7.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.6.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.6.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.9.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.3.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "3.6.3",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://desktop.github.com/",
-            "urlType": "package-manager",
-            "direct": false,
-            "sha256": null,
+            "url": "https://community.chocolatey.org/api/v2/package/github-desktop/3.6.3",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "Jr2bd0U/jGC67PP31UfJ+RSolW/oAON4o1OTV4Anc9DfgUbnmMOEnIifiISEvS1kT/G9r/zDuLFoAtF6g6SE6Q==",
             "sizeBytes": null
           }
         ],
@@ -855,11 +1168,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-13T07:51:27.865Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
