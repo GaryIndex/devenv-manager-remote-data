@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T19:19:48.299Z",
+  "generatedAt": "2026-08-13T02:49:39.930Z",
   "status": "partial",
   "tool": {
     "id": "temurin_17",
@@ -24,11 +24,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Adoptium provides prebuilt OpenJDK build binaries. This one uses OpenJDK HotSpot.",
-      "long": "Temurin The Temurin17 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
-      "source": "choco",
-      "homepage": "https://adoptium.net/",
-      "lastUpdatedAt": "2026-08-12T19:19:12.531Z"
+      "short": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
+      "long": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
+      "source": "scoop",
+      "homepage": "https://adoptium.net",
+      "lastUpdatedAt": "2026-08-13T02:47:00.447Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -109,7 +109,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:12.381Z",
+          "scannedAt": "2026-08-13T02:47:00.267Z",
           "errors": []
         },
         "package": {
@@ -132,7 +132,7 @@
           "long": "Eclipse Temurin JDK is the open source Java SE build based upon OpenJDK.",
           "source": "winget",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-08-12T19:19:12.381Z"
+          "lastUpdatedAt": "2026-08-13T02:47:00.267Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -492,7 +492,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:12.381Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:47:00.267Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -549,7 +549,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:12.408Z",
+          "scannedAt": "2026-08-13T02:47:00.425Z",
           "errors": []
         },
         "package": {
@@ -575,7 +575,7 @@
           "long": "JDK from the Eclipse Foundation (Adoptium)",
           "source": "homebrew",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-08-12T19:19:12.408Z"
+          "lastUpdatedAt": "2026-08-13T02:47:00.425Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -683,7 +683,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:12.408Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:47:00.425Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -740,7 +740,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:12.476Z",
+          "scannedAt": "2026-08-13T02:47:00.447Z",
           "errors": []
         },
         "package": {
@@ -766,7 +766,7 @@
           "long": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
           "source": "scoop",
           "homepage": "https://adoptium.net",
-          "lastUpdatedAt": "2026-08-12T19:19:12.476Z"
+          "lastUpdatedAt": "2026-08-13T02:47:00.447Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -873,7 +873,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:12.476Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:47:00.447Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -929,35 +929,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-12T19:19:12.531Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-13T02:47:00.627Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
-          "name": "Temurin jdk17 hotspot",
-          "publisher": "Adoptium",
-          "author": "Adoptium",
-          "description": "Adoptium provides prebuilt OpenJDK build binaries. This one uses OpenJDK_HotSpot.",
+          "name": "Eclipse Temurin JDK 17",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://github.com/adoptium/jdk17/blob/master/LICENSE",
-          "tags": [
-            "openjdk",
-            "java",
-            "jvm"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
           "homepage": "https://adoptium.net/",
-          "download": "https://community.chocolatey.org/api/v2/package/Temurin17/17.0.17.10",
-          "releases": "",
+          "download": "https://adoptium.net/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Adoptium provides prebuilt OpenJDK build binaries. This one uses OpenJDK HotSpot.",
-          "long": "Temurin The Temurin17 package uses OpenJDK HotSpot VM from Temurin using the msi file format. Using a msi file provides a rich source of installation options : The following Features must be listed after /ADDLOCAL= using a comma after each feature. | Feature | Description | |----|----| | FeatureMain &nbsp; | &nbsp; Core Temurin installation (DEFAULT) | | FeatureEnvironment &nbsp; | &nbsp; Update the PATH environment variable (DEFAULT) | | FeatureJarFileRunWith &nbsp; | &nbsp; Associate .jar files with Java applications (DEFAULT) | | FeatureJavaHome &nbsp; | &nbsp; Update the JAVA HOME environment variable | | FeatureIcedTeaWeb &nbsp; | &nbsp; Install IcedTea-Web | | FeatureJNLPFileRunWith &nbsp; | &nbsp; Associate .jnlp files with IcedTea-web (Temurin 8 only) | | FeatureOracleJavaSoft &nbsp; | &nbsp; Updates registry keys HKLM\\SOFTWARE\\JavaSoft\\ (Temurin 8 only) | Note: FeatureOracleJavaSoft can be used to prevent Oracle Java launching from PATH when Temurin is uninstalled. Reinstall Oracle Java if you need to restore the Oracle registry keys. Optional parameters can be used that group some of the features together: | Parameter | Features | |----|----| | &nbsp; INSTALLLEVEL=1 &n...",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://adoptium.net/",
-          "lastUpdatedAt": "2026-08-12T19:19:12.531Z"
+          "lastUpdatedAt": "2026-08-13T02:47:00.627Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -968,9 +967,7 @@
             "Eclipse Temurin JDK 17",
             "java",
             "javac",
-            "choco",
-            "openjdk",
-            "jvm"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -979,209 +976,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "17.0.17.10",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.16.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.12.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.14.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.9.900",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.5.800",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.13.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.7.700",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.8.10100",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.2.800",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.8.700",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.4.800",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.3.700",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.11.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.6.1000",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.1.1200",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.0.3500",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "17.0.4.10100",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "17.0.17.10",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/Temurin17/17.0.17.10",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "a3E2NLz/LCAIaFenrHk5TNgODdkukU3KSS4CL+VZ9X1XiDWRvNt9r06QTjTci3Q+BJU6L3DElszBQmmp4kJneA==",
+            "url": "https://adoptium.net/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1250,11 +1056,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:12.531Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

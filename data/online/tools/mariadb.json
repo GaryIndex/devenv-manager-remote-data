@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T19:19:48.299Z",
+  "generatedAt": "2026-08-13T02:49:39.930Z",
   "status": "partial",
   "tool": {
     "id": "mariadb",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Enhanced drop-in replacement for MySQL",
-      "long": "MariaDB is designed as a drop-in replacement of MySQL with more features, new storage engines, fewer bugs, and better performance. MariaDB server is a community developed fork of MySQL server started by core members of the original MySQL team. MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, the MariaDB Foundation work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability. MariaDB comparison to MySQL Features Compatibility Community Facebook Google+ Twitter Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
-      "source": "choco",
+      "short": "Drop-in replacement for MySQL",
+      "long": "Drop-in replacement for MySQL",
+      "source": "homebrew",
       "homepage": "https://mariadb.org/",
-      "lastUpdatedAt": "2026-08-12T19:19:28.341Z"
+      "lastUpdatedAt": "2026-08-13T02:48:12.362Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:27.993Z",
+          "scannedAt": "2026-08-13T02:48:11.226Z",
           "errors": []
         },
         "package": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://mariadb.org/download/",
-          "lastUpdatedAt": "2026-08-12T19:19:27.993Z"
+          "lastUpdatedAt": "2026-08-13T02:48:11.226Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -448,7 +448,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:27.993Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:48:11.226Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -495,7 +495,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:28.217Z",
+          "scannedAt": "2026-08-13T02:48:12.362Z",
           "errors": []
         },
         "package": {
@@ -521,7 +521,7 @@
           "long": "Drop-in replacement for MySQL",
           "source": "homebrew",
           "homepage": "https://mariadb.org/",
-          "lastUpdatedAt": "2026-08-12T19:19:28.217Z"
+          "lastUpdatedAt": "2026-08-13T02:48:12.362Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -677,7 +677,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:28.217Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:48:12.362Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -723,7 +723,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:28.257Z",
+          "scannedAt": "2026-08-13T02:48:12.380Z",
           "errors": []
         },
         "package": {
@@ -749,7 +749,7 @@
           "long": "Community developed fork of MySQL server.",
           "source": "scoop",
           "homepage": "https://mariadb.org",
-          "lastUpdatedAt": "2026-08-12T19:19:28.257Z"
+          "lastUpdatedAt": "2026-08-13T02:48:12.380Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -854,7 +854,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:28.257Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:48:12.380Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -899,36 +899,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-12T19:19:28.341Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-13T02:48:12.448Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
           "name": "MariaDB",
-          "publisher": "MariaDB Foundation",
-          "author": "MariaDB Foundation",
-          "description": "Enhanced drop-in replacement for MySQL",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
-          "tags": [
-            "rdbms",
-            "sql",
-            "database",
-            "mysql"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
           "homepage": "https://mariadb.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/mariadb/13.0.1-rc",
-          "releases": "https://mariadb.com/kb/en/mariadb-1301-release-notes/",
+          "download": "https://mariadb.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Enhanced drop-in replacement for MySQL",
-          "long": "MariaDB is designed as a drop-in replacement of MySQL with more features, new storage engines, fewer bugs, and better performance. MariaDB server is a community developed fork of MySQL server started by core members of the original MySQL team. MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, the MariaDB Foundation work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability. MariaDB comparison to MySQL Features Compatibility Community Facebook Google+ Twitter Please Note : This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know here that the package is no longer updating correctly.",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://mariadb.org/",
-          "lastUpdatedAt": "2026-08-12T19:19:28.341Z"
+          "lastUpdatedAt": "2026-08-13T02:48:12.448Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -937,11 +935,7 @@
           "keywords": [
             "mariadb",
             "MariaDB",
-            "choco",
-            "rdbms",
-            "sql",
-            "database",
-            "mysql"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -950,319 +944,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "13.0.1-rc",
-            "channel": "prerelease",
-            "latest": true,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.3.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.4.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.8.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.11.18",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.6.27",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.11.17",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.6.26",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.3.1-rc",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.2.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.4.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.8.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.11.16",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.6.25",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.2.1-rc",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.1.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.8.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.4.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.8.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.11.15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.6.24",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.0.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "12.2.0-preview",
-            "channel": "prerelease",
-            "latest": false,
-            "prerelease": true,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.3.15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.4.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.5.21",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.11.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.11.14",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "10.11.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "11.8.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "13.0.1-rc",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/mariadb/13.0.1-rc",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "2PcA8nzz4ajFnT2mmwt/c559ghcKb9m4CZ+wDE4OZthz9G3PU33DS8005Y3Ujp83tm5asuesLFqr6GE4Q4iioQ==",
+            "url": "https://mariadb.org/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1331,11 +1024,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:28.341Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

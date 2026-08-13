@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T19:19:48.299Z",
+  "generatedAt": "2026-08-13T02:49:39.930Z",
   "status": "partial",
   "tool": {
     "id": "erlang",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Erlang/OTP - for building concurrent, distributed, and fault tolerant systems",
-      "long": "OTP is a set of Erlang libraries, which consists of the Erlang runtime system, a number of ready-to-use components mainly written in Erlang, and a set of design principles for Erlang programs. Features Concurrency - Lightweight processes with message passing Distribution - Built-in support for distributed systems Fault Tolerance - Supervision trees and hot code swapping Soft Real-Time - Predictable low-latency response times High Availability - Design for systems that never stop Use Cases Erlang is used in telecoms, banking, e-commerce, instant messaging, and any system requiring high availability and scalability. Learn more at erlang.org.",
-      "source": "choco",
-      "homepage": "http://www.erlang.org/",
-      "lastUpdatedAt": "2026-08-12T19:19:41.928Z"
+      "short": "Erlang is a programming language and runtime system for building massively scalable soft real-time systems with requirements on high availability.",
+      "long": "Erlang is a programming language and runtime system for building massively scalable soft real-time systems with requirements on high availability.",
+      "source": "winget",
+      "homepage": "https://www.erlang.org/downloads",
+      "lastUpdatedAt": "2026-08-13T02:49:01.927Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:41.720Z",
+          "scannedAt": "2026-08-13T02:49:01.927Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "Erlang is a programming language and runtime system for building massively scalable soft real-time systems with requirements on high availability.",
           "source": "winget",
           "homepage": "https://www.erlang.org/downloads",
-          "lastUpdatedAt": "2026-08-12T19:19:41.720Z"
+          "lastUpdatedAt": "2026-08-13T02:49:01.927Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:41.720Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:49:01.927Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:41.795Z",
+          "scannedAt": "2026-08-13T02:49:03.268Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Programming language for highly scalable real-time systems",
           "source": "homebrew",
           "homepage": "https://www.erlang.org/",
-          "lastUpdatedAt": "2026-08-12T19:19:41.795Z"
+          "lastUpdatedAt": "2026-08-13T02:49:03.268Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -770,7 +770,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:41.795Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:49:03.268Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -816,7 +816,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:41.854Z",
+          "scannedAt": "2026-08-13T02:49:03.366Z",
           "errors": []
         },
         "package": {
@@ -842,7 +842,7 @@
           "long": "A programming language used to build massively scalable soft real-time systems with requirements on high availability.",
           "source": "scoop",
           "homepage": "https://www.erlang.org",
-          "lastUpdatedAt": "2026-08-12T19:19:41.854Z"
+          "lastUpdatedAt": "2026-08-13T02:49:03.366Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -948,7 +948,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:41.854Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:49:03.366Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -993,34 +993,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-12T19:19:41.928Z",
-          "errors": []
-        },
-        "package": {
-          "name": "Erlang",
-          "publisher": "Joe Armstrong, Robert Virding, Mike Williams",
-          "author": "Joe Armstrong, Robert Virding, Mike Williams",
-          "description": "Erlang/OTP - for building concurrent, distributed, and fault tolerant systems",
-          "license": null,
-          "licenseUrl": "http://www.erlang.org/EPLICENSE",
-          "tags": [
-            "erlang",
-            "languages"
+          "status": "partial",
+          "scannedAt": "2026-08-13T02:49:03.439Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
           ]
         },
+        "package": {
+          "name": "Erlang/OTP",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
+          "tags": []
+        },
         "links": {
-          "homepage": "http://www.erlang.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/erlang/29.0.5",
-          "releases": "https://github.com/erlang/otp/releases/tag/OTP-29.0.5",
+          "homepage": "https://www.erlang.org/",
+          "download": "https://www.erlang.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Erlang/OTP - for building concurrent, distributed, and fault tolerant systems",
-          "long": "OTP is a set of Erlang libraries, which consists of the Erlang runtime system, a number of ready-to-use components mainly written in Erlang, and a set of design principles for Erlang programs. Features Concurrency - Lightweight processes with message passing Distribution - Built-in support for distributed systems Fault Tolerance - Supervision trees and hot code swapping Soft Real-Time - Predictable low-latency response times High Availability - Design for systems that never stop Use Cases Erlang is used in telecoms, banking, e-commerce, instant messaging, and any system requiring high availability and scalability. Learn more at erlang.org.",
+          "short": null,
+          "long": null,
           "source": "choco",
-          "homepage": "http://www.erlang.org/",
-          "lastUpdatedAt": "2026-08-12T19:19:41.928Z"
+          "homepage": "https://www.erlang.org/",
+          "lastUpdatedAt": "2026-08-13T02:49:03.439Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1030,8 +1030,7 @@
             "erlang",
             "Erlang/OTP",
             "erl",
-            "choco",
-            "languages"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -1040,319 +1039,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "29.0.5",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "29.0.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "29.0.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "29.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "29.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "28.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "28.4.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "28.4.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "28.4.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "28.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "28.3.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "28.3.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "27.3.4.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "28.3.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "25.3.2.19",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "25.3.2.20",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "25.3.2.21",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.1.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.5.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.5.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.5.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.5.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.5.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "26.2.5.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "29.0.5",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/erlang/29.0.5",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "+rsNDUXfk+tmjT4G0QWFgVs6ZVsFgE8dI6rW/gtJ3n9ZbfoWIFfa1B40BYomx8GdSc8aGplMCh3zlao0GU/aQA==",
+            "url": "https://www.erlang.org/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1421,11 +1119,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:41.928Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

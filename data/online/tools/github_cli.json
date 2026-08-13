@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T19:19:48.299Z",
+  "generatedAt": "2026-08-13T02:49:39.930Z",
   "status": "partial",
   "tool": {
     "id": "github_cli",
@@ -28,11 +28,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Command line wrapper for git that makes you better at GitHub.",
-      "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
-      "source": "choco",
+      "short": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
+      "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
+      "source": "winget",
       "homepage": "https://cli.github.com/",
-      "lastUpdatedAt": "2026-08-12T19:18:54.244Z"
+      "lastUpdatedAt": "2026-08-13T02:45:33.983Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -105,7 +105,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:18:54.209Z",
+          "scannedAt": "2026-08-13T02:45:33.983Z",
           "errors": []
         },
         "package": {
@@ -131,7 +131,7 @@
           "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
           "source": "winget",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-08-12T19:18:54.209Z"
+          "lastUpdatedAt": "2026-08-13T02:45:33.983Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -564,7 +564,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:18:54.209Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:45:33.983Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -611,7 +611,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:18:54.240Z",
+          "scannedAt": "2026-08-13T02:45:34.003Z",
           "errors": []
         },
         "package": {
@@ -639,7 +639,7 @@
           "long": "GitHub command-line tool",
           "source": "homebrew",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-08-12T19:18:54.240Z"
+          "lastUpdatedAt": "2026-08-13T02:45:34.003Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -750,7 +750,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:18:54.240Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:45:34.003Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -796,7 +796,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:18:54.242Z",
+          "scannedAt": "2026-08-13T02:45:34.004Z",
           "errors": []
         },
         "package": {
@@ -824,7 +824,7 @@
           "long": "Official GitHub CLI",
           "source": "scoop",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-08-12T19:18:54.242Z"
+          "lastUpdatedAt": "2026-08-13T02:45:34.004Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -934,7 +934,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:18:54.242Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:45:34.004Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -979,38 +979,37 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-12T19:18:54.244Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-13T02:45:34.005Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
           "name": "GitHub CLI",
-          "publisher": "GitHub",
-          "author": "GitHub",
-          "description": "Command line wrapper for git that makes you better at GitHub.",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://github.com/cli/cli/blob/trunk/LICENSE",
+          "licenseUrl": null,
           "tags": [
             "github",
-            "vcs",
-            "cli",
-            "git",
-            "scm",
-            "admin"
+            "vcs"
           ]
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://community.chocolatey.org/api/v2/package/gh/2.97.0",
-          "releases": "## Security\n\nFour security vulnerabilities have been identified, and fixed, in this release. Users are advised to update gh to version `v2.97.0` as soon as possible.\n\nSeveral commands (including `gh gist view`, `gh api`, `gh pr diff`, `gh release download --output -`, `gh codespace logs`, `gh skills preview`, and `gh agent-task view`/`create`) printed externally controlled content without neutralizing terminal escape sequences, allowing escape sequence injection into a user's terminal.\n\nSee https://github.com/cli/cli/security/advisories/GHSA-3m3g-3wcr-px46 for more information.\n\nSome request URLs were built without escaping their variable path components, so a value containing URL path metacharacters could alter the request path and cause `gh` to address a different resource than intended.\n\nSee https://github.com/cli/cli/security/advisories/GHSA-4fjg-2h4q-fwg3 for more information.\n\n`gh auth status` (without `--show-token`) could print a portion of the authentication token in plaintext for token types whose format contains an underscore after the prefix, such as `github_pat_*`, `ghs_*`, and `ghu_*`.\n\nSee https://github.com/cli/cli/security/advisories/GHSA-cg6r-mpgc-h9mm for more information.\n\n`gh attestation verify` built the certificate matcher from `--signer-repo` and `--signer-workflow` without escaping regex metacharacters, so a lookalike repository or workflow name could satisfy a matcher intended for a trusted signer and bypass attestation verification. \n\nSee https://github.com/cli/cli/security/advisories/GHSA-mm27-mwq9-fr5g for more information.\n\n\n## Address project fields and items by name in `gh project`\n\n`gh project item-edit` and `gh project item-list` can now reference project fields and single-select options by name:\n\n```shell\n# Set an item's field by name\ngh project item-edit 1 --owner monalisa --url <url> --field \"Status\" --value \"In Progress\"\n\n# Show named fields as extra columns\ngh project item-list 1 --owner \"@me\" --field \"Status\" --field \"Priority\"\n```\n\n## What's Changed\n\n### ✨ Features\n\n* Add name-based resolution to `gh project item-edit` by @zwick in [#13807](https://github.com/cli/cli/pull/13807)\n* Add named field columns to `gh project item-list` by @zwick in [#13823](https://github.com/cli/cli/pull/13823)\n* Add Grok skill host support by @tommaso-moro in [#13864](https://github.com/cli/cli/pull/13864)\n* Replace Windsurf with Devin in `gh skill` agents by @tommaso-moro in [#13987](https://github.com/cli/cli/pull/13987)\n\n### 🐛 Fixes\n\n* Gracefully handle failed GitHub verifier initialization caused by a missing trusted root by @malancas in [#13624](https://github.com/cli/cli/pull/13624)\n* Bump keyring operation timeout from 3s to 60s so interactive unlock prompts have time to complete by @kofuk in [#13787](https://github.com/cli/cli/pull/13787)\n* Fix skill picker label wrapping by @tommaso-moro in [#13967](https://github.com/cli/cli/pull/13967)\n\n### 📚 Docs & Chores\n\n* Bump Go to 1.26.5 by @github-actions[bot] in [#13817](https://github.com/cli/cli/pull/13817)\n* Add `OWNER/REPO` format hint to the `gh search --repo` flag by @BagToad in [#13922](https://github.com/cli/cli/pull/13922)\n* Present by-name `item-edit` as the first-class project flow in docs by @Solaris-star in [#13927](https://github.com/cli/cli/pull/13927)\n* Add a macOS keyring security doc by @williammartin in [#13960](https://github.com/cli/cli/pull/13960)\n* Add a code review agent skill by @BagToad in [#14003](https://github.com/cli/cli/pull/14003)\n* Establish a pull request template for scale by @BagToad in [#14004](https://github.com/cli/cli/pull/14004)\n* Add an agentic issue-triage workflow by @lukewar in [#13777](https://github.com/cli/cli/pull/13777)\n* Use the Actions token for Copilot inference in the issue-triage workflow by @tidy-dev in [#13830](https://github.com/cli/cli/pull/13830)\n* Refresh the issue-triage agentic workflow to gh-aw v0.83.1 by @alondahari in [#13949](https://github.com/cli/cli/pull/13949)\n* Add a dependabot-triage agentic workflow by @williammartin in [#13985](https://github.com/cli/cli/pull/13985)\n* Harden the deployment workflow by @niik in [#13780](https://github.com/cli/cli/pull/13780)\n* Replace `SITE_DEPLOY_PAT` with the gh-cli-site-deployer App by @williammartin in [#13492](https://github.com/cli/cli/pull/13492)\n* Group CodeQL Dependabot updates by @williammartin in [#13943](https://github.com/cli/cli/pull/13943)\n* Remove a dead CODEOWNERS rule for the non-existent `pkg/cmd/release/attestation/` by @kobihikri in [#13886](https://github.com/cli/cli/pull/13886)\n* Fix typos in code and documentation by @pstoeckle in [#13940](https://github.com/cli/cli/pull/13940)\n* Fix duplicated-word typos in comments by @SORBELLOSTEFANIE in [#13900](https://github.com/cli/cli/pull/13900)\n\n### :dependabot: Dependencies\n\n* chore(deps): bump charm.land/lipgloss/v2 from 2.0.4 to 2.0.5 by @dependabot in [#13790](https://github.com/cli/cli/pull/13790)\n* chore(deps): bump google.golang.org/grpc from 1.81.1 to 1.82.0 by @dependabot in [#13789](https://github.com/cli/cli/pull/13789)\n* chore(deps): bump https://github.com/klauspost/compress from 1.18.6 to 1.19.0 by @dependabot in [#13791](https://github.com/cli/cli/pull/13791)\n* chore(deps): bump charm.land/bubbletea/v2 from 2.0.7 to 2.0.8 by @dependabot in [#13800](https://github.com/cli/cli/pull/13800)\n* chore(deps): bump golang.org/x/text from 0.38.0 to 0.39.0 by @dependabot in [#13812](https://github.com/cli/cli/pull/13812)\n* chore(deps): bump golang.org/x/sys from 0.46.0 to 0.47.0 by @dependabot in [#13821](https://github.com/cli/cli/pull/13821)\n* chore(deps): bump github/codeql-action/analyze from 4.36.2 to 4.36.3 by @dependabot in [#13801](https://github.com/cli/cli/pull/13801)\n* chore(deps): bump github/gh-aw-actions/setup from 0.81.6 to 0.82.2 by @dependabot in [#13832](https://github.com/cli/cli/pull/13832)\n* chore(deps): bump charm.land/bubbles/v2 from 2.1.0 to 2.1.1 by @dependabot in [#13813](https://github.com/cli/cli/pull/13813)\n* chore(deps): bump golang.org/x/sync from 0.21.0 to 0.22.0 by @dependabot in [#13822](https://github.com/cli/cli/pull/13822)\n* chore(deps): bump github/gh-aw-actions/setup from 0.82.2 to 0.82.3 by @dependabot in [#13843](https://github.com/cli/cli/pull/13843)\n* chore(deps): bump actions/cache/restore from 5.0.5 to 6.1.0 by @dependabot in [#13841](https://github.com/cli/cli/pull/13841)\n* chore(deps): bump golang.org/x/crypto from 0.53.0 to 0.54.0 by @dependabot in [#13867](https://github.com/cli/cli/pull/13867)\n* chore(deps): bump github/codeql-action/analyze from 4.36.3 to 4.37.0 by @dependabot in [#13869](https://github.com/cli/cli/pull/13869)\n* chore(deps): bump github/codeql-action/upload-sarif from 4.36.2 to 4.37.0 by @dependabot in [#13868](https://github.com/cli/cli/pull/13868)\n* chore(deps): bump github/codeql-action/init from 4.36.3 to 4.37.1 by @dependabot in [#13870](https://github.com/cli/cli/pull/13870)\n* chore(deps): bump https://github.com/yuin/goldmark from 1.8.2 to 1.8.4 by @dependabot in [#13888](https://github.com/cli/cli/pull/13888)\n* chore(deps): bump https://github.com/sigstore/sigstore-go from 1.2.1 to 1.2.2 by @dependabot in [#13842](https://github.com/cli/cli/pull/13842)\n* chore(deps): bump github/gh-aw-actions/setup from 0.82.3 to 0.82.8 by @dependabot in [#13877](https://github.com/cli/cli/pull/13877)\n* chore(deps): bump actions/setup-go from 6.5.0 to 7.0.0 by @dependabot in [#13933](https://github.com/cli/cli/pull/13933)\n* chore(deps): bump google.golang.org/grpc from 1.82.0 to 1.82.1 by @dependabot in [#13934](https://github.com/cli/cli/pull/13934)\n* chore(deps): bump actions/setup-node from 6.4.0 to 7.0.0 by @dependabot in [#13936](https://github.com/cli/cli/pull/13936)\n* chore(deps): bump actions/attest from 4.1.1 to 4.2.0 by @dependabot in [#13935](https://github.com/cli/cli/pull/13935)\n* chore(deps): bump https://github.com/mattn/go-isatty from 0.0.22 to 0.0.23 by @dependabot in [#13937](https://github.com/cli/cli/pull/13937)\n* chore(deps): bump github/gh-aw-actions/setup from 0.82.8 to 0.82.13 by @dependabot in [#13938](https://github.com/cli/cli/pull/13938)\n* chore(deps): bump actions/checkout from 7.0.0 to 7.0.1 by @dependabot in [#13941](https://github.com/cli/cli/pull/13941)\n* chore(deps): bump github/codeql-action/upload-sarif from 4.37.0 to 4.37.1 by @dependabot in [#13942](https://github.com/cli/cli/pull/13942)\n* chore(deps): bump https://github.com/gabriel-vasile/mimetype from 1.4.13 to 1.4.14 by @dependabot in [#13944](https://github.com/cli/cli/pull/13944)\n* chore(deps): bump nodeselector/setup-apple-codesign from ab275d0 to 309922b by @dependabot in [#13878](https://github.com/cli/cli/pull/13878)\n* chore(deps): bump https://github.com/klauspost/compress from 1.19.0 to 1.19.1 by @dependabot in [#13950](https://github.com/cli/cli/pull/13950)\n* chore(deps): bump github/gh-aw-actions/setup from 0.82.13 to 0.82.14 by @dependabot in [#13951](https://github.com/cli/cli/pull/13951)\n* chore(deps): bump the codeql-actions group with 3 updates by @dependabot in [#13965](https://github.com/cli/cli/pull/13965)\n* chore(deps): bump https://github.com/mattn/go-isatty from 0.0.23 to 0.0.24 by @dependabot in [#13977](https://github.com/cli/cli/pull/13977)\n* chore(deps): bump the codeql-actions group with 3 updates by @dependabot in [#13978](https://github.com/cli/cli/pull/13978)\n* chore(deps): bump https://github.com/gabriel-vasile/mimetype from 1.4.14 to 1.4.15 by @dependabot in [#13976](https://github.com/cli/cli/pull/13976)\n* chore(deps): bump github/gh-aw-actions/setup from 0.83.1 to 0.83.2 by @dependabot in [#13979](https://github.com/cli/cli/pull/13979)\n* chore(deps): bump github/gh-aw-actions/setup-cli from 0.83.1 to 0.83.2 by @dependabot in [#13980](https://github.com/cli/cli/pull/13980)\n* chore(deps): bump actions/checkout from 6 to 7 by @dependabot in [#13981](https://github.com/cli/cli/pull/13981)\n* chore(deps): bump github/gh-aw-actions/setup from 0.83.2 to 0.83.3 by @dependabot in [#13995](https://github.com/cli/cli/pull/13995)\n* chore(deps): bump github/gh-aw-actions/setup-cli from 0.83.2 to 0.83.3 by @dependabot in [#13996](https://github.com/cli/cli/pull/13996)\n* chore(deps): bump github/gh-aw-actions/setup-cli from 0.83.3 to 0.83.4 by @dependabot in [#14018](https://github.com/cli/cli/pull/14018)\n\n## New Contributors\n* @lukewar made their first contribution in https://github.com/cli/cli/pull/13777\n* @niik made their first contribution in https://github.com/cli/cli/pull/13780\n* @kofuk made their first contribution in https://github.com/cli/cli/pull/13787\n* @zwick made their first contribution in https://github.com/cli/cli/pull/13807\n* @kobihikri made their first contribution in https://github.com/cli/cli/pull/13886\n* @pstoeckle made their first contribution in https://github.com/cli/cli/pull/13940\n* @Solaris-star made their first contribution in https://github.com/cli/cli/pull/13927\n* @SORBELLOSTEFANIE made their first contribution in https://github.com/cli/cli/pull/13900\n* @alondahari made their first contribution in https://github.com/cli/cli/pull/13949\n\n**Full Changelog**: https://github.com/cli/cli/compare/v2.96.0...v2.97.0",
+          "download": "https://cli.github.com/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Command line wrapper for git that makes you better at GitHub.",
-          "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-08-12T19:18:54.244Z"
+          "lastUpdatedAt": "2026-08-13T02:45:34.005Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1024,11 +1023,7 @@
             "github",
             "vcs",
             "gh",
-            "choco",
-            "cli",
-            "git",
-            "scm",
-            "admin"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -1037,319 +1032,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2.97.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.96.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.95.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.94.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.93.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.92.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.91.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.90.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.89.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.88.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.88.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.87.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.87.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.86.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.85.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.83.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.83.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.83.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.82.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.82.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.81.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.80.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.63.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.64.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.44.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.67.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.21.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.78.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.62.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.72.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2.97.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/gh/2.97.0",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "z/A8AerK2Jjofun3R2ppTym7re9TC2zHR99HbtEjsK3vx+LyC7IZSDplVGY/pl7D2gnMaMzUlmuHsg+0o+kW3g==",
+            "url": "https://cli.github.com/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1418,11 +1112,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:18:54.244Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1469,7 +1163,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:18:54.324Z",
+          "scannedAt": "2026-08-13T02:45:34.217Z",
           "errors": []
         },
         "package": {
@@ -1499,7 +1193,7 @@
           "long": "GitHub’s official command line tool",
           "source": "github",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-08-12T19:18:54.324Z"
+          "lastUpdatedAt": "2026-08-13T02:45:34.217Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2794,7 +2488,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:18:54.324Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:45:34.217Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

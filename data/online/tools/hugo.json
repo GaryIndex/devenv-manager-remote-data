@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T19:19:48.299Z",
+  "generatedAt": "2026-08-13T02:49:39.930Z",
   "status": "partial",
   "tool": {
     "id": "hugo",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. This extended version allows native Sass compilation.",
-      "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
-      "source": "choco",
-      "homepage": "https://gohugo.io/",
-      "lastUpdatedAt": "2026-08-12T19:19:44.521Z"
+      "short": "Speedy and flexible static site generator (without Sass/SCSS support)",
+      "long": "Speedy and flexible static site generator (without Sass/SCSS support)",
+      "source": "scoop",
+      "homepage": "https://gohugo.io",
+      "lastUpdatedAt": "2026-08-13T02:49:18.961Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:43.746Z",
+          "scannedAt": "2026-08-13T02:49:16.636Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-08-12T19:19:43.746Z"
+          "lastUpdatedAt": "2026-08-13T02:49:16.636Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -549,7 +549,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:43.746Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:49:16.636Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,7 +596,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:44.402Z",
+          "scannedAt": "2026-08-13T02:49:18.933Z",
           "errors": []
         },
         "package": {
@@ -622,7 +622,7 @@
           "long": "Configurable static site generator",
           "source": "homebrew",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-08-12T19:19:44.402Z"
+          "lastUpdatedAt": "2026-08-13T02:49:18.933Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +728,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:44.402Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:49:18.933Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +774,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:44.438Z",
+          "scannedAt": "2026-08-13T02:49:18.961Z",
           "errors": []
         },
         "package": {
@@ -800,7 +800,7 @@
           "long": "Speedy and flexible static site generator (without Sass/SCSS support)",
           "source": "scoop",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-08-12T19:19:44.438Z"
+          "lastUpdatedAt": "2026-08-13T02:49:18.961Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -905,7 +905,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:44.438Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:49:18.961Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -950,36 +950,34 @@
         "official": true,
         "priority": 30,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-12T19:19:44.521Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-13T02:49:19.044Z",
+          "errors": [
+            "details: This operation was aborted",
+            "versions: This operation was aborted"
+          ]
         },
         "package": {
-          "name": "Hugo Extended",
-          "publisher": "Hugo Authors",
-          "author": "Hugo Authors",
-          "description": "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. This extended version allows native Sass compilation.",
+          "name": "Hugo",
+          "publisher": null,
+          "author": null,
+          "description": null,
           "license": null,
-          "licenseUrl": "https://github.com/gohugoio/hugo/blob/master/LICENSE",
-          "tags": [
-            "hugo",
-            "blog",
-            "static",
-            "website"
-          ]
+          "licenseUrl": null,
+          "tags": []
         },
         "links": {
           "homepage": "https://gohugo.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.164.0",
-          "releases": "Notable new features in this release are:\n\n* The Chroma highlighter styles now introduces [dark/light pairs](https://gohugo.io/quick-reference/syntax-highlighting-styles/#modes). See also the new flags on the [hugo gen chromastyles](/commands/hugo_gen_chromastyles/) command.\n* New template funcs [encoding.HexEncode](https://gohugo.io/functions/encoding/hexencode/), [encoding.HexDecode](https://gohugo.io/functions/encoding/hexdecode/), and [crypto.Hash](https://gohugo.io/functions/crypto/hash/).\n* This release also fixes a performance regression introduced in Hugo v0.128.0. This should mostly be prominent in bigger sites. See [this discussion](https://discourse.gohugo.io/t/hugo-building-slowly-from-release-0-128-0/57314/20) for some background.  \n\n## Notes\n\n* tpl/resources: Deprecate resources.PostProcess in favour of templates.Defer 29ed9325 @bep #15086 \n\n## Changes\n\n* all: Rewrite deprecated constructs in tests 5a5f4a54 @bep \n* tpl/tplimpl: Support sub paths in layouts passed to .Render d83ce27a @bep #15056 \n* Add markup.rst.syntaxHighlight option c6acc246 @bep #5349 \n* tpl/resources: Deprecate resources.PostProcess in favour of templates.Defer 29ed9325 @bep #15086 \n* tpl/collections: Include key in IsSet unsupported-type warning 671897ae @bejaratommy #11794 \n* create: Keep new content placeholders buildable 499794d1 @sjh9714 #15078 \n* hugio: Speedup hasBytesWriter 65c82178 @bep \n* tpl/crypto: Add crypto.Hash dfb35dcd @bep #15072 \n* Add encoding.HexDecode/Encode a5ec5423 @bep #15068 #15060 \n* tpl/tplimpl: Make template name lookup case-insensitive e46d37a9 @jmooring #15057 \n* hugolib: Return error from .Render when template not found fe067352 @jmooring #15052 \n\n## Dependency Updates\n\n* build(deps): bump github.com/JohannesKaufmann/html-to-markdown/v2 921db7b5 @dependabot[bot] \n* build(deps): bump golang.org/x/tools from 0.45.0 to 0.47.0 786ce71e @dependabot[bot] \n* build(deps): bump golang.org/x/image from 0.42.0 to 0.43.0 5ad28461 @dependabot[bot] \n* build(deps): bump golang.org/x/net from 0.55.0 to 0.56.0 36ad9f58 @dependabot[bot] \n* build(deps): bump github.com/pelletier/go-toml/v2 from 2.4.2 to 2.4.3 7c0a0bc9 @dependabot[bot] \n* build(deps): bump github.com/getkin/kin-openapi from 0.139.0 to 0.140.0 a879ebfa @dependabot[bot] \n* build(deps): bump golang.org/x/mod from 0.36.0 to 0.37.0 332d5ec8 @dependabot[bot] \n* build(deps): bump github.com/pelletier/go-toml/v2 from 2.3.1 to 2.4.2 212cc11a @dependabot[bot] \n* deps: Upgrade github.com/evanw/esbuild v0.28.0 => v0.28.1 884439b9 @bep #15033 \n* deps: Add Chroma dark/light mode support 790a8aa4 @bep #15017 \n\n## Documentation\n\n* markup/pandoc: Add citation support 128fb17c @jmooring #15062",
+          "download": "https://gohugo.io/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. This extended version allows native Sass compilation.",
-          "long": "Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account. Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond. Hugo is designed to work well for any kind of website including blogs, tumbles, and docs. NOTE: : This package does not include the deploy feature. If you need this, see the hugo-extended-withdeploy package. NOTE: : This extended version allows native Sass compilation. NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
+          "short": null,
+          "long": null,
           "source": "choco",
           "homepage": "https://gohugo.io/",
-          "lastUpdatedAt": "2026-08-12T19:19:44.521Z"
+          "lastUpdatedAt": "2026-08-13T02:49:19.044Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -988,10 +986,7 @@
           "keywords": [
             "hugo",
             "Hugo",
-            "choco",
-            "blog",
-            "static",
-            "website"
+            "choco"
           ],
           "relatedTools": []
         },
@@ -1000,319 +995,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "0.164.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.163.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.163.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.163.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.163.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.162.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.162.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.161.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.160.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.160.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.159.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.159.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.159.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.158.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.157.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.156.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.155.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.155.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.155.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.155.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.154.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.154.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.154.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.154.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.154.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.154.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.153.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.153.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.153.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.153.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "0.164.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/hugo-extended/0.164.0",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "b2a0N8+GvBY8YZxyf0B+HVqkeepjonz06iO/N3YUJFB3v0pcaV19h+yvrRv4tD0GYd6l1hWFYDrOZqV9gG39EA==",
+            "url": "https://gohugo.io/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -1381,11 +1075,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:44.521Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -1432,7 +1126,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-12T19:19:44.847Z",
+          "scannedAt": "2026-08-13T02:49:19.160Z",
           "errors": []
         },
         "package": {
@@ -1463,7 +1157,7 @@
           "long": "The world’s fastest framework for building websites.",
           "source": "github",
           "homepage": "https://gohugo.io",
-          "lastUpdatedAt": "2026-08-12T19:19:44.847Z"
+          "lastUpdatedAt": "2026-08-13T02:49:19.160Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2756,7 +2450,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-12T19:19:44.847Z",
+          "lastSuccessfulScanAt": "2026-08-13T02:49:19.160Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
