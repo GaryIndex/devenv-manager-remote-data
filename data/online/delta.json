@@ -1,88 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T13:42:12.995Z",
-  "fromGeneratedAt": "2026-08-14T07:49:43.076Z",
-  "toGeneratedAt": "2026-08-14T13:42:12.995Z",
-  "status": "ok",
+  "generatedAt": "2026-08-14T19:13:33.943Z",
+  "fromGeneratedAt": "2026-08-14T13:42:12.995Z",
+  "toGeneratedAt": "2026-08-14T19:13:33.943Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 8,
-    "qualityChanges": 0
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "go",
+      "powershell",
+      "npm",
+      "pnpm",
+      "uv",
       "cloudflared",
-      "postman",
-      "beekeeper_studio",
-      "supabase_cli"
+      "insomnia",
+      "stripe_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "go",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.26.5",
-        "to": "1.26.6"
-      },
-      {
-        "toolId": "cloudflared",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2026.8.1",
-        "to": "2026.8.2"
-      },
-      {
-        "toolId": "cloudflared",
+        "toolId": "powershell",
         "sourceId": "github",
         "manager": "github",
-        "from": "2026.8.1",
-        "to": "2026.8.2"
+        "from": "7.7.0-preview.3",
+        "to": "7.6.5"
       },
       {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.23.5",
-        "to": "12.23.7"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.23.5",
-        "to": "12.23.7"
-      },
-      {
-        "toolId": "beekeeper_studio",
+        "toolId": "npm",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "6.0.0",
-        "to": "6.0.1"
+        "from": "24.19.0",
+        "to": null
       },
       {
-        "toolId": "beekeeper_studio",
+        "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "11.20.0",
+        "to": "11.21.0"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.12.3",
+        "to": "0.12.4"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2026.8.1",
+        "to": "2026.8.2"
+      },
+      {
+        "toolId": "cloudflared",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "6.0.0",
-        "to": "6.0.1"
+        "from": "2026.8.1",
+        "to": "2026.8.2"
       },
       {
-        "toolId": "supabase_cli",
+        "toolId": "insomnia",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.115.0-beta.5",
-        "to": "2.115.0-beta.9"
+        "from": "core@13.1.0",
+        "to": "core@13.2.0-beta.0"
+      },
+      {
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.45.2",
+        "to": "1.50.0"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }
