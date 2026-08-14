@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T19:19:26.480Z",
+  "generatedAt": "2026-08-14T02:45:28.873Z",
   "status": "ok",
   "tool": {
     "id": "uv",
@@ -29,7 +29,7 @@
       "long": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
       "source": "winget",
       "homepage": "https://github.com/astral-sh/uv",
-      "lastUpdatedAt": "2026-08-13T19:18:44.426Z"
+      "lastUpdatedAt": "2026-08-14T02:44:45.872Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-13T19:18:44.426Z",
+          "scannedAt": "2026-08-14T02:44:45.872Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://github.com/astral-sh/uv",
-          "download": "https://github.com/astral-sh/uv/releases/download/0.12.3/uv-x86_64-pc-windows-msvc.zip",
-          "releases": "https://github.com/astral-sh/uv/releases/tag/0.12.3",
+          "download": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-pc-windows-msvc.zip",
+          "releases": "https://github.com/astral-sh/uv/releases/tag/0.12.4",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "An extremely fast Python package and project manager, written in Rust. Designed as a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv workflows, and more.",
           "source": "winget",
           "homepage": "https://github.com/astral-sh/uv",
-          "lastUpdatedAt": "2026-08-13T19:18:44.426Z"
+          "lastUpdatedAt": "2026-08-14T02:44:45.872Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "0.12.3",
+            "version": "0.12.4",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.12.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -427,29 +437,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.11.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.12.3",
+            "version": "0.12.4",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.3/uv-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-pc-windows-msvc.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "b23350c79e8ad0192b8124af13a0f17e8d4e4549524785e1aef389ae5a06990e",
+            "sha256": "4f3b7d63cd81fca0da5a655d973d20affca89ce6e5f9a29fd0183cc4204a7639",
             "sizeBytes": null
           }
         ],
@@ -547,7 +547,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-13T19:18:44.426Z",
+          "lastSuccessfulScanAt": "2026-08-14T02:44:45.872Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -594,7 +594,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-13T19:18:44.791Z",
+          "scannedAt": "2026-08-14T02:44:45.971Z",
           "errors": []
         },
         "package": {
@@ -611,7 +611,7 @@
         },
         "links": {
           "homepage": "https://docs.astral.sh/uv/",
-          "download": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.3.tar.gz",
+          "download": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.4.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -620,7 +620,7 @@
           "long": "Extremely fast Python package installer and resolver, written in Rust",
           "source": "homebrew",
           "homepage": "https://docs.astral.sh/uv/",
-          "lastUpdatedAt": "2026-08-13T19:18:44.791Z"
+          "lastUpdatedAt": "2026-08-14T02:44:45.971Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -641,7 +641,7 @@
         },
         "versions": [
           {
-            "version": "0.12.3",
+            "version": "0.12.4",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -654,14 +654,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.12.3",
+            "version": "0.12.4",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.3.tar.gz",
+            "url": "https://github.com/astral-sh/uv/archive/refs/tags/0.12.4.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "7d95d35a941135b96cc344c63b8da427d456900f58621481b909eac00904db7f",
+            "sha256": "49d16c1451d6930919ab2d11e254e61cca056395e39ba37bb0514fd201f7f366",
             "sizeBytes": null
           }
         ],
@@ -725,7 +725,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-13T19:18:44.791Z",
+          "lastSuccessfulScanAt": "2026-08-14T02:44:45.971Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +771,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-13T19:18:44.830Z",
+          "scannedAt": "2026-08-14T02:44:46.074Z",
           "errors": []
         },
         "package": {
@@ -797,7 +797,7 @@
           "long": "An extremely fast Python package installer and resolver, written in Rust.",
           "source": "scoop",
           "homepage": "https://docs.astral.sh/uv/",
-          "lastUpdatedAt": "2026-08-13T19:18:44.830Z"
+          "lastUpdatedAt": "2026-08-14T02:44:46.074Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -817,7 +817,7 @@
         },
         "versions": [
           {
-            "version": "0.12.3",
+            "version": "0.12.4",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -830,7 +830,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.12.3",
+            "version": "0.12.4",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -901,7 +901,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-13T19:18:44.830Z",
+          "lastSuccessfulScanAt": "2026-08-14T02:44:46.074Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -947,7 +947,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-13T19:18:44.867Z",
+          "scannedAt": "2026-08-14T02:44:46.076Z",
           "errors": []
         },
         "package": {
@@ -975,7 +975,7 @@
           "long": "Dev Ensure the directory name is uv for any command to run",
           "source": "choco",
           "homepage": "https://github.com/astral-sh/uv",
-          "lastUpdatedAt": "2026-08-13T19:18:44.867Z"
+          "lastUpdatedAt": "2026-08-14T02:44:46.076Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1380,7 +1380,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-13T19:18:44.867Z",
+          "lastSuccessfulScanAt": "2026-08-14T02:44:46.076Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1428,7 +1428,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-13T19:18:44.941Z",
+          "scannedAt": "2026-08-14T02:44:46.205Z",
           "errors": []
         },
         "package": {
@@ -1456,7 +1456,7 @@
           "long": "An extremely fast Python package and project manager, written in Rust.",
           "source": "github",
           "homepage": "https://docs.astral.sh/uv",
-          "lastUpdatedAt": "2026-08-13T19:18:44.941Z"
+          "lastUpdatedAt": "2026-08-14T02:44:46.205Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1478,9 +1478,19 @@
         },
         "versions": [
           {
-            "version": "0.12.3",
+            "version": "0.12.4",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-08-13T21:16:08Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/astral-sh/uv/releases/tag/0.12.4"
+          },
+          {
+            "version": "0.12.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-08-07T16:34:42Z",
@@ -1766,19 +1776,513 @@
             "releaseDate": "2026-05-05T06:56:09Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/astral-sh/uv/releases/tag/0.11.9"
-          },
-          {
-            "version": "0.11.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-04-27T13:18:17Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/astral-sh/uv/releases/tag/0.11.8"
           }
         ],
         "downloads": [
+          {
+            "id": "dist-manifest.json",
+            "version": "0.12.4",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/dist-manifest.json",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 49034
+          },
+          {
+            "id": "sha256.sum",
+            "version": "0.12.4",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/sha256.sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1901
+          },
+          {
+            "id": "source.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/source.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 8576005
+          },
+          {
+            "id": "source.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/source.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 81
+          },
+          {
+            "id": "uv-aarch64-apple-darwin.tar.gz",
+            "version": "0.12.4",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 18632192
+          },
+          {
+            "id": "uv-aarch64-apple-darwin.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-aarch64-apple-darwin.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 97
+          },
+          {
+            "id": "uv-aarch64-pc-windows-msvc.zip",
+            "version": "0.12.4",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-aarch64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19077136
+          },
+          {
+            "id": "uv-aarch64-pc-windows-msvc.zip.sha256",
+            "version": "0.12.4",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-aarch64-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 97
+          },
+          {
+            "id": "uv-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21476892
+          },
+          {
+            "id": "uv-aarch64-unknown-linux-gnu.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-aarch64-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 102
+          },
+          {
+            "id": "uv-aarch64-unknown-linux-musl.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-aarch64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21341219
+          },
+          {
+            "id": "uv-aarch64-unknown-linux-musl.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-aarch64-unknown-linux-musl.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 103
+          },
+          {
+            "id": "uv-arm-unknown-linux-musleabihf.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-arm-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22340960
+          },
+          {
+            "id": "uv-arm-unknown-linux-musleabihf.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-arm-unknown-linux-musleabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 105
+          },
+          {
+            "id": "uv-armv7-unknown-linux-gnueabihf.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-armv7-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21863892
+          },
+          {
+            "id": "uv-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 106
+          },
+          {
+            "id": "uv-armv7-unknown-linux-musleabihf.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-armv7-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21788341
+          },
+          {
+            "id": "uv-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-armv7-unknown-linux-musleabihf.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 107
+          },
+          {
+            "id": "uv-i686-pc-windows-msvc.zip",
+            "version": "0.12.4",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 19650315
+          },
+          {
+            "id": "uv-i686-pc-windows-msvc.zip.sha256",
+            "version": "0.12.4",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-i686-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 94
+          },
+          {
+            "id": "uv-i686-unknown-linux-gnu.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22666734
+          },
+          {
+            "id": "uv-i686-unknown-linux-gnu.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-i686-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 99
+          },
+          {
+            "id": "uv-i686-unknown-linux-musl.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-i686-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 21822844
+          },
+          {
+            "id": "uv-i686-unknown-linux-musl.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-i686-unknown-linux-musl.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 100
+          },
+          {
+            "id": "uv-installer.ps1",
+            "version": "0.12.4",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-installer.ps1",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22650
+          },
+          {
+            "id": "uv-installer.sh",
+            "version": "0.12.4",
+            "platform": "unknown",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-installer.sh",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 71225
+          },
+          {
+            "id": "uv-powerpc64le-unknown-linux-gnu.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-powerpc64le-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 23871796
+          },
+          {
+            "id": "uv-powerpc64le-unknown-linux-gnu.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-powerpc64le-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 106
+          },
+          {
+            "id": "uv-riscv64gc-unknown-linux-gnu.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-riscv64gc-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22842430
+          },
+          {
+            "id": "uv-riscv64gc-unknown-linux-gnu.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-riscv64gc-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 104
+          },
+          {
+            "id": "uv-riscv64gc-unknown-linux-musl.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-riscv64gc-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22709556
+          },
+          {
+            "id": "uv-riscv64gc-unknown-linux-musl.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-riscv64gc-unknown-linux-musl.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 105
+          },
+          {
+            "id": "uv-s390x-unknown-linux-gnu.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-s390x-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 23672700
+          },
+          {
+            "id": "uv-s390x-unknown-linux-gnu.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": null,
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-s390x-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 100
+          },
+          {
+            "id": "uv-x86_64-apple-darwin.tar.gz",
+            "version": "0.12.4",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20796751
+          },
+          {
+            "id": "uv-x86_64-apple-darwin.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-apple-darwin.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "uv-x86_64-pc-windows-msvc.zip",
+            "version": "0.12.4",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 20301023
+          },
+          {
+            "id": "uv-x86_64-pc-windows-msvc.zip.sha256",
+            "version": "0.12.4",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-pc-windows-msvc.zip.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 96
+          },
+          {
+            "id": "uv-x86_64-unknown-linux-gnu.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 22913818
+          },
+          {
+            "id": "uv-x86_64-unknown-linux-gnu.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-unknown-linux-gnu.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 101
+          },
+          {
+            "id": "uv-x86_64-unknown-linux-musl.tar.gz",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 23081908
+          },
+          {
+            "id": "uv-x86_64-unknown-linux-musl.tar.gz.sha256",
+            "version": "0.12.4",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.4/uv-x86_64-unknown-linux-musl.tar.gz.sha256",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 102
+          },
           {
             "id": "dist-manifest.json",
             "version": "0.12.3",
@@ -2234,510 +2738,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 96
-          },
-          {
-            "id": "uv-x86_64-unknown-linux-gnu.tar.gz",
-            "version": "0.12.3",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.3/uv-x86_64-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21721441
-          },
-          {
-            "id": "uv-x86_64-unknown-linux-gnu.tar.gz.sha256",
-            "version": "0.12.3",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.3/uv-x86_64-unknown-linux-gnu.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 101
-          },
-          {
-            "id": "uv-x86_64-unknown-linux-musl.tar.gz",
-            "version": "0.12.3",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.3/uv-x86_64-unknown-linux-musl.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21922583
-          },
-          {
-            "id": "uv-x86_64-unknown-linux-musl.tar.gz.sha256",
-            "version": "0.12.3",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.3/uv-x86_64-unknown-linux-musl.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 102
-          },
-          {
-            "id": "dist-manifest.json",
-            "version": "0.12.2",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/dist-manifest.json",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 48156
-          },
-          {
-            "id": "sha256.sum",
-            "version": "0.12.2",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/sha256.sum",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1901
-          },
-          {
-            "id": "source.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/source.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 7251936
-          },
-          {
-            "id": "source.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/source.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 81
-          },
-          {
-            "id": "uv-aarch64-apple-darwin.tar.gz",
-            "version": "0.12.2",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-aarch64-apple-darwin.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17676261
-          },
-          {
-            "id": "uv-aarch64-apple-darwin.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-aarch64-apple-darwin.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 97
-          },
-          {
-            "id": "uv-aarch64-pc-windows-msvc.zip",
-            "version": "0.12.2",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "zip",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-aarch64-pc-windows-msvc.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 17904317
-          },
-          {
-            "id": "uv-aarch64-pc-windows-msvc.zip.sha256",
-            "version": "0.12.2",
-            "platform": "windows",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-aarch64-pc-windows-msvc.zip.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 97
-          },
-          {
-            "id": "uv-aarch64-unknown-linux-gnu.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-aarch64-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20441968
-          },
-          {
-            "id": "uv-aarch64-unknown-linux-gnu.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-aarch64-unknown-linux-gnu.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 102
-          },
-          {
-            "id": "uv-aarch64-unknown-linux-musl.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-aarch64-unknown-linux-musl.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20293917
-          },
-          {
-            "id": "uv-aarch64-unknown-linux-musl.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-aarch64-unknown-linux-musl.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 103
-          },
-          {
-            "id": "uv-arm-unknown-linux-musleabihf.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-arm-unknown-linux-musleabihf.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20986871
-          },
-          {
-            "id": "uv-arm-unknown-linux-musleabihf.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-arm-unknown-linux-musleabihf.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 105
-          },
-          {
-            "id": "uv-armv7-unknown-linux-gnueabihf.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-armv7-unknown-linux-gnueabihf.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20578432
-          },
-          {
-            "id": "uv-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-armv7-unknown-linux-gnueabihf.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 106
-          },
-          {
-            "id": "uv-armv7-unknown-linux-musleabihf.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-armv7-unknown-linux-musleabihf.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20518098
-          },
-          {
-            "id": "uv-armv7-unknown-linux-musleabihf.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-armv7-unknown-linux-musleabihf.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 107
-          },
-          {
-            "id": "uv-i686-pc-windows-msvc.zip",
-            "version": "0.12.2",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "zip",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-i686-pc-windows-msvc.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 18374038
-          },
-          {
-            "id": "uv-i686-pc-windows-msvc.zip.sha256",
-            "version": "0.12.2",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-i686-pc-windows-msvc.zip.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 94
-          },
-          {
-            "id": "uv-i686-unknown-linux-gnu.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": "x86",
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-i686-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21356706
-          },
-          {
-            "id": "uv-i686-unknown-linux-gnu.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": "x86",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-i686-unknown-linux-gnu.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 99
-          },
-          {
-            "id": "uv-i686-unknown-linux-musl.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": "x86",
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-i686-unknown-linux-musl.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 20575396
-          },
-          {
-            "id": "uv-i686-unknown-linux-musl.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": "x86",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-i686-unknown-linux-musl.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 100
-          },
-          {
-            "id": "uv-installer.ps1",
-            "version": "0.12.2",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-installer.ps1",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 22650
-          },
-          {
-            "id": "uv-installer.sh",
-            "version": "0.12.2",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-installer.sh",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 71225
-          },
-          {
-            "id": "uv-powerpc64le-unknown-linux-gnu.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-powerpc64le-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 22597957
-          },
-          {
-            "id": "uv-powerpc64le-unknown-linux-gnu.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-powerpc64le-unknown-linux-gnu.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 106
-          },
-          {
-            "id": "uv-riscv64gc-unknown-linux-gnu.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-riscv64gc-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21499014
-          },
-          {
-            "id": "uv-riscv64gc-unknown-linux-gnu.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-riscv64gc-unknown-linux-gnu.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 104
-          },
-          {
-            "id": "uv-riscv64gc-unknown-linux-musl.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-riscv64gc-unknown-linux-musl.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 21355653
-          },
-          {
-            "id": "uv-riscv64gc-unknown-linux-musl.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-riscv64gc-unknown-linux-musl.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 105
-          },
-          {
-            "id": "uv-s390x-unknown-linux-gnu.tar.gz",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-s390x-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 22355430
-          },
-          {
-            "id": "uv-s390x-unknown-linux-gnu.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "linux",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-s390x-unknown-linux-gnu.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 100
-          },
-          {
-            "id": "uv-x86_64-apple-darwin.tar.gz",
-            "version": "0.12.2",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-x86_64-apple-darwin.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 19517927
-          },
-          {
-            "id": "uv-x86_64-apple-darwin.tar.gz.sha256",
-            "version": "0.12.2",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-x86_64-apple-darwin.tar.gz.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 96
-          },
-          {
-            "id": "uv-x86_64-pc-windows-msvc.zip",
-            "version": "0.12.2",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-x86_64-pc-windows-msvc.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 18977266
-          },
-          {
-            "id": "uv-x86_64-pc-windows-msvc.zip.sha256",
-            "version": "0.12.2",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/astral-sh/uv/releases/download/0.12.2/uv-x86_64-pc-windows-msvc.zip.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 96
           }
         ],
         "commands": [],
@@ -2745,7 +2745,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-13T19:18:44.941Z",
+          "lastSuccessfulScanAt": "2026-08-14T02:44:46.205Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

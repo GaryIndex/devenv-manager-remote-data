@@ -1,115 +1,170 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T19:19:26.480Z",
-  "fromGeneratedAt": "2026-08-13T13:46:38.730Z",
-  "toGeneratedAt": "2026-08-13T19:19:26.480Z",
+  "generatedAt": "2026-08-14T02:45:28.873Z",
+  "fromGeneratedAt": "2026-08-13T19:19:26.480Z",
+  "toGeneratedAt": "2026-08-14T02:45:28.873Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 12,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 12,
+    "versionChanges": 19,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "oh_my_posh",
+      "uv",
+      "pipx",
+      "go",
+      "visual_studio_community",
+      "podman",
       "helm",
       "pulumi",
       "aws_cli",
       "cloudflared",
-      "postman",
-      "rstudio"
+      "stripe_cli",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "helm",
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "30.6.4",
+        "to": "30.6.5"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.12.3",
+        "to": "0.12.4"
+      },
+      {
+        "toolId": "uv",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "4.2.3",
-        "to": "4.2.4"
+        "from": "0.12.3",
+        "to": "0.12.4"
       },
       {
-        "toolId": "helm",
+        "toolId": "uv",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "4.2.3",
-        "to": "4.2.4"
+        "from": "0.12.3",
+        "to": "0.12.4"
       },
       {
-        "toolId": "helm",
+        "toolId": "uv",
         "sourceId": "github",
         "manager": "github",
-        "from": "4.2.3",
-        "to": "4.2.4"
+        "from": "0.12.3",
+        "to": "0.12.4"
       },
       {
-        "toolId": "pulumi",
+        "toolId": "pipx",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.16.6",
+        "to": "1.16.7"
+      },
+      {
+        "toolId": "go",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.256.0",
-        "to": "3.257.0"
+        "from": "1.26.5",
+        "to": "1.26.6"
       },
       {
-        "toolId": "pulumi",
+        "toolId": "go",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.256.0",
-        "to": "3.257.0"
+        "from": "1.26.5",
+        "to": "1.26.6"
+      },
+      {
+        "toolId": "visual_studio_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.37",
+        "to": "17.14.38"
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "6.1.0",
+        "to": "5.8.6"
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.2.3",
+        "to": "4.2.4"
       },
       {
         "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "3.256.0",
         "to": "3.257.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.20",
-        "to": "2.36.22"
-      },
-      {
-        "toolId": "cloudflared",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2026.8.0",
-        "to": "2026.8.1"
+        "from": "2.36.22",
+        "to": "2.36.23"
       },
       {
-        "toolId": "cloudflared",
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
+        "from": "2.36.22",
+        "to": "2.36.23"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2026.8.0",
         "to": "2026.8.1"
       },
       {
-        "toolId": "cloudflared",
+        "toolId": "stripe_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.45.2",
+        "to": "1.50.0"
+      },
+      {
+        "toolId": "stripe_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2026.8.0",
-        "to": "2026.8.1"
+        "from": "1.45.2",
+        "to": "1.50.0"
       },
       {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.23.2",
-        "to": "12.23.5"
-      },
-      {
-        "toolId": "rstudio",
+        "toolId": "supabase_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "2026.07.1,147",
-        "to": "2026.08.0,187"
+        "from": "2.113.0",
+        "to": "2.114.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.115.0-beta.3",
+        "to": "2.115.0-beta.5"
       }
     ],
     "qualityChanges": []
