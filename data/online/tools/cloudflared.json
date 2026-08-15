@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T12:58:56.083Z",
-  "status": "ok",
+  "generatedAt": "2026-08-15T18:47:02.772Z",
+  "status": "partial",
   "tool": {
     "id": "cloudflared",
     "name": "cloudflared",
@@ -29,7 +29,7 @@
       "long": "You can connect applications, servers, and other resources to Cloudflare's network using Cloudflare Tunnel. When connected, Cloudflare can apply Zero Trust policies to determine who can reach the resource. When Cloudflare receives a request for your chosen hostname, it proxies the request through those connections to cloudflared. In turn, cloudflared proxies the request to your applications. This package is particularly suited to installing the CLI executable for use tunnelling to infrastructure using Cloudflare Access as it contains only the standalone binary, and does not configure or create services. Please see Useful commands for usage examples.",
       "source": "choco",
       "homepage": "https://www.cloudflare.com/en-gb/products/tunnel/",
-      "lastUpdatedAt": "2026-08-15T12:58:29.043Z"
+      "lastUpdatedAt": "2026-08-15T18:46:48.220Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,9 +96,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-15T12:58:28.922Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-15T18:46:48.106Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "cloudflared",
@@ -120,7 +122,7 @@
           "long": "Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address. With Tunnel, you do not send traffic to an external IP — instead, a lightweight daemon in your infrastructure (cloudflared) creates outbound-only connections to Cloudflare's global network. Cloudflare Tunnel can connect HTTP web servers, SSH servers, remote desktops, and other protocols safely to Cloudflare. This way, your origins can serve traffic through Cloudflare without being vulnerable to attacks that bypass Cloudflare.",
           "source": "winget",
           "homepage": "https://try.cloudflare.com/",
-          "lastUpdatedAt": "2026-08-15T12:58:28.922Z"
+          "lastUpdatedAt": "2026-08-15T18:46:48.106Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,312 +139,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2026.8.2",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.8.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.8.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.7.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.7.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.7.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.7.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.5.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.5.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2026.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.8.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.8.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.7.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.4.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.2.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2025.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.12.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.12.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.11.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2024.9.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2026.8.2",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "wix",
@@ -544,11 +245,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:28.922Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -594,7 +295,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:28.946Z",
+          "scannedAt": "2026-08-15T18:46:48.164Z",
           "errors": []
         },
         "package": {
@@ -620,7 +321,7 @@
           "long": "Cloudflare Tunnel client (formerly Argo Tunnel)",
           "source": "homebrew",
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "lastUpdatedAt": "2026-08-15T12:58:28.946Z"
+          "lastUpdatedAt": "2026-08-15T18:46:48.164Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -725,7 +426,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:28.946Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:48.164Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -771,7 +472,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:28.983Z",
+          "scannedAt": "2026-08-15T18:46:48.219Z",
           "errors": []
         },
         "package": {
@@ -797,7 +498,7 @@
           "long": "Command-line client to interact with Cloudflare Tunnel, Cloudflare Access, start up a DNS over HTTPS resolver and more.",
           "source": "scoop",
           "homepage": "https://github.com/cloudflare/cloudflared",
-          "lastUpdatedAt": "2026-08-15T12:58:28.983Z"
+          "lastUpdatedAt": "2026-08-15T18:46:48.219Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -901,7 +602,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:28.983Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:48.219Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -947,7 +648,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:29.043Z",
+          "scannedAt": "2026-08-15T18:46:48.220Z",
           "errors": []
         },
         "package": {
@@ -975,7 +676,7 @@
           "long": "You can connect applications, servers, and other resources to Cloudflare's network using Cloudflare Tunnel. When connected, Cloudflare can apply Zero Trust policies to determine who can reach the resource. When Cloudflare receives a request for your chosen hostname, it proxies the request through those connections to cloudflared. In turn, cloudflared proxies the request to your applications. This package is particularly suited to installing the CLI executable for use tunnelling to infrastructure using Cloudflare Access as it contains only the standalone binary, and does not configure or create services. Please see Useful commands for usage examples.",
           "source": "choco",
           "homepage": "https://www.cloudflare.com/en-gb/products/tunnel/",
-          "lastUpdatedAt": "2026-08-15T12:58:29.043Z"
+          "lastUpdatedAt": "2026-08-15T18:46:48.220Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1379,7 +1080,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:29.043Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:48.220Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1427,7 +1128,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:29.069Z",
+          "scannedAt": "2026-08-15T18:46:48.307Z",
           "errors": []
         },
         "package": {
@@ -1455,7 +1156,7 @@
           "long": "Cloudflare Tunnel client",
           "source": "github",
           "homepage": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/",
-          "lastUpdatedAt": "2026-08-15T12:58:29.069Z"
+          "lastUpdatedAt": "2026-08-15T18:46:48.307Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2745,7 +2446,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:29.069Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:48.307Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

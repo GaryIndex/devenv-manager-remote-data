@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T12:58:56.083Z",
-  "status": "ok",
+  "generatedAt": "2026-08-15T18:47:02.772Z",
+  "status": "partial",
   "tool": {
     "id": "llvm",
     "name": "LLVM",
@@ -29,7 +29,7 @@
       "long": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. This package installs all Windows tools, which includes but is not limited to: - clang - clang-cl - clangd - clang++ - clang-format - lld - llvm-objdump",
       "source": "choco",
       "homepage": "http://llvm.org/",
-      "lastUpdatedAt": "2026-08-15T12:58:18.800Z"
+      "lastUpdatedAt": "2026-08-15T18:46:41.314Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:18.542Z",
+          "scannedAt": "2026-08-15T18:46:40.992Z",
           "errors": []
         },
         "package": {
@@ -121,7 +121,7 @@
           "long": "A collection of modular and reusable compiler and toolchain technologies.",
           "source": "winget",
           "homepage": "https://llvm.org/",
-          "lastUpdatedAt": "2026-08-15T12:58:18.542Z"
+          "lastUpdatedAt": "2026-08-15T18:46:40.992Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:18.542Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:40.992Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -596,34 +596,34 @@
         "official": true,
         "priority": 20,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-15T12:58:18.674Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-15T18:46:41.267Z",
+          "errors": [
+            "details: formula: 503 Service Unavailable: \n<!DOCTYPE html>\n<!--\n\nHello future GitHubber! I bet you're here to remove those nasty inline styles,\nDRY up these templates and make 'em nice and re-usable, right?\n\nPlease, don't. https://github.com/styleguide/templates",
+            "versions: formula: 503 Service Unavailable: \n<!DOCTYPE html>\n<!--\n\nHello future GitHubber! I bet you're here to remove those nasty inline styles,\nDRY up these templates and make 'em nice and re-usable, right?\n\nPlease, don't. https://github.com/styleguide/templates"
+          ]
         },
         "package": {
-          "name": "llvm",
-          "publisher": "homebrew/core",
-          "author": "homebrew/core",
-          "description": "Next-gen compiler infrastructure",
-          "license": "Apache-2.0 WITH LLVM-exception",
+          "name": "LLVM",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
           "licenseUrl": null,
-          "tags": [
-            "formula",
-            "homebrew/core"
-          ]
+          "tags": []
         },
         "links": {
           "homepage": "https://llvm.org/",
-          "download": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/llvm-project-22.1.8.src.tar.xz",
+          "download": "https://llvm.org/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Next-gen compiler infrastructure",
-          "long": "Next-gen compiler infrastructure",
+          "short": null,
+          "long": null,
           "source": "homebrew",
           "homepage": "https://llvm.org/",
-          "lastUpdatedAt": "2026-08-15T12:58:18.674Z"
+          "lastUpdatedAt": "2026-08-15T18:46:41.267Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -633,9 +633,7 @@
             "llvm",
             "LLVM",
             "clang",
-            "homebrew",
-            "formula",
-            "homebrew/core"
+            "homebrew"
           ],
           "relatedTools": []
         },
@@ -644,109 +642,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "22.1.8",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "llvm@21",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "llvm@20",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "llvm@19",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "llvm@18",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "llvm@17",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "llvm@16",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "llvm@15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "llvm@14",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "22.1.8",
+            "version": null,
             "platform": "macos",
             "architecture": null,
-            "type": "formula",
-            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/llvm-project-22.1.8.src.tar.xz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "922f1817a0df7b1489272d18134ee0087a8b068828f87ac63b9861b1a9965888",
+            "type": "homebrew-package",
+            "url": "https://llvm.org/",
+            "urlType": "package-manager",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -807,11 +714,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:18.674Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -856,7 +763,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:18.718Z",
+          "scannedAt": "2026-08-15T18:46:41.301Z",
           "errors": []
         },
         "package": {
@@ -882,7 +789,7 @@
           "long": "Collection of modular and reusable compiler and toolchain technologies.",
           "source": "scoop",
           "homepage": "https://www.llvm.org",
-          "lastUpdatedAt": "2026-08-15T12:58:18.718Z"
+          "lastUpdatedAt": "2026-08-15T18:46:41.301Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -988,7 +895,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:18.718Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:41.301Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1034,7 +941,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:18.800Z",
+          "scannedAt": "2026-08-15T18:46:41.314Z",
           "errors": []
         },
         "package": {
@@ -1064,7 +971,7 @@
           "long": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. This package installs all Windows tools, which includes but is not limited to: - clang - clang-cl - clangd - clang++ - clang-format - lld - llvm-objdump",
           "source": "choco",
           "homepage": "http://llvm.org/",
-          "lastUpdatedAt": "2026-08-15T12:58:18.800Z"
+          "lastUpdatedAt": "2026-08-15T18:46:41.314Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1471,7 +1378,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:18.800Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:41.314Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

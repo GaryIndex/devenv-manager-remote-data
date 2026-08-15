@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T12:58:56.083Z",
-  "status": "ok",
+  "generatedAt": "2026-08-15T18:47:02.772Z",
+  "status": "partial",
   "tool": {
     "id": "beekeeper_studio",
     "name": "Beekeeper Studio",
@@ -29,7 +29,7 @@
       "long": "Beekeeper Studio is a free and open source SQL editor and database manager. Features Autocomplete SQL query editor with syntax highlighting Tabbed interface, so you can multitask Sort and filter table data to find just what you need Sensible keyboard-shortcuts Save queries for later Query run-history, so you can find that one query you got working 3 days ago Default dark theme !screenshot Notes This package is automatically updated using the Chocolatey Automatic Package Update Model (AU). If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://www.beekeeperstudio.io/",
-      "lastUpdatedAt": "2026-08-15T12:58:36.920Z"
+      "lastUpdatedAt": "2026-08-15T18:46:53.008Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -84,7 +84,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:36.283Z",
+          "scannedAt": "2026-08-15T18:46:52.792Z",
           "errors": []
         },
         "package": {
@@ -107,7 +107,7 @@
           "long": "Beekeeper Studio is a database manager and SQL GUI. It is a desktop app that is easy to use. It's a visual alternative to command line tools like psql or mysql, while also providing a bunch of useful extra features.",
           "source": "winget",
           "homepage": "https://www.beekeeperstudio.io/",
-          "lastUpdatedAt": "2026-08-15T12:58:36.283Z"
+          "lastUpdatedAt": "2026-08-15T18:46:52.792Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -535,7 +535,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:36.283Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:52.792Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -568,7 +568,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:36.881Z",
+          "scannedAt": "2026-08-15T18:46:52.914Z",
           "errors": []
         },
         "package": {
@@ -594,7 +594,7 @@
           "long": "Cross platform SQL editor and database management app",
           "source": "homebrew",
           "homepage": "https://www.beekeeperstudio.io/",
-          "lastUpdatedAt": "2026-08-15T12:58:36.881Z"
+          "lastUpdatedAt": "2026-08-15T18:46:52.914Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -700,7 +700,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:36.881Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:52.914Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -733,7 +733,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:36.920Z",
+          "scannedAt": "2026-08-15T18:46:53.008Z",
           "errors": []
         },
         "package": {
@@ -756,8 +756,8 @@
         },
         "links": {
           "homepage": "https://www.beekeeperstudio.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/beekeeper-studio/6.0.0",
-          "releases": "https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v6.0.0",
+          "download": "https://community.chocolatey.org/api/v2/package/beekeeper-studio/6.0.1",
+          "releases": "https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v6.0.1",
           "docs": null
         },
         "descriptions": {
@@ -765,7 +765,7 @@
           "long": "Beekeeper Studio is a free and open source SQL editor and database manager. Features Autocomplete SQL query editor with syntax highlighting Tabbed interface, so you can multitask Sort and filter table data to find just what you need Sensible keyboard-shortcuts Save queries for later Query run-history, so you can find that one query you got working 3 days ago Default dark theme !screenshot Notes This package is automatically updated using the Chocolatey Automatic Package Update Model (AU). If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://www.beekeeperstudio.io/",
-          "lastUpdatedAt": "2026-08-15T12:58:36.920Z"
+          "lastUpdatedAt": "2026-08-15T18:46:53.008Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -793,9 +793,19 @@
         },
         "versions": [
           {
-            "version": "6.0.0",
+            "version": "6.0.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "6.0.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1081,29 +1091,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.6.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "6.0.0",
+            "version": "6.0.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/beekeeper-studio/6.0.0",
+            "url": "https://community.chocolatey.org/api/v2/package/beekeeper-studio/6.0.1",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "x2URNEqLU8gRGkb8Xf5O1f8VPETqWLTY3QI+6MIdIZYaCl4dKygLdp65tg/DjcudhlKNv1ja1mTJyseeSkucAQ==",
+            "sha256": "1nQOYa32s1CDvdEvJZybxpOJ8/sNnYuBG0zsrtVnf/I7bt4s1Zdlr/Yb74lrm8rdXfRc26uhv9+MqB/3lWZ9bg==",
             "sizeBytes": null
           }
         ],
@@ -1175,7 +1175,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:36.920Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:53.008Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1210,7 +1210,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-15T12:58:37.120Z",
+          "scannedAt": "2026-08-15T18:46:53.089Z",
           "errors": []
         },
         "package": {
@@ -1250,7 +1250,7 @@
           "long": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
           "source": "github",
           "homepage": "https://www.beekeeperstudio.io",
-          "lastUpdatedAt": "2026-08-15T12:58:37.120Z"
+          "lastUpdatedAt": "2026-08-15T18:46:53.089Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2553,7 +2553,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-15T12:58:37.120Z",
+          "lastSuccessfulScanAt": "2026-08-15T18:46:53.089Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
