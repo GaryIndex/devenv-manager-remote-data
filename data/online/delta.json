@@ -1,82 +1,95 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T18:47:02.772Z",
-  "fromGeneratedAt": "2026-08-15T12:58:56.083Z",
-  "toGeneratedAt": "2026-08-15T18:47:02.772Z",
-  "status": "partial",
+  "generatedAt": "2026-08-16T01:57:07.843Z",
+  "fromGeneratedAt": "2026-08-15T18:47:02.772Z",
+  "toGeneratedAt": "2026-08-16T01:57:07.843Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 8,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 9,
     "qualityChanges": 3
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "uv",
+      "pnpm",
       "llvm",
       "vagrant",
-      "aws_cli",
+      "ansible",
       "cloudflared",
-      "beekeeper_studio",
-      "stripe_cli"
+      "julia",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.933",
-        "to": "9.2.957"
+        "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "11.21.0",
+        "to": "11.22.0"
       },
       {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.12.4",
-        "to": "0.12.5"
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "11.21.0",
+        "to": "11.22.0"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "11.21.0",
+        "to": "11.22.0"
       },
       {
         "toolId": "llvm",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "22.1.8",
-        "to": null
+        "from": null,
+        "to": "22.1.8"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.23",
-        "to": "2.36.24"
+        "toolId": "ansible",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "14.3.0",
+        "to": "14.3.1"
       },
       {
         "toolId": "cloudflared",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "2026.8.2",
-        "to": null
+        "from": null,
+        "to": "2026.8.2"
       },
       {
-        "toolId": "beekeeper_studio",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "6.0.0",
-        "to": "6.0.1"
+        "toolId": "julia",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.12.6",
+        "to": "1.12.7"
       },
       {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.50.0",
-        "to": "1.50.1"
+        "toolId": "julia",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.12.6",
+        "to": "1.12.7"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.115.0-beta.12",
+        "to": "2.115.0-beta.14"
       }
     ],
     "qualityChanges": [
@@ -84,22 +97,22 @@
         "toolId": "llvm",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       },
       {
         "toolId": "vagrant",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       },
       {
         "toolId": "cloudflared",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
