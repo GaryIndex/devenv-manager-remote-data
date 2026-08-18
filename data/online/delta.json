@@ -1,77 +1,71 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T01:50:30.396Z",
-  "fromGeneratedAt": "2026-08-17T18:57:31.734Z",
-  "toGeneratedAt": "2026-08-18T01:50:30.396Z",
+  "generatedAt": "2026-08-18T07:03:36.211Z",
+  "fromGeneratedAt": "2026-08-18T01:50:30.396Z",
+  "toGeneratedAt": "2026-08-18T07:03:36.211Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 6,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "pulumi",
+      "aws_cli",
       "redis",
-      "supabase_cli"
+      "rstudio",
+      "julia"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pulumi",
+        "toolId": "aws_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "3.257.0",
-        "to": "3.258.0"
+        "from": "2.36.21",
+        "to": "2.36.25"
       },
       {
-        "toolId": "pulumi",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.257.0",
-        "to": "3.258.0"
-      },
-      {
-        "toolId": "pulumi",
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.257.0",
-        "to": "3.258.0"
+        "from": "2.36.24",
+        "to": "2.36.25"
       },
       {
-        "toolId": "pulumi",
+        "toolId": "aws_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.257.0",
-        "to": "3.258.0"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "3.257.0",
-        "to": "3.258.0"
+        "from": "2.36.24",
+        "to": "2.36.25"
       },
       {
         "toolId": "redis",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "8.10.0",
         "to": "8.10.1"
       },
       {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.115.0-beta.16",
-        "to": "2.115.0-beta.19"
+        "toolId": "rstudio",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2026.7.1",
+        "to": "2026.8.0"
+      },
+      {
+        "toolId": "julia",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.12.6",
+        "to": "1.12.7"
       }
     ],
     "qualityChanges": []
