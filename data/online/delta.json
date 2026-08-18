@@ -1,41 +1,77 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T18:57:31.734Z",
-  "fromGeneratedAt": "2026-08-17T13:05:13.839Z",
-  "toGeneratedAt": "2026-08-17T18:57:31.734Z",
+  "generatedAt": "2026-08-18T01:50:30.396Z",
+  "fromGeneratedAt": "2026-08-17T18:57:31.734Z",
+  "toGeneratedAt": "2026-08-18T01:50:30.396Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 2,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "docker_desktop",
-      "prisma_cli"
+      "pulumi",
+      "redis",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "docker_desktop",
+        "toolId": "pulumi",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "4.86.0",
-        "to": "4.87.0"
+        "from": "3.257.0",
+        "to": "3.258.0"
       },
       {
-        "toolId": "prisma_cli",
+        "toolId": "pulumi",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.257.0",
+        "to": "3.258.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.257.0",
+        "to": "3.258.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.257.0",
+        "to": "3.258.0"
+      },
+      {
+        "toolId": "pulumi",
         "sourceId": "github",
         "manager": "github",
-        "from": "8.0.0-rc.1",
-        "to": "8.0.0-rc.2"
+        "from": "3.257.0",
+        "to": "3.258.0"
+      },
+      {
+        "toolId": "redis",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "8.10.0",
+        "to": "8.10.1"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.115.0-beta.16",
+        "to": "2.115.0-beta.19"
       }
     ],
     "qualityChanges": []
