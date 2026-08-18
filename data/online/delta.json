@@ -1,73 +1,113 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T07:03:36.211Z",
-  "fromGeneratedAt": "2026-08-18T01:50:30.396Z",
-  "toGeneratedAt": "2026-08-18T07:03:36.211Z",
-  "status": "ok",
+  "generatedAt": "2026-08-18T13:07:56.216Z",
+  "fromGeneratedAt": "2026-08-18T07:03:36.211Z",
+  "toGeneratedAt": "2026-08-18T13:07:56.216Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 8,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
-    "qualityChanges": 0
+    "versionChanges": 9,
+    "qualityChanges": 2
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "pycharm_community",
+      "neovim",
       "aws_cli",
-      "redis",
-      "rstudio",
-      "julia"
+      "postman",
+      "android_studio",
+      "netlify_cli",
+      "supabase_cli",
+      "prisma_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "aws_cli",
+        "toolId": "neovim",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "2.36.21",
-        "to": "2.36.25"
+        "from": "0.12.4",
+        "to": null
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "2.36.24",
-        "to": "2.36.25"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.24",
-        "to": "2.36.25"
-      },
-      {
-        "toolId": "redis",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "8.10.0",
-        "to": "8.10.1"
-      },
-      {
-        "toolId": "rstudio",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2026.7.1",
-        "to": "2026.8.0"
-      },
-      {
-        "toolId": "julia",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.12.6",
-        "to": "1.12.7"
+        "from": "2.36.24",
+        "to": "2.36.25"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.23.8",
+        "to": "12.24.1"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.23.8",
+        "to": "12.24.1"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.23.8",
+        "to": "12.24.1"
+      },
+      {
+        "toolId": "android_studio",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.1.3.8,quail3-patch1,AI-261.26222.65.2613.16025427",
+        "to": "2026.1.3.8,quail3-patch1"
+      },
+      {
+        "toolId": "netlify_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "27.1.1",
+        "to": "27.1.2"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.115.0-beta.19",
+        "to": "2.115.1-beta.1"
+      },
+      {
+        "toolId": "prisma_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "8.0.0-rc.2",
+        "to": "8.0.0-rc.3"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "pycharm_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      },
+      {
+        "toolId": "neovim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }

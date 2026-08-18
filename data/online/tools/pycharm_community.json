@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T07:03:36.211Z",
-  "status": "ok",
+  "generatedAt": "2026-08-18T13:07:56.216Z",
+  "status": "partial",
   "tool": {
     "id": "pycharm_community",
     "name": "PyCharm Community",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "The Python & Django IDE with intelligent code completion, on-the-fly error checking, quick-fixes, and much more...",
-      "long": "The Python & Django IDE with intelligent code completion, on-the-fly error checking, quick-fixes, and much more...",
-      "source": "winget",
+      "short": null,
+      "long": null,
+      "source": "catalog",
       "homepage": "https://www.jetbrains.com/pycharm/",
-      "lastUpdatedAt": "2026-08-18T07:02:48.498Z"
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -78,31 +78,33 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-18T07:02:48.498Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-18T13:07:08.394Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "PyCharm Community",
-          "publisher": "JetBrains s.r.o.",
-          "author": "JetBrains s.r.o.",
-          "description": "The Python & Django IDE with intelligent code completion, on-the-fly error checking, quick-fixes, and much more...",
-          "license": "Apache-2.0",
-          "licenseUrl": "https://github.com/JetBrains/intellij-community/blob/master/LICENSE.txt",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.jetbrains.com/pycharm/",
-          "download": "https://download.jetbrains.com/python/pycharm-community-2025.2.6.1.exe",
-          "releases": "https://youtrack.jetbrains.com/articles/PY-A-233538543/PyCharm-2025.2.6.1-252.28539.58-build-Release-Notes",
+          "download": "https://www.jetbrains.com/pycharm/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "The Python & Django IDE with intelligent code completion, on-the-fly error checking, quick-fixes, and much more...",
-          "long": "The Python & Django IDE with intelligent code completion, on-the-fly error checking, quick-fixes, and much more...",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://www.jetbrains.com/pycharm/",
-          "lastUpdatedAt": "2026-08-18T07:02:48.498Z"
+          "lastUpdatedAt": "2026-08-18T13:07:08.394Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -428,11 +430,11 @@
             "version": "2025.2.6.1",
             "platform": "windows",
             "architecture": null,
-            "type": "nullsoft",
-            "url": "https://download.jetbrains.com/python/pycharm-community-2025.2.6.1.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "cd9baffec7dd2ab33494a6c3b11fc4f14318c3866343064fc625729e35c868da",
+            "type": "package-manager",
+            "url": "https://www.jetbrains.com/pycharm/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -527,11 +529,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-18T07:02:48.498Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
