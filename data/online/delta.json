@@ -1,58 +1,105 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T07:04:50.259Z",
-  "fromGeneratedAt": "2026-08-19T01:53:07.476Z",
-  "toGeneratedAt": "2026-08-19T07:04:50.259Z",
-  "status": "ok",
+  "generatedAt": "2026-08-19T13:08:23.875Z",
+  "fromGeneratedAt": "2026-08-19T07:04:50.259Z",
+  "toGeneratedAt": "2026-08-19T13:08:23.875Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
-    "qualityChanges": 0
+    "versionChanges": 9,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "google_cloud_sdk",
-      "postman"
+      "vscode",
+      "fzf",
+      "terraform",
+      "opentofu",
+      "postman",
+      "supabase_cli",
+      "elixir"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "vscode",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.2.0958",
-        "to": "9.2.0976"
+        "from": "1.133.0",
+        "to": "1.134.0"
       },
       {
-        "toolId": "vim",
+        "toolId": "vscode",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.133.0",
+        "to": "1.134.0"
+      },
+      {
+        "toolId": "fzf",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.958",
-        "to": "9.2.976"
+        "from": "0.74.2",
+        "to": "0.74.3"
       },
       {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "580.0.0",
-        "to": "581.0.0"
+        "toolId": "terraform",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.17.0-alpha20260812",
+        "to": "1.16.0-rc2"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.12.5",
+        "to": "1.12.6"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.12.5",
+        "to": "1.12.6"
       },
       {
         "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.23.8",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.24.1",
         "to": "12.24.2"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.115.1-beta.3",
+        "to": "2.115.1-beta.5"
+      },
+      {
+        "toolId": "elixir",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.20.3",
+        "to": null
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "elixir",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": 100,
+        "to": 40
+      }
+    ]
   }
 }
