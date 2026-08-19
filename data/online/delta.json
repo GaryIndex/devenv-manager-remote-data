@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T13:08:23.875Z",
-  "fromGeneratedAt": "2026-08-19T07:04:50.259Z",
-  "toGeneratedAt": "2026-08-19T13:08:23.875Z",
-  "status": "partial",
+  "generatedAt": "2026-08-19T18:52:54.718Z",
+  "fromGeneratedAt": "2026-08-19T13:08:23.875Z",
+  "toGeneratedAt": "2026-08-19T18:52:54.718Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 7,
+    "changedTools": 11,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 9,
+    "versionChanges": 15,
     "qualityChanges": 1
   },
   "changes": {
@@ -18,78 +18,124 @@
     "removedTools": [],
     "changedTools": [
       "vscode",
-      "fzf",
+      "go",
+      "temurin_21",
+      "gradle",
       "terraform",
       "opentofu",
+      "aws_cli",
       "postman",
       "supabase_cli",
-      "elixir"
+      "elixir",
+      "godot"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vscode",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "1.133.0",
         "to": "1.134.0"
       },
       {
         "toolId": "vscode",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "1.133.0",
         "to": "1.134.0"
       },
       {
-        "toolId": "fzf",
+        "toolId": "go",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.26.6",
+        "to": "1.26.7"
+      },
+      {
+        "toolId": "go",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "0.74.2",
-        "to": "0.74.3"
+        "from": "1.26.6",
+        "to": "1.26.7"
+      },
+      {
+        "toolId": "temurin_21",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "21.0.12,8",
+        "to": "21.0.12.1,1"
+      },
+      {
+        "toolId": "gradle",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.7.0",
+        "to": "9.7.1"
       },
       {
         "toolId": "terraform",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.17.0-alpha20260812",
-        "to": "1.16.0-rc2"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.15.8",
+        "to": "1.15.9"
       },
       {
         "toolId": "opentofu",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.12.5",
+        "to": "1.12.6"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.12.5",
-        "to": "1.12.6"
+        "from": "2.36.25",
+        "to": "2.36.26"
       },
       {
-        "toolId": "opentofu",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.12.5",
-        "to": "1.12.6"
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.36.25",
+        "to": "2.36.26"
       },
       {
         "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "12.24.1",
         "to": "12.24.2"
       },
       {
         "toolId": "supabase_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.114.0",
+        "to": "2.115.0"
+      },
+      {
+        "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.115.1-beta.3",
-        "to": "2.115.1-beta.5"
+        "from": "2.115.1-beta.5",
+        "to": "2.115.1-beta.6"
       },
       {
         "toolId": "elixir",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.20.3",
-        "to": null
+        "from": null,
+        "to": "1.20.3"
+      },
+      {
+        "toolId": "godot",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.8.0-dev1",
+        "to": "4.7.2"
       }
     ],
     "qualityChanges": [
@@ -97,8 +143,8 @@
         "toolId": "elixir",
         "sourceId": "choco",
         "manager": "choco",
-        "from": 100,
-        "to": 40
+        "from": 40,
+        "to": 100
       }
     ]
   }
