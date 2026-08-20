@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T01:52:12.020Z",
+  "generatedAt": "2026-08-20T07:05:52.616Z",
   "status": "partial",
   "tool": {
     "id": "notepad_plus_plus",
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -78,23 +78,25 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-20T01:50:52.719Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-20T07:05:15.187Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "Notepad++",
-          "publisher": "Notepad++ Team",
-          "author": "Don Ho",
+          "publisher": null,
+          "author": null,
           "description": null,
-          "license": "GPL-3.0-or-later",
-          "licenseUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/blob/HEAD/LICENSE",
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://notepad-plus-plus.org/",
-          "download": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.7/npp.8.9.7.Installer.x64.exe",
-          "releases": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/tag/v8.9.7",
+          "download": "https://notepad-plus-plus.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
@@ -102,7 +104,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://notepad-plus-plus.org/",
-          "lastUpdatedAt": "2026-08-20T01:50:52.719Z"
+          "lastUpdatedAt": "2026-08-20T07:05:15.187Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -248,11 +250,11 @@
             "version": "8.9.7",
             "platform": "windows",
             "architecture": null,
-            "type": "nullsoft",
-            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.7/npp.8.9.7.Installer.x64.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "1884e093bae261c4942210334e1f2eae71354913e4ded3cc1a4a18c5320741ec",
+            "type": "package-manager",
+            "url": "https://notepad-plus-plus.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -347,11 +349,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-20T01:50:52.719Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
