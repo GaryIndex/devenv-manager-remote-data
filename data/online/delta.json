@@ -1,91 +1,80 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T07:05:52.616Z",
-  "fromGeneratedAt": "2026-08-20T01:52:12.020Z",
-  "toGeneratedAt": "2026-08-20T07:05:52.616Z",
-  "status": "partial",
+  "generatedAt": "2026-08-20T13:10:59.664Z",
+  "fromGeneratedAt": "2026-08-20T07:05:52.616Z",
+  "toGeneratedAt": "2026-08-20T13:10:59.664Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
-    "qualityChanges": 5
+    "versionChanges": 7,
+    "qualityChanges": 3
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
       "notepad_plus_plus",
-      "vim",
-      "powershell",
-      "starship",
       "pnpm",
       "visual_studio_community",
-      "terraform",
-      "aws_cli",
-      "flutter",
-      "stripe_cli"
+      "pulumi",
+      "postman",
+      "beekeeper_studio"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "pulumi",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.258.0",
+        "to": "3.259.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "3.258.0",
+        "to": "3.259.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.24.2",
+        "to": "12.24.4"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.24.2",
+        "to": "12.24.4"
+      },
+      {
+        "toolId": "postman",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.2.0976",
-        "to": "9.2.0984"
+        "from": "12.24.2",
+        "to": "12.24.4"
       },
       {
-        "toolId": "vim",
+        "toolId": "postman",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "9.2.976",
-        "to": "9.2.984"
+        "from": "12.24.1",
+        "to": "12.24.4"
       },
       {
-        "toolId": "powershell",
+        "toolId": "beekeeper_studio",
         "sourceId": "choco",
         "manager": "choco",
-        "from": null,
-        "to": "7.6.4"
-      },
-      {
-        "toolId": "starship",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": null,
-        "to": "1.26.0"
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.17.0-alpha20260812",
-        "to": "1.15.9"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.25",
-        "to": "2.36.27"
-      },
-      {
-        "toolId": "flutter",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "3.47.0",
-        "to": "3.47.1"
-      },
-      {
-        "toolId": "stripe_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.50.1",
-        "to": "1.50.3"
+        "from": "6.0.1",
+        "to": "6.0.4"
       }
     ],
     "qualityChanges": [
@@ -93,36 +82,22 @@
         "toolId": "notepad_plus_plus",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
-        "to": 100
-      },
-      {
-        "toolId": "starship",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": 40,
+        "from": 65,
         "to": 100
       },
       {
         "toolId": "pnpm",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       },
       {
         "toolId": "visual_studio_community",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }
