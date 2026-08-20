@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T13:10:59.664Z",
-  "fromGeneratedAt": "2026-08-20T07:05:52.616Z",
-  "toGeneratedAt": "2026-08-20T13:10:59.664Z",
+  "generatedAt": "2026-08-20T18:58:44.586Z",
+  "fromGeneratedAt": "2026-08-20T13:10:59.664Z",
+  "toGeneratedAt": "2026-08-20T18:58:44.586Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
@@ -10,95 +10,122 @@
     "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
-    "qualityChanges": 3
+    "versionChanges": 14,
+    "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "notepad_plus_plus",
-      "pnpm",
-      "visual_studio_community",
+      "git",
+      "jetbrains_toolbox",
+      "bun",
+      "kubectl",
       "pulumi",
-      "postman",
-      "beekeeper_studio"
+      "bruno"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pulumi",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.258.0",
-        "to": "3.259.0"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.258.0",
-        "to": "3.259.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.24.2",
-        "to": "12.24.4"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.24.2",
-        "to": "12.24.4"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "git",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.24.2",
-        "to": "12.24.4"
+        "from": "2.55.0.4",
+        "to": "2.55.0.5"
       },
       {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.24.1",
-        "to": "12.24.4"
+        "toolId": "jetbrains_toolbox",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.7.0.0",
+        "to": "3.7.1.0"
       },
       {
-        "toolId": "beekeeper_studio",
+        "toolId": "bun",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.3.14",
+        "to": "1.4.0"
+      },
+      {
+        "toolId": "bun",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "bun-v1.3.14",
+        "to": "bun-v1.4.0"
+      },
+      {
+        "toolId": "kubectl",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.36.3",
+        "to": "1.36.4"
+      },
+      {
+        "toolId": "kubectl",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.36.3",
+        "to": "1.36.4"
+      },
+      {
+        "toolId": "kubectl",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.36.3",
+        "to": "1.36.4"
+      },
+      {
+        "toolId": "kubectl",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "6.0.1",
-        "to": "6.0.4"
+        "from": "1.36.3",
+        "to": "1.36.4"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.258.0",
+        "to": "3.259.0"
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.258.0",
+        "to": "3.259.0"
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "4.0.0",
+        "to": "4.1.0"
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "4.0.0",
+        "to": "4.1.0"
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.0.0",
+        "to": "4.1.0"
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "4.0.0",
+        "to": "4.1.0"
       }
     ],
-    "qualityChanges": [
-      {
-        "toolId": "notepad_plus_plus",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "pnpm",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      },
-      {
-        "toolId": "visual_studio_community",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": 65,
-        "to": 100
-      }
-    ]
+    "qualityChanges": []
   }
 }
