@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T18:52:54.718Z",
-  "status": "ok",
+  "generatedAt": "2026-08-20T01:52:12.020Z",
+  "status": "partial",
   "tool": {
     "id": "netlify_cli",
     "name": "Netlify CLI",
@@ -29,7 +29,7 @@
       "long": "Netlify Command Line Interface",
       "source": "github",
       "homepage": "http://cli.netlify.com",
-      "lastUpdatedAt": "2026-08-19T18:52:45.718Z"
+      "lastUpdatedAt": "2026-08-20T01:52:03.795Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-19T18:52:45.718Z",
+          "scannedAt": "2026-08-20T01:52:03.795Z",
           "errors": []
         },
         "package": {
@@ -123,7 +123,7 @@
           "long": "Netlify Command Line Interface",
           "source": "github",
           "homepage": "http://cli.netlify.com",
-          "lastUpdatedAt": "2026-08-19T18:52:45.718Z"
+          "lastUpdatedAt": "2026-08-20T01:52:03.795Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -145,9 +145,19 @@
         },
         "versions": [
           {
-            "version": "27.1.3",
+            "version": "27.2.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-08-19T19:18:32Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v27.2.0"
+          },
+          {
+            "version": "27.1.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-08-18T18:55:40Z",
@@ -433,16 +443,6 @@
             "releaseDate": "2026-04-06T10:40:48Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.10.0"
-          },
-          {
-            "version": "24.9.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2026-03-31T21:19:40Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/netlify/cli/releases/tag/v24.9.0"
           }
         ],
         "downloads": [],
@@ -451,7 +451,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-19T18:52:45.718Z",
+          "lastSuccessfulScanAt": "2026-08-20T01:52:03.795Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

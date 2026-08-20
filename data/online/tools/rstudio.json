@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T18:52:54.718Z",
-  "status": "ok",
+  "generatedAt": "2026-08-20T01:52:12.020Z",
+  "status": "partial",
   "tool": {
     "id": "rstudio",
     "name": "RStudio Desktop",
@@ -28,7 +28,7 @@
       "long": "RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
       "source": "winget",
       "homepage": "https://posit.co/products/open-source/rstudio/",
-      "lastUpdatedAt": "2026-08-19T18:52:43.344Z"
+      "lastUpdatedAt": "2026-08-20T01:52:00.909Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -82,7 +82,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-19T18:52:43.344Z",
+          "scannedAt": "2026-08-20T01:52:00.909Z",
           "errors": []
         },
         "package": {
@@ -105,7 +105,7 @@
           "long": "RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
           "source": "winget",
           "homepage": "https://posit.co/products/open-source/rstudio/",
-          "lastUpdatedAt": "2026-08-19T18:52:43.344Z"
+          "lastUpdatedAt": "2026-08-20T01:52:00.909Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -533,7 +533,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-19T18:52:43.344Z",
+          "lastSuccessfulScanAt": "2026-08-20T01:52:00.909Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -566,7 +566,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-19T18:52:43.693Z",
+          "scannedAt": "2026-08-20T01:52:01.130Z",
           "errors": []
         },
         "package": {
@@ -592,7 +592,7 @@
           "long": "Data science software focusing on R and Python",
           "source": "homebrew",
           "homepage": "https://posit.co/products/open-source/rstudio/",
-          "lastUpdatedAt": "2026-08-19T18:52:43.693Z"
+          "lastUpdatedAt": "2026-08-20T01:52:01.130Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -698,7 +698,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-19T18:52:43.693Z",
+          "lastSuccessfulScanAt": "2026-08-20T01:52:01.130Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -731,7 +731,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-19T18:52:43.785Z",
+          "scannedAt": "2026-08-20T01:52:01.230Z",
           "errors": []
         },
         "package": {
@@ -753,8 +753,8 @@
         },
         "links": {
           "homepage": "https://posit.co/",
-          "download": "https://community.chocolatey.org/api/v2/package/R.Studio/2026.8.0",
-          "releases": "https://docs.posit.co/ide/news/#rstudio-2026.08.0",
+          "download": "https://community.chocolatey.org/api/v2/package/R.Studio/2026.8.1",
+          "releases": "https://docs.posit.co/ide/news/#rstudio-2026.08.1",
           "docs": null
         },
         "descriptions": {
@@ -762,7 +762,7 @@
           "long": "RStudio is an integrated development environment (IDE) for R and Python. It includes a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging, and workspace management.",
           "source": "choco",
           "homepage": "https://posit.co/",
-          "lastUpdatedAt": "2026-08-19T18:52:43.785Z"
+          "lastUpdatedAt": "2026-08-20T01:52:01.230Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -789,9 +789,19 @@
         },
         "versions": [
           {
-            "version": "2026.8.0",
+            "version": "2026.8.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2026.8.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1077,29 +1087,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.99.902",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2026.8.0",
+            "version": "2026.8.1",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/R.Studio/2026.8.0",
+            "url": "https://community.chocolatey.org/api/v2/package/R.Studio/2026.8.1",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "o8Z3fHi7+bA8Q1xyTTqSJnoJgZQuDbNxsidCf6c5MJ6gRZaue0lCNUEqU5Hohgl8rhIBINoxAA+VoR1o89dqvQ==",
+            "sha256": "iNVhOqabiASiMeAw4jJUbD3GFlLyiEfnujFLPMUBWZq6z/cxl6ZvqPTL/ZOo4UlysfgTg6Ypjaap0fUpAl6Mfg==",
             "sizeBytes": null
           }
         ],
@@ -1171,7 +1171,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-19T18:52:43.785Z",
+          "lastSuccessfulScanAt": "2026-08-20T01:52:01.230Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
