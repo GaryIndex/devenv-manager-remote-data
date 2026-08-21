@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T18:58:44.586Z",
-  "fromGeneratedAt": "2026-08-20T13:10:59.664Z",
-  "toGeneratedAt": "2026-08-20T18:58:44.586Z",
+  "generatedAt": "2026-08-21T01:57:21.405Z",
+  "fromGeneratedAt": "2026-08-20T18:58:44.586Z",
+  "toGeneratedAt": "2026-08-21T01:57:21.405Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 10,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 14,
+    "versionChanges": 16,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,112 +18,130 @@
     "removedTools": [],
     "changedTools": [
       "git",
-      "jetbrains_toolbox",
-      "bun",
+      "github_cli",
+      "vim",
       "kubectl",
-      "pulumi",
-      "bruno"
+      "opentofu",
+      "aws_cli",
+      "insomnia",
+      "bruno",
+      "supabase_cli",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "git",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.55.0.4",
         "to": "2.55.0.5"
       },
       {
-        "toolId": "jetbrains_toolbox",
+        "toolId": "github_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "3.7.0.0",
-        "to": "3.7.1.0"
+        "from": "2.97.0",
+        "to": "2.98.0"
       },
       {
-        "toolId": "bun",
+        "toolId": "github_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.97.0",
+        "to": "2.98.0"
+      },
+      {
+        "toolId": "github_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.3.14",
-        "to": "1.4.0"
+        "from": "2.97.0",
+        "to": "2.98.0"
       },
       {
-        "toolId": "bun",
+        "toolId": "github_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.97.0",
+        "to": "2.98.0"
+      },
+      {
+        "toolId": "github_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "bun-v1.3.14",
-        "to": "bun-v1.4.0"
+        "from": "2.97.0",
+        "to": "2.98.0"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.984",
+        "to": "9.2.992"
       },
       {
         "toolId": "kubectl",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.36.4",
+        "to": "1.34.11"
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.12.5",
+        "to": "1.12.6"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "1.36.3",
-        "to": "1.36.4"
+        "from": "2.36.25",
+        "to": "2.36.28"
       },
       {
-        "toolId": "kubectl",
+        "toolId": "aws_cli",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "1.36.3",
-        "to": "1.36.4"
+        "from": "2.36.27",
+        "to": "2.36.28"
       },
       {
-        "toolId": "kubectl",
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.36.3",
-        "to": "1.36.4"
+        "from": "2.36.27",
+        "to": "2.36.28"
       },
       {
-        "toolId": "kubectl",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.36.3",
-        "to": "1.36.4"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "3.258.0",
-        "to": "3.259.0"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.258.0",
-        "to": "3.259.0"
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.0.0",
-        "to": "4.1.0"
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "4.0.0",
-        "to": "4.1.0"
-      },
-      {
-        "toolId": "bruno",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "4.0.0",
-        "to": "4.1.0"
-      },
-      {
-        "toolId": "bruno",
+        "toolId": "insomnia",
         "sourceId": "github",
         "manager": "github",
+        "from": "core@13.2.0-beta.0",
+        "to": "core@13.2.0-beta.1"
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "4.0.0",
         "to": "4.1.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.115.1-beta.6",
+        "to": "2.115.1-beta.10"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.20.1",
+        "to": "3.21.0.65535"
       }
     ],
     "qualityChanges": []
