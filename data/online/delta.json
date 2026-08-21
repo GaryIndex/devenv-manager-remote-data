@@ -1,65 +1,95 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T07:07:38.724Z",
-  "fromGeneratedAt": "2026-08-21T01:57:21.405Z",
-  "toGeneratedAt": "2026-08-21T07:07:38.724Z",
+  "generatedAt": "2026-08-21T13:10:08.284Z",
+  "fromGeneratedAt": "2026-08-21T07:07:38.724Z",
+  "toGeneratedAt": "2026-08-21T13:10:08.284Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 9,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "bun",
-      "go",
+      "jetbrains_toolbox",
+      "rust_msvc",
+      "temurin_21",
       "sbt",
-      "aws_cli"
+      "docker_desktop",
+      "postman",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
+        "toolId": "jetbrains_toolbox",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.7.1.0",
+        "to": "3.7.2.0"
+      },
+      {
+        "toolId": "rust_msvc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.97.1",
+        "to": "1.98.0"
+      },
+      {
+        "toolId": "temurin_21",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "9.2.0984",
-        "to": "9.2.0992"
-      },
-      {
-        "toolId": "bun",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.3.14",
-        "to": "1.4.0"
-      },
-      {
-        "toolId": "go",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.26.7",
-        "to": "1.27.0"
+        "from": "21.0.12-8.0",
+        "to": "21.0.12-101.0"
       },
       {
         "toolId": "sbt",
-        "sourceId": "winget",
-        "manager": "winget",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2.0.6",
         "to": "2.0.7"
       },
       {
-        "toolId": "aws_cli",
+        "toolId": "docker_desktop",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "2.36.27",
-        "to": "2.36.28"
+        "from": "4.86.0",
+        "to": "4.87.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.24.4",
+        "to": "12.24.5"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.24.4",
+        "to": "12.24.5"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.24.4",
+        "to": "12.24.5"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.115.1-beta.10",
+        "to": "2.115.1-beta.11"
       }
     ],
     "qualityChanges": []

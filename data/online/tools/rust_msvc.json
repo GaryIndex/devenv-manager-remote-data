@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T07:07:38.724Z",
+  "generatedAt": "2026-08-21T13:10:08.284Z",
   "status": "ok",
   "tool": {
     "id": "rust_msvc",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "this is the rust-lang built with msvc toolchain",
-      "long": "this is the rust-lang built with msvc toolchain",
+      "short": "The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict. Through balancing powerful technical capacity and a great developer experi...",
+      "long": "The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict. Through balancing powerful technical capacity and a great developer experience, Rust gives you the option to control low-level details (such as memory usage) without all the hassle traditionally associated with such control.",
       "source": "winget",
       "homepage": "https://www.rust-lang.org/",
-      "lastUpdatedAt": "2026-08-21T07:06:55.932Z"
+      "lastUpdatedAt": "2026-08-21T13:09:31.491Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,30 +93,30 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-21T07:06:55.932Z",
+          "scannedAt": "2026-08-21T13:09:31.491Z",
           "errors": []
         },
         "package": {
           "name": "Rust MSVC",
           "publisher": "The Rust Project Developers",
           "author": "The Rust Project Developers",
-          "description": "this is the rust-lang built with msvc toolchain",
-          "license": "Apache 2.0 and MIT",
-          "licenseUrl": "https://raw.githubusercontent.com/rust-lang/rust/master/COPYRIGHT",
+          "description": "The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict. Through balancing powerful technical capacity and a great developer experience, Rust gives you the option to control low-level details (such as memory usage) without all the hassle traditionally associated with such control.",
+          "license": "Apache-2.0 AND MIT",
+          "licenseUrl": "https://github.com/rust-lang/rust/blob/HEAD/COPYRIGHT",
           "tags": []
         },
         "links": {
           "homepage": "https://www.rust-lang.org/",
-          "download": "https://static.rust-lang.org/dist/rust-1.97.1-x86_64-pc-windows-msvc.msi",
-          "releases": "https://github.com/rust-lang/rust/releases/tag/1.97.1",
+          "download": "https://static.rust-lang.org/dist/rust-1.98.0-x86_64-pc-windows-msvc.msi",
+          "releases": "https://github.com/rust-lang/rust/releases/tag/1.98.0",
           "docs": null
         },
         "descriptions": {
-          "short": "this is the rust-lang built with msvc toolchain",
-          "long": "this is the rust-lang built with msvc toolchain",
+          "short": "The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict. Through balancing powerful technical capacity and a great developer experi...",
+          "long": "The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict. Through balancing powerful technical capacity and a great developer experience, Rust gives you the option to control low-level details (such as memory usage) without all the hassle traditionally associated with such control.",
           "source": "winget",
           "homepage": "https://www.rust-lang.org/",
-          "lastUpdatedAt": "2026-08-21T07:06:55.932Z"
+          "lastUpdatedAt": "2026-08-21T13:09:31.491Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,9 +137,19 @@
         },
         "versions": [
           {
-            "version": "1.97.1",
+            "version": "1.98.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.97.1",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -425,29 +435,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.77.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.97.1",
+            "version": "1.98.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://static.rust-lang.org/dist/rust-1.97.1-x86_64-pc-windows-msvc.msi",
+            "url": "https://static.rust-lang.org/dist/rust-1.98.0-x86_64-pc-windows-msvc.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "58ec069612df27fd21c58c3d438258b2161ceedfc343e23387d5a4811c5cd539",
+            "sha256": "190bdf9f2916d1b60f31e18bf7c7fb8c7f5fa6e9788773643dbfc9d5266880c3",
             "sizeBytes": null
           }
         ],
@@ -545,7 +545,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-21T07:06:55.932Z",
+          "lastSuccessfulScanAt": "2026-08-21T13:09:31.491Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
