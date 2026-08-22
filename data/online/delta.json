@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:00:36.819Z",
-  "fromGeneratedAt": "2026-08-22T06:59:04.103Z",
-  "toGeneratedAt": "2026-08-22T13:00:36.819Z",
+  "generatedAt": "2026-08-22T18:48:46.532Z",
+  "fromGeneratedAt": "2026-08-22T13:00:36.819Z",
+  "toGeneratedAt": "2026-08-22T18:48:46.532Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 6,
@@ -17,56 +17,55 @@
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "bun",
-      "aws_cli",
+      "vim",
       "postman",
       "mariadb",
-      "prisma_cli"
+      "godot"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "bun",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.3.14",
-        "to": "1.4.0"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.28",
-        "to": "2.36.29"
+        "toolId": "vim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.2.0927",
+        "to": "9.2.0933"
       },
       {
         "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.24.4",
-        "to": "12.24.5"
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.24.5",
+        "to": "12.24.6"
       },
       {
-        "toolId": "mariadb",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.3.2",
-        "to": "12.3.3"
-      },
-      {
-        "toolId": "mariadb",
+        "toolId": "postman",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.3.2",
-        "to": "12.3.3"
+        "from": "12.24.5",
+        "to": "12.24.6"
       },
       {
-        "toolId": "prisma_cli",
+        "toolId": "mariadb",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.3.2.0",
+        "to": "12.3.3.0"
+      },
+      {
+        "toolId": "mariadb",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "10.6.28",
+        "to": "10.11.19"
+      },
+      {
+        "toolId": "godot",
         "sourceId": "github",
         "manager": "github",
-        "from": "8.0.0-rc.4",
-        "to": "8.0.0-rc.5"
+        "from": "4.7.2-stable",
+        "to": "3.6.3-stable"
       }
     ],
     "qualityChanges": []
