@@ -1,33 +1,41 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T13:01:30.283Z",
-  "fromGeneratedAt": "2026-08-23T07:01:01.768Z",
-  "toGeneratedAt": "2026-08-23T13:01:30.283Z",
+  "generatedAt": "2026-08-23T18:48:21.732Z",
+  "fromGeneratedAt": "2026-08-23T13:01:30.283Z",
+  "toGeneratedAt": "2026-08-23T18:48:21.732Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 2,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 1,
+    "versionChanges": 2,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "postman"
+      "neovim",
+      "pnpm"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.24.5",
-        "to": "12.24.6"
+        "toolId": "neovim",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "nightly",
+        "to": "0.12.5"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "11.22.0",
+        "to": "11.23.0"
       }
     ],
     "qualityChanges": []
