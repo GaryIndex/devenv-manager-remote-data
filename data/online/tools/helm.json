@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "helm",
     "name": "Helm",
@@ -29,7 +29,7 @@
       "long": "Helm helps you manage Kubernetes applications - Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application. Charts are easy to create, version, share, and publish - so start using Helm and stop the copy-and-paste madness. The latest version of Helm is maintained by the CNCF - in collaboration with Microsoft, Google, Bitnami and the Helm contributor community",
       "source": "choco",
       "homepage": "https://helm.sh/",
-      "lastUpdatedAt": "2026-08-22T18:48:25.583Z"
+      "lastUpdatedAt": "2026-08-23T01:59:59.246Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,31 +97,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:25.243Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T01:59:59.082Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Helm",
-          "publisher": "Helm",
-          "author": "Helm",
-          "description": "The Package Manager for Kubernetes",
-          "license": "Apache-2.0",
-          "licenseUrl": "https://github.com/helm/helm/blob/main/LICENSE",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://helm.sh/",
-          "download": "https://get.helm.sh/helm-v4.2.4-windows-amd64.zip",
+          "download": "https://helm.sh/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "The Package Manager for Kubernetes",
-          "long": "The Package Manager for Kubernetes",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-08-22T18:48:25.243Z"
+          "lastUpdatedAt": "2026-08-23T01:59:59.082Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,319 +142,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "4.2.4",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.1.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.1.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.1.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.20.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.19.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.19.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.19.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.19.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.18.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.17.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.17.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.17.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "4.2.4",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "portable (zip)",
-            "url": "https://get.helm.sh/helm-v4.2.4-windows-amd64.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "e94d83a4706fd82078c98dade2079fa9d9680c1c2bfb93bfc304ee6bc2412a32",
+            "type": "package-manager",
+            "url": "https://helm.sh/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -546,11 +248,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:25.243Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -596,7 +298,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:25.414Z",
+          "scannedAt": "2026-08-23T01:59:59.145Z",
           "errors": []
         },
         "package": {
@@ -622,7 +324,7 @@
           "long": "Kubernetes package manager",
           "source": "homebrew",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-08-22T18:48:25.414Z"
+          "lastUpdatedAt": "2026-08-23T01:59:59.145Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -738,7 +440,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:25.414Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:59.145Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -784,7 +486,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:25.472Z",
+          "scannedAt": "2026-08-23T01:59:59.170Z",
           "errors": []
         },
         "package": {
@@ -810,7 +512,7 @@
           "long": "The package manager for Kubernetes.",
           "source": "scoop",
           "homepage": "https://helm.sh",
-          "lastUpdatedAt": "2026-08-22T18:48:25.472Z"
+          "lastUpdatedAt": "2026-08-23T01:59:59.170Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -915,7 +617,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:25.472Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:59.170Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -961,7 +663,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:25.583Z",
+          "scannedAt": "2026-08-23T01:59:59.246Z",
           "errors": []
         },
         "package": {
@@ -988,7 +690,7 @@
           "long": "Helm helps you manage Kubernetes applications - Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application. Charts are easy to create, version, share, and publish - so start using Helm and stop the copy-and-paste madness. The latest version of Helm is maintained by the CNCF - in collaboration with Microsoft, Google, Bitnami and the Helm contributor community",
           "source": "choco",
           "homepage": "https://helm.sh/",
-          "lastUpdatedAt": "2026-08-22T18:48:25.583Z"
+          "lastUpdatedAt": "2026-08-23T01:59:59.246Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1392,7 +1094,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:25.583Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:59.246Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1440,7 +1142,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:25.621Z",
+          "scannedAt": "2026-08-23T01:59:59.411Z",
           "errors": []
         },
         "package": {
@@ -1469,7 +1171,7 @@
           "long": "The Kubernetes Package Manager",
           "source": "github",
           "homepage": "https://helm.sh",
-          "lastUpdatedAt": "2026-08-22T18:48:25.621Z"
+          "lastUpdatedAt": "2026-08-23T01:59:59.411Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2760,7 +2462,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:25.621Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:59.411Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

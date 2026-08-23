@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "azure_cli",
     "name": "Azure CLI",
@@ -25,11 +25,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
-      "long": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
-      "source": "winget",
-      "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
-      "lastUpdatedAt": "2026-08-22T18:48:29.258Z"
+      "short": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
+      "long": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
+      "source": "scoop",
+      "homepage": "https://aka.ms/cli",
+      "lastUpdatedAt": "2026-08-23T02:00:16.664Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,31 +97,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:29.258Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T02:00:16.061Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Azure CLI",
-          "publisher": "Microsoft Corporation",
+          "publisher": null,
           "author": null,
-          "description": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
-          "license": "MIT",
-          "licenseUrl": "https://github.com/Azure/azure-cli/blob/HEAD/LICENSE",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
-          "download": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.89.1-x64.msi",
-          "releases": "https://learn.microsoft.com/en-us/cli/azure/release-notes-azure-cli",
+          "homepage": "https://learn.microsoft.com/cli/azure/",
+          "download": "https://learn.microsoft.com/cli/azure/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
-          "long": "The Azure command-line interface (Azure CLI) is a set of commands used to create and manage Azure resources. The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://docs.microsoft.com/en-us/cli/azure/",
-          "lastUpdatedAt": "2026-08-22T18:48:29.258Z"
+          "homepage": "https://learn.microsoft.com/cli/azure/",
+          "lastUpdatedAt": "2026-08-23T02:00:16.061Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,319 +143,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2.89.1",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.89.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.88.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.87.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.86.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.85.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.84.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.83.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.80.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.79.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.78.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.77.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.76.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.75.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.74.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.73.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.72.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.71.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.70.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.69.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.68.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.67.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.66.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.65.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.64.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.63.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.62.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.61.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.60.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.59.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2.89.1",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.89.1-x64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "84452544ae4bcb0baf8483f767cf3267f2b4da706f1818fd9c5b5e3c3750a913",
+            "type": "package-manager",
+            "url": "https://learn.microsoft.com/cli/azure/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -547,11 +249,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:29.258Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -597,7 +299,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:29.376Z",
+          "scannedAt": "2026-08-23T02:00:16.558Z",
           "errors": []
         },
         "package": {
@@ -623,7 +325,7 @@
           "long": "Microsoft Azure CLI 2.0",
           "source": "homebrew",
           "homepage": "https://docs.microsoft.com/cli/azure/overview",
-          "lastUpdatedAt": "2026-08-22T18:48:29.376Z"
+          "lastUpdatedAt": "2026-08-23T02:00:16.558Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -730,7 +432,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:29.376Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:16.558Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -776,7 +478,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:29.458Z",
+          "scannedAt": "2026-08-23T02:00:16.664Z",
           "errors": []
         },
         "package": {
@@ -802,7 +504,7 @@
           "long": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
           "source": "scoop",
           "homepage": "https://aka.ms/cli",
-          "lastUpdatedAt": "2026-08-22T18:48:29.458Z"
+          "lastUpdatedAt": "2026-08-23T02:00:16.664Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -908,7 +610,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:29.458Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:16.664Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -954,7 +656,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:29.465Z",
+          "scannedAt": "2026-08-23T02:00:16.728Z",
           "errors": []
         },
         "package": {
@@ -982,7 +684,7 @@
           "long": "The Azure CLI is available across Azure services and is designed to get you working quickly with Azure, with an emphasis on automation.",
           "source": "choco",
           "homepage": "https://github.com/azure/azure-cli/",
-          "lastUpdatedAt": "2026-08-22T18:48:29.465Z"
+          "lastUpdatedAt": "2026-08-23T02:00:16.728Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1389,7 +1091,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:29.465Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:16.728Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

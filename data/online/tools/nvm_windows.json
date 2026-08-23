@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "nvm_windows",
     "name": "nvm-windows",
@@ -27,7 +27,7 @@
       "long": "NVM Overview Manage multiple installations of node.js on a Windows computer. This has always been a node version manager, not an io.js manager, so there is no back-support for io.js. Node 4+ is supported. Remember when running nvm install or nvm use , Windows usually requires administrative rights (to create symlinks). !Showcase There are situations where the ability to switch between different versions of Node.js can be very useful. For example, if you want to test a module you're developing with the latest bleeding edge version without uninstalling the stable version of node, this utility can help. Usage nvm-windows runs in an Admin shell . You'll need to start powershell or Command Prompt as Administrator to use nvm-windows NVM for Windows is a command line tool. Simply type nvm in the console for help. The basic commands are: - nvm arch [32|64] : Show if node is running in 32 or 64 bit mode. Specify 32 or 64 to override the default architecture. - nvm current : Display active version. - nvm install ﹤version﹥ [arch] : The version can be a specific version, \"latest\" for the latest current version, or \"lts\" for the most recent LTS version. Optionally specify whether to install...",
       "source": "choco",
       "homepage": "https://github.com/coreybutler/nvm-windows",
-      "lastUpdatedAt": "2026-08-22T18:48:15.932Z"
+      "lastUpdatedAt": "2026-08-23T01:59:17.360Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -95,31 +95,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:15.716Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T01:59:16.684Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "nvm-windows",
-          "publisher": "Ecor Ventures LLC",
+          "publisher": null,
           "author": null,
-          "description": "A node.js version management utility for Windows. Ironically written in Go.",
-          "license": "MIT",
-          "licenseUrl": "https://github.com/coreybutler/nvm-windows/blob/HEAD/LICENSE",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://github.com/coreybutler/nvm-windows",
-          "download": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.exe",
-          "releases": "https://github.com/coreybutler/nvm-windows/releases/tag/1.2.2",
+          "download": "https://github.com/coreybutler/nvm-windows",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "A node.js version management utility for Windows. Ironically written in Go.",
-          "long": "A node.js version management utility for Windows. Ironically written in Go.",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://github.com/coreybutler/nvm-windows",
-          "lastUpdatedAt": "2026-08-22T18:48:15.716Z"
+          "lastUpdatedAt": "2026-08-23T01:59:16.684Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,79 +141,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.2.2",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.1.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.1.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.1.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.1.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.2.2",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "inno",
-            "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "2d5ad523aa6182205da77c0eb8210638aaa8792f4e6a4bc12e1ac854c5455a68",
+            "type": "package-manager",
+            "url": "https://github.com/coreybutler/nvm-windows",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -305,11 +247,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:15.716Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -354,7 +296,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:15.806Z",
+          "scannedAt": "2026-08-23T01:59:17.312Z",
           "errors": []
         },
         "package": {
@@ -380,7 +322,7 @@
           "long": "A node.js version management utility for Windows.",
           "source": "scoop",
           "homepage": "https://github.com/coreybutler/nvm-windows",
-          "lastUpdatedAt": "2026-08-22T18:48:15.806Z"
+          "lastUpdatedAt": "2026-08-23T01:59:17.312Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -486,7 +428,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:15.806Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:17.312Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -532,7 +474,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:15.932Z",
+          "scannedAt": "2026-08-23T01:59:17.360Z",
           "errors": []
         },
         "package": {
@@ -564,7 +506,7 @@
           "long": "NVM Overview Manage multiple installations of node.js on a Windows computer. This has always been a node version manager, not an io.js manager, so there is no back-support for io.js. Node 4+ is supported. Remember when running nvm install or nvm use , Windows usually requires administrative rights (to create symlinks). !Showcase There are situations where the ability to switch between different versions of Node.js can be very useful. For example, if you want to test a module you're developing with the latest bleeding edge version without uninstalling the stable version of node, this utility can help. Usage nvm-windows runs in an Admin shell . You'll need to start powershell or Command Prompt as Administrator to use nvm-windows NVM for Windows is a command line tool. Simply type nvm in the console for help. The basic commands are: - nvm arch [32|64] : Show if node is running in 32 or 64 bit mode. Specify 32 or 64 to override the default architecture. - nvm current : Display active version. - nvm install ﹤version﹥ [arch] : The version can be a specific version, \"latest\" for the latest current version, or \"lts\" for the most recent LTS version. Optionally specify whether to install...",
           "source": "choco",
           "homepage": "https://github.com/coreybutler/nvm-windows",
-          "lastUpdatedAt": "2026-08-22T18:48:15.932Z"
+          "lastUpdatedAt": "2026-08-23T01:59:17.360Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -734,7 +676,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:15.932Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:17.360Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -780,7 +722,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:16.056Z",
+          "scannedAt": "2026-08-23T01:59:17.458Z",
           "errors": []
         },
         "package": {
@@ -815,7 +757,7 @@
           "long": "A node.js version management utility for Windows. Ironically written in Go.",
           "source": "github",
           "homepage": "https://github.com/coreybutler/nvm-windows",
-          "lastUpdatedAt": "2026-08-22T18:48:16.056Z"
+          "lastUpdatedAt": "2026-08-23T01:59:17.458Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2031,7 +1973,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:16.056Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:17.458Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

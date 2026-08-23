@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "sublime_text",
     "name": "Sublime Text",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Sublime is a sophisticated cross-platform text editor for code, markup and prose.",
-      "long": "Sublime is a sophisticated cross-platform text editor for code, markup and prose.",
-      "source": "winget",
+      "short": null,
+      "long": null,
+      "source": "catalog",
       "homepage": "https://www.sublimetext.com/",
-      "lastUpdatedAt": "2026-08-22T18:48:08.501Z"
+      "lastUpdatedAt": null
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "low",
+      "score": 40
     },
     "sources": [
       {
@@ -92,31 +92,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:08.501Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T01:58:41.304Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Sublime Text",
-          "publisher": "Sublime HQ Pty Ltd",
-          "author": "Sublime HQ Pty Ltd",
-          "description": "Sublime is a sophisticated cross-platform text editor for code, markup and prose.",
-          "license": "Proprietary",
-          "licenseUrl": "https://www.sublimetext.com/eula",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.sublimetext.com/",
-          "download": "https://download.sublimetext.com/sublime_text_build_4200_x64_setup.exe",
+          "download": "https://www.sublimetext.com/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Sublime is a sophisticated cross-platform text editor for code, markup and prose.",
-          "long": "Sublime is a sophisticated cross-platform text editor for code, markup and prose.",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://www.sublimetext.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:08.501Z"
+          "lastUpdatedAt": "2026-08-23T01:58:41.304Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -135,119 +138,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "4.0.0.420000",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.419200",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.418000",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.416900",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.415200",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.414300",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.412600",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.412100",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.411300",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "4.0.0.410700",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "4.0.0.420000",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "inno",
-            "url": "https://download.sublimetext.com/sublime_text_build_4200_x64_setup.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "3d3c70e51aef08f85d7160bcc70793bed9acec250973090ab67d98987bce7c7e",
+            "type": "package-manager",
+            "url": "https://www.sublimetext.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -342,11 +244,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:08.501Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "vagrant",
     "name": "Vagrant",
@@ -29,7 +29,7 @@
       "long": "Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team. To achieve its magic, Vagrant stands on the shoulders of giants. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can be used to automatically install and configure software on the machine.",
       "source": "choco",
       "homepage": "https://www.vagrantup.com/",
-      "lastUpdatedAt": "2026-08-22T18:48:28.025Z"
+      "lastUpdatedAt": "2026-08-23T02:00:13.902Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,31 +97,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:27.639Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T02:00:12.882Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Vagrant",
-          "publisher": "HashiCorp",
-          "author": "HashiCorp, Inc.",
-          "description": "Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the \"works on my machine\" excuse a relic of the past.",
-          "license": "BUSL-1.1",
-          "licenseUrl": "https://github.com/hashicorp/vagrant/blob/HEAD/LICENSE",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://developer.hashicorp.com/vagrant",
-          "download": "https://releases.hashicorp.com/vagrant/2.4.9/vagrant_2.4.9_windows_amd64.msi",
-          "releases": "https://github.com/hashicorp/vagrant/blob/HEAD/CHANGELOG.md#245-april-23-2025",
+          "homepage": "https://www.vagrantup.com/",
+          "download": "https://www.vagrantup.com/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the \"works on my machine\" excuse a rel...",
-          "long": "Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the \"works on my machine\" excuse a relic of the past.",
+          "short": null,
+          "long": null,
           "source": "winget",
-          "homepage": "https://developer.hashicorp.com/vagrant",
-          "lastUpdatedAt": "2026-08-22T18:48:27.639Z"
+          "homepage": "https://www.vagrantup.com/",
+          "lastUpdatedAt": "2026-08-23T02:00:12.882Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,249 +142,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "2.4.9",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.8",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.3.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.3.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.3.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.3.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.3.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.19",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.18",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.17",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.16",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.14",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.13",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "2.2.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "2.4.9",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://releases.hashicorp.com/vagrant/2.4.9/vagrant_2.4.9_windows_amd64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "3bdd967927705872a70c7c98e0576afd5acd9dd73b527695f4d9dd75dd26cbe3",
+            "type": "package-manager",
+            "url": "https://www.vagrantup.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -476,11 +248,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:27.639Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -525,7 +297,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:27.861Z",
+          "scannedAt": "2026-08-23T02:00:13.802Z",
           "errors": []
         },
         "package": {
@@ -551,7 +323,7 @@
           "long": "Development environment",
           "source": "homebrew",
           "homepage": "https://www.vagrantup.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:27.861Z"
+          "lastUpdatedAt": "2026-08-23T02:00:13.802Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -657,7 +429,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:27.861Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:13.802Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -703,7 +475,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:27.919Z",
+          "scannedAt": "2026-08-23T02:00:13.847Z",
           "errors": []
         },
         "package": {
@@ -729,7 +501,7 @@
           "long": "A tool for building and managing virtual machine environments in a single workflow.",
           "source": "scoop",
           "homepage": "https://www.vagrantup.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:27.919Z"
+          "lastUpdatedAt": "2026-08-23T02:00:13.847Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -834,7 +606,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:27.919Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:13.847Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -880,7 +652,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:28.025Z",
+          "scannedAt": "2026-08-23T02:00:13.902Z",
           "errors": []
         },
         "package": {
@@ -916,7 +688,7 @@
           "long": "Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team. To achieve its magic, Vagrant stands on the shoulders of giants. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can be used to automatically install and configure software on the machine.",
           "source": "choco",
           "homepage": "https://www.vagrantup.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:28.025Z"
+          "lastUpdatedAt": "2026-08-23T02:00:13.902Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1329,7 +1101,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:28.025Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:13.902Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1377,7 +1149,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:28.133Z",
+          "scannedAt": "2026-08-23T02:00:13.945Z",
           "errors": []
         },
         "package": {
@@ -1405,7 +1177,7 @@
           "long": "Vagrant is a tool for building and distributing development environments.",
           "source": "github",
           "homepage": "https://www.vagrantup.com",
-          "lastUpdatedAt": "2026-08-22T18:48:28.133Z"
+          "lastUpdatedAt": "2026-08-23T02:00:13.945Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2695,7 +2467,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:28.133Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:13.945Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

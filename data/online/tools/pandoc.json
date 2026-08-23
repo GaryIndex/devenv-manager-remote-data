@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "pandoc",
     "name": "Pandoc",
@@ -29,7 +29,7 @@
       "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert documents in markdown, reStructuredText, textile, HTML, DocBook, LaTeX and many others. Features - HTML formats: XHTML, HTML5, and HTML slide shows using Slidy, reveal.js, Slideous, S5, or DZSlides. - Word processor formats: Microsoft Word docx, OpenOffice/LibreOffice ODT, OpenDocument XML - Ebooks: EPUB version 2 or 3, FictionBook2 - Documentation formats: DocBook, TEI Simple, GNU TexInfo, Groff man pages, Haddock markup - Page layout formats: InDesign ICML - Outline formats: OPML - TeX formats: LaTeX, ConTeXt, LaTeX Beamer slides - PDF via LaTeX - Lightweight markup formats: Markdown (including CommonMark), reStructuredText, AsciiDoc, MediaWiki markup, DokuWiki markup, Emacs Org-Mode, Textile - Custom formats: custom writers can be written in lua. Notes - The package by default installs pandoc for current user. To install for all users use choco install pandoc --install-arguments=ALLUSERS=1 - This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer up...",
       "source": "choco",
       "homepage": "http://pandoc.org/",
-      "lastUpdatedAt": "2026-08-22T18:48:43.642Z"
+      "lastUpdatedAt": "2026-08-23T02:01:08.132Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,31 +97,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:43.287Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T02:01:05.252Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Pandoc",
-          "publisher": "John MacFarlane",
-          "author": "John Mac Farlane",
-          "description": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
-          "license": "GPL-2.0",
-          "licenseUrl": "https://github.com/jgm/pandoc/blob/master/COPYRIGHT",
+          "publisher": null,
+          "author": null,
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://pandoc.org/",
-          "download": "https://github.com/jgm/pandoc/releases/download/3.10.2/pandoc-3.10.2-windows-x86_64.msi",
-          "releases": "https://github.com/jgm/pandoc/releases/tag/3.10.2",
+          "download": "https://pandoc.org/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
-          "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://pandoc.org/",
-          "lastUpdatedAt": "2026-08-22T18:48:43.287Z"
+          "lastUpdatedAt": "2026-08-23T02:01:05.252Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,319 +142,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "3.10.2",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.9.0.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.9.0.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.9",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.8.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.8.2.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.8.2.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.8.1.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.8.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.7.0.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.6.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.6.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.6.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.6.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.13",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.12.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.12.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.12.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.12",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.11",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "3.1.10",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "3.10.2",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://github.com/jgm/pandoc/releases/download/3.10.2/pandoc-3.10.2-windows-x86_64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "937ed557c4565f4e7c7e1ee59cb059dfe8aafc9adb5b422bfdf688fcaee63a0b",
+            "type": "package-manager",
+            "url": "https://pandoc.org/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -546,11 +248,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:43.287Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -596,7 +298,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:43.472Z",
+          "scannedAt": "2026-08-23T02:01:08.057Z",
           "errors": []
         },
         "package": {
@@ -622,7 +324,7 @@
           "long": "Swiss-army knife of markup format conversion",
           "source": "homebrew",
           "homepage": "https://pandoc.org/",
-          "lastUpdatedAt": "2026-08-22T18:48:43.472Z"
+          "lastUpdatedAt": "2026-08-23T02:01:08.057Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -728,7 +430,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:43.472Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:01:08.057Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -774,7 +476,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:43.538Z",
+          "scannedAt": "2026-08-23T02:01:08.064Z",
           "errors": []
         },
         "package": {
@@ -800,7 +502,7 @@
           "long": "Universal markup converter",
           "source": "scoop",
           "homepage": "https://pandoc.org",
-          "lastUpdatedAt": "2026-08-22T18:48:43.538Z"
+          "lastUpdatedAt": "2026-08-23T02:01:08.064Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -905,7 +607,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:43.538Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:01:08.064Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -951,7 +653,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:43.642Z",
+          "scannedAt": "2026-08-23T02:01:08.132Z",
           "errors": []
         },
         "package": {
@@ -984,7 +686,7 @@
           "long": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert documents in markdown, reStructuredText, textile, HTML, DocBook, LaTeX and many others. Features - HTML formats: XHTML, HTML5, and HTML slide shows using Slidy, reveal.js, Slideous, S5, or DZSlides. - Word processor formats: Microsoft Word docx, OpenOffice/LibreOffice ODT, OpenDocument XML - Ebooks: EPUB version 2 or 3, FictionBook2 - Documentation formats: DocBook, TEI Simple, GNU TexInfo, Groff man pages, Haddock markup - Page layout formats: InDesign ICML - Outline formats: OPML - TeX formats: LaTeX, ConTeXt, LaTeX Beamer slides - PDF via LaTeX - Lightweight markup formats: Markdown (including CommonMark), reStructuredText, AsciiDoc, MediaWiki markup, DokuWiki markup, Emacs Org-Mode, Textile - Custom formats: custom writers can be written in lua. Notes - The package by default installs pandoc for current user. To install for all users use choco install pandoc --install-arguments=ALLUSERS=1 - This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer up...",
           "source": "choco",
           "homepage": "http://pandoc.org/",
-          "lastUpdatedAt": "2026-08-22T18:48:43.642Z"
+          "lastUpdatedAt": "2026-08-23T02:01:08.132Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1395,7 +1097,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:43.642Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:01:08.132Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1443,7 +1145,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:43.643Z",
+          "scannedAt": "2026-08-23T02:01:08.268Z",
           "errors": []
         },
         "package": {
@@ -1476,7 +1178,7 @@
           "long": "Universal markup converter",
           "source": "github",
           "homepage": "https://pandoc.org",
-          "lastUpdatedAt": "2026-08-22T18:48:43.643Z"
+          "lastUpdatedAt": "2026-08-23T02:01:08.268Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2771,7 +2473,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:43.643Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:01:08.268Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

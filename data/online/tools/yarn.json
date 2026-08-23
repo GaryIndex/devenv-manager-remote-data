@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "yarn",
     "name": "Yarn",
@@ -29,7 +29,7 @@
       "long": "Yarn is a package manager for the npm and bower registries with a few specific focuses. Yarn Classic This package is the latest version of Yarn in the Classic Stable line ( 1.x ). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream. While the Yarn Classic line ( 1.x ) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended. Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack. To migrate, follow the official migration instructions and, at your option, run choco install yarn as your first migration step. Features Determinism: Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure. Security: Strict guarantees are placed around packa...",
       "source": "choco",
       "homepage": "https://classic.yarnpkg.com/",
-      "lastUpdatedAt": "2026-08-22T18:48:13.899Z"
+      "lastUpdatedAt": "2026-08-23T01:59:09.651Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,31 +96,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:13.691Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T01:59:07.807Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Yarn",
-          "publisher": "Yarn Contributors",
+          "publisher": null,
           "author": null,
-          "description": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
-          "license": "Distributed under BSD License · Code of Conduct",
-          "licenseUrl": "https://github.com/yarnpkg/yarn/blob/HEAD/LICENSE",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://yarnpkg.com/",
-          "download": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.msi",
-          "releases": "https://github.com/yarnpkg/yarn/releases/tag/v1.22.22",
+          "download": "https://yarnpkg.com/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
-          "long": "Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:13.691Z"
+          "lastUpdatedAt": "2026-08-23T01:59:07.807Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -138,79 +141,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.22.22",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.19",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.18",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.15",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.22.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.22.22",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "ebc1f46891b8d507efad2dd18eec2c4e617457f93e13bc701483cb047a053fa1",
+            "type": "package-manager",
+            "url": "https://yarnpkg.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -305,11 +247,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:13.691Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -355,7 +297,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:13.732Z",
+          "scannedAt": "2026-08-23T01:59:09.554Z",
           "errors": []
         },
         "package": {
@@ -381,7 +323,7 @@
           "long": "JavaScript package manager",
           "source": "homebrew",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:13.732Z"
+          "lastUpdatedAt": "2026-08-23T01:59:09.554Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -487,7 +429,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:13.732Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:09.554Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -533,7 +475,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:13.804Z",
+          "scannedAt": "2026-08-23T01:59:09.580Z",
           "errors": []
         },
         "package": {
@@ -559,7 +501,7 @@
           "long": "Node.js dependency manager",
           "source": "scoop",
           "homepage": "https://yarnpkg.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:13.804Z"
+          "lastUpdatedAt": "2026-08-23T01:59:09.580Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -664,7 +606,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:13.804Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:09.580Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -710,7 +652,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:13.899Z",
+          "scannedAt": "2026-08-23T01:59:09.651Z",
           "errors": []
         },
         "package": {
@@ -742,7 +684,7 @@
           "long": "Yarn is a package manager for the npm and bower registries with a few specific focuses. Yarn Classic This package is the latest version of Yarn in the Classic Stable line ( 1.x ). The package maintainer plans to continue to release maintenance updates through Chocolatey when they are made available upstream. While the Yarn Classic line ( 1.x ) remains a pillar of the JavaScript ecosystem, upgrading to modern versions of Yarn is strongly recommended. Modern versions of Yarn are managed through Corepack, which is also the only officially supported installation method. There are no oficially-available binaries for download through a package manager such as Chocolatey. Everyone should seriously consider migrating to modern versions of Yarn using Corepack. To migrate, follow the official migration instructions and, at your option, run choco install yarn as your first migration step. Features Determinism: Based around a version lockfile which ensures that operations on the dependency graph can be easily transitioned. We check module directories and verify their integrity to ensure Yarn install always produces the same file structure. Security: Strict guarantees are placed around packa...",
           "source": "choco",
           "homepage": "https://classic.yarnpkg.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:13.899Z"
+          "lastUpdatedAt": "2026-08-23T01:59:09.651Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1151,7 +1093,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:13.899Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:59:09.651Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

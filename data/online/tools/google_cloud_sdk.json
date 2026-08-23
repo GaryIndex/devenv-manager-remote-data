@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "google_cloud_sdk",
     "name": "Google Cloud SDK",
@@ -27,7 +27,7 @@
       "long": "Google Cloud CLI What is the gcloud CLI? The Google Cloud CLI is a set of tools to create and manage Google Cloud resources. You can use these tools to perform many common platform tasks from the command line or through scripts and other automation. For example, you can use the gcloud CLI to create and manage the following: - Compute Engine virtual machine instances and other resources - Cloud SQL instances - Google Kubernetes Engine clusters - Dataproc clusters and jobs - Cloud DNS managed zones and record sets - Cloud Deployment Manager deployments You can also use the gcloud CLI to deploy App Engine applications, manage authentication, customize local configuration, and perform other tasks. The gcloud CLI cheat sheet For a quick introduction to the gcloud CLI, a list of commonly used commands, and a look at how these commands are structured, see the gcloud CLI cheat sheet. Configurations A configuration is a set of gcloud CLI properties. A configuration works like a profile . When you start using the gcloud CLI, you'll work with a single configuration named default and you can set properties by running gcloud init or gcloud config set . This single default configuration is su...",
       "source": "choco",
       "homepage": "https://cloud.google.com/cli",
-      "lastUpdatedAt": "2026-08-22T18:48:29.751Z"
+      "lastUpdatedAt": "2026-08-23T02:00:17.070Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -94,22 +94,25 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:29.555Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T02:00:16.730Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Google Cloud SDK",
-          "publisher": "Google LLC",
-          "author": "Google Cloud",
+          "publisher": null,
+          "author": null,
           "description": null,
-          "license": "Apache-2.0",
+          "license": null,
           "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://cloud.google.com/sdk",
-          "download": "https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe",
+          "download": "https://cloud.google.com/sdk",
           "releases": null,
           "docs": null
         },
@@ -118,7 +121,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://cloud.google.com/sdk",
-          "lastUpdatedAt": "2026-08-22T18:48:29.555Z"
+          "lastUpdatedAt": "2026-08-23T02:00:16.730Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,29 +140,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "581.0.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "581.0.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "nullsoft",
-            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "6b78840bb1b1d04bc9dfd2bd7cff34db1e3ef1c0f34e48dd5daa4c32bf13291f",
+            "type": "package-manager",
+            "url": "https://cloud.google.com/sdk",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -254,11 +246,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:29.555Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -303,7 +295,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:29.586Z",
+          "scannedAt": "2026-08-23T02:00:17.014Z",
           "errors": []
         },
         "package": {
@@ -329,7 +321,7 @@
           "long": "Command-line interface for Google Cloud Platform products and services.",
           "source": "scoop",
           "homepage": "https://cloud.google.com/sdk/",
-          "lastUpdatedAt": "2026-08-22T18:48:29.586Z"
+          "lastUpdatedAt": "2026-08-23T02:00:17.014Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -435,7 +427,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:29.586Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:17.014Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -481,7 +473,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:29.751Z",
+          "scannedAt": "2026-08-23T02:00:17.070Z",
           "errors": []
         },
         "package": {
@@ -504,7 +496,7 @@
         },
         "links": {
           "homepage": "https://cloud.google.com/cli",
-          "download": "https://community.chocolatey.org/api/v2/package/gcloudsdk/580.0.0",
+          "download": "https://community.chocolatey.org/api/v2/package/gcloudsdk/581.0.0",
           "releases": "https://cloud.google.com/sdk/docs/release-notes",
           "docs": null
         },
@@ -513,7 +505,7 @@
           "long": "Google Cloud CLI What is the gcloud CLI? The Google Cloud CLI is a set of tools to create and manage Google Cloud resources. You can use these tools to perform many common platform tasks from the command line or through scripts and other automation. For example, you can use the gcloud CLI to create and manage the following: - Compute Engine virtual machine instances and other resources - Cloud SQL instances - Google Kubernetes Engine clusters - Dataproc clusters and jobs - Cloud DNS managed zones and record sets - Cloud Deployment Manager deployments You can also use the gcloud CLI to deploy App Engine applications, manage authentication, customize local configuration, and perform other tasks. The gcloud CLI cheat sheet For a quick introduction to the gcloud CLI, a list of commonly used commands, and a look at how these commands are structured, see the gcloud CLI cheat sheet. Configurations A configuration is a set of gcloud CLI properties. A configuration works like a profile . When you start using the gcloud CLI, you'll work with a single configuration named default and you can set properties by running gcloud init or gcloud config set . This single default configuration is su...",
           "source": "choco",
           "homepage": "https://cloud.google.com/cli",
-          "lastUpdatedAt": "2026-08-22T18:48:29.751Z"
+          "lastUpdatedAt": "2026-08-23T02:00:17.070Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -541,9 +533,19 @@
         },
         "versions": [
           {
-            "version": "580.0.0",
+            "version": "581.0.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "580.0.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -829,29 +831,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "550.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "580.0.0",
+            "version": "581.0.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/gcloudsdk/580.0.0",
+            "url": "https://community.chocolatey.org/api/v2/package/gcloudsdk/581.0.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "+lR+coFgQdAEU2j9DBu748NZ+JKUo8ndMLW8RzcvA6AzmOg+In1uuq0EFf4+UmZpFxtRnHDVM8ZksvOpxHQkYg==",
+            "sha256": "cdMnK4Cp/LIqR+QMcx23alxb+NJG8JMgU+zotYvl9btUd2rPJKfRqD1glW5eRXKLQAUYLdJDKUbsTKrxSu25OA==",
             "sizeBytes": null
           }
         ],
@@ -923,7 +915,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:29.751Z",
+          "lastSuccessfulScanAt": "2026-08-23T02:00:17.070Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

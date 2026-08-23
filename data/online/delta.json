@@ -1,73 +1,1595 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "fromGeneratedAt": "2026-08-22T13:00:36.819Z",
-  "toGeneratedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "fromGeneratedAt": "2026-08-22T18:48:46.532Z",
+  "toGeneratedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 104,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 6,
-    "qualityChanges": 0
+    "versionChanges": 105,
+    "qualityChanges": 104
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "git",
+      "github_cli",
+      "git_lfs",
+      "github_desktop",
+      "git_extensions",
+      "tortoisegit",
+      "vscode",
+      "vscodium",
+      "jetbrains_toolbox",
+      "pycharm_community",
+      "intellij_idea_community",
+      "sublime_text",
+      "notepad_plus_plus",
+      "neovim",
       "vim",
+      "emacs",
+      "windows_terminal",
+      "powershell",
+      "oh_my_posh",
+      "starship",
+      "ripgrep",
+      "fd",
+      "bat",
+      "fzf",
+      "jq",
+      "zoxide",
+      "node_lts",
+      "node_current",
+      "npm",
+      "pnpm",
+      "yarn",
+      "bun",
+      "deno",
+      "volta",
+      "nvm_windows",
+      "python_312",
+      "python_311",
+      "uv",
+      "miniconda",
+      "anaconda",
+      "rustup",
+      "rust_msvc",
+      "cargo",
+      "go",
+      "dotnet_9",
+      "dotnet_8",
+      "temurin_21",
+      "temurin_17",
+      "oracle_jdk_21",
+      "sbt",
+      "cmake",
+      "ninja",
+      "llvm",
+      "vs_build_tools",
+      "visual_studio_community",
+      "msys2",
+      "docker_desktop",
+      "podman",
+      "rancher_desktop",
+      "kubectl",
+      "helm",
+      "minikube",
+      "kind",
+      "terraform",
+      "opentofu",
+      "packer",
+      "vagrant",
+      "pulumi",
+      "aws_cli",
+      "azure_cli",
+      "google_cloud_sdk",
+      "cloudflared",
       "postman",
+      "bruno",
+      "httpie",
+      "pgadmin",
+      "mysql",
+      "mysql_workbench",
       "mariadb",
-      "godot"
+      "mongodb_compass",
+      "redis",
+      "sqlite_browser",
+      "dbeaver",
+      "beekeeper_studio",
+      "android_studio",
+      "android_platform_tools",
+      "wireshark",
+      "mitmproxy",
+      "nmap",
+      "sysinternals_suite",
+      "process_explorer",
+      "sysmon",
+      "r",
+      "rstudio",
+      "julia",
+      "quarto",
+      "heroku_cli",
+      "ruby",
+      "erlang",
+      "godot",
+      "unity_hub",
+      "blender",
+      "pandoc",
+      "hugo"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "git",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.55.0.3",
+        "to": null
+      },
+      {
+        "toolId": "github_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.98.0",
+        "to": null
+      },
+      {
+        "toolId": "git_lfs",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.7.1",
+        "to": null
+      },
+      {
+        "toolId": "github_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.6.4",
+        "to": null
+      },
+      {
+        "toolId": "git_extensions",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "7.2.0.92",
+        "to": null
+      },
+      {
+        "toolId": "tortoisegit",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.19.1.0",
+        "to": null
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.134.0",
+        "to": null
+      },
+      {
+        "toolId": "vscodium",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.126.04524",
+        "to": null
+      },
+      {
+        "toolId": "jetbrains_toolbox",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.7.2.0",
+        "to": null
+      },
+      {
+        "toolId": "pycharm_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2025.2.6.1",
+        "to": null
+      },
+      {
+        "toolId": "intellij_idea_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2025.2.6.2",
+        "to": null
+      },
+      {
+        "toolId": "sublime_text",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.0.0.420000",
+        "to": null
+      },
+      {
+        "toolId": "notepad_plus_plus",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "8.9.7",
+        "to": null
+      },
+      {
+        "toolId": "neovim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.12.4",
+        "to": null
+      },
+      {
         "toolId": "vim",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "9.2.0927",
-        "to": "9.2.0933"
+        "from": "9.2.0933",
+        "to": null
       },
       {
-        "toolId": "postman",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "12.24.5",
-        "to": "12.24.6"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "vim",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.24.5",
-        "to": "12.24.6"
+        "from": "9.2.0993",
+        "to": "9.2.0995"
+      },
+      {
+        "toolId": "emacs",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "30.2",
+        "to": null
+      },
+      {
+        "toolId": "windows_terminal",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.24.11911.0",
+        "to": null
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "7.6.5.0",
+        "to": null
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "30.6.5",
+        "to": null
+      },
+      {
+        "toolId": "starship",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.26.0",
+        "to": null
+      },
+      {
+        "toolId": "ripgrep",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "15.2.0",
+        "to": null
+      },
+      {
+        "toolId": "fd",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "10.4.2",
+        "to": null
+      },
+      {
+        "toolId": "bat",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.26.1",
+        "to": null
+      },
+      {
+        "toolId": "fzf",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.74.3",
+        "to": null
+      },
+      {
+        "toolId": "jq",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.8.2",
+        "to": null
+      },
+      {
+        "toolId": "zoxide",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.10.0",
+        "to": null
+      },
+      {
+        "toolId": "node_lts",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.19.0",
+        "to": null
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "26.7.0",
+        "to": null
+      },
+      {
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.19.0",
+        "to": null
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "11.22.0",
+        "to": null
+      },
+      {
+        "toolId": "yarn",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.22.22",
+        "to": null
+      },
+      {
+        "toolId": "bun",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.4.0",
+        "to": null
+      },
+      {
+        "toolId": "deno",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.9.5",
+        "to": null
+      },
+      {
+        "toolId": "volta",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.0.2",
+        "to": null
+      },
+      {
+        "toolId": "nvm_windows",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.2.2",
+        "to": null
+      },
+      {
+        "toolId": "python_312",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.12.10",
+        "to": null
+      },
+      {
+        "toolId": "python_311",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.11.9",
+        "to": null
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.12.5",
+        "to": null
+      },
+      {
+        "toolId": "anaconda",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2025.12-2",
+        "to": null
+      },
+      {
+        "toolId": "rustup",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.29.0",
+        "to": null
+      },
+      {
+        "toolId": "rust_msvc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.98.0",
+        "to": null
+      },
+      {
+        "toolId": "cargo",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.29.0",
+        "to": null
+      },
+      {
+        "toolId": "go",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.26.7",
+        "to": null
+      },
+      {
+        "toolId": "dotnet_9",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.0.317",
+        "to": null
+      },
+      {
+        "toolId": "dotnet_8",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "8.0.424",
+        "to": null
+      },
+      {
+        "toolId": "temurin_21",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "21.0.12.101",
+        "to": null
+      },
+      {
+        "toolId": "temurin_17",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.0.20.8",
+        "to": null
+      },
+      {
+        "toolId": "oracle_jdk_21",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "21.0.12.0",
+        "to": null
+      },
+      {
+        "toolId": "sbt",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.0.7",
+        "to": null
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.4.2",
+        "to": null
+      },
+      {
+        "toolId": "ninja",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.13.2",
+        "to": null
+      },
+      {
+        "toolId": "llvm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "22.1.8",
+        "to": null
+      },
+      {
+        "toolId": "vs_build_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.39",
+        "to": null
+      },
+      {
+        "toolId": "visual_studio_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.14.39",
+        "to": null
+      },
+      {
+        "toolId": "msys2",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "20260611",
+        "to": null
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.87.0",
+        "to": null
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "5.8.3",
+        "to": null
+      },
+      {
+        "toolId": "rancher_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.24.0",
+        "to": null
+      },
+      {
+        "toolId": "kubectl",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.36.4",
+        "to": null
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.2.4",
+        "to": null
+      },
+      {
+        "toolId": "minikube",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.38.1",
+        "to": null
+      },
+      {
+        "toolId": "kind",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.32.0",
+        "to": null
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.15.8",
+        "to": null
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.12.5",
+        "to": null
+      },
+      {
+        "toolId": "packer",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.16.0",
+        "to": null
+      },
+      {
+        "toolId": "vagrant",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.4.9",
+        "to": null
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.259.0",
+        "to": null
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.36.29",
+        "to": null
+      },
+      {
+        "toolId": "azure_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.89.1",
+        "to": null
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "581.0.0",
+        "to": null
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "580.0.0",
+        "to": "581.0.0"
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2026.8.2",
+        "to": null
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.24.6",
+        "to": null
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.1.0",
+        "to": null
+      },
+      {
+        "toolId": "httpie",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2025.2.0",
+        "to": null
+      },
+      {
+        "toolId": "pgadmin",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.17",
+        "to": null
+      },
+      {
+        "toolId": "mysql",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "8.4.9",
+        "to": null
+      },
+      {
+        "toolId": "mysql_workbench",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "8.0.47",
+        "to": null
       },
       {
         "toolId": "mariadb",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.3.2.0",
-        "to": "12.3.3.0"
+        "from": "12.3.3.0",
+        "to": null
       },
       {
-        "toolId": "mariadb",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "10.6.28",
-        "to": "10.11.19"
+        "toolId": "mongodb_compass",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.49.14.0",
+        "to": null
+      },
+      {
+        "toolId": "redis",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.0.504",
+        "to": null
+      },
+      {
+        "toolId": "sqlite_browser",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.13.1",
+        "to": null
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "26.1.5",
+        "to": null
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "6.0.4",
+        "to": null
+      },
+      {
+        "toolId": "android_studio",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2026.1.3.7",
+        "to": null
+      },
+      {
+        "toolId": "android_platform_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "37.0.1",
+        "to": null
+      },
+      {
+        "toolId": "wireshark",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.6.8",
+        "to": null
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.2.3",
+        "to": null
+      },
+      {
+        "toolId": "nmap",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "7.80",
+        "to": null
+      },
+      {
+        "toolId": "sysinternals_suite",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2026-07-09",
+        "to": null
+      },
+      {
+        "toolId": "process_explorer",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "17.12",
+        "to": null
+      },
+      {
+        "toolId": "sysmon",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "15.21",
+        "to": null
+      },
+      {
+        "toolId": "r",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.6.1",
+        "to": null
+      },
+      {
+        "toolId": "rstudio",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2026.07.1+147",
+        "to": null
+      },
+      {
+        "toolId": "julia",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.12.7",
+        "to": null
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.10.18",
+        "to": null
+      },
+      {
+        "toolId": "heroku_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "7.53.0.0",
+        "to": null
+      },
+      {
+        "toolId": "ruby",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.2.11-1",
+        "to": null
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "29.0.5",
+        "to": null
       },
       {
         "toolId": "godot",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "4.7.2-stable",
-        "to": "3.6.3-stable"
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.7.2",
+        "to": null
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.21.0.65535",
+        "to": null
+      },
+      {
+        "toolId": "blender",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "5.2.0",
+        "to": null
+      },
+      {
+        "toolId": "pandoc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.10.2",
+        "to": null
+      },
+      {
+        "toolId": "hugo",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.165.0",
+        "to": null
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "git",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "github_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "git_lfs",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "github_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "git_extensions",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "tortoisegit",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "vscodium",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "jetbrains_toolbox",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "pycharm_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "intellij_idea_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "sublime_text",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "notepad_plus_plus",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "neovim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "emacs",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "windows_terminal",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "powershell",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "starship",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "ripgrep",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "fd",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "bat",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "fzf",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "jq",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "zoxide",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "node_lts",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "yarn",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "bun",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "deno",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "volta",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "nvm_windows",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "python_312",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "python_311",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "miniconda",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 75,
+        "to": 40
+      },
+      {
+        "toolId": "anaconda",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "rustup",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "rust_msvc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "cargo",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "go",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "dotnet_9",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "dotnet_8",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "temurin_21",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "temurin_17",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "oracle_jdk_21",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "sbt",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "ninja",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "llvm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "vs_build_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "visual_studio_community",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "msys2",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "docker_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "podman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "rancher_desktop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "kubectl",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "helm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "minikube",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "kind",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "opentofu",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "packer",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "vagrant",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "pulumi",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "azure_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "cloudflared",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "bruno",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "httpie",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "pgadmin",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mysql",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mysql_workbench",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mariadb",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mongodb_compass",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "redis",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "sqlite_browser",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "beekeeper_studio",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "android_studio",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "android_platform_tools",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "wireshark",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "mitmproxy",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "nmap",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "sysinternals_suite",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "process_explorer",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "sysmon",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "r",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "rstudio",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "julia",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "heroku_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "ruby",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "godot",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "blender",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "pandoc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      },
+      {
+        "toolId": "hugo",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 40
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "vscode",
     "name": "Visual Studio Code",
@@ -29,7 +29,7 @@
       "long": "Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows. Features Meet IntelliSense: Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules. Print statement debugging is a thing of the past: Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console. Git commands built-in: Working with Git has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted Git service. Extensible and customizable: Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.",
       "source": "choco",
       "homepage": "https://code.visualstudio.com/",
-      "lastUpdatedAt": "2026-08-22T18:48:07.456Z"
+      "lastUpdatedAt": "2026-08-23T01:58:29.297Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -100,31 +100,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:06.949Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T01:58:29.008Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Visual Studio Code",
-          "publisher": "Microsoft Corporation",
+          "publisher": null,
           "author": null,
-          "description": "Microsoft Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Microsoft Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
-          "license": "Microsoft Software License",
-          "licenseUrl": "https://code.visualstudio.com/license",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://code.visualstudio.com/",
-          "download": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/110a328ea54b42367b803ec53ee0bf52ef26b419/VSCodeUserSetup-x64-1.134.0.exe",
+          "download": "https://code.visualstudio.com/",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Microsoft Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Microsoft Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
-          "long": "Microsoft Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. Microsoft Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://code.visualstudio.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:06.949Z"
+          "lastUpdatedAt": "2026-08-23T01:58:29.008Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -143,319 +146,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "1.134.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.132.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.130.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.129.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.126.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.125.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.125.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.124.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.124.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.123.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.123.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.123.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.122.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.122.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.121.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.119.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.119.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.118.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.118.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.117.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.116.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.115.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.114.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.113.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.112.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.111.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.110.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.109.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.109.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "1.109.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "1.134.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "inno",
-            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/110a328ea54b42367b803ec53ee0bf52ef26b419/VSCodeUserSetup-x64-1.134.0.exe",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "d564bc373ed3d94eedc813d5c0865e4ef40a40323e856bc838ae5a29723f2fb9",
+            "type": "package-manager",
+            "url": "https://code.visualstudio.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -550,11 +252,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:06.949Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -601,7 +303,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:07.064Z",
+          "scannedAt": "2026-08-23T01:58:29.171Z",
           "errors": []
         },
         "package": {
@@ -627,7 +329,7 @@
           "long": "Open-source code editor",
           "source": "homebrew",
           "homepage": "https://code.visualstudio.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:07.064Z"
+          "lastUpdatedAt": "2026-08-23T01:58:29.171Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -734,7 +436,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:07.064Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:58:29.171Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -782,7 +484,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:07.274Z",
+          "scannedAt": "2026-08-23T01:58:29.181Z",
           "errors": []
         },
         "package": {
@@ -808,7 +510,7 @@
           "long": "Lightweight but powerful source code editor",
           "source": "scoop",
           "homepage": "https://code.visualstudio.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:07.274Z"
+          "lastUpdatedAt": "2026-08-23T01:58:29.181Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -914,7 +616,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:07.274Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:58:29.181Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -962,7 +664,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:07.456Z",
+          "scannedAt": "2026-08-23T01:58:29.297Z",
           "errors": []
         },
         "package": {
@@ -997,7 +699,7 @@
           "long": "Build and debug modern web and cloud applications. Code is free and available on your favorite platform - Linux, Mac OSX, and Windows. Features Meet IntelliSense: Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules. Print statement debugging is a thing of the past: Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console. Git commands built-in: Working with Git has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted Git service. Extensible and customizable: Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.",
           "source": "choco",
           "homepage": "https://code.visualstudio.com/",
-          "lastUpdatedAt": "2026-08-22T18:48:07.456Z"
+          "lastUpdatedAt": "2026-08-23T01:58:29.297Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1410,7 +1112,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:07.456Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:58:29.297Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1460,7 +1162,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:07.612Z",
+          "scannedAt": "2026-08-23T01:58:29.432Z",
           "errors": []
         },
         "package": {
@@ -1489,7 +1191,7 @@
           "long": "Visual Studio Code",
           "source": "github",
           "homepage": "https://code.visualstudio.com",
-          "lastUpdatedAt": "2026-08-22T18:48:07.612Z"
+          "lastUpdatedAt": "2026-08-23T01:58:29.432Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1858,7 +1560,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:07.612Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:58:29.432Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

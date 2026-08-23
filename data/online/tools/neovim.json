@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T18:48:46.532Z",
-  "status": "ok",
+  "generatedAt": "2026-08-23T02:01:24.332Z",
+  "status": "partial",
   "tool": {
     "id": "neovim",
     "name": "Neovim",
@@ -29,7 +29,7 @@
       "long": "Features Extensible - API is first-class: discoverable, versioned, documented. - MessagePack structured communication enables extensions in any language. - Remote plugins run as co-processes, safely and asynchronously. - GUIs, IDEs, web browsers can --embed Neovim as an editor or script host. - Lua plugins are easy to create just like Vimscript plugins. Your config can live in init.lua! - AST-producing parsing engine enables faster, more accurate syntax highlighting, code navigation, refactoring, text objects, and motions. Usable - Strong defaults including a unique, minimalist colorscheme. - Builtin LSP client for semantic code inspection and refactoring (go-to definition, 'find references', format, ...). - Client-server architecture allows you to detach the UI and keep the editor session running (like tmux). Attach multiple UIs to any Nvim session. - Works the same everywhere: one build-type, one command. - Modern terminal features such as cursor styling, focus events, bracketed paste. - Builtin :terminal set the standard for 'TTY as a basic component'. Drop-in Vim - Fully compatible with Vim's editing model and Vimscript v1. - Start with :help nvim-from-vim if you already use...",
       "source": "choco",
       "homepage": "https://neovim.io/",
-      "lastUpdatedAt": "2026-08-22T18:48:09.726Z"
+      "lastUpdatedAt": "2026-08-23T01:58:43.972Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,31 +98,34 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-22T18:48:09.017Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-23T01:58:41.816Z",
+          "errors": [
+            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
+            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
+          ]
         },
         "package": {
           "name": "Neovim",
-          "publisher": "neovim.io",
+          "publisher": null,
           "author": null,
-          "description": "Vim-fork focused on extensibility and usability",
-          "license": "Apache-2.0 AND Vim",
-          "licenseUrl": "https://github.com/neovim/neovim/blob/HEAD/LICENSE.txt",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://neovim.io/",
-          "download": "https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-win64.msi",
-          "releases": "https://github.com/neovim/neovim/commit/68ea43cd0c28af25cd47731308c94fedfcfd1b0b",
+          "download": "https://neovim.io/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "Vim-fork focused on extensibility and usability",
-          "long": "Vim-fork focused on extensibility and usability",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-08-22T18:48:09.017Z"
+          "lastUpdatedAt": "2026-08-23T01:58:41.816Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,279 +144,18 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "0.12.4",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.7",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.6",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.10.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.10.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.10.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.10.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.10.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.9.5",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.9.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.9.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.8.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.8.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.8.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.7.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "0.7.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "0.12.4",
+            "version": null,
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-win64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "37985e9d393f45e478ba704e2dcd631db1df28b3addbd99d0263413a5f64a0ce",
+            "type": "package-manager",
+            "url": "https://neovim.io/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -508,11 +250,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "low",
+          "score": 40,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:09.017Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 2,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -558,7 +300,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:09.571Z",
+          "scannedAt": "2026-08-23T01:58:43.887Z",
           "errors": []
         },
         "package": {
@@ -584,7 +326,7 @@
           "long": "Ambitious Vim-fork focused on extensibility and agility",
           "source": "homebrew",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-08-22T18:48:09.571Z"
+          "lastUpdatedAt": "2026-08-23T01:58:43.887Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -691,7 +433,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:09.571Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:58:43.887Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -737,7 +479,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:09.637Z",
+          "scannedAt": "2026-08-23T01:58:43.923Z",
           "errors": []
         },
         "package": {
@@ -763,7 +505,7 @@
           "long": "Vim-fork focused on extensibility and usability",
           "source": "scoop",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-08-22T18:48:09.637Z"
+          "lastUpdatedAt": "2026-08-23T01:58:43.923Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -869,7 +611,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:09.637Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:58:43.923Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -915,7 +657,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:09.726Z",
+          "scannedAt": "2026-08-23T01:58:43.972Z",
           "errors": []
         },
         "package": {
@@ -949,7 +691,7 @@
           "long": "Features Extensible - API is first-class: discoverable, versioned, documented. - MessagePack structured communication enables extensions in any language. - Remote plugins run as co-processes, safely and asynchronously. - GUIs, IDEs, web browsers can --embed Neovim as an editor or script host. - Lua plugins are easy to create just like Vimscript plugins. Your config can live in init.lua! - AST-producing parsing engine enables faster, more accurate syntax highlighting, code navigation, refactoring, text objects, and motions. Usable - Strong defaults including a unique, minimalist colorscheme. - Builtin LSP client for semantic code inspection and refactoring (go-to definition, 'find references', format, ...). - Client-server architecture allows you to detach the UI and keep the editor session running (like tmux). Attach multiple UIs to any Nvim session. - Works the same everywhere: one build-type, one command. - Modern terminal features such as cursor styling, focus events, bracketed paste. - Builtin :terminal set the standard for 'TTY as a basic component'. Drop-in Vim - Fully compatible with Vim's editing model and Vimscript v1. - Start with :help nvim-from-vim if you already use...",
           "source": "choco",
           "homepage": "https://neovim.io/",
-          "lastUpdatedAt": "2026-08-22T18:48:09.726Z"
+          "lastUpdatedAt": "2026-08-23T01:58:43.972Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1361,7 +1103,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:09.726Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:58:43.972Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1409,7 +1151,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-22T18:48:09.983Z",
+          "scannedAt": "2026-08-23T01:58:44.104Z",
           "errors": []
         },
         "package": {
@@ -1440,7 +1182,7 @@
           "long": "Vim-fork focused on extensibility and usability",
           "source": "github",
           "homepage": "https://neovim.io",
-          "lastUpdatedAt": "2026-08-22T18:48:09.983Z"
+          "lastUpdatedAt": "2026-08-23T01:58:44.104Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1471,7 +1213,7 @@
             "latest": true,
             "prerelease": true,
             "lts": null,
-            "releaseDate": "2026-08-22T05:16:07Z",
+            "releaseDate": "2026-08-22T20:06:14Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/neovim/neovim/releases/tag/nightly"
           },
@@ -1777,7 +1519,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 20355592
+            "sizeBytes": 20339208
           },
           {
             "id": "nvim-linux-arm64.appimage.zsync",
@@ -1789,7 +1531,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 69801
+            "sizeBytes": 69745
           },
           {
             "id": "nvim-linux-arm64.tar.gz",
@@ -1801,7 +1543,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 21569067
+            "sizeBytes": 21576470
           },
           {
             "id": "nvim-linux-x86_64.appimage",
@@ -1813,7 +1555,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 20380152
+            "sizeBytes": 20388344
           },
           {
             "id": "nvim-linux-x86_64.appimage.zsync",
@@ -1825,7 +1567,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 69887
+            "sizeBytes": 69915
           },
           {
             "id": "nvim-linux-x86_64.tar.gz",
@@ -1837,7 +1579,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 21422900
+            "sizeBytes": 21427163
           },
           {
             "id": "nvim-macos-arm64.tar.gz",
@@ -1849,7 +1591,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 9981894
+            "sizeBytes": 9984294
           },
           {
             "id": "nvim-macos-x86_64.tar.gz",
@@ -1861,7 +1603,19 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 10174866
+            "sizeBytes": 10175795
+          },
+          {
+            "id": "nvim-wasm-emscripten.zip",
+            "version": "nightly",
+            "platform": "windows",
+            "architecture": null,
+            "type": "zip",
+            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-wasm-emscripten.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 8122781
           },
           {
             "id": "nvim-win-arm64.msi",
@@ -1873,7 +1627,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 19141700
+            "sizeBytes": 19137604
           },
           {
             "id": "nvim-win-arm64.zip",
@@ -1885,7 +1639,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 19419128
+            "sizeBytes": 19413895
           },
           {
             "id": "nvim-win64.msi",
@@ -1897,7 +1651,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 18932804
+            "sizeBytes": 18875460
           },
           {
             "id": "nvim-win64.zip",
@@ -1909,43 +1663,7 @@
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 19179624
-          },
-          {
-            "id": "nvim.data",
-            "version": "nightly",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim.data",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 22604405
-          },
-          {
-            "id": "nvim.js",
-            "version": "nightly",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim.js",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 513481
-          },
-          {
-            "id": "nvim.wasm",
-            "version": "nightly",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim.wasm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 7506877
+            "sizeBytes": 19122961
           },
           {
             "id": "nvim-linux-arm64.appimage",
@@ -2726,6 +2444,30 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 39185
+          },
+          {
+            "id": "nvim-linux-x86_64.tar.gz",
+            "version": "0.12.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/neovim/neovim/releases/download/v0.12.0/nvim-linux-x86_64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 11358537
+          },
+          {
+            "id": "nvim-macos-arm64.tar.gz",
+            "version": "0.12.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/neovim/neovim/releases/download/v0.12.0/nvim-macos-arm64.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9585177
           }
         ],
         "commands": [],
@@ -2733,7 +2475,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-22T18:48:09.983Z",
+          "lastSuccessfulScanAt": "2026-08-23T01:58:44.104Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
