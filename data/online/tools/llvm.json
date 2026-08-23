@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "llvm",
     "name": "LLVM",
@@ -29,7 +29,7 @@
       "long": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. This package installs all Windows tools, which includes but is not limited to: - clang - clang-cl - clangd - clang++ - clang-format - lld - llvm-objdump",
       "source": "choco",
       "homepage": "http://llvm.org/",
-      "lastUpdatedAt": "2026-08-23T01:59:48.156Z"
+      "lastUpdatedAt": "2026-08-23T07:00:29.632Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,34 +97,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T01:59:47.847Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:29.179Z",
+          "errors": []
         },
         "package": {
           "name": "LLVM",
-          "publisher": null,
+          "publisher": "LLVM",
           "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "description": "A collection of modular and reusable compiler and toolchain technologies.",
+          "license": "Apache-2.0 with LLVM Exceptions",
+          "licenseUrl": "https://github.com/llvm/llvm-project/blob/llvmorg-19.1.0/LICENSE.TXT",
           "tags": []
         },
         "links": {
           "homepage": "https://llvm.org/",
-          "download": "https://llvm.org/",
-          "releases": null,
+          "download": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/LLVM-22.1.8-win64.exe",
+          "releases": "https://discourse.llvm.org/t/llvm-22-1-8-released/91084",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "A collection of modular and reusable compiler and toolchain technologies.",
+          "long": "A collection of modular and reusable compiler and toolchain technologies.",
           "source": "winget",
           "homepage": "https://llvm.org/",
-          "lastUpdatedAt": "2026-08-23T01:59:47.847Z"
+          "lastUpdatedAt": "2026-08-23T07:00:29.179Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -143,18 +140,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "22.1.8",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "22.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "21.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "20.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "19.1.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "19.1.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "19.1.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "22.1.8",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://llvm.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "nullsoft",
+            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/LLVM-22.1.8-win64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "16e5709785fef73c854646241c4a92c5cd574318d1b33c63330dd7721903e55c",
             "sizeBytes": null
           }
         ],
@@ -249,11 +547,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:29.179Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -299,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:48.073Z",
+          "scannedAt": "2026-08-23T07:00:29.554Z",
           "errors": []
         },
         "package": {
@@ -325,7 +623,7 @@
           "long": "Next-gen compiler infrastructure",
           "source": "homebrew",
           "homepage": "https://llvm.org/",
-          "lastUpdatedAt": "2026-08-23T01:59:48.073Z"
+          "lastUpdatedAt": "2026-08-23T07:00:29.554Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -522,7 +820,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:48.073Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:29.554Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -568,7 +866,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:48.086Z",
+          "scannedAt": "2026-08-23T07:00:29.568Z",
           "errors": []
         },
         "package": {
@@ -594,7 +892,7 @@
           "long": "Collection of modular and reusable compiler and toolchain technologies.",
           "source": "scoop",
           "homepage": "https://www.llvm.org",
-          "lastUpdatedAt": "2026-08-23T01:59:48.086Z"
+          "lastUpdatedAt": "2026-08-23T07:00:29.568Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -700,7 +998,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:48.086Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:29.568Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -746,7 +1044,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:48.156Z",
+          "scannedAt": "2026-08-23T07:00:29.632Z",
           "errors": []
         },
         "package": {
@@ -776,7 +1074,7 @@
           "long": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. This package installs all Windows tools, which includes but is not limited to: - clang - clang-cl - clangd - clang++ - clang-format - lld - llvm-objdump",
           "source": "choco",
           "homepage": "http://llvm.org/",
-          "lastUpdatedAt": "2026-08-23T01:59:48.156Z"
+          "lastUpdatedAt": "2026-08-23T07:00:29.632Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1183,7 +1481,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:48.156Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:29.632Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

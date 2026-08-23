@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "julia",
     "name": "Julia",
@@ -29,7 +29,7 @@
       "long": "Julia is a high-level, high-performance dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments. It provides a sophisticated compiler, distributed parallel execution, numerical accuracy, and an extensive mathematical function library. The library, largely written in Julia itself, also integrates mature, best-of-breed C and Fortran libraries for linear algebra, random number generation, signal processing, and string processing. In addition, the Julia developer community is contributing a number of external packages through Julia’s built-in package manager at a rapid pace. IJulia, a collaboration between the IPython and Julia communities, provides a powerful browser-based graphical notebook interface to Julia. Features - Multiple dispatch: providing ability to define function behavior across many combinations of argument types - Dynamic type system: types for documentation, optimization, and dispatch - Good performance, approaching that of statically-typed languages like C - A built-in package manager - Lisp-like macros and other metaprogramming facilities - Call Python functions: use the PyCall package[...",
       "source": "choco",
       "homepage": "https://julialang.org/",
-      "lastUpdatedAt": "2026-08-23T02:00:53.570Z"
+      "lastUpdatedAt": "2026-08-23T07:00:52.830Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,34 +96,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T02:00:53.403Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:52.678Z",
+          "errors": []
         },
         "package": {
           "name": "Julia",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "Julia Language",
+          "author": "Julia Computing, Inc.",
+          "description": "Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science.",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/JuliaLang/julia/blob/master/LICENSE.md",
           "tags": []
         },
         "links": {
-          "homepage": "https://julialang.org/",
-          "download": "https://julialang.org/",
+          "homepage": "https://julialang.org/downloads/",
+          "download": "https://julialang-s3.julialang.org/bin/winnt/x64/1.12/julia-1.12.7-win64.exe",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science.",
+          "long": "Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science.",
           "source": "winget",
-          "homepage": "https://julialang.org/",
-          "lastUpdatedAt": "2026-08-23T02:00:53.403Z"
+          "homepage": "https://julialang.org/downloads/",
+          "lastUpdatedAt": "2026-08-23T07:00:52.678Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,18 +138,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.12.7",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.12.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.11.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.10.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.9.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.12.7",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://julialang.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "inno",
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.12/julia-1.12.7-win64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "7d5113091702be4ea6eaa99f06896471fa5f3574d34fbb77826a59e279be9765",
             "sizeBytes": null
           }
         ],
@@ -247,11 +545,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:52.678Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -297,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T02:00:53.497Z",
+          "scannedAt": "2026-08-23T07:00:52.733Z",
           "errors": []
         },
         "package": {
@@ -323,7 +621,7 @@
           "long": "Fast, Dynamic Programming Language",
           "source": "homebrew",
           "homepage": "https://julialang.org/",
-          "lastUpdatedAt": "2026-08-23T02:00:53.497Z"
+          "lastUpdatedAt": "2026-08-23T07:00:52.733Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -429,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T02:00:53.497Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:52.733Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -475,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T02:00:53.514Z",
+          "scannedAt": "2026-08-23T07:00:52.756Z",
           "errors": []
         },
         "package": {
@@ -501,7 +799,7 @@
           "long": "The Julia programming language",
           "source": "scoop",
           "homepage": "https://julialang.org/",
-          "lastUpdatedAt": "2026-08-23T02:00:53.514Z"
+          "lastUpdatedAt": "2026-08-23T07:00:52.756Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -606,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T02:00:53.514Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:52.756Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -652,7 +950,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T02:00:53.570Z",
+          "scannedAt": "2026-08-23T07:00:52.830Z",
           "errors": []
         },
         "package": {
@@ -691,7 +989,7 @@
           "long": "Julia is a high-level, high-performance dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments. It provides a sophisticated compiler, distributed parallel execution, numerical accuracy, and an extensive mathematical function library. The library, largely written in Julia itself, also integrates mature, best-of-breed C and Fortran libraries for linear algebra, random number generation, signal processing, and string processing. In addition, the Julia developer community is contributing a number of external packages through Julia’s built-in package manager at a rapid pace. IJulia, a collaboration between the IPython and Julia communities, provides a powerful browser-based graphical notebook interface to Julia. Features - Multiple dispatch: providing ability to define function behavior across many combinations of argument types - Dynamic type system: types for documentation, optimization, and dispatch - Good performance, approaching that of statically-typed languages like C - A built-in package manager - Lisp-like macros and other metaprogramming facilities - Call Python functions: use the PyCall package[...",
           "source": "choco",
           "homepage": "https://julialang.org/",
-          "lastUpdatedAt": "2026-08-23T02:00:53.570Z"
+          "lastUpdatedAt": "2026-08-23T07:00:52.830Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1107,7 +1405,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T02:00:53.570Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:52.830Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

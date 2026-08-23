@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "postman",
     "name": "Postman",
@@ -24,11 +24,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": "Postman for Windows",
-      "long": "Postman helps you be more efficient while working with APIs. Using Postman, you can construct complex HTTP requests quickly, organize them in collections and share them with your co-workers.",
-      "source": "choco",
-      "homepage": "https://www.postman.com/",
-      "lastUpdatedAt": "2026-08-23T02:00:18.602Z"
+      "short": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
+      "long": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
+      "source": "winget",
+      "homepage": "https://www.postman.com/downloads/",
+      "lastUpdatedAt": "2026-08-23T07:00:40.283Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -82,34 +82,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T02:00:18.301Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:40.283Z",
+          "errors": []
         },
         "package": {
           "name": "Postman",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "Postman",
+          "author": "Postman, Inc.",
+          "description": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
+          "license": "Proprietary",
+          "licenseUrl": "https://www.postman.com/legal/terms/",
           "tags": []
         },
         "links": {
-          "homepage": "https://www.postman.com/",
-          "download": "https://www.postman.com/",
+          "homepage": "https://www.postman.com/downloads/",
+          "download": "https://dl.pstmn.io/download/version/12.24.6/windows_64",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
+          "long": "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs — faster.",
           "source": "winget",
-          "homepage": "https://www.postman.com/",
-          "lastUpdatedAt": "2026-08-23T02:00:18.301Z"
+          "homepage": "https://www.postman.com/downloads/",
+          "lastUpdatedAt": "2026-08-23T07:00:40.283Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -127,18 +124,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "12.24.6",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.24.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.24.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.24.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.24.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.23.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.23.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.23.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.23.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.23.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.23.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.22.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.22.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.22.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.22.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.22.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.22.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.10",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.9",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.7",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.21.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.20.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.20.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.20.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "12.20.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "12.24.6",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.postman.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "exe",
+            "url": "https://dl.pstmn.io/download/version/12.24.6/windows_64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "86746099bb2619e8db66f4016cfbe04e7009dee3f1259b504c5dc33d7981316c",
             "sizeBytes": null
           }
         ],
@@ -233,11 +531,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:40.283Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -269,7 +567,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T02:00:18.446Z",
+          "scannedAt": "2026-08-23T07:00:40.820Z",
           "errors": []
         },
         "package": {
@@ -295,7 +593,7 @@
           "long": "Collaboration platform for API development",
           "source": "homebrew",
           "homepage": "https://www.postman.com/",
-          "lastUpdatedAt": "2026-08-23T02:00:18.446Z"
+          "lastUpdatedAt": "2026-08-23T07:00:40.820Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -401,7 +699,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T02:00:18.446Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:40.820Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -434,7 +732,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T02:00:18.472Z",
+          "scannedAt": "2026-08-23T07:00:40.844Z",
           "errors": []
         },
         "package": {
@@ -460,7 +758,7 @@
           "long": "Complete API development environment.",
           "source": "scoop",
           "homepage": "https://www.getpostman.com/",
-          "lastUpdatedAt": "2026-08-23T02:00:18.472Z"
+          "lastUpdatedAt": "2026-08-23T07:00:40.844Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -565,7 +863,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T02:00:18.472Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:40.844Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -598,7 +896,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T02:00:18.602Z",
+          "scannedAt": "2026-08-23T07:00:40.887Z",
           "errors": []
         },
         "package": {
@@ -623,7 +921,7 @@
           "long": "Postman helps you be more efficient while working with APIs. Using Postman, you can construct complex HTTP requests quickly, organize them in collections and share them with your co-workers.",
           "source": "choco",
           "homepage": "https://www.postman.com/",
-          "lastUpdatedAt": "2026-08-23T02:00:18.602Z"
+          "lastUpdatedAt": "2026-08-23T07:00:40.887Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1025,7 +1323,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T02:00:18.602Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:40.887Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

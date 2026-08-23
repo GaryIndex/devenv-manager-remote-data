@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "r",
     "name": "R",
@@ -29,7 +29,7 @@
       "long": "Introduction to R R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R. R provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, …) and graphical techniques, and is highly extensible. The S language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity. One of R’s strengths is the ease with which well-designed publication-quality plots can be produced, including mathematical symbols and formulae where needed. Great care has been taken over the defaults for the minor design choices in graphics, but the user retains full control. R is available as Free Software under the terms of the Free Software Foundation’s GNU General Public License in source code form....",
       "source": "choco",
       "homepage": "http://www.r-project.org/",
-      "lastUpdatedAt": "2026-08-23T02:00:50.934Z"
+      "lastUpdatedAt": "2026-08-23T07:00:52.206Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -95,34 +95,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T02:00:50.156Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:50.961Z",
+          "errors": []
         },
         "package": {
           "name": "R",
-          "publisher": null,
+          "publisher": "R Core Team",
           "author": null,
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "GPL-2.0-or-later",
+          "licenseUrl": "https://www.r-project.org/Licenses",
           "tags": []
         },
         "links": {
-          "homepage": "https://www.r-project.org/",
-          "download": "https://www.r-project.org/",
-          "releases": null,
+          "homepage": "https://cloud.r-project.org",
+          "download": "https://cloud.r-project.org/bin/windows/base/old/4.6.1/R-4.6.1-win.exe",
+          "releases": "https://cloud.r-project.org/bin/windows/base/old/4.6.1/NEWS.R-4.6.1.html",
           "docs": null
         },
         "descriptions": {
           "short": null,
           "long": null,
           "source": "winget",
-          "homepage": "https://www.r-project.org/",
-          "lastUpdatedAt": "2026-08-23T02:00:50.156Z"
+          "homepage": "https://cloud.r-project.org",
+          "lastUpdatedAt": "2026-08-23T07:00:50.961Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,18 +137,269 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "4.6.1",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "4.6.1",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.r-project.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "inno",
+            "url": "https://cloud.r-project.org/bin/windows/base/old/4.6.1/R-4.6.1-win.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "c5424c40cd70ef85765a55d2ff96bb602b5f30ed536938ff004f14db5db3c2df",
             "sizeBytes": null
           }
         ],
@@ -246,11 +494,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:50.961Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -296,7 +544,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T02:00:50.915Z",
+          "scannedAt": "2026-08-23T07:00:52.186Z",
           "errors": []
         },
         "package": {
@@ -322,7 +570,7 @@
           "long": "Software environment for statistical computing",
           "source": "homebrew",
           "homepage": "https://www.r-project.org/",
-          "lastUpdatedAt": "2026-08-23T02:00:50.915Z"
+          "lastUpdatedAt": "2026-08-23T07:00:52.186Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -428,7 +676,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T02:00:50.915Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:52.186Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -474,7 +722,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T02:00:50.934Z",
+          "scannedAt": "2026-08-23T07:00:52.206Z",
           "errors": []
         },
         "package": {
@@ -513,7 +761,7 @@
           "long": "Introduction to R R is a language and environment for statistical computing and graphics. It is a GNU project which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R. R provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, …) and graphical techniques, and is highly extensible. The S language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity. One of R’s strengths is the ease with which well-designed publication-quality plots can be produced, including mathematical symbols and formulae where needed. Great care has been taken over the defaults for the minor design choices in graphics, but the user retains full control. R is available as Free Software under the terms of the Free Software Foundation’s GNU General Public License in source code form....",
           "source": "choco",
           "homepage": "http://www.r-project.org/",
-          "lastUpdatedAt": "2026-08-23T02:00:50.934Z"
+          "lastUpdatedAt": "2026-08-23T07:00:52.206Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -929,7 +1177,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T02:00:50.934Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:52.206Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

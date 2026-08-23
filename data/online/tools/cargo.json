@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "cargo",
     "name": "Cargo",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
-      "homepage": "https://doc.rust-lang.org/cargo/",
-      "lastUpdatedAt": null
+      "short": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms....",
+      "long": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows.",
+      "source": "winget",
+      "homepage": "https://rust-lang.github.io/rustup/",
+      "lastUpdatedAt": "2026-08-23T07:00:24.582Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -77,8 +77,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "low",
-      "score": 40
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -91,34 +91,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T01:59:30.361Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:24.582Z",
+          "errors": []
         },
         "package": {
           "name": "Cargo",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
+          "publisher": "The Rust Programming Language",
+          "author": "The Rust Programming Language",
+          "description": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows.",
+          "license": "Apache-2.0 or MIT",
           "licenseUrl": null,
           "tags": []
         },
         "links": {
-          "homepage": "https://doc.rust-lang.org/cargo/",
-          "download": "https://doc.rust-lang.org/cargo/",
-          "releases": null,
+          "homepage": "https://rust-lang.github.io/rustup/",
+          "download": "https://static.rust-lang.org/rustup/archive/1.29.0/x86_64-pc-windows-msvc/rustup-init.exe",
+          "releases": "https://github.com/rust-lang/rustup/blob/master/CHANGELOG.md#1290---2026-03-05",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms....",
+          "long": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows.",
           "source": "winget",
-          "homepage": "https://doc.rust-lang.org/cargo/",
-          "lastUpdatedAt": "2026-08-23T01:59:30.361Z"
+          "homepage": "https://rust-lang.github.io/rustup/",
+          "lastUpdatedAt": "2026-08-23T07:00:24.582Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -136,18 +133,109 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "1.29.0",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.28.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.28.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.28.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.27.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.27.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.26.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.25.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "1.29.0",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://doc.rust-lang.org/cargo/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "exe",
+            "url": "https://static.rust-lang.org/rustup/archive/1.29.0/x86_64-pc-windows-msvc/rustup-init.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "86478e53f769379d7f0ebfa7c9aa97cb76ca92233f79aa2cc0dbee2efaac73c7",
             "sizeBytes": null
           }
         ],
@@ -242,11 +330,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:24.582Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "podman",
     "name": "Podman",
@@ -29,7 +29,7 @@
       "long": "Podman: A tool for managing OCI containers and pods.",
       "source": "github",
       "homepage": "https://podman.io",
-      "lastUpdatedAt": "2026-08-23T01:59:54.620Z"
+      "lastUpdatedAt": "2026-08-23T07:00:32.035Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,26 +96,23 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T01:59:54.285Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:31.532Z",
+          "errors": []
         },
         "package": {
           "name": "Podman",
-          "publisher": null,
-          "author": null,
+          "publisher": "Red Hat",
+          "author": "Red Hat Inc.",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "Apache-2.0",
+          "licenseUrl": "https://github.com/podman-container-tools/podman/blob/HEAD/LICENSE",
           "tags": []
         },
         "links": {
           "homepage": "https://podman.io/",
-          "download": "https://podman.io/",
-          "releases": null,
+          "download": "https://github.com/podman-container-tools/podman/releases/download/v5.8.3/podman-installer-windows-amd64.exe",
+          "releases": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.3",
           "docs": null
         },
         "descriptions": {
@@ -123,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-08-23T01:59:54.285Z"
+          "lastUpdatedAt": "2026-08-23T07:00:31.532Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,18 +138,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "5.8.3",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.8.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.8.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.8.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.7.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.7.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.6.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.5.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.5.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.5.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.4.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "5.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "5.8.3",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://podman.io/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "burn",
+            "url": "https://github.com/podman-container-tools/podman/releases/download/v5.8.3/podman-installer-windows-amd64.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "b87fe41c112062b3f598574ed4aa3fb82aaa4bc150b29eb4915400e59b0b6b55",
             "sizeBytes": null
           }
         ],
@@ -247,11 +545,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:31.532Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -297,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:54.532Z",
+          "scannedAt": "2026-08-23T07:00:31.940Z",
           "errors": []
         },
         "package": {
@@ -323,7 +621,7 @@
           "long": "Tool for managing OCI containers and pods",
           "source": "homebrew",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-08-23T01:59:54.532Z"
+          "lastUpdatedAt": "2026-08-23T07:00:31.940Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -429,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:54.532Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:31.940Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -475,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:54.556Z",
+          "scannedAt": "2026-08-23T07:00:31.957Z",
           "errors": []
         },
         "package": {
@@ -501,7 +799,7 @@
           "long": "A tool for managing OCI containers and pods.",
           "source": "scoop",
           "homepage": "https://podman.io/",
-          "lastUpdatedAt": "2026-08-23T01:59:54.556Z"
+          "lastUpdatedAt": "2026-08-23T07:00:31.957Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -606,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:54.556Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:31.957Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -654,7 +952,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:54.620Z",
+          "scannedAt": "2026-08-23T07:00:32.035Z",
           "errors": []
         },
         "package": {
@@ -683,7 +981,7 @@
           "long": "Podman: A tool for managing OCI containers and pods.",
           "source": "github",
           "homepage": "https://podman.io",
-          "lastUpdatedAt": "2026-08-23T01:59:54.620Z"
+          "lastUpdatedAt": "2026-08-23T07:00:32.035Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1975,7 +2273,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:54.620Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:32.035Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

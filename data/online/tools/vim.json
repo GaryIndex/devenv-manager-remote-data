@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "vim",
     "name": "Vim",
@@ -29,7 +29,7 @@
       "long": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. Vim is often called a programmer's editor, and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files. Features Vim : Vim terminal(CLI) application can be used from Powershell and Command Prompt. GVim : The GUI version of Vim provides full featured Windows GUI application experience. Terminal Integration : Batch files are created to provide vim , gvim , evim , view , gview , vimdiff , gvimdiff and vimtutor command on terminal use. Shell Integration : Vim is added in Open with ... context menu. And by default Edit with Vim context menu is created to open files whose extensions are associated with other applications.",
       "source": "choco",
       "homepage": "https://www.vim.org/",
-      "lastUpdatedAt": "2026-08-23T01:58:44.780Z"
+      "lastUpdatedAt": "2026-08-23T07:00:15.210Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -96,34 +96,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T01:58:44.254Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:14.840Z",
+          "errors": []
         },
         "package": {
           "name": "Vim",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "Bram Moolenaar et al.",
+          "author": "Bram Moolenaar et al.",
+          "description": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient",
+          "license": "Copyright (C) 1991-2020 Bram Moolenaar [Bram@vim.org] - Charityware / GNU GPL compatible",
+          "licenseUrl": "https://github.com/vim/vim-win32-installer#license--copyright",
           "tags": []
         },
         "links": {
           "homepage": "https://www.vim.org/",
-          "download": "https://www.vim.org/",
-          "releases": null,
+          "download": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.0993/gvim_9.2.0993_x64_signed.exe",
+          "releases": "https://github.com/vim/vim-win32-installer/releases/tag/v9.2.0993",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient",
+          "long": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient",
           "source": "winget",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-08-23T01:58:44.254Z"
+          "lastUpdatedAt": "2026-08-23T07:00:14.840Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -141,18 +138,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "9.2.0993",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0933",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0927",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0858",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0758",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0653",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0649",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0530",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0428",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0323",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0321",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0315",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0212",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0112",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0110",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0010",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.2098",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.2094",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1984",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1882",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1782",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1680",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1665",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1663",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1563",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1557",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1455",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1355",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1251",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.1.1244",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "9.2.0993",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.vim.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "nullsoft",
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.0993/gvim_9.2.0993_x64_signed.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "cf22fdbbfb3cad27e952efdca8b722a5a1ec3c86655de3a22038fa0db38b4f15",
             "sizeBytes": null
           }
         ],
@@ -247,11 +545,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:14.840Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -297,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:58:44.725Z",
+          "scannedAt": "2026-08-23T07:00:15.110Z",
           "errors": []
         },
         "package": {
@@ -323,7 +621,7 @@
           "long": "Vi 'workalike' with many additional features",
           "source": "homebrew",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-08-23T01:58:44.725Z"
+          "lastUpdatedAt": "2026-08-23T07:00:15.110Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -429,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:58:44.725Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:15.110Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -475,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:58:44.744Z",
+          "scannedAt": "2026-08-23T07:00:15.133Z",
           "errors": []
         },
         "package": {
@@ -501,7 +799,7 @@
           "long": "A highly configurable text editor",
           "source": "scoop",
           "homepage": "https://www.vim.org",
-          "lastUpdatedAt": "2026-08-23T01:58:44.744Z"
+          "lastUpdatedAt": "2026-08-23T07:00:15.133Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -606,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:58:44.744Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:15.133Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -652,7 +950,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:58:44.780Z",
+          "scannedAt": "2026-08-23T07:00:15.210Z",
           "errors": []
         },
         "package": {
@@ -676,7 +974,7 @@
         },
         "links": {
           "homepage": "https://www.vim.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/vim/9.2.993",
+          "download": "https://community.chocolatey.org/api/v2/package/vim/9.2.995",
           "releases": "https://github.com/vim/vim-win32-installer/releases",
           "docs": null
         },
@@ -685,7 +983,7 @@
           "long": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. Vim is often called a programmer's editor, and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files. Features Vim : Vim terminal(CLI) application can be used from Powershell and Command Prompt. GVim : The GUI version of Vim provides full featured Windows GUI application experience. Terminal Integration : Batch files are created to provide vim , gvim , evim , view , gview , vimdiff , gvimdiff and vimtutor command on terminal use. Shell Integration : Vim is added in Open with ... context menu. And by default Edit with Vim context menu is created to open files whose extensions are associated with other applications.",
           "source": "choco",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-08-23T01:58:44.780Z"
+          "lastUpdatedAt": "2026-08-23T07:00:15.210Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -713,9 +1011,19 @@
         },
         "versions": [
           {
-            "version": "9.2.993",
+            "version": "9.2.995",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.993",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1001,29 +1309,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "9.2.785",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "9.2.993",
+            "version": "9.2.995",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/vim/9.2.993",
+            "url": "https://community.chocolatey.org/api/v2/package/vim/9.2.995",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "uEtEa2P+oxVRb8TdRZ+aektpCW/6gOt5BDAmwJr8HnXvU5DxVli8lUMGMBx/uwgW6/I3/Ko5T9/N7nCgJ9LyZw==",
+            "sha256": "XkCkgTzZg5CpCMGtUUChsuZX91GQmfF/AGO9hAsTth3/RCgMVXj0HB0AKdlp5gbRuEMb35gLJOUEogRA61ROaQ==",
             "sizeBytes": null
           }
         ],
@@ -1095,7 +1393,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:58:44.780Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:15.210Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

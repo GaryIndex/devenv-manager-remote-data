@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "cmake",
     "name": "CMake",
@@ -29,7 +29,7 @@
       "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
       "source": "choco",
       "homepage": "https://www.cmake.org/",
-      "lastUpdatedAt": "2026-08-23T01:59:44.048Z"
+      "lastUpdatedAt": "2026-08-23T07:00:28.379Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -99,26 +99,23 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T01:59:43.709Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:28.264Z",
+          "errors": []
         },
         "package": {
           "name": "CMake",
-          "publisher": null,
-          "author": null,
+          "publisher": "Kitware",
+          "author": "Kitware",
           "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "license": "BSD-3-Clause",
+          "licenseUrl": "https://github.com/Kitware/CMake/blob/HEAD/LICENSE.rst",
           "tags": []
         },
         "links": {
           "homepage": "https://cmake.org/",
-          "download": "https://cmake.org/",
-          "releases": null,
+          "download": "https://github.com/Kitware/CMake/releases/download/v4.4.2/cmake-4.4.2-windows-x86_64.msi",
+          "releases": "https://github.com/Kitware/CMake/releases/tag/v4.4.1",
           "docs": null
         },
         "descriptions": {
@@ -126,7 +123,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://cmake.org/",
-          "lastUpdatedAt": "2026-08-23T01:59:43.709Z"
+          "lastUpdatedAt": "2026-08-23T07:00:28.264Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -144,18 +141,319 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "4.4.2",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.4.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.3.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.2.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.1.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.8",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.6",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.3",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.2",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.1",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.31.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.30.5",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "3.30.4",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "4.4.2",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://cmake.org/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://github.com/Kitware/CMake/releases/download/v4.4.2/cmake-4.4.2-windows-x86_64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "5f391b528a6604c7248375d107ee993baa85667549ecb6e4c14bed9d9a718c41",
             "sizeBytes": null
           }
         ],
@@ -250,11 +548,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:28.264Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -302,7 +600,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:43.973Z",
+          "scannedAt": "2026-08-23T07:00:28.285Z",
           "errors": []
         },
         "package": {
@@ -328,7 +626,7 @@
           "long": "Cross-platform make",
           "source": "homebrew",
           "homepage": "https://www.cmake.org/",
-          "lastUpdatedAt": "2026-08-23T01:59:43.973Z"
+          "lastUpdatedAt": "2026-08-23T07:00:28.285Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -434,7 +732,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:43.973Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:28.285Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -482,7 +780,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:43.989Z",
+          "scannedAt": "2026-08-23T07:00:28.318Z",
           "errors": []
         },
         "package": {
@@ -508,7 +806,7 @@
           "long": "Family of tools designed to build, test and package software",
           "source": "scoop",
           "homepage": "https://cmake.org",
-          "lastUpdatedAt": "2026-08-23T01:59:43.989Z"
+          "lastUpdatedAt": "2026-08-23T07:00:28.318Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -613,7 +911,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:43.989Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:28.318Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -661,7 +959,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:44.048Z",
+          "scannedAt": "2026-08-23T07:00:28.379Z",
           "errors": []
         },
         "package": {
@@ -691,7 +989,7 @@
           "long": "CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK. Development MSI Properties ADD CMAKE TO PATH - 0 = Do not add CMake to PATH - 1 = Add CMake to system PATH for all users (default) DESKTOP SHORTCUT REQUESTED - 0 = Do not create desktop icon (default) - 1 = Create CMake desktop icon ALLUSERS - 0 = Install for the current user only - 1 = Install for all users (default) For example: choco install cmake --installargs 'ADD CMAKE TO PATH=System' --apply-install-arguments-to-dependencies Notes - If the package is out of date please check Version History for the latest submitted version. If you have a question, please ask it in Chocolatey Community Package Discussions or raise an issue on the Chocolatey Community Packages Repository if you hav...",
           "source": "choco",
           "homepage": "https://www.cmake.org/",
-          "lastUpdatedAt": "2026-08-23T01:59:44.048Z"
+          "lastUpdatedAt": "2026-08-23T07:00:28.379Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1098,7 +1396,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:44.048Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:28.379Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1148,7 +1446,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-23T01:59:44.105Z",
+          "scannedAt": "2026-08-23T07:00:28.442Z",
           "errors": []
         },
         "package": {
@@ -1171,7 +1469,7 @@
           "long": "Mirror of CMake upstream repository",
           "source": "github",
           "homepage": "https://gitlab.kitware.com/cmake/cmake",
-          "lastUpdatedAt": "2026-08-23T01:59:44.105Z"
+          "lastUpdatedAt": "2026-08-23T07:00:28.442Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2458,7 +2756,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-23T01:59:44.105Z",
+          "lastSuccessfulScanAt": "2026-08-23T07:00:28.442Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

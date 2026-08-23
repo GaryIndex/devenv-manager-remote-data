@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T02:01:24.332Z",
-  "status": "partial",
+  "generatedAt": "2026-08-23T07:01:01.768Z",
+  "status": "ok",
   "tool": {
     "id": "mysql_workbench",
     "name": "MySQL Workbench",
@@ -23,11 +23,11 @@
       "docs": null
     },
     "descriptions": {
-      "short": null,
-      "long": null,
-      "source": "catalog",
+      "short": "Integrated tools environment for database design, modeling, development, administration, and migration.",
+      "long": "Integrated tools environment for database design, modeling, development, administration, and migration.",
+      "source": "winget",
       "homepage": "https://www.mysql.com/products/workbench/",
-      "lastUpdatedAt": null
+      "lastUpdatedAt": "2026-08-23T07:00:42.439Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -64,8 +64,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "low",
-      "score": 40
+      "confidence": "high",
+      "score": 100
     },
     "sources": [
       {
@@ -78,34 +78,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-08-23T02:00:27.777Z",
-          "errors": [
-            "details: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r   - \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing",
-            "versions: - \r   \\ \r   | \r   / \r   - \r   \\ \r   | \r   / \r                                                                                                                        \rFailed when opening source(s); try the 'source reset' command if the problem persists.\nAn unexpected error occurred while executing the command:\n0x8a15000f : Data required by the source is missing"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-08-23T07:00:42.439Z",
+          "errors": []
         },
         "package": {
           "name": "MySQL Workbench",
-          "publisher": null,
+          "publisher": "Oracle Corporation",
           "author": null,
-          "description": null,
-          "license": null,
+          "description": "Integrated tools environment for database design, modeling, development, administration, and migration.",
+          "license": "GPL-2.0",
           "licenseUrl": null,
           "tags": []
         },
         "links": {
           "homepage": "https://www.mysql.com/products/workbench/",
-          "download": "https://www.mysql.com/products/workbench/",
+          "download": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.47-winx64.msi",
           "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Integrated tools environment for database design, modeling, development, administration, and migration.",
+          "long": "Integrated tools environment for database design, modeling, development, administration, and migration.",
           "source": "winget",
           "homepage": "https://www.mysql.com/products/workbench/",
-          "lastUpdatedAt": "2026-08-23T02:00:27.777Z"
+          "lastUpdatedAt": "2026-08-23T07:00:42.439Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -123,18 +120,119 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [],
+        "versions": [
+          {
+            "version": "8.0.47",
+            "channel": "stable",
+            "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.46",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.45",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.44",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.43",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.42",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.41",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.40",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.38",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.36",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          }
+        ],
         "downloads": [
           {
             "id": "default",
-            "version": null,
+            "version": "8.0.47",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://www.mysql.com/products/workbench/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "wix",
+            "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.47-winx64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "f7a0f3c811bcec93456184bb252540cbae4ea32f9af2cc910760fccbce6767bd",
             "sizeBytes": null
           }
         ],
@@ -229,11 +327,11 @@
           }
         ],
         "quality": {
-          "confidence": "low",
-          "score": 40,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 2,
+          "lastSuccessfulScanAt": "2026-08-23T07:00:42.439Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
