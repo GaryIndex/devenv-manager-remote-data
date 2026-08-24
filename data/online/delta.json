@@ -1,41 +1,86 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T18:48:21.732Z",
-  "fromGeneratedAt": "2026-08-23T13:01:30.283Z",
-  "toGeneratedAt": "2026-08-23T18:48:21.732Z",
+  "generatedAt": "2026-08-24T01:57:31.588Z",
+  "fromGeneratedAt": "2026-08-23T18:48:21.732Z",
+  "toGeneratedAt": "2026-08-24T01:57:31.588Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 2,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 2,
+    "versionChanges": 8,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "notepad_plus_plus",
       "neovim",
-      "pnpm"
+      "vim",
+      "pnpm",
+      "mysql"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "notepad_plus_plus",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "8.9.7",
+        "to": "8.9.8"
+      },
+      {
         "toolId": "neovim",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "nightly",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.12.4",
         "to": "0.12.5"
       },
       {
-        "toolId": "pnpm",
+        "toolId": "neovim",
         "sourceId": "scoop",
         "manager": "scoop",
+        "from": "0.12.4",
+        "to": "0.12.5"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "9.2.0950",
+        "to": "9.2.1000"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.0995",
+        "to": "9.2.1001"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.995",
+        "to": "9.2.1001"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "11.22.0",
         "to": "11.23.0"
+      },
+      {
+        "toolId": "mysql",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "9.7.1",
+        "to": "26.7.0"
       }
     ],
     "qualityChanges": []
