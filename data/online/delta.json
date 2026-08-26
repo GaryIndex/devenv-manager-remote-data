@@ -1,80 +1,116 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T18:56:13.942Z",
-  "fromGeneratedAt": "2026-08-25T13:11:11.921Z",
-  "toGeneratedAt": "2026-08-25T18:56:13.942Z",
+  "generatedAt": "2026-08-26T01:58:09.884Z",
+  "fromGeneratedAt": "2026-08-25T18:56:13.942Z",
+  "toGeneratedAt": "2026-08-26T01:58:09.884Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 12,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "emacs",
-      "pnpm",
-      "gradle",
+      "uv",
       "cmake",
       "docker_desktop",
-      "postman"
+      "aws_cli",
+      "google_cloud_sdk",
+      "postman",
+      "rstudio"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "emacs",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "30.2",
-        "to": "31.1"
-      },
-      {
-        "toolId": "pnpm",
+        "toolId": "uv",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "11.23.0",
-        "to": "11.24.0"
+        "from": "0.12.5",
+        "to": "0.12.6"
       },
       {
-        "toolId": "gradle",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.7.0",
-        "to": "9.7.1"
+        "toolId": "uv",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.12.5",
+        "to": "0.12.6"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.12.5",
+        "to": "0.12.6"
       },
       {
         "toolId": "cmake",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "4.4.2",
         "to": "4.4.3"
       },
       {
         "toolId": "docker_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "4.88.0,237115",
-        "to": "4.88.1,237512"
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "4.88.0",
+        "to": "4.88.1"
       },
       {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.25.2",
-        "to": "12.25.3"
+        "toolId": "docker_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.87.0",
+        "to": "4.88.0"
       },
       {
-        "toolId": "postman",
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.30",
+        "to": "2.36.31"
+      },
+      {
+        "toolId": "aws_cli",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.25.2",
+        "from": "2.36.30",
+        "to": "2.36.31"
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "581.0.0",
+        "to": "582.0.0"
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "581.0.0",
+        "to": "582.0.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.24.6",
         "to": "12.25.3"
+      },
+      {
+        "toolId": "rstudio",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2026.07.1+147",
+        "to": "2026.08.1+195"
       }
     ],
     "qualityChanges": []

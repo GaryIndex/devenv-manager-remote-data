@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T18:56:13.942Z",
+  "generatedAt": "2026-08-26T01:58:09.884Z",
   "status": "ok",
   "tool": {
     "id": "docker_desktop",
@@ -28,7 +28,7 @@
       "long": "Docker Desktop is an application for macOS and Windows machines for the building and sharing of containerized applications. Access Docker Desktop and follow the guided onboarding to build your first containerized application in minutes.",
       "source": "winget",
       "homepage": "https://www.docker.com/products/docker-desktop",
-      "lastUpdatedAt": "2026-08-25T18:55:48.338Z"
+      "lastUpdatedAt": "2026-08-26T01:57:35.050Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-25T18:55:48.338Z",
+          "scannedAt": "2026-08-26T01:57:35.050Z",
           "errors": []
         },
         "package": {
@@ -112,7 +112,7 @@
         },
         "links": {
           "homepage": "https://www.docker.com/products/docker-desktop",
-          "download": "https://desktop.docker.com/win/main/amd64/237115/Docker%20Desktop%20Installer.exe",
+          "download": "https://desktop.docker.com/win/main/amd64/237512/Docker%20Desktop%20Installer.exe",
           "releases": null,
           "docs": null
         },
@@ -121,7 +121,7 @@
           "long": "Docker Desktop is an application for macOS and Windows machines for the building and sharing of containerized applications. Access Docker Desktop and follow the guided onboarding to build your first containerized application in minutes.",
           "source": "winget",
           "homepage": "https://www.docker.com/products/docker-desktop",
-          "lastUpdatedAt": "2026-08-25T18:55:48.338Z"
+          "lastUpdatedAt": "2026-08-26T01:57:35.050Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -142,9 +142,19 @@
         },
         "versions": [
           {
-            "version": "4.88.0",
+            "version": "4.88.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.88.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -430,29 +440,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "4.55.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "4.88.0",
+            "version": "4.88.1",
             "platform": "windows",
             "architecture": null,
             "type": "exe",
-            "url": "https://desktop.docker.com/win/main/amd64/237115/Docker%20Desktop%20Installer.exe",
+            "url": "https://desktop.docker.com/win/main/amd64/237512/Docker%20Desktop%20Installer.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "53bd0193c96dfa81a25c5f4ae4f6d5143c4165d282287630c72ea5fe6025007b",
+            "sha256": "89fe3d80a326a2ad521de09b5a89ef04d10c60593604b344f11f433ca7f1f6f0",
             "sizeBytes": null
           }
         ],
@@ -550,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-25T18:55:48.338Z",
+          "lastSuccessfulScanAt": "2026-08-26T01:57:35.050Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -598,7 +598,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-25T18:55:48.507Z",
+          "scannedAt": "2026-08-26T01:57:36.104Z",
           "errors": []
         },
         "package": {
@@ -624,7 +624,7 @@
           "long": "App to build and share containerised applications and microservices",
           "source": "homebrew",
           "homepage": "https://www.docker.com/products/docker-desktop",
-          "lastUpdatedAt": "2026-08-25T18:55:48.507Z"
+          "lastUpdatedAt": "2026-08-26T01:57:36.104Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -731,7 +731,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-25T18:55:48.507Z",
+          "lastSuccessfulScanAt": "2026-08-26T01:57:36.104Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -779,7 +779,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-25T18:55:48.522Z",
+          "scannedAt": "2026-08-26T01:57:36.113Z",
           "errors": []
         },
         "package": {
@@ -798,7 +798,7 @@
         },
         "links": {
           "homepage": "https://www.docker.com/products/docker-desktop",
-          "download": "https://community.chocolatey.org/api/v2/package/docker-desktop/4.87.0",
+          "download": "https://community.chocolatey.org/api/v2/package/docker-desktop/4.88.0",
           "releases": "https://docs.docker.com/docker-for-windows/release-notes/",
           "docs": null
         },
@@ -807,7 +807,7 @@
           "long": "Developer productivity tools and a local Kubernetes environment.",
           "source": "choco",
           "homepage": "https://www.docker.com/products/docker-desktop",
-          "lastUpdatedAt": "2026-08-25T18:55:48.522Z"
+          "lastUpdatedAt": "2026-08-26T01:57:36.113Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -831,9 +831,19 @@
         },
         "versions": [
           {
-            "version": "4.87.0",
+            "version": "4.88.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "4.87.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1119,29 +1129,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "4.60.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "4.87.0",
+            "version": "4.88.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/docker-desktop/4.87.0",
+            "url": "https://community.chocolatey.org/api/v2/package/docker-desktop/4.88.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "tMUR/ryDs6i5LFoWorcuE0+S20vtkiz5qFRWdtpZoe7ZdhXQn/dQyPWgRBN/7qBHS5AcVsP6vvNMPdsUEp8o7w==",
+            "sha256": "GDLS5Wddj1yS1V1dz7gjm3BZ/VqWHE6miPiUG8UfzTGXsbW57Fs5VQ8tht67pMThwIlENgMKtPlNDi8hpMYsBA==",
             "sizeBytes": null
           }
         ],
@@ -1213,7 +1213,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-25T18:55:48.522Z",
+          "lastSuccessfulScanAt": "2026-08-26T01:57:36.113Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
