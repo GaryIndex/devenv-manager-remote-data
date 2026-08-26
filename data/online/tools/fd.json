@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T07:08:21.726Z",
-  "status": "ok",
+  "generatedAt": "2026-08-26T13:16:34.507Z",
+  "status": "partial",
   "tool": {
     "id": "fd",
     "name": "fd",
@@ -29,7 +29,7 @@
       "long": "fd is a simple, fast and user-friendly alternative to find . While it does not seek to mirror all of find 's powerful functionality, it provides sensible (opinionated) defaults for 80% of the use cases. Features Convenient syntax: fd PATTERN instead of find -iname ' PATTERN ' . Colorized terminal output (similar to ls ). It's fast . Smart case: the search is case-insensitive by default. It switches to case-sensitive if the pattern contains an uppercase character\\ . Ignores hidden directories and files, by default. Ignores patterns from your .gitignore , by default. Regular expressions. Unicode-awareness. The command name is 50% shorter\\ than find :-). Parallel command execution with a syntax similar to GNU Parallel.",
       "source": "choco",
       "homepage": "https://github.com/sharkdp/fd",
-      "lastUpdatedAt": "2026-08-26T07:07:33.482Z"
+      "lastUpdatedAt": "2026-08-26T13:15:45.170Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:33.236Z",
+          "scannedAt": "2026-08-26T13:15:45.049Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://github.com/sharkdp/fd",
-          "download": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-x86_64-pc-windows-msvc.zip",
-          "releases": "https://github.com/sharkdp/fd/releases/tag/v10.4.2",
+          "download": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-pc-windows-msvc.zip",
+          "releases": "https://github.com/sharkdp/fd/releases/tag/v10.5.0",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "A simple, fast and user-friendly alternative to 'find'",
           "source": "winget",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-08-26T07:07:33.236Z"
+          "lastUpdatedAt": "2026-08-26T13:15:45.049Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "10.4.2",
+            "version": "10.5.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -242,14 +252,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "10.4.2",
+            "version": "10.5.0",
             "platform": "windows",
             "architecture": null,
             "type": "portable (zip)",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-pc-windows-msvc.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "b2816e506390a89941c63c9187d58a3cc10e9a55f2ef0685f9ea0eccaf7c98c8",
+            "sha256": "a227701b8551c35a9931d9f6da75503cf86d88e182d71fb849a70864c5d57cd7",
             "sizeBytes": null
           }
         ],
@@ -347,7 +357,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:33.236Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:45.049Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -394,7 +404,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:33.390Z",
+          "scannedAt": "2026-08-26T13:15:45.104Z",
           "errors": []
         },
         "package": {
@@ -411,7 +421,7 @@
         },
         "links": {
           "homepage": "https://github.com/sharkdp/fd",
-          "download": "https://github.com/sharkdp/fd/archive/refs/tags/v10.4.2.tar.gz",
+          "download": "https://github.com/sharkdp/fd/archive/refs/tags/v10.5.0.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -420,7 +430,7 @@
           "long": "Simple, fast and user-friendly alternative to find",
           "source": "homebrew",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-08-26T07:07:33.390Z"
+          "lastUpdatedAt": "2026-08-26T13:15:45.104Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -441,7 +451,7 @@
         },
         "versions": [
           {
-            "version": "10.4.2",
+            "version": "10.5.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -454,14 +464,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "10.4.2",
+            "version": "10.5.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/sharkdp/fd/archive/refs/tags/v10.4.2.tar.gz",
+            "url": "https://github.com/sharkdp/fd/archive/refs/tags/v10.5.0.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "3a7e027af8c8e91c196ac259c703d78cd55c364706ddafbc66d02c326e57a456",
+            "sha256": "e6d9e90730bf316101691e49d59cc02565278dc3779d33a77423801569484851",
             "sizeBytes": null
           }
         ],
@@ -525,7 +535,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:33.390Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:45.104Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -571,7 +581,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:33.403Z",
+          "scannedAt": "2026-08-26T13:15:45.165Z",
           "errors": []
         },
         "package": {
@@ -597,7 +607,7 @@
           "long": "A simple, fast and user-friendly alternative to 'find'.",
           "source": "scoop",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-08-26T07:07:33.403Z"
+          "lastUpdatedAt": "2026-08-26T13:15:45.165Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -617,7 +627,7 @@
         },
         "versions": [
           {
-            "version": "10.4.2",
+            "version": "10.5.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -630,7 +640,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "10.4.2",
+            "version": "10.5.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -701,7 +711,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:33.403Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:45.165Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -747,7 +757,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:33.482Z",
+          "scannedAt": "2026-08-26T13:15:45.170Z",
           "errors": []
         },
         "package": {
@@ -774,7 +784,7 @@
           "long": "fd is a simple, fast and user-friendly alternative to find . While it does not seek to mirror all of find 's powerful functionality, it provides sensible (opinionated) defaults for 80% of the use cases. Features Convenient syntax: fd PATTERN instead of find -iname ' PATTERN ' . Colorized terminal output (similar to ls ). It's fast . Smart case: the search is case-insensitive by default. It switches to case-sensitive if the pattern contains an uppercase character\\ . Ignores hidden directories and files, by default. Ignores patterns from your .gitignore , by default. Regular expressions. Unicode-awareness. The command name is 50% shorter\\ than find :-). Parallel command execution with a syntax similar to GNU Parallel.",
           "source": "choco",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-08-26T07:07:33.482Z"
+          "lastUpdatedAt": "2026-08-26T13:15:45.170Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1177,7 +1187,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:33.482Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:45.170Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1225,7 +1235,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:33.668Z",
+          "scannedAt": "2026-08-26T13:15:45.262Z",
           "errors": []
         },
         "package": {
@@ -1258,7 +1268,7 @@
           "long": "A simple, fast and user-friendly alternative to 'find'",
           "source": "github",
           "homepage": "https://github.com/sharkdp/fd",
-          "lastUpdatedAt": "2026-08-26T07:07:33.668Z"
+          "lastUpdatedAt": "2026-08-26T13:15:45.262Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1286,9 +1296,19 @@
         },
         "versions": [
           {
-            "version": "10.4.2",
+            "version": "10.5.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-08-26T07:59:09Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v10.5.0"
+          },
+          {
+            "version": "10.4.2",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-03-10T07:33:26Z",
@@ -1574,19 +1594,273 @@
             "releaseDate": "2018-08-19T17:38:07Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v7.1.0"
-          },
-          {
-            "version": "7.0.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2018-03-26T09:39:37Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/sharkdp/fd/releases/tag/v7.0.0"
           }
         ],
         "downloads": [
+          {
+            "id": "fd-musl_10.5.0_amd64.deb",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-musl_10.5.0_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1288170
+          },
+          {
+            "id": "fd-musl_10.5.0_arm64.deb",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-musl_10.5.0_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1165488
+          },
+          {
+            "id": "fd-musl_10.5.0_armhf.deb",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-musl_10.5.0_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1211906
+          },
+          {
+            "id": "fd-musl_10.5.0_i686.deb",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-musl_10.5.0_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1257504
+          },
+          {
+            "id": "fd-v10.5.0-aarch64-apple-darwin.tar.gz",
+            "version": "10.5.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-aarch64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1334374
+          },
+          {
+            "id": "fd-v10.5.0-aarch64-pc-windows-msvc.zip",
+            "version": "10.5.0",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-aarch64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1370512
+          },
+          {
+            "id": "fd-v10.5.0-aarch64-unknown-linux-gnu.tar.gz",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-aarch64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1392634
+          },
+          {
+            "id": "fd-v10.5.0-aarch64-unknown-linux-musl.tar.gz",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-aarch64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1429078
+          },
+          {
+            "id": "fd-v10.5.0-arm-unknown-linux-gnueabihf.tar.gz",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-arm-unknown-linux-gnueabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1429471
+          },
+          {
+            "id": "fd-v10.5.0-arm-unknown-linux-musleabihf.tar.gz",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-arm-unknown-linux-musleabihf.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1458985
+          },
+          {
+            "id": "fd-v10.5.0-i686-pc-windows-msvc.zip",
+            "version": "10.5.0",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-i686-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1378468
+          },
+          {
+            "id": "fd-v10.5.0-i686-unknown-linux-gnu.tar.gz",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-i686-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1506226
+          },
+          {
+            "id": "fd-v10.5.0-i686-unknown-linux-musl.tar.gz",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-i686-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1505416
+          },
+          {
+            "id": "fd-v10.5.0-x86_64-apple-darwin.tar.gz",
+            "version": "10.5.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-apple-darwin.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1426858
+          },
+          {
+            "id": "fd-v10.5.0-x86_64-pc-windows-gnu.zip",
+            "version": "10.5.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-pc-windows-gnu.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1475808
+          },
+          {
+            "id": "fd-v10.5.0-x86_64-pc-windows-msvc.zip",
+            "version": "10.5.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "zip",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-pc-windows-msvc.zip",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1535063
+          },
+          {
+            "id": "fd-v10.5.0-x86_64-unknown-linux-gnu.tar.gz",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-unknown-linux-gnu.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1513869
+          },
+          {
+            "id": "fd-v10.5.0-x86_64-unknown-linux-musl.tar.gz",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "tar.gz",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-unknown-linux-musl.tar.gz",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1573549
+          },
+          {
+            "id": "fd_10.5.0_amd64.deb",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd_10.5.0_amd64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1235940
+          },
+          {
+            "id": "fd_10.5.0_arm64.deb",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd_10.5.0_arm64.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1128796
+          },
+          {
+            "id": "fd_10.5.0_armhf.deb",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": null,
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd_10.5.0_armhf.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1181998
+          },
+          {
+            "id": "fd_10.5.0_i686.deb",
+            "version": "10.5.0",
+            "platform": "linux",
+            "architecture": "x86",
+            "type": "deb",
+            "url": "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd_10.5.0_i686.deb",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 1254656
+          },
           {
             "id": "fd-musl_10.4.2_amd64.deb",
             "version": "10.4.2",
@@ -2282,270 +2556,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 1490905
-          },
-          {
-            "id": "fd-v10.3.0-x86_64-unknown-linux-gnu.tar.gz",
-            "version": "10.3.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1710062
-          },
-          {
-            "id": "fd-v10.3.0-x86_64-unknown-linux-musl.tar.gz",
-            "version": "10.3.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-unknown-linux-musl.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1759301
-          },
-          {
-            "id": "fd_10.3.0_amd64.deb",
-            "version": "10.3.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd_10.3.0_amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1401534
-          },
-          {
-            "id": "fd_10.3.0_arm64.deb",
-            "version": "10.3.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd_10.3.0_arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1282680
-          },
-          {
-            "id": "fd_10.3.0_armhf.deb",
-            "version": "10.3.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "deb",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd_10.3.0_armhf.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1330760
-          },
-          {
-            "id": "fd_10.3.0_i686.deb",
-            "version": "10.3.0",
-            "platform": "linux",
-            "architecture": "x86",
-            "type": "deb",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.3.0/fd_10.3.0_i686.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1471806
-          },
-          {
-            "id": "fd-musl_10.2.0_amd64.deb",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-musl_10.2.0_amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1388390
-          },
-          {
-            "id": "fd-musl_10.2.0_arm64.deb",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-musl_10.2.0_arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1266304
-          },
-          {
-            "id": "fd-musl_10.2.0_armhf.deb",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "deb",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-musl_10.2.0_armhf.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1092360
-          },
-          {
-            "id": "fd-musl_10.2.0_i686.deb",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": "x86",
-            "type": "deb",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-musl_10.2.0_i686.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1149308
-          },
-          {
-            "id": "fd-v10.2.0-aarch64-apple-darwin.tar.gz",
-            "version": "10.2.0",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-aarch64-apple-darwin.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1220905
-          },
-          {
-            "id": "fd-v10.2.0-aarch64-unknown-linux-gnu.tar.gz",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-aarch64-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1499935
-          },
-          {
-            "id": "fd-v10.2.0-aarch64-unknown-linux-musl.tar.gz",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-aarch64-unknown-linux-musl.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1537874
-          },
-          {
-            "id": "fd-v10.2.0-arm-unknown-linux-gnueabihf.tar.gz",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-arm-unknown-linux-gnueabihf.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1523617
-          },
-          {
-            "id": "fd-v10.2.0-arm-unknown-linux-musleabihf.tar.gz",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": null,
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-arm-unknown-linux-musleabihf.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1330484
-          },
-          {
-            "id": "fd-v10.2.0-i686-pc-windows-msvc.zip",
-            "version": "10.2.0",
-            "platform": "windows",
-            "architecture": "x86",
-            "type": "zip",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-i686-pc-windows-msvc.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1193182
-          },
-          {
-            "id": "fd-v10.2.0-i686-unknown-linux-gnu.tar.gz",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": "x86",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-i686-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1667456
-          },
-          {
-            "id": "fd-v10.2.0-i686-unknown-linux-musl.tar.gz",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": "x86",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-i686-unknown-linux-musl.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1377904
-          },
-          {
-            "id": "fd-v10.2.0-x86_64-apple-darwin.tar.gz",
-            "version": "10.2.0",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-apple-darwin.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1301191
-          },
-          {
-            "id": "fd-v10.2.0-x86_64-pc-windows-gnu.zip",
-            "version": "10.2.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-pc-windows-gnu.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1307369
-          },
-          {
-            "id": "fd-v10.2.0-x86_64-pc-windows-msvc.zip",
-            "version": "10.2.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "zip",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-pc-windows-msvc.zip",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1315212
-          },
-          {
-            "id": "fd-v10.2.0-x86_64-unknown-linux-gnu.tar.gz",
-            "version": "10.2.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "tar.gz",
-            "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-unknown-linux-gnu.tar.gz",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 1629598
           }
         ],
         "commands": [],
@@ -2553,7 +2563,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:33.668Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:45.262Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

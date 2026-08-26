@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T07:08:21.726Z",
-  "status": "ok",
+  "generatedAt": "2026-08-26T13:16:34.507Z",
+  "status": "partial",
   "tool": {
     "id": "github_cli",
     "name": "GitHub CLI",
@@ -32,7 +32,7 @@
       "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://cli.github.com/",
-      "lastUpdatedAt": "2026-08-26T07:07:25.827Z"
+      "lastUpdatedAt": "2026-08-26T13:15:36.955Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -104,17 +104,19 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-08-26T07:07:25.807Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-08-26T13:15:36.933Z",
+          "errors": [
+            "details: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "GitHub CLI",
-          "publisher": "GitHub, Inc.",
+          "publisher": null,
           "author": null,
-          "description": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
-          "license": "MIT",
-          "licenseUrl": "https://github.com/cli/cli/blob/HEAD/LICENSE",
+          "description": null,
+          "license": null,
+          "licenseUrl": null,
           "tags": [
             "github",
             "vcs"
@@ -122,16 +124,16 @@
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://github.com/cli/cli/releases/download/v2.98.0/gh_2.98.0_windows_amd64.msi",
-          "releases": "https://github.com/cli/cli/releases/tag/v2.98.0",
+          "download": "https://cli.github.com/",
+          "releases": null,
           "docs": null
         },
         "descriptions": {
-          "short": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
-          "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
+          "short": null,
+          "long": null,
           "source": "winget",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-08-26T07:07:25.807Z"
+          "lastUpdatedAt": "2026-08-26T13:15:36.933Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -462,11 +464,11 @@
             "version": "2.98.0",
             "platform": "windows",
             "architecture": null,
-            "type": "wix",
-            "url": "https://github.com/cli/cli/releases/download/v2.98.0/gh_2.98.0_windows_amd64.msi",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": "1793a0dd0064b3f03fe8ceb16b18da751d60e0c7efcfe7bbb4715fca3b675392",
+            "type": "package-manager",
+            "url": "https://cli.github.com/",
+            "urlType": "download-page",
+            "direct": false,
+            "sha256": null,
             "sizeBytes": null
           }
         ],
@@ -561,11 +563,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:25.807Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -611,7 +613,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:25.824Z",
+          "scannedAt": "2026-08-26T13:15:36.952Z",
           "errors": []
         },
         "package": {
@@ -639,7 +641,7 @@
           "long": "GitHub command-line tool",
           "source": "homebrew",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-08-26T07:07:25.824Z"
+          "lastUpdatedAt": "2026-08-26T13:15:36.952Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -750,7 +752,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:25.824Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:36.952Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -796,7 +798,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:25.826Z",
+          "scannedAt": "2026-08-26T13:15:36.953Z",
           "errors": []
         },
         "package": {
@@ -824,7 +826,7 @@
           "long": "Official GitHub CLI",
           "source": "scoop",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-08-26T07:07:25.826Z"
+          "lastUpdatedAt": "2026-08-26T13:15:36.953Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -934,7 +936,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:25.826Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:36.953Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -980,7 +982,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:25.827Z",
+          "scannedAt": "2026-08-26T13:15:36.955Z",
           "errors": []
         },
         "package": {
@@ -1010,7 +1012,7 @@
           "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-08-26T07:07:25.827Z"
+          "lastUpdatedAt": "2026-08-26T13:15:36.955Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1421,7 +1423,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:25.827Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:36.955Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1469,7 +1471,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T07:07:26.130Z",
+          "scannedAt": "2026-08-26T13:15:37.094Z",
           "errors": []
         },
         "package": {
@@ -1499,7 +1501,7 @@
           "long": "GitHub’s official command line tool",
           "source": "github",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-08-26T07:07:26.130Z"
+          "lastUpdatedAt": "2026-08-26T13:15:37.094Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2794,7 +2796,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T07:07:26.130Z",
+          "lastSuccessfulScanAt": "2026-08-26T13:15:37.094Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
