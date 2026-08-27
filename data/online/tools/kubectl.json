@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T20:02:12.885Z",
+  "generatedAt": "2026-08-27T09:46:59.664Z",
   "status": "ok",
   "tool": {
     "id": "kubectl",
@@ -29,7 +29,7 @@
       "long": "Production-Grade Container Orchestration Automated container deployment, scaling, and management Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community. Planet Scale Designed on the same principles that allows Google to run billions of containers a week, Kubernetes can scale without increasing your ops team. Never Outgrow Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you to deliver your applications consistently and easily no matter how complex your need is. Run Anywhere Kubernetes is open source giving you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly move workloads to where it matters to you. Features Automatic binpacking Automatically places containers based on their resource requirements...",
       "source": "choco",
       "homepage": "https://kubernetes.io/",
-      "lastUpdatedAt": "2026-08-26T20:01:42.412Z"
+      "lastUpdatedAt": "2026-08-27T09:46:21.411Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,7 +98,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:42.146Z",
+          "scannedAt": "2026-08-27T09:46:21.266Z",
           "errors": []
         },
         "package": {
@@ -112,7 +112,7 @@
         },
         "links": {
           "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "download": "https://dl.k8s.io/release/v1.36.4/bin/windows/amd64/kubectl.exe",
+          "download": "https://dl.k8s.io/release/v1.37.0/bin/windows/amd64/kubectl.exe",
           "releases": null,
           "docs": null
         },
@@ -121,7 +121,7 @@
           "long": "A command line tool for communicating with a Kubernetes cluster's control plane, using the Kubernetes API",
           "source": "winget",
           "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "lastUpdatedAt": "2026-08-26T20:01:42.146Z"
+          "lastUpdatedAt": "2026-08-27T09:46:21.266Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "1.36.4",
+            "version": "1.37.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.36.4",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -428,29 +438,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.30.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.36.4",
+            "version": "1.37.0",
             "platform": "windows",
             "architecture": null,
             "type": "portable",
-            "url": "https://dl.k8s.io/release/v1.36.4/bin/windows/amd64/kubectl.exe",
+            "url": "https://dl.k8s.io/release/v1.37.0/bin/windows/amd64/kubectl.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "31947857be7583f3e4e6d889a3fb781ca813a45c20f11ccb3ef309714d01a9f3",
+            "sha256": "4721b614a67bb4932a0369e61f4a323d8c6ca00943d3a2ff14837c124da06f0e",
             "sizeBytes": null
           }
         ],
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:42.146Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:21.266Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +597,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:42.259Z",
+          "scannedAt": "2026-08-27T09:46:21.318Z",
           "errors": []
         },
         "package": {
@@ -623,7 +623,7 @@
           "long": "Kubernetes command-line interface",
           "source": "homebrew",
           "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "lastUpdatedAt": "2026-08-26T20:01:42.259Z"
+          "lastUpdatedAt": "2026-08-27T09:46:21.318Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -644,7 +644,7 @@
         },
         "versions": [
           {
-            "version": "1.36.4",
+            "version": "1.37.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -707,7 +707,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.36.4",
+            "version": "1.37.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
@@ -778,7 +778,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:42.259Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:21.318Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -826,7 +826,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:42.319Z",
+          "scannedAt": "2026-08-27T09:46:21.350Z",
           "errors": []
         },
         "package": {
@@ -852,7 +852,7 @@
           "long": "Control the Kubernetes cluster manager.",
           "source": "scoop",
           "homepage": "https://kubernetes.io/docs/reference/kubectl/",
-          "lastUpdatedAt": "2026-08-26T20:01:42.319Z"
+          "lastUpdatedAt": "2026-08-27T09:46:21.350Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -956,7 +956,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:42.319Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:21.350Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1004,7 +1004,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:42.412Z",
+          "scannedAt": "2026-08-27T09:46:21.411Z",
           "errors": []
         },
         "package": {
@@ -1036,7 +1036,7 @@
           "long": "Production-Grade Container Orchestration Automated container deployment, scaling, and management Kubernetes is an open source system for managing containerized applications across multiple hosts, providing basic mechanisms for deployment, maintenance, and scaling of applications. It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community. Planet Scale Designed on the same principles that allows Google to run billions of containers a week, Kubernetes can scale without increasing your ops team. Never Outgrow Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you to deliver your applications consistently and easily no matter how complex your need is. Run Anywhere Kubernetes is open source giving you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly move workloads to where it matters to you. Features Automatic binpacking Automatically places containers based on their resource requirements...",
           "source": "choco",
           "homepage": "https://kubernetes.io/",
-          "lastUpdatedAt": "2026-08-26T20:01:42.412Z"
+          "lastUpdatedAt": "2026-08-27T09:46:21.411Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1444,7 +1444,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:42.412Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:21.411Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

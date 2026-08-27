@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T20:02:12.885Z",
+  "generatedAt": "2026-08-27T09:46:59.664Z",
   "status": "ok",
   "tool": {
     "id": "miniconda",
@@ -28,7 +28,7 @@
       "long": "Conda is a cross-platform, Python-agnostic binary package manager by Continuum. By default, this installation: will not add miniconda python to path, will register miniconda python at default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install, per docs at https://conda.io/docs/user-guide/install/windows.html. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path)",
       "source": "choco",
       "homepage": "http://conda.pydata.org/miniconda.html",
-      "lastUpdatedAt": "2026-08-26T20:01:31.884Z"
+      "lastUpdatedAt": "2026-08-27T09:46:12.478Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:31.514Z",
+          "scannedAt": "2026-08-27T09:46:12.093Z",
           "errors": []
         },
         "package": {
@@ -111,7 +111,7 @@
         },
         "links": {
           "homepage": "https://docs.anaconda.com/free/miniconda/",
-          "download": "https://repo.anaconda.com/miniconda/Miniconda3-py314_26.5.3-2-Windows-x86_64.exe",
+          "download": "https://repo.anaconda.com/miniconda/Miniconda3-py314_26.7.1-0-Windows-x86_64.exe",
           "releases": "https://www.anaconda.com/docs/getting-started/miniconda/release-notes",
           "docs": null
         },
@@ -120,7 +120,7 @@
           "long": "Miniconda is a free minimal installer for conda. It is a small bootstrap version of Anaconda that includes only conda, Python, the packages they both depend on, and a small number of other useful packages (like pip, zlib, and a few others). If you need more packages, use the conda install command to install from thousands of packages available by default in Anaconda’s public repo, or from other channels, like conda-forge or bioconda.",
           "source": "winget",
           "homepage": "https://docs.anaconda.com/free/miniconda/",
-          "lastUpdatedAt": "2026-08-26T20:01:31.514Z"
+          "lastUpdatedAt": "2026-08-27T09:46:12.093Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -147,10 +147,10 @@
             "platform": "windows",
             "architecture": null,
             "type": "nullsoft",
-            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py314_26.5.3-2-Windows-x86_64.exe",
+            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py314_26.7.1-0-Windows-x86_64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "4441b50816f866f4e6e774e90f90a71bde756f06c94144407a6d93677c539e46",
+            "sha256": "d444063c42ca9c3d7948a7b9e612bd25a2e8dcbd985715a95d58cff6edf9a27f",
             "sizeBytes": null
           }
         ],
@@ -248,7 +248,7 @@
           "confidence": "high",
           "score": 75,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:31.514Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:12.093Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -294,7 +294,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:31.598Z",
+          "scannedAt": "2026-08-27T09:46:12.421Z",
           "errors": []
         },
         "package": {
@@ -311,7 +311,7 @@
         },
         "links": {
           "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
-          "download": "https://repo.anaconda.com/miniconda/Miniconda3-py314_26.5.3-2-MacOSX-arm64.sh",
+          "download": "https://repo.anaconda.com/miniconda/Miniconda3-py314_26.7.1-0-MacOSX-arm64.sh",
           "releases": null,
           "docs": null
         },
@@ -320,7 +320,7 @@
           "long": "Minimal installer for conda",
           "source": "homebrew",
           "homepage": "https://www.anaconda.com/docs/getting-started/miniconda/main",
-          "lastUpdatedAt": "2026-08-26T20:01:31.598Z"
+          "lastUpdatedAt": "2026-08-27T09:46:12.421Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -343,7 +343,7 @@
         },
         "versions": [
           {
-            "version": "py314_26.5.3-2",
+            "version": "py314_26.7.1-0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -356,14 +356,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "py314_26.5.3-2",
+            "version": "py314_26.7.1-0",
             "platform": "macos",
             "architecture": null,
             "type": "cask",
-            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py314_26.5.3-2-MacOSX-arm64.sh",
+            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py314_26.7.1-0-MacOSX-arm64.sh",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e830bee5b9c6ebfb67e9df924b259a0d43c451bd17b965f7aa84523b69f7c3eb",
+            "sha256": "933860616eff59f858f94ee086be1a645b8d1710cf449a078d22de14e8755468",
             "sizeBytes": null
           }
         ],
@@ -427,7 +427,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:31.598Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:12.421Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -473,7 +473,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:31.659Z",
+          "scannedAt": "2026-08-27T09:46:12.471Z",
           "errors": []
         },
         "package": {
@@ -499,7 +499,7 @@
           "long": "A cross-platform, Python-agnostic binary package manager",
           "source": "scoop",
           "homepage": "https://docs.anaconda.com/miniconda/",
-          "lastUpdatedAt": "2026-08-26T20:01:31.659Z"
+          "lastUpdatedAt": "2026-08-27T09:46:12.471Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -521,7 +521,7 @@
         },
         "versions": [
           {
-            "version": "26.5.3-2",
+            "version": "26.7.1-0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -534,7 +534,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "26.5.3-2",
+            "version": "26.7.1-0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -605,7 +605,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:31.659Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:12.471Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -651,7 +651,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:31.884Z",
+          "scannedAt": "2026-08-27T09:46:12.478Z",
           "errors": []
         },
         "package": {
@@ -680,7 +680,7 @@
           "long": "Conda is a cross-platform, Python-agnostic binary package manager by Continuum. By default, this installation: will not add miniconda python to path, will register miniconda python at default python3 will install for all users will install in your $ToolsDir\\miniconda3 ( $ToolsDir is the path returned by Get-ToolsLocation ) default is C:\\Tools\\ You can provide parameters for the install, per docs at https://conda.io/docs/user-guide/install/windows.html. Example: choco install miniconda3 --params=\"'/AddToPath:1'\" /InstallationType:[AllUsers|JustMe] /AddToPath:[0|1] /RegisterPython:[0|1] /D:(installation path)",
           "source": "choco",
           "homepage": "http://conda.pydata.org/miniconda.html",
-          "lastUpdatedAt": "2026-08-26T20:01:31.884Z"
+          "lastUpdatedAt": "2026-08-27T09:46:12.478Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -986,7 +986,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:31.884Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:12.478Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

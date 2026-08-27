@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T20:02:12.885Z",
+  "generatedAt": "2026-08-27T09:46:59.664Z",
   "status": "ok",
   "tool": {
     "id": "kind",
@@ -29,7 +29,7 @@
       "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
       "source": "choco",
       "homepage": "https://kind.sigs.k8s.io/",
-      "lastUpdatedAt": "2026-08-26T20:01:44.239Z"
+      "lastUpdatedAt": "2026-08-27T09:46:24.198Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:44.036Z",
+          "scannedAt": "2026-08-27T09:46:23.559Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://kind.sigs.k8s.io/",
-          "download": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-windows-amd64",
-          "releases": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.32.0",
+          "download": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64",
+          "releases": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.33.0",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-08-26T20:01:44.036Z"
+          "lastUpdatedAt": "2026-08-27T09:46:23.559Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -139,9 +139,19 @@
         },
         "versions": [
           {
-            "version": "0.32.0",
+            "version": "0.33.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.32.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -272,14 +282,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.32.0",
+            "version": "0.33.0",
             "platform": "windows",
             "architecture": null,
             "type": "portable",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-windows-amd64",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "0bcb2d1cfedc1912d664014db716937e8a0e843e91c6807b4db2025dbc8989fa",
+            "sha256": "4b22adaa135368c5a465d56bbd8e520cbea87272a06ca00b6078e7b81515c9fc",
             "sizeBytes": null
           }
         ],
@@ -377,7 +387,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:44.036Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:23.559Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -424,7 +434,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:44.099Z",
+          "scannedAt": "2026-08-27T09:46:24.121Z",
           "errors": []
         },
         "package": {
@@ -441,7 +451,7 @@
         },
         "links": {
           "homepage": "https://kind.sigs.k8s.io/",
-          "download": "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.32.0.tar.gz",
+          "download": "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.33.0.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -450,7 +460,7 @@
           "long": "Run local Kubernetes cluster in Docker",
           "source": "homebrew",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-08-26T20:01:44.099Z"
+          "lastUpdatedAt": "2026-08-27T09:46:24.121Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -471,7 +481,7 @@
         },
         "versions": [
           {
-            "version": "0.32.0",
+            "version": "0.33.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -484,14 +494,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.32.0",
+            "version": "0.33.0",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.32.0.tar.gz",
+            "url": "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.33.0.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e2e1eb04fed4eed0715cc1c5938453d1edbf92b3c097ebec0a05d0903ba15508",
+            "sha256": "8b00b127eb567f30b028cb032d236d990404e9fd83ce7798db7f9c7a305fab34",
             "sizeBytes": null
           }
         ],
@@ -555,7 +565,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:44.099Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:24.121Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -601,7 +611,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:44.164Z",
+          "scannedAt": "2026-08-27T09:46:24.157Z",
           "errors": []
         },
         "package": {
@@ -627,7 +637,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container nodes.",
           "source": "scoop",
           "homepage": "https://kind.sigs.k8s.io/docs/user/quick-start",
-          "lastUpdatedAt": "2026-08-26T20:01:44.164Z"
+          "lastUpdatedAt": "2026-08-27T09:46:24.157Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -647,7 +657,7 @@
         },
         "versions": [
           {
-            "version": "0.32.0",
+            "version": "0.33.0",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -660,7 +670,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "0.32.0",
+            "version": "0.33.0",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -731,7 +741,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:44.164Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:24.157Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -777,7 +787,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:44.239Z",
+          "scannedAt": "2026-08-27T09:46:24.198Z",
           "errors": []
         },
         "package": {
@@ -798,7 +808,7 @@
         },
         "links": {
           "homepage": "https://kind.sigs.k8s.io/",
-          "download": "https://community.chocolatey.org/api/v2/package/kind/0.31.0",
+          "download": "https://community.chocolatey.org/api/v2/package/kind/0.33.0",
           "releases": "https://github.com/kubernetes-sigs/kind/releases",
           "docs": null
         },
@@ -807,7 +817,7 @@
           "long": "kind is a tool for running local Kubernetes clusters using Docker container \"nodes\". kind is primarily designed for testing Kubernetes 1.11+, initially targeting the conformance tests.",
           "source": "choco",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-08-26T20:01:44.239Z"
+          "lastUpdatedAt": "2026-08-27T09:46:24.198Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -831,9 +841,19 @@
         },
         "versions": [
           {
-            "version": "0.31.0",
+            "version": "0.33.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "0.31.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1119,29 +1139,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "0.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "0.31.0",
+            "version": "0.33.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/kind/0.31.0",
+            "url": "https://community.chocolatey.org/api/v2/package/kind/0.33.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "TFZf8B2TgpSh8GJz7Ptpr6GPGU3CwIeMiooYrKjPW8Lk6WByPM4iXTaquPnDx9dRMwOq6lLEzSqC5GKStN/0tw==",
+            "sha256": "GnTOvCR3++3sgqJGd00RChHmWMKDi9lU9iWikOo3GVK/IHYJwlA1qcEbdDktZHphSE4+Ok3im9HcEwASBuFQ5g==",
             "sizeBytes": null
           }
         ],
@@ -1213,7 +1223,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:44.239Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:24.198Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1261,7 +1271,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-26T20:01:44.336Z",
+          "scannedAt": "2026-08-27T09:46:24.262Z",
           "errors": []
         },
         "package": {
@@ -1291,7 +1301,7 @@
           "long": "Kubernetes IN Docker - local clusters for testing Kubernetes",
           "source": "github",
           "homepage": "https://kind.sigs.k8s.io/",
-          "lastUpdatedAt": "2026-08-26T20:01:44.336Z"
+          "lastUpdatedAt": "2026-08-27T09:46:24.262Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1316,9 +1326,19 @@
         },
         "versions": [
           {
-            "version": "0.32.0",
+            "version": "0.33.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-08-26T21:58:46Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.33.0"
+          },
+          {
+            "version": "0.32.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": "2026-06-02T17:34:57Z",
@@ -1604,19 +1624,129 @@
             "releaseDate": "2019-12-04T08:24:09Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.6.1"
-          },
-          {
-            "version": "0.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2019-11-18T17:33:20Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/kubernetes-sigs/kind/releases/tag/v0.6.0"
           }
         ],
         "downloads": [
+          {
+            "id": "kind-darwin-amd64",
+            "version": "0.33.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10731920
+          },
+          {
+            "id": "kind-darwin-amd64.sha256sum",
+            "version": "0.33.0",
+            "platform": "macos",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-darwin-arm64",
+            "version": "0.33.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9965026
+          },
+          {
+            "id": "kind-darwin-arm64.sha256sum",
+            "version": "0.33.0",
+            "platform": "macos",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-darwin-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 84
+          },
+          {
+            "id": "kind-linux-amd64",
+            "version": "0.33.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10530942
+          },
+          {
+            "id": "kind-linux-amd64.sha256sum",
+            "version": "0.33.0",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-linux-arm64",
+            "version": "0.33.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-arm64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 9764990
+          },
+          {
+            "id": "kind-linux-arm64.sha256sum",
+            "version": "0.33.0",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-arm64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 83
+          },
+          {
+            "id": "kind-windows-amd64",
+            "version": "0.33.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 10844160
+          },
+          {
+            "id": "kind-windows-amd64.sha256sum",
+            "version": "0.33.0",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "release-asset",
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-windows-amd64.sha256sum",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 85
+          },
           {
             "id": "kind-darwin-amd64",
             "version": "0.32.0",
@@ -2456,126 +2586,6 @@
             "direct": true,
             "sha256": null,
             "sizeBytes": 85
-          },
-          {
-            "id": "kind-darwin-amd64",
-            "version": "0.25.0",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10080240
-          },
-          {
-            "id": "kind-darwin-amd64.sha256sum",
-            "version": "0.25.0",
-            "platform": "macos",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-amd64.sha256sum",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 84
-          },
-          {
-            "id": "kind-darwin-arm64",
-            "version": "0.25.0",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-arm64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 9697458
-          },
-          {
-            "id": "kind-darwin-arm64.sha256sum",
-            "version": "0.25.0",
-            "platform": "macos",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-arm64.sha256sum",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 84
-          },
-          {
-            "id": "kind-linux-amd64",
-            "version": "0.25.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 9930525
-          },
-          {
-            "id": "kind-linux-amd64.sha256sum",
-            "version": "0.25.0",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-amd64.sha256sum",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 83
-          },
-          {
-            "id": "kind-linux-arm64",
-            "version": "0.25.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-arm64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 9545487
-          },
-          {
-            "id": "kind-linux-arm64.sha256sum",
-            "version": "0.25.0",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-arm64.sha256sum",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 83
-          },
-          {
-            "id": "kind-windows-amd64",
-            "version": "0.25.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-windows-amd64",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 10145792
-          },
-          {
-            "id": "kind-windows-amd64.sha256sum",
-            "version": "0.25.0",
-            "platform": "windows",
-            "architecture": "x64",
-            "type": "release-asset",
-            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-windows-amd64.sha256sum",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 85
           }
         ],
         "commands": [],
@@ -2583,7 +2593,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-26T20:01:44.336Z",
+          "lastSuccessfulScanAt": "2026-08-27T09:46:24.262Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
