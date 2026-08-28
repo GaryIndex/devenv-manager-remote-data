@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T22:15:56.286Z",
+  "generatedAt": "2026-08-28T11:23:44.023Z",
   "status": "ok",
   "tool": {
     "id": "go",
@@ -29,7 +29,7 @@
       "long": "!Gopher Image The Go programming language is an open source project to make programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language. NOTE : This package is automatically updated. If it is out of date and there is no newer package submitted, please use the Contact Maintainers functionality to alert me.",
       "source": "choco",
       "homepage": "https://golang.org/",
-      "lastUpdatedAt": "2026-08-27T22:15:24.953Z"
+      "lastUpdatedAt": "2026-08-28T11:22:57.800Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-27T22:15:24.366Z",
+          "scannedAt": "2026-08-28T11:22:57.582Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://go.dev/dl/",
-          "download": "https://go.dev/dl/go1.26.7.windows-amd64.msi",
-          "releases": "https://go.dev/doc/devel/release#go1.26.7",
+          "download": "https://go.dev/dl/go1.27.0.windows-amd64.msi",
+          "releases": "https://go.dev/doc/devel/release#go1.27.0",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://go.dev/dl/",
-          "lastUpdatedAt": "2026-08-27T22:15:24.366Z"
+          "lastUpdatedAt": "2026-08-28T11:22:57.582Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "1.26.7",
+            "version": "1.27.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.26.7",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -428,29 +438,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.23.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.26.7",
+            "version": "1.27.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://go.dev/dl/go1.26.7.windows-amd64.msi",
+            "url": "https://go.dev/dl/go1.27.0.windows-amd64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "c6e7aa52fa607f93e6e3a7e2ffd733782f3bdb2aa8cd0559a6cd9927aef49c34",
+            "sha256": "728e9318c061b95082bcf167bab8b6c6e0d91a045f89f403b3285fa39f0c455b",
             "sizeBytes": null
           }
         ],
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-27T22:15:24.366Z",
+          "lastSuccessfulScanAt": "2026-08-28T11:22:57.582Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -595,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-27T22:15:24.796Z",
+          "scannedAt": "2026-08-28T11:22:57.694Z",
           "errors": []
         },
         "package": {
@@ -621,7 +621,7 @@
           "long": "Open source programming language to build simple/reliable/efficient software",
           "source": "homebrew",
           "homepage": "https://go.dev/",
-          "lastUpdatedAt": "2026-08-27T22:15:24.796Z"
+          "lastUpdatedAt": "2026-08-28T11:22:57.694Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -777,7 +777,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-27T22:15:24.796Z",
+          "lastSuccessfulScanAt": "2026-08-28T11:22:57.694Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -823,7 +823,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-27T22:15:24.858Z",
+          "scannedAt": "2026-08-28T11:22:57.739Z",
           "errors": []
         },
         "package": {
@@ -849,7 +849,7 @@
           "long": "An open source programming language that makes it easy to build simple, reliable, and efficient software.",
           "source": "scoop",
           "homepage": "https://go.dev",
-          "lastUpdatedAt": "2026-08-27T22:15:24.858Z"
+          "lastUpdatedAt": "2026-08-28T11:22:57.739Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -954,7 +954,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-27T22:15:24.858Z",
+          "lastSuccessfulScanAt": "2026-08-28T11:22:57.739Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1000,7 +1000,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-27T22:15:24.953Z",
+          "scannedAt": "2026-08-28T11:22:57.800Z",
           "errors": []
         },
         "package": {
@@ -1030,7 +1030,7 @@
           "long": "!Gopher Image The Go programming language is an open source project to make programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language. NOTE : This package is automatically updated. If it is out of date and there is no newer package submitted, please use the Contact Maintainers functionality to alert me.",
           "source": "choco",
           "homepage": "https://golang.org/",
-          "lastUpdatedAt": "2026-08-27T22:15:24.953Z"
+          "lastUpdatedAt": "2026-08-28T11:22:57.800Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1437,7 +1437,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-27T22:15:24.953Z",
+          "lastSuccessfulScanAt": "2026-08-28T11:22:57.800Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
