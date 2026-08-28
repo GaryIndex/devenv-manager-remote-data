@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T11:23:44.023Z",
+  "generatedAt": "2026-08-28T22:18:46.697Z",
   "status": "ok",
   "tool": {
     "id": "elixir",
@@ -29,7 +29,7 @@
       "long": "Elixir is a dynamic, functional language for building scalable and maintainable applications. Elixir runs on the Erlang VM, known for creating low-latency, distributed, and fault-tolerant systems. Features Scalability - Lightweight processes for concurrent operations Fault-tolerance - Supervisors for automatic error recovery Functional - Immutable data and pattern matching Extensibility - Metaprogramming with macros Tooling - Mix build tool, IEx interactive shell, ExUnit testing Documentation - First-class documentation support Compatibility - Seamless Erlang interoperability Usage After installation, Elixir commands are available: iex Interactive Elixir shell elixir script.exs Run Elixir script elixirc file.ex Compile Elixir file mix new myapp Create new project mix compile Compile project mix test Run tests Requirements This package requires Erlang/OTP 29.x. The erlang Chocolatey package will be installed automatically if not present. Documentation Full documentation available at hexdocs.pm/elixir",
       "source": "choco",
       "homepage": "https://elixir-lang.org/",
-      "lastUpdatedAt": "2026-08-28T11:23:37.564Z"
+      "lastUpdatedAt": "2026-08-28T22:18:40.944Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-28T11:23:37.513Z",
+          "scannedAt": "2026-08-28T22:18:40.863Z",
           "errors": []
         },
         "package": {
@@ -114,7 +114,7 @@
         },
         "links": {
           "homepage": "https://elixir-lang.org/",
-          "download": "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.3.tar.gz",
+          "download": "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.4.tar.gz",
           "releases": null,
           "docs": null
         },
@@ -123,7 +123,7 @@
           "long": "Functional metaprogramming aware language built on Erlang VM",
           "source": "homebrew",
           "homepage": "https://elixir-lang.org/",
-          "lastUpdatedAt": "2026-08-28T11:23:37.513Z"
+          "lastUpdatedAt": "2026-08-28T22:18:40.863Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -145,7 +145,7 @@
         },
         "versions": [
           {
-            "version": "1.20.3",
+            "version": "1.20.4",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -158,14 +158,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.20.3",
+            "version": "1.20.4",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
-            "url": "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.3.tar.gz",
+            "url": "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.4.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "ff22a894b130631443db1a193b4e8cb4762f697128566e43da848fd16c3777bd",
+            "sha256": "2f87be1702583ecbeee82c0ad4d6353de96463cfa0fa6e7557e05f68d90da869",
             "sizeBytes": null
           }
         ],
@@ -229,7 +229,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-28T11:23:37.513Z",
+          "lastSuccessfulScanAt": "2026-08-28T22:18:40.863Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -275,7 +275,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-28T11:23:37.522Z",
+          "scannedAt": "2026-08-28T22:18:40.900Z",
           "errors": []
         },
         "package": {
@@ -292,7 +292,7 @@
         },
         "links": {
           "homepage": "https://elixir-lang.org/",
-          "download": "https://builds.hex.pm/builds/elixir/v1.20.3.zip",
+          "download": "https://builds.hex.pm/builds/elixir/v1.20.4.zip",
           "releases": null,
           "docs": null
         },
@@ -301,7 +301,7 @@
           "long": "A dynamic and functional programming language designed for building scalable and maintainable applications.",
           "source": "scoop",
           "homepage": "https://elixir-lang.org/",
-          "lastUpdatedAt": "2026-08-28T11:23:37.522Z"
+          "lastUpdatedAt": "2026-08-28T22:18:40.900Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -322,7 +322,7 @@
         },
         "versions": [
           {
-            "version": "1.20.3",
+            "version": "1.20.4",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -335,14 +335,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.20.3",
+            "version": "1.20.4",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
-            "url": "https://builds.hex.pm/builds/elixir/v1.20.3.zip",
+            "url": "https://builds.hex.pm/builds/elixir/v1.20.4.zip",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "28b1707b69df18515f63242e8d218d8dffd31dadfc21bfe649618ca1f1b41b73",
+            "sha256": "4389f216eec086b34a08d70a3eb0a649d00e6631987d1cbb649a2f81092f034c",
             "sizeBytes": null
           }
         ],
@@ -406,7 +406,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-28T11:23:37.522Z",
+          "lastSuccessfulScanAt": "2026-08-28T22:18:40.900Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -452,7 +452,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-28T11:23:37.564Z",
+          "scannedAt": "2026-08-28T22:18:40.944Z",
           "errors": []
         },
         "package": {
@@ -472,8 +472,8 @@
         },
         "links": {
           "homepage": "https://elixir-lang.org/",
-          "download": "https://community.chocolatey.org/api/v2/package/Elixir/1.20.3",
-          "releases": "https://github.com/elixir-lang/elixir/releases/tag/v1.20.3",
+          "download": "https://community.chocolatey.org/api/v2/package/Elixir/1.20.4",
+          "releases": "https://github.com/elixir-lang/elixir/releases/tag/v1.20.4",
           "docs": null
         },
         "descriptions": {
@@ -481,7 +481,7 @@
           "long": "Elixir is a dynamic, functional language for building scalable and maintainable applications. Elixir runs on the Erlang VM, known for creating low-latency, distributed, and fault-tolerant systems. Features Scalability - Lightweight processes for concurrent operations Fault-tolerance - Supervisors for automatic error recovery Functional - Immutable data and pattern matching Extensibility - Metaprogramming with macros Tooling - Mix build tool, IEx interactive shell, ExUnit testing Documentation - First-class documentation support Compatibility - Seamless Erlang interoperability Usage After installation, Elixir commands are available: iex Interactive Elixir shell elixir script.exs Run Elixir script elixirc file.ex Compile Elixir file mix new myapp Create new project mix compile Compile project mix test Run tests Requirements This package requires Erlang/OTP 29.x. The erlang Chocolatey package will be installed automatically if not present. Documentation Full documentation available at hexdocs.pm/elixir",
           "source": "choco",
           "homepage": "https://elixir-lang.org/",
-          "lastUpdatedAt": "2026-08-28T11:23:37.564Z"
+          "lastUpdatedAt": "2026-08-28T22:18:40.944Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -505,9 +505,19 @@
         },
         "versions": [
           {
-            "version": "1.20.3",
+            "version": "1.20.4",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.20.3",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -793,29 +803,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.15.4",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.20.3",
+            "version": "1.20.4",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/Elixir/1.20.3",
+            "url": "https://community.chocolatey.org/api/v2/package/Elixir/1.20.4",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "FLFw6HhlCSdMANb4oHBY/l/ItrQziMGwHc8JvVylQcAA5ke761qqyUW+U0UUxQcpqWOACCHhAMN7AQNTD7F4fw==",
+            "sha256": "JY1tXaCtfopwRTtwv54aarigFxqDt0YNOAN3huc6wTvIze7PYCPCTYLzOcrYr3AxbrCGwo4KE6KpJtR0b3+hsw==",
             "sizeBytes": null
           }
         ],
@@ -887,7 +887,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-28T11:23:37.564Z",
+          "lastSuccessfulScanAt": "2026-08-28T22:18:40.944Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
