@@ -1,78 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T07:04:10.976Z",
-  "fromGeneratedAt": "2026-08-28T22:18:46.697Z",
-  "toGeneratedAt": "2026-08-29T07:04:10.976Z",
+  "generatedAt": "2026-08-29T16:43:17.584Z",
+  "fromGeneratedAt": "2026-08-29T07:04:10.976Z",
+  "toGeneratedAt": "2026-08-29T16:43:17.584Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "powershell",
-      "miniconda",
+      "vim",
+      "node_current",
+      "pnpm",
       "aws_cli",
-      "pandoc"
+      "php"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "powershell",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "7.6.4",
-        "to": "7.6.5"
+        "toolId": "vim",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "9.2.0995",
+        "to": "9.2.1015"
       },
       {
-        "toolId": "miniconda",
+        "toolId": "node_current",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "py314_26.7.1-0",
-        "to": "py314_26.7.1-1"
+        "from": "26.7.0",
+        "to": "26.8.1"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.0.0",
+        "to": "12.1.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "2.36.33",
         "to": "2.36.34"
       },
       {
-        "toolId": "pandoc",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.10.2",
-        "to": "3.11"
-      },
-      {
-        "toolId": "pandoc",
+        "toolId": "php",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.10.2",
-        "to": "3.11"
-      },
-      {
-        "toolId": "pandoc",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.10.2",
-        "to": "3.11.0"
-      },
-      {
-        "toolId": "pandoc",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "3.10.2",
-        "to": "3.11"
+        "from": "8.5.9",
+        "to": "8.5.10"
       }
     ],
     "qualityChanges": []

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T07:04:10.976Z",
+  "generatedAt": "2026-08-29T16:43:17.584Z",
   "status": "ok",
   "tool": {
     "id": "vim",
@@ -29,7 +29,7 @@
       "long": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. Vim is often called a programmer's editor, and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files. Features Vim : Vim terminal(CLI) application can be used from Powershell and Command Prompt. GVim : The GUI version of Vim provides full featured Windows GUI application experience. Terminal Integration : Batch files are created to provide vim , gvim , evim , view , gview , vimdiff , gvimdiff and vimtutor command on terminal use. Shell Integration : Vim is added in Open with ... context menu. And by default Edit with Vim context menu is created to open files whose extensions are associated with other applications.",
       "source": "choco",
       "homepage": "https://www.vim.org/",
-      "lastUpdatedAt": "2026-08-29T07:03:16.098Z"
+      "lastUpdatedAt": "2026-08-29T16:42:24.636Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -97,7 +97,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-29T07:03:15.761Z",
+          "scannedAt": "2026-08-29T16:42:24.214Z",
           "errors": []
         },
         "package": {
@@ -111,8 +111,8 @@
         },
         "links": {
           "homepage": "https://www.vim.org/",
-          "download": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.0995/gvim_9.2.0995_x64_signed.exe",
-          "releases": "https://github.com/vim/vim-win32-installer/releases/tag/v9.2.0995",
+          "download": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1015/gvim_9.2.1015_x64.exe",
+          "releases": "https://github.com/vim/vim-win32-installer/releases/tag/v9.2.1015",
           "docs": null
         },
         "descriptions": {
@@ -120,7 +120,7 @@
           "long": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient",
           "source": "winget",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-08-29T07:03:15.761Z"
+          "lastUpdatedAt": "2026-08-29T16:42:24.214Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -140,9 +140,19 @@
         },
         "versions": [
           {
-            "version": "9.2.0995",
+            "version": "9.2.1015",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.2.0995",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -428,29 +438,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "9.1.1251",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "9.2.0995",
+            "version": "9.2.1015",
             "platform": "windows",
             "architecture": null,
             "type": "nullsoft",
-            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.0995/gvim_9.2.0995_x64_signed.exe",
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.2.1015/gvim_9.2.1015_x64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "7757211388863ef91f8d83ff5fe46fe2b2afba8b6e379827f29430155fe9a02b",
+            "sha256": "33d284b03ea4a5529fae29752385ad3ab1fe2600176c9da59d9de7c6a8a2c6c2",
             "sizeBytes": null
           }
         ],
@@ -548,7 +548,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-29T07:03:15.761Z",
+          "lastSuccessfulScanAt": "2026-08-29T16:42:24.214Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -595,7 +595,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-29T07:03:15.898Z",
+          "scannedAt": "2026-08-29T16:42:24.536Z",
           "errors": []
         },
         "package": {
@@ -621,7 +621,7 @@
           "long": "Vi 'workalike' with many additional features",
           "source": "homebrew",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-08-29T07:03:15.898Z"
+          "lastUpdatedAt": "2026-08-29T16:42:24.536Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -727,7 +727,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-29T07:03:15.898Z",
+          "lastSuccessfulScanAt": "2026-08-29T16:42:24.536Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -773,7 +773,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-29T07:03:15.993Z",
+          "scannedAt": "2026-08-29T16:42:24.561Z",
           "errors": []
         },
         "package": {
@@ -799,7 +799,7 @@
           "long": "A highly configurable text editor",
           "source": "scoop",
           "homepage": "https://www.vim.org",
-          "lastUpdatedAt": "2026-08-29T07:03:15.993Z"
+          "lastUpdatedAt": "2026-08-29T16:42:24.561Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -904,7 +904,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-29T07:03:15.993Z",
+          "lastSuccessfulScanAt": "2026-08-29T16:42:24.561Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -950,7 +950,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-08-29T07:03:16.098Z",
+          "scannedAt": "2026-08-29T16:42:24.636Z",
           "errors": []
         },
         "package": {
@@ -983,7 +983,7 @@
           "long": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. Vim is often called a programmer's editor, and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files. Features Vim : Vim terminal(CLI) application can be used from Powershell and Command Prompt. GVim : The GUI version of Vim provides full featured Windows GUI application experience. Terminal Integration : Batch files are created to provide vim , gvim , evim , view , gview , vimdiff , gvimdiff and vimtutor command on terminal use. Shell Integration : Vim is added in Open with ... context menu. And by default Edit with Vim context menu is created to open files whose extensions are associated with other applications.",
           "source": "choco",
           "homepage": "https://www.vim.org/",
-          "lastUpdatedAt": "2026-08-29T07:03:16.098Z"
+          "lastUpdatedAt": "2026-08-29T16:42:24.636Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1393,7 +1393,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-08-29T07:03:16.098Z",
+          "lastSuccessfulScanAt": "2026-08-29T16:42:24.636Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
