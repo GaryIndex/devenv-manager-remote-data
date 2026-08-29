@@ -1,65 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T16:43:17.584Z",
-  "fromGeneratedAt": "2026-08-29T07:04:10.976Z",
-  "toGeneratedAt": "2026-08-29T16:43:17.584Z",
+  "generatedAt": "2026-08-29T20:55:11.129Z",
+  "fromGeneratedAt": "2026-08-29T16:43:17.584Z",
+  "toGeneratedAt": "2026-08-29T20:55:11.129Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 5,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 4,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vim",
-      "node_current",
-      "pnpm",
-      "aws_cli",
+      "nvm_windows",
+      "poetry",
       "php"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vim",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "9.2.0995",
-        "to": "9.2.1015"
+        "toolId": "nvm_windows",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.2.2",
+        "to": "2.0.0-rc.1"
       },
       {
-        "toolId": "node_current",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "26.7.0",
-        "to": "26.8.1"
-      },
-      {
-        "toolId": "pnpm",
+        "toolId": "poetry",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.0.0",
-        "to": "12.1.0"
+        "from": "2.4.1",
+        "to": "2.4.2"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.33",
-        "to": "2.36.34"
+        "toolId": "poetry",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.4.1",
+        "to": "2.4.2"
       },
       {
         "toolId": "php",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "8.5.9",
-        "to": "8.5.10"
+        "from": "8.5.10",
+        "to": "8.5.9"
       }
     ],
     "qualityChanges": []
