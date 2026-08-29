@@ -1,184 +1,78 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T22:18:46.697Z",
-  "fromGeneratedAt": "2026-08-28T11:23:44.023Z",
-  "toGeneratedAt": "2026-08-28T22:18:46.697Z",
+  "generatedAt": "2026-08-29T07:04:10.976Z",
+  "fromGeneratedAt": "2026-08-28T22:18:46.697Z",
+  "toGeneratedAt": "2026-08-29T07:04:10.976Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 12,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 21,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "git_lfs",
-      "vim",
-      "uv",
+      "powershell",
       "miniconda",
-      "sbt",
-      "terraform",
-      "pulumi",
       "aws_cli",
-      "postman",
-      "netlify_cli",
-      "php",
-      "elixir"
+      "pandoc"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "git_lfs",
+        "toolId": "powershell",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.7.1",
-        "to": "3.8.0"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.1014",
-        "to": "9.2.1015"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "0.12.6",
-        "to": "0.12.7"
+        "from": "7.6.4",
+        "to": "7.6.5"
       },
       {
         "toolId": "miniconda",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "26.7.1-0",
-        "to": "26.7.1-1"
-      },
-      {
-        "toolId": "sbt",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.0.7",
-        "to": "2.0.8"
-      },
-      {
-        "toolId": "terraform",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.16.0",
-        "to": "1.17.0-alpha20260827"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "3.259.0",
-        "to": "3.260.0"
-      },
-      {
-        "toolId": "pulumi",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.259.0",
-        "to": "3.260.0"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "3.259.0",
-        "to": "3.260.0"
-      },
-      {
-        "toolId": "pulumi",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "3.259.0",
-        "to": "3.260.0"
+        "from": "py314_26.7.1-0",
+        "to": "py314_26.7.1-1"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.36.32",
-        "to": "2.36.33"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2.36.33",
         "to": "2.36.34"
       },
       {
-        "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.32",
-        "to": "2.36.33"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "pandoc",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "12.25.6",
-        "to": "12.25.7"
+        "from": "3.10.2",
+        "to": "3.11"
       },
       {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.25.6",
-        "to": "12.25.7"
+        "toolId": "pandoc",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "3.10.2",
+        "to": "3.11"
       },
       {
-        "toolId": "postman",
+        "toolId": "pandoc",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "12.25.6",
-        "to": "12.25.7"
+        "from": "3.10.2",
+        "to": "3.11.0"
       },
       {
-        "toolId": "netlify_cli",
+        "toolId": "pandoc",
         "sourceId": "github",
         "manager": "github",
-        "from": "27.4.0",
-        "to": "27.4.1"
-      },
-      {
-        "toolId": "php",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "8.5.10",
-        "to": "8.5.9"
-      },
-      {
-        "toolId": "elixir",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.20.3",
-        "to": "1.20.4"
-      },
-      {
-        "toolId": "elixir",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "1.20.3",
-        "to": "1.20.4"
-      },
-      {
-        "toolId": "elixir",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.20.3",
-        "to": "1.20.4"
+        "from": "3.10.2",
+        "to": "3.11"
       }
     ],
     "qualityChanges": []
