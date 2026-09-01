@@ -1,89 +1,161 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T16:38:53.997Z",
-  "fromGeneratedAt": "2026-09-01T11:38:40.738Z",
-  "toGeneratedAt": "2026-09-01T16:38:53.997Z",
-  "status": "ok",
+  "generatedAt": "2026-09-01T21:01:46.494Z",
+  "fromGeneratedAt": "2026-09-01T16:38:53.997Z",
+  "toGeneratedAt": "2026-09-01T21:01:46.494Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 14,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 8,
-    "qualityChanges": 0
+    "versionChanges": 16,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_cli",
+      "oh_my_posh",
       "rustup",
+      "cargo",
+      "go",
+      "sbt",
       "aws_cli",
       "azure_cli",
-      "google_cloud_sdk",
-      "postman",
-      "supabase_cli"
+      "android_studio",
+      "sysmon",
+      "stripe_cli",
+      "supabase_cli",
+      "php",
+      "erlang"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "rustup",
+        "toolId": "github_cli",
         "sourceId": "scoop",
         "manager": "scoop",
+        "from": "2.98.0",
+        "to": "2.99.0"
+      },
+      {
+        "toolId": "github_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.98.0",
+        "to": "2.99.0"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "31.1.1",
+        "to": "31.1.2"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "31.1.1",
+        "to": "31.1.2"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "31.1.1",
+        "to": "31.1.2"
+      },
+      {
+        "toolId": "rustup",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "1.29.0",
         "to": "1.29.1"
       },
       {
-        "toolId": "aws_cli",
+        "toolId": "cargo",
         "sourceId": "winget",
         "manager": "winget",
-        "from": "2.36.35",
-        "to": "2.36.36"
+        "from": "1.29.0",
+        "to": "1.29.1"
+      },
+      {
+        "toolId": "go",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.27.0",
+        "to": "1.27.1"
+      },
+      {
+        "toolId": "sbt",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.0.7",
+        "to": "2.0.8"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "2.36.34",
-        "to": "2.36.36"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.36.36",
+        "to": "2.36.37"
       },
       {
         "toolId": "azure_cli",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.89.1",
         "to": "2.90.0"
       },
       {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "582.0.0",
-        "to": "583.0.0"
+        "toolId": "android_studio",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2026.1.3.8,quail3-patch1",
+        "to": "2026.1.4.7,quail4"
       },
       {
-        "toolId": "google_cloud_sdk",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "581.0.0",
-        "to": "582.0.0"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "12.25.7",
-        "to": "12.26.1"
+        "toolId": "stripe_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.50.6",
+        "to": "1.50.8"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.117.0-beta.14",
-        "to": "3.0.0-beta.2"
+        "from": "3.0.0-beta.2",
+        "to": "3.0.0-beta.4"
+      },
+      {
+        "toolId": "php",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "8.5.10",
+        "to": "8.5.9"
+      },
+      {
+        "toolId": "erlang",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "29.0.5",
+        "to": "29.0.6"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "sysmon",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }

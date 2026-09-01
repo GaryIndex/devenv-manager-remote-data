@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T16:38:53.997Z",
-  "status": "ok",
+  "generatedAt": "2026-09-01T21:01:46.494Z",
+  "status": "partial",
   "tool": {
     "id": "rustup",
     "name": "Rustup",
@@ -29,7 +29,7 @@
       "long": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows.",
       "source": "winget",
       "homepage": "https://rust-lang.github.io/rustup/",
-      "lastUpdatedAt": "2026-09-01T16:38:16.063Z"
+      "lastUpdatedAt": "2026-09-01T21:01:12.131Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -109,7 +109,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-01T16:38:16.063Z",
+          "scannedAt": "2026-09-01T21:01:12.131Z",
           "errors": []
         },
         "package": {
@@ -123,8 +123,8 @@
         },
         "links": {
           "homepage": "https://rust-lang.github.io/rustup/",
-          "download": "https://static.rust-lang.org/rustup/archive/1.29.0/x86_64-pc-windows-msvc/rustup-init.exe",
-          "releases": "https://github.com/rust-lang/rustup/blob/master/CHANGELOG.md#1290---2026-03-05",
+          "download": "https://static.rust-lang.org/rustup/archive/1.29.1/x86_64-pc-windows-msvc/rustup-init.exe",
+          "releases": "https://github.com/rust-lang/rustup/blob/master/CHANGELOG.md",
           "docs": null
         },
         "descriptions": {
@@ -132,7 +132,7 @@
           "long": "Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports, including Windows.",
           "source": "winget",
           "homepage": "https://rust-lang.github.io/rustup/",
-          "lastUpdatedAt": "2026-09-01T16:38:16.063Z"
+          "lastUpdatedAt": "2026-09-01T21:01:12.131Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -153,9 +153,19 @@
         },
         "versions": [
           {
-            "version": "1.29.0",
+            "version": "1.29.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.29.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -246,14 +256,14 @@
         "downloads": [
           {
             "id": "default",
-            "version": "1.29.0",
+            "version": "1.29.1",
             "platform": "windows",
             "architecture": null,
             "type": "exe",
-            "url": "https://static.rust-lang.org/rustup/archive/1.29.0/x86_64-pc-windows-msvc/rustup-init.exe",
+            "url": "https://static.rust-lang.org/rustup/archive/1.29.1/x86_64-pc-windows-msvc/rustup-init.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "86478e53f769379d7f0ebfa7c9aa97cb76ca92233f79aa2cc0dbee2efaac73c7",
+            "sha256": "6f4bef66261261fcb43131be8720bab817d403a09edec7455c371974b90bdb7e",
             "sizeBytes": null
           }
         ],
@@ -351,7 +361,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-01T16:38:16.063Z",
+          "lastSuccessfulScanAt": "2026-09-01T21:01:12.131Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -408,7 +418,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-01T16:38:16.175Z",
+          "scannedAt": "2026-09-01T21:01:12.309Z",
           "errors": []
         },
         "package": {
@@ -434,7 +444,7 @@
           "long": "Manage multiple rust installations with ease",
           "source": "scoop",
           "homepage": "https://rustup.rs",
-          "lastUpdatedAt": "2026-09-01T16:38:16.175Z"
+          "lastUpdatedAt": "2026-09-01T21:01:12.309Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -540,7 +550,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-01T16:38:16.175Z",
+          "lastSuccessfulScanAt": "2026-09-01T21:01:12.309Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -597,7 +607,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-01T16:38:16.217Z",
+          "scannedAt": "2026-09-01T21:01:12.470Z",
           "errors": []
         },
         "package": {
@@ -625,7 +635,7 @@
           "long": "rustup is an installer for the systems programming language Rust",
           "source": "choco",
           "homepage": "https://rustup.rs/",
-          "lastUpdatedAt": "2026-09-01T16:38:16.217Z"
+          "lastUpdatedAt": "2026-09-01T21:01:12.470Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -762,7 +772,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-01T16:38:16.217Z",
+          "lastSuccessfulScanAt": "2026-09-01T21:01:12.470Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -821,7 +831,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-01T16:38:16.286Z",
+          "scannedAt": "2026-09-01T21:01:12.491Z",
           "errors": []
         },
         "package": {
@@ -849,7 +859,7 @@
           "long": "The Rust toolchain installer",
           "source": "github",
           "homepage": "https://rustup.rs/",
-          "lastUpdatedAt": "2026-09-01T16:38:16.286Z"
+          "lastUpdatedAt": "2026-09-01T21:01:12.491Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -879,7 +889,7 @@
           "confidence": "medium",
           "score": 50,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-01T16:38:16.286Z",
+          "lastSuccessfulScanAt": "2026-09-01T21:01:12.491Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
