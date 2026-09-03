@@ -1,126 +1,188 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T21:03:03.447Z",
-  "fromGeneratedAt": "2026-09-02T16:34:22.377Z",
-  "toGeneratedAt": "2026-09-02T21:03:03.447Z",
-  "status": "partial",
+  "generatedAt": "2026-09-03T04:22:32.954Z",
+  "fromGeneratedAt": "2026-09-02T21:03:03.447Z",
+  "toGeneratedAt": "2026-09-03T04:22:32.954Z",
+  "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 10,
+    "changedTools": 16,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 13,
+    "versionChanges": 21,
     "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_cli",
       "git_lfs",
       "github_desktop",
+      "vscode",
+      "vim",
+      "oh_my_posh",
       "pnpm",
-      "temurin_17",
-      "podman",
+      "uv",
+      "pipx",
+      "minikube",
       "pulumi",
       "aws_cli",
+      "postman",
+      "dbeaver",
       "stripe_cli",
-      "php",
-      "unity_hub"
+      "erlang"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "github_cli",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.98.0",
+        "to": "2.99.0"
+      },
+      {
+        "toolId": "github_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.98.0",
+        "to": "2.99.0"
+      },
+      {
         "toolId": "github_desktop",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.6.4-28955b81",
-        "to": "3.6.5-13b57bd2"
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.6.4",
+        "to": "3.6.5"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.135.0",
+        "to": "1.136.0"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.1025",
+        "to": "9.2.1031"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "31.1.1",
+        "to": "31.1.2"
       },
       {
         "toolId": "pnpm",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "11.24.0",
-        "to": "11.25.0"
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.3.0",
+        "to": "12.3.1"
       },
       {
-        "toolId": "temurin_17",
+        "toolId": "uv",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "17.0.17.10",
-        "to": "17.0.20.1"
+        "from": "0.12.8",
+        "to": "0.12.9"
       },
       {
-        "toolId": "podman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "6.1.0",
-        "to": "6.1.1"
-      },
-      {
-        "toolId": "podman",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "5.8.6",
-        "to": "6.1.1"
-      },
-      {
-        "toolId": "pulumi",
+        "toolId": "pipx",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "3.260.0",
-        "to": "3.261.0"
+        "from": "1.17.1",
+        "to": "1.17.2"
       },
       {
-        "toolId": "pulumi",
+        "toolId": "minikube",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.38.1",
+        "to": "1.39.0"
+      },
+      {
+        "toolId": "minikube",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "3.260.0",
-        "to": "3.261.0"
+        "from": "1.38.1",
+        "to": "1.39.0"
+      },
+      {
+        "toolId": "minikube",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.38.1",
+        "to": "1.39.0"
       },
       {
         "toolId": "pulumi",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "3.260.0",
         "to": "3.261.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.36.36",
+        "to": "2.36.38"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "2.36.37",
         "to": "2.36.38"
       },
       {
-        "toolId": "stripe_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "1.50.8",
-        "to": "1.50.9"
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.36.36",
+        "to": "2.36.37"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.26.1",
+        "to": "12.26.3"
+      },
+      {
+        "toolId": "dbeaver",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "26.1.5",
+        "to": "26.2.0"
       },
       {
         "toolId": "stripe_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "1.50.9",
         "to": "1.50.10"
       },
       {
-        "toolId": "php",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "8.5.10",
-        "to": "8.5.9"
+        "toolId": "stripe_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.50.6",
+        "to": "1.50.8"
       },
       {
-        "toolId": "unity_hub",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "3.21.0",
-        "to": "3.21.1"
+        "toolId": "erlang",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "29.0.5",
+        "to": "29.0.6"
       }
     ],
     "qualityChanges": [
@@ -128,8 +190,8 @@
         "toolId": "git_lfs",
         "sourceId": "winget",
         "manager": "winget",
-        "from": 100,
-        "to": 65
+        "from": 65,
+        "to": 100
       }
     ]
   }

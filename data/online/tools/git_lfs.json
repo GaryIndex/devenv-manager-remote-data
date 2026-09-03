@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T21:03:03.447Z",
-  "status": "partial",
+  "generatedAt": "2026-09-03T04:22:32.954Z",
+  "status": "ok",
   "tool": {
     "id": "git_lfs",
     "name": "Git LFS",
@@ -29,7 +29,7 @@
       "long": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. Features Large file versioning: Version large files-even those as large as a couple GB in size with Git. More repository space: Host more in your Git repositories. External file storage makes it easy to keep your repository at a manageable size. Faster cloning and fetching: Download less data. This means faster cloning and fetching from repositories that deal with large files. Same Git workflow: Work like you always do on Git-no need for additional commands, secondary storage systems, or toolsets. Same access controls and permissions: Keep the same access controls and permissions for large files as the rest of your Git repository when working with a remote host like GitHub.",
       "source": "choco",
       "homepage": "https://git-lfs.github.com/",
-      "lastUpdatedAt": "2026-09-02T21:02:04.016Z"
+      "lastUpdatedAt": "2026-09-03T04:21:37.093Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -98,33 +98,31 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "partial",
-          "scannedAt": "2026-09-02T21:02:03.844Z",
-          "errors": [
-            "details: winget exited with 2316632065"
-          ]
+          "status": "ok",
+          "scannedAt": "2026-09-03T04:21:37.033Z",
+          "errors": []
         },
         "package": {
           "name": "Git LFS",
-          "publisher": null,
-          "author": null,
-          "description": null,
-          "license": null,
-          "licenseUrl": null,
+          "publisher": "GitHub, Inc.",
+          "author": "Github, Inc.",
+          "description": "Git Large File Storage is a command line extension and specification for managing large files with Git.",
+          "license": "MIT License",
+          "licenseUrl": "https://github.com/git-lfs/git-lfs/blob/HEAD/LICENSE.md",
           "tags": []
         },
         "links": {
-          "homepage": "https://git-lfs.com/",
-          "download": "https://git-lfs.com/",
-          "releases": null,
+          "homepage": "https://github.com/git-lfs",
+          "download": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-windows-v3.7.1.exe",
+          "releases": "https://github.com/git-lfs/git-lfs/releases/tag/v3.7.1",
           "docs": null
         },
         "descriptions": {
-          "short": null,
-          "long": null,
+          "short": "Git Large File Storage is a command line extension and specification for managing large files with Git.",
+          "long": "Git Large File Storage is a command line extension and specification for managing large files with Git.",
           "source": "winget",
-          "homepage": "https://git-lfs.com/",
-          "lastUpdatedAt": "2026-09-02T21:02:03.844Z"
+          "homepage": "https://github.com/git-lfs",
+          "lastUpdatedAt": "2026-09-03T04:21:37.033Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -451,11 +449,11 @@
             "version": "3.7.1",
             "platform": "windows",
             "architecture": null,
-            "type": "package-manager",
-            "url": "https://git-lfs.com/",
-            "urlType": "download-page",
-            "direct": false,
-            "sha256": null,
+            "type": "inno",
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-windows-v3.7.1.exe",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": "bcd9a40a1ab8e9bdb948d05b736c8129001ba167627d04384aa68086847830a9",
             "sizeBytes": null
           }
         ],
@@ -550,11 +548,11 @@
           }
         ],
         "quality": {
-          "confidence": "medium",
-          "score": 65,
+          "confidence": "high",
+          "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": null,
-          "failureCount": 1,
+          "lastSuccessfulScanAt": "2026-09-03T04:21:37.033Z",
+          "failureCount": 0,
           "staleAfterDays": 7
         },
         "dependencies": {
@@ -600,7 +598,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:03.930Z",
+          "scannedAt": "2026-09-03T04:21:37.066Z",
           "errors": []
         },
         "package": {
@@ -626,7 +624,7 @@
           "long": "Git extension for versioning large files",
           "source": "homebrew",
           "homepage": "https://git-lfs.com/",
-          "lastUpdatedAt": "2026-09-02T21:02:03.930Z"
+          "lastUpdatedAt": "2026-09-03T04:21:37.066Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -733,7 +731,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:03.930Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:37.066Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -779,7 +777,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:03.993Z",
+          "scannedAt": "2026-09-03T04:21:37.070Z",
           "errors": []
         },
         "package": {
@@ -805,7 +803,7 @@
           "long": "Git extension for versioning large files.",
           "source": "scoop",
           "homepage": "https://git-lfs.com",
-          "lastUpdatedAt": "2026-09-02T21:02:03.993Z"
+          "lastUpdatedAt": "2026-09-03T04:21:37.070Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -911,7 +909,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:03.993Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:37.070Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -957,7 +955,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:04.016Z",
+          "scannedAt": "2026-09-03T04:21:37.093Z",
           "errors": []
         },
         "package": {
@@ -989,7 +987,7 @@
           "long": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. Features Large file versioning: Version large files-even those as large as a couple GB in size with Git. More repository space: Host more in your Git repositories. External file storage makes it easy to keep your repository at a manageable size. Faster cloning and fetching: Download less data. This means faster cloning and fetching from repositories that deal with large files. Same Git workflow: Work like you always do on Git-no need for additional commands, secondary storage systems, or toolsets. Same access controls and permissions: Keep the same access controls and permissions for large files as the rest of your Git repository when working with a remote host like GitHub.",
           "source": "choco",
           "homepage": "https://git-lfs.github.com/",
-          "lastUpdatedAt": "2026-09-02T21:02:04.016Z"
+          "lastUpdatedAt": "2026-09-03T04:21:37.093Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1400,7 +1398,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:04.016Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:37.093Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1448,7 +1446,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:04.186Z",
+          "scannedAt": "2026-09-03T04:21:37.116Z",
           "errors": []
         },
         "package": {
@@ -1475,7 +1473,7 @@
           "long": "Git extension for versioning large files",
           "source": "github",
           "homepage": "https://git-lfs.com",
-          "lastUpdatedAt": "2026-09-02T21:02:04.186Z"
+          "lastUpdatedAt": "2026-09-03T04:21:37.116Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2765,7 +2763,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:04.186Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:37.116Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },

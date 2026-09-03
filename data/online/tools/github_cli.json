@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T21:03:03.447Z",
-  "status": "partial",
+  "generatedAt": "2026-09-03T04:22:32.954Z",
+  "status": "ok",
   "tool": {
     "id": "github_cli",
     "name": "GitHub CLI",
@@ -32,7 +32,7 @@
       "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
       "source": "choco",
       "homepage": "https://cli.github.com/",
-      "lastUpdatedAt": "2026-09-02T21:02:03.668Z"
+      "lastUpdatedAt": "2026-09-03T04:21:36.655Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -105,7 +105,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:03.616Z",
+          "scannedAt": "2026-09-03T04:21:36.633Z",
           "errors": []
         },
         "package": {
@@ -122,8 +122,8 @@
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://github.com/cli/cli/releases/download/v2.98.0/gh_2.98.0_windows_amd64.msi",
-          "releases": "https://github.com/cli/cli/releases/tag/v2.98.0",
+          "download": "https://github.com/cli/cli/releases/download/v2.99.0/gh_2.99.0_windows_amd64.msi",
+          "releases": "https://github.com/cli/cli/releases/tag/v2.99.0",
           "docs": null
         },
         "descriptions": {
@@ -131,7 +131,7 @@
           "long": "GitHub CLI (gh) is a command-line tool that brings pull requests, issues, GitHub Actions, and other GitHub features to your terminal, so you can do all your work in one place.",
           "source": "winget",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-09-02T21:02:03.616Z"
+          "lastUpdatedAt": "2026-09-03T04:21:36.633Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -156,9 +156,19 @@
         },
         "versions": [
           {
-            "version": "2.98.0",
+            "version": "2.99.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.98.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -444,29 +454,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.75.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.98.0",
+            "version": "2.99.0",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://github.com/cli/cli/releases/download/v2.98.0/gh_2.98.0_windows_amd64.msi",
+            "url": "https://github.com/cli/cli/releases/download/v2.99.0/gh_2.99.0_windows_amd64.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "1793a0dd0064b3f03fe8ceb16b18da751d60e0c7efcfe7bbb4715fca3b675392",
+            "sha256": "43c2035cb8ee77cfb44462c42ecb9e409a112ff6e53af96c19cf12be62a4d7b1",
             "sizeBytes": null
           }
         ],
@@ -564,7 +564,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:03.616Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:36.633Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -611,7 +611,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:03.664Z",
+          "scannedAt": "2026-09-03T04:21:36.653Z",
           "errors": []
         },
         "package": {
@@ -639,7 +639,7 @@
           "long": "GitHub command-line tool",
           "source": "homebrew",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-09-02T21:02:03.664Z"
+          "lastUpdatedAt": "2026-09-03T04:21:36.653Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -750,7 +750,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:03.664Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:36.653Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -796,7 +796,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:03.666Z",
+          "scannedAt": "2026-09-03T04:21:36.654Z",
           "errors": []
         },
         "package": {
@@ -824,7 +824,7 @@
           "long": "Official GitHub CLI",
           "source": "scoop",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-09-02T21:02:03.666Z"
+          "lastUpdatedAt": "2026-09-03T04:21:36.654Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -934,7 +934,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:03.666Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:36.654Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -980,7 +980,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:03.668Z",
+          "scannedAt": "2026-09-03T04:21:36.655Z",
           "errors": []
         },
         "package": {
@@ -1001,8 +1001,8 @@
         },
         "links": {
           "homepage": "https://cli.github.com/",
-          "download": "https://community.chocolatey.org/api/v2/package/gh/2.98.0",
-          "releases": "## Security\nA security vulnerability has been identified, and fixed, that binds the local forwarded port to all available network interfaces by default.\n\nUsers of `gh codespace ports forward` are advised to update `gh` to version `v2.98.0` as soon as possible.\n\nFor more information see: https://github.com/cli/cli/security/advisories/GHSA-vfhh-p7hm-pxfh\n\n## Support worktrees in `pr checkout`\n\nUsers can now checkout a pull request into a git worktree by using the new `--worktree PATH` flag in `gh pr checkout`:\n\n```shell\ngh pr checkout 12 --worktree ../wt-feature\n```\n\n## Add semantic search to `search issues`\n\nThe `gh search issues` command now supports semantic search for issues. Users can select the search type by passing the `--search-type` flag:\n\n```shell\ngh search issues --search-type semantic ...\n\ngh search issues --search-type hybrid ...\n```\n\nFor more information about semantic search see: [\"Improved Search for github issues is now generally available\"](https://github.blog/changelog/2026-04-02-improved-search-for-github-issues-is-now-generally-available/).\n\n## What's Changed\n\n### ✨ Features\n* Add --worktree flag to gh pr checkout by @tidy-dev in https://github.com/cli/cli/pull/13946\n* Set GH_EXTENSION=1 when gh invokes an extension by @williammartin in https://github.com/cli/cli/pull/14072\n* Add --search-type flag for semantic and hybrid issue search by @michaeljacholke in https://github.com/cli/cli/pull/14006\n\n\n### 🐛 Fixes\n* Fix `RESTWithNext` error type, repairing `gh status` and attestation retries by @williammartin in https://github.com/cli/cli/pull/13988\n* Trim spaces when parsing X-Oauth-Scopes in `gh release create` by @williammartin in https://github.com/cli/cli/pull/14065\n* Fix project item-add output for non-TTY by @zwick in https://github.com/cli/cli/pull/14056\n\n### 📚 Docs & Chores\n* Slim down dependabot triage comments by @williammartin in https://github.com/cli/cli/pull/14019\n* Require explicit PR review ownership by @williammartin in https://github.com/cli/cli/pull/14028\n* Collapse spam triage into the agentic issue-triage workflow by @williammartin in https://github.com/cli/cli/pull/14027\n* Run Dependabot triage every hour by @sergiou87 in https://github.com/cli/cli/pull/14030\n* Route deploy key requests through api.Client by @williammartin in https://github.com/cli/cli/pull/13989\n* Route ssh key requests through api.Client by @williammartin in https://github.com/cli/cli/pull/13994\n* Route gpg key requests through api.Client by @williammartin in https://github.com/cli/cli/pull/13997\n* Route autolink requests through api.Client by @williammartin in https://github.com/cli/cli/pull/14013\n* Route extension requests through api.Client by @williammartin in https://github.com/cli/cli/pull/14059\n* Route release creation through api.Client by @williammartin in https://github.com/cli/cli/pull/14062\n* Tell agents to use the PR template in AGENTS.md by @williammartin in https://github.com/cli/cli/pull/14074\n* Make Dependabot triage cheaper and more decisive by @williammartin in https://github.com/cli/cli/pull/14079\n* Route release deletions through api.Client by @williammartin in https://github.com/cli/cli/pull/14077\n* Give Dependabot triage a real reachability check by @williammartin in https://github.com/cli/cli/pull/14087\n* Restore automatic spam issue closure by @williammartin in https://github.com/cli/cli/pull/14088\n* Add a scheduled tech debt burndown skill by @williammartin in https://github.com/cli/cli/pull/14095\n* Use reflect.Pointer instead of deprecated reflect.Ptr by @williammartin in https://github.com/cli/cli/pull/14098\n* Clarify what belongs in the PR template's testing section by @williammartin in https://github.com/cli/cli/pull/14103\n* Rename cli-code-reviewer skill to code-review by @BagToad in https://github.com/cli/cli/pull/14116\n* Add aw-actions group to dependabot configuration by @babakks in https://github.com/cli/cli/pull/14123\n* Isolate tests from local machine's auth and git configuration by @BagToad in https://github.com/cli/cli/pull/14128\n* Don't ask for feature detection cleanup comments when not needed by @babakks in https://github.com/cli/cli/pull/14139\n* Accept pre-release tags in deployment validation by @BagToad in https://github.com/cli/cli/pull/14193\n* ci: add temporary step to verify Linux repo signing keys by @babakks in https://github.com/cli/cli/pull/14202\n* Revert \"ci: add temporary step to verify Linux repo signing keys\" by @babakks in https://github.com/cli/cli/pull/14203\n* Fix issue triage action compatibility [skip changelog] by @tidy-dev in https://github.com/cli/cli/pull/14207\n\n### :dependabot: Dependencies\n* chore(deps): bump github.com/sigstore/sigstore-go from 1.2.2 to 1.3.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14047\n* chore(deps): bump the codeql-actions group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/cli/cli/pull/14049\n* chore(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14048\n* chore(deps): bump github.com/google/go-containerregistry from 0.21.7 to 0.21.8 by @dependabot[bot] in https://github.com/cli/cli/pull/14066\n* chore(deps): bump actions/attest from 4.2.1 to 4.2.2 by @dependabot[bot] in https://github.com/cli/cli/pull/14100\n* chore(deps): bump azure/login from 3.0.0 to 3.0.1 by @dependabot[bot] in https://github.com/cli/cli/pull/14101\n* chore(deps): bump the codeql-actions group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/cli/cli/pull/14091\n* chore(deps): bump github/gh-aw-actions/setup-cli from 0.83.4 to 0.85.4 by @dependabot[bot] in https://github.com/cli/cli/pull/14068\n* chore(deps): bump github.com/google/go-containerregistry from 0.21.8 to 0.21.9 by @dependabot[bot] in https://github.com/cli/cli/pull/14119\n* chore(deps): bump github.com/klauspost/compress from 1.19.1 to 1.19.2 by @dependabot[bot] in https://github.com/cli/cli/pull/14120\n* chore(deps): bump the aw-actions group with 2 updates by @dependabot[bot] in https://github.com/cli/cli/pull/14147\n* chore: sign APT repository with both keys by @babakks in https://github.com/cli/cli/pull/13271\n* chore(deps): bump github.com/yuin/goldmark from 1.8.4 to 1.8.5 by @dependabot[bot] in https://github.com/cli/cli/pull/14029\n* chore(deps): bump actions/attest from 4.2.0 to 4.2.1 by @dependabot[bot] in https://github.com/cli/cli/pull/14050\n* Bump golangci-lint in CI to v2.12.2 by @williammartin in https://github.com/cli/cli/pull/14102\n* chore(deps): bump the aw-actions group with 2 updates by @dependabot[bot] in https://github.com/cli/cli/pull/14124\n* chore(deps): bump google.golang.org/protobuf from 1.36.11 to 1.36.12 by @dependabot[bot] in https://github.com/cli/cli/pull/14140\n* Upgrade gh-aw workflows to v0.85.4 by @tidy-dev in https://github.com/cli/cli/pull/14141\n* Bump Go to 1.26.6 by @github-actions[bot] in https://github.com/cli/cli/pull/14143\n* chore: bump go to 1.26.7 by @babakks in https://github.com/cli/cli/pull/14205\n* chore(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.1 by @dependabot[bot] in https://github.com/cli/cli/pull/14204\n* chore(deps): bump the codeql-actions group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/cli/cli/pull/14169\n* chore(deps): bump golang.org/x/crypto from 0.54.0 to 0.55.0 by @dependabot[bot] in https://github.com/cli/cli/pull/14164\n* chore(deps): bump charm.land/lipgloss/v2 from 2.0.5 to 2.0.6 by @dependabot[bot] in https://github.com/cli/cli/pull/14166\n* Bump gh-aw-actions to v0.87.1 and recompile agentic workflows by @BagToad in https://github.com/cli/cli/pull/14210\n\n## New Contributors\n* @sergiou87 made their first contribution in https://github.com/cli/cli/pull/14030\n* @michaeljacholke made their first contribution in https://github.com/cli/cli/pull/14006\n\n**Full Changelog**: https://github.com/cli/cli/compare/v2.97.0...v2.98.0",
+          "download": "https://community.chocolatey.org/api/v2/package/gh/2.99.0",
+          "releases": "## Attach images and videos to issues and pull requests\n\nThe repeatable `--attach` flag uploads local images and videos and adds them to issue, pull request, or comment bodies. If a body already references the local path, `gh` replaces it with the uploaded URL; otherwise it appends the attachment:\n\n```shell\n# Attach files when creating or editing an issue\ngh issue create --attach './repro.png#The error state'\ngh issue edit 123 --attach ./walkthrough.mp4\n\n# Attach files when creating or editing a pull request\ngh pr create --attach ./before.png\ngh pr edit 456 --attach ./after.png\n\n# Attach files to comments\ngh issue comment 123 --attach ./repro.png\ngh pr comment 456 --attach ./result.mp4\n```\n\nRepeat the flag to attach multiple files in a single invocation. Attachments are available on GitHub.com and GitHub Enterprise Cloud.\n\nFor more information see https://gh.io/gh-attach and https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments/\n\n## Worktree support extended to `gh issue develop` \n\n`gh issue develop` can now create a linked branch and check it out in a new Git worktree, leaving your current working copy unchanged:\n\n```shell\n# Create a linked branch for an issue and check it out in a worktree\ngh issue develop 123 --checkout --worktree /path/to/wt-feature\n```\n\n## What's Changed\n\n### ✨ Features\n\n* Add token and repository metadata required for attachment uploads by @BagToad in [#14177](https://github.com/cli/cli/pull/14177)\n* Add validation for attachable image and video files by @BagToad in [#14178](https://github.com/cli/cli/pull/14178)\n* Rewrite local Markdown references to uploaded attachment URLs by @BagToad in [#14179](https://github.com/cli/cli/pull/14179)\n* Add attachment uploads to GitHub by @BagToad in [#14180](https://github.com/cli/cli/pull/14180)\n* Add repeatable `--attach` flag parsing and upload orchestration by @BagToad in [#14181](https://github.com/cli/cli/pull/14181)\n* Add `--attach` to `gh pr comment` and `gh issue comment` by @BagToad in [#14182](https://github.com/cli/cli/pull/14182)\n* Add `--attach` to `gh pr create` and `gh pr edit` by @BagToad in [#14183](https://github.com/cli/cli/pull/14183)\n* Add `--attach` to `gh issue create` and `gh issue edit` by @BagToad in [#14184](https://github.com/cli/cli/pull/14184)\n* Add worktree checkout to `gh issue develop` by @sergiou87 in [#14136](https://github.com/cli/cli/pull/14136)\n* Use text-only spinner output when `gh` is invoked by a coding agent by @niik in [#14191](https://github.com/cli/cli/pull/14191)\n* Honor `PI_CODING_AGENT_DIR` for Pi user skills by @tommaso-moro in [#14260](https://github.com/cli/cli/pull/14260)\n\n### 🐛 Fixes\n\n* fix(repo sync): explain when the target branch is checked out in another worktree by @williammartin in [#14076](https://github.com/cli/cli/pull/14076)\n* fix(pr merge): safely handle `--delete-branch` with linked worktrees by @tidy-dev in [#14007](https://github.com/cli/cli/pull/14007)\n* fix(copilot): end the declined-install warning with a newline by @BagToad in [#14222](https://github.com/cli/cli/pull/14222)\n* fix(attach): clarify retry windows and attachment path resolution by @BagToad in [#14262](https://github.com/cli/cli/pull/14262)\n* fix(issue develop): reject non-empty worktree targets before creating a branch by @tidy-dev in [#14244](https://github.com/cli/cli/pull/14244)\n* fix(repo sync): prevent linked-worktree corruption by @sergiou87 in [#14060](https://github.com/cli/cli/pull/14060)\n* fix(view): reject `--comments` with `--json` by @BagToad in [#14215](https://github.com/cli/cli/pull/14215)\n* fix(attach): limit batches to 50 files by @BagToad in [#14289](https://github.com/cli/cli/pull/14289)\n* fix(skills): install Codex user skills to `~/.agents/skills` by @scarletkc in [#14154](https://github.com/cli/cli/pull/14154)\n\n### 📚 Docs & Chores\n\n* Address review feedback across the `--attach` stack by @BagToad in [#14200](https://github.com/cli/cli/pull/14200)\n* Refactor commands to own attachment flag policy by @BagToad in [#14255](https://github.com/cli/cli/pull/14255)\n* Document attachment support in the `gh` skill by @BagToad in [#14261](https://github.com/cli/cli/pull/14261)\n* Document `gh issue develop --checkout --worktree` in the `gh` skill by @babakks in [#14265](https://github.com/cli/cli/pull/14265)\n* Clarify pull request testing guidance by @williammartin in [#14272](https://github.com/cli/cli/pull/14272)\n* Fix issue triage to apply suspected-spam labels directly by @williammartin in [#14271](https://github.com/cli/cli/pull/14271)\n* Prevent Dependabot from updating agentic-workflow dependencies by @williammartin in [#14274](https://github.com/cli/cli/pull/14274)\n* Modernize Go code with `go fix` by @BagToad in [#14278](https://github.com/cli/cli/pull/14278)\n\n### :dependabot: Dependencies\n\n* chore(deps): bump google.golang.org/grpc from 1.83.0 to 1.83.1 by @dependabot in [#14247](https://github.com/cli/cli/pull/14247)\n* chore(deps): bump charm.land/bubbletea/v2 from 2.0.8 to 2.0.9 by @dependabot in [#14248](https://github.com/cli/cli/pull/14248)\n* chore(deps): bump the codeql-actions group across 1 directory with 3 updates by @dependabot in [#14250](https://github.com/cli/cli/pull/14250)\n* chore(deps): bump charm.land/bubbles/v2 from 2.1.1 to 2.2.0 by @dependabot in [#14249](https://github.com/cli/cli/pull/14249)\n* chore(deps): bump agentic-workflows to 0.87.5 by @williammartin in [#14273](https://github.com/cli/cli/pull/14273)\n* chore(deps): bump charm.land/bubbles/v2 from 2.2.0 to 2.2.1 by @dependabot in [#14275](https://github.com/cli/cli/pull/14275)\n* chore(deps): bump https://github.com/sigstore/protobuf-specs from 0.5.1 to 0.5.2 by @dependabot in [#14258](https://github.com/cli/cli/pull/14258)\n* chore(deps): bump https://github.com/google/go-containerregistry from 0.21.9 to 0.22.0 by @dependabot in [#14267](https://github.com/cli/cli/pull/14267)\n* chore(deps): bump google.golang.org/grpc from 1.83.1 to 1.83.2 by @dependabot in [#14299](https://github.com/cli/cli/pull/14299)\n* chore(deps): bump azure/login from 3.0.1 to 3.0.2 by @dependabot in [#14301](https://github.com/cli/cli/pull/14301)\n* chore(deps): bump the codeql-actions group with 3 updates by @dependabot in [#14300](https://github.com/cli/cli/pull/14300)\n\n\n## New Contributors\n* @scarletkc made their first contribution in https://github.com/cli/cli/pull/14154\n\n**Full Changelog**: https://github.com/cli/cli/compare/v2.98.0...v2.99.0",
           "docs": null
         },
         "descriptions": {
@@ -1010,7 +1010,7 @@
           "long": "gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code. Usage gh pr [status, list, view, checkout, create] gh issue [status, list, view, create] gh help NOTE : This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.",
           "source": "choco",
           "homepage": "https://cli.github.com/",
-          "lastUpdatedAt": "2026-09-02T21:02:03.668Z"
+          "lastUpdatedAt": "2026-09-03T04:21:36.655Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1039,9 +1039,19 @@
         },
         "versions": [
           {
-            "version": "2.98.0",
+            "version": "2.99.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "2.98.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -1327,29 +1337,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "2.62.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "2.98.0",
+            "version": "2.99.0",
             "platform": "windows",
             "architecture": null,
             "type": "chocolatey-package",
-            "url": "https://community.chocolatey.org/api/v2/package/gh/2.98.0",
+            "url": "https://community.chocolatey.org/api/v2/package/gh/2.99.0",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "dhk2LWTErp0rkUjAvXekyXu3LUr3DBJbNzXp/4VVSkHt+Ppi9yStSOE2MqryEmq3W6wvTTljOIZCb0oMKV1ckA==",
+            "sha256": "C04IackQCL6Jt5kL9wikbaiNfeFWtxpCgMPFmLOEWjfIY1U3kUJHlJstHOnczuEYVgxG9jsnZ6IC9Zf1cnQzZA==",
             "sizeBytes": null
           }
         ],
@@ -1421,7 +1421,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:03.668Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:36.655Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1469,7 +1469,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-02T21:02:03.837Z",
+          "scannedAt": "2026-09-03T04:21:36.970Z",
           "errors": []
         },
         "package": {
@@ -1499,7 +1499,7 @@
           "long": "GitHub’s official command line tool",
           "source": "github",
           "homepage": "https://cli.github.com",
-          "lastUpdatedAt": "2026-09-02T21:02:03.837Z"
+          "lastUpdatedAt": "2026-09-03T04:21:36.970Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -2794,7 +2794,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-02T21:02:03.837Z",
+          "lastSuccessfulScanAt": "2026-09-03T04:21:36.970Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
