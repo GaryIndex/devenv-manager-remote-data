@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T16:25:22.490Z",
+  "generatedAt": "2026-09-03T21:01:46.456Z",
   "status": "ok",
   "tool": {
     "id": "rust_msvc",
@@ -27,7 +27,7 @@
       "long": "The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict. Through balancing powerful technical capacity and a great developer experience, Rust gives you the option to control low-level details (such as memory usage) without all the hassle traditionally associated with such control.",
       "source": "winget",
       "homepage": "https://www.rust-lang.org/",
-      "lastUpdatedAt": "2026-09-03T16:24:36.663Z"
+      "lastUpdatedAt": "2026-09-03T21:01:16.752Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,7 +93,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-03T16:24:36.663Z",
+          "scannedAt": "2026-09-03T21:01:16.752Z",
           "errors": []
         },
         "package": {
@@ -107,8 +107,8 @@
         },
         "links": {
           "homepage": "https://www.rust-lang.org/",
-          "download": "https://static.rust-lang.org/dist/rust-1.98.0-x86_64-pc-windows-msvc.msi",
-          "releases": "https://github.com/rust-lang/rust/releases/tag/1.98.0",
+          "download": "https://static.rust-lang.org/dist/rust-1.98.1-x86_64-pc-windows-msvc.msi",
+          "releases": "https://github.com/rust-lang/rust/releases/tag/1.98.1",
           "docs": null
         },
         "descriptions": {
@@ -116,7 +116,7 @@
           "long": "The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict. Through balancing powerful technical capacity and a great developer experience, Rust gives you the option to control low-level details (such as memory usage) without all the hassle traditionally associated with such control.",
           "source": "winget",
           "homepage": "https://www.rust-lang.org/",
-          "lastUpdatedAt": "2026-09-03T16:24:36.663Z"
+          "lastUpdatedAt": "2026-09-03T21:01:16.752Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,9 +137,19 @@
         },
         "versions": [
           {
-            "version": "1.98.0",
+            "version": "1.98.1",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "1.98.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -425,29 +435,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "1.77.2",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "1.98.0",
+            "version": "1.98.1",
             "platform": "windows",
             "architecture": null,
             "type": "wix",
-            "url": "https://static.rust-lang.org/dist/rust-1.98.0-x86_64-pc-windows-msvc.msi",
+            "url": "https://static.rust-lang.org/dist/rust-1.98.1-x86_64-pc-windows-msvc.msi",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "190bdf9f2916d1b60f31e18bf7c7fb8c7f5fa6e9788773643dbfc9d5266880c3",
+            "sha256": "346bea0c3076a33e291624b3d7e71bb3cf661422fadaf643612de641b3e7599a",
             "sizeBytes": null
           }
         ],
@@ -545,7 +545,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-03T16:24:36.663Z",
+          "lastSuccessfulScanAt": "2026-09-03T21:01:16.752Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

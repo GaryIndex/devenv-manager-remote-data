@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T16:25:22.490Z",
-  "fromGeneratedAt": "2026-09-03T11:13:04.110Z",
-  "toGeneratedAt": "2026-09-03T16:25:22.490Z",
+  "generatedAt": "2026-09-03T21:01:46.456Z",
+  "fromGeneratedAt": "2026-09-03T16:25:22.490Z",
+  "toGeneratedAt": "2026-09-03T21:01:46.456Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 11,
     "qualityChanges": 0
   },
   "changes": {
@@ -19,46 +19,90 @@
     "changedTools": [
       "github_cli",
       "vscode",
+      "rust_msvc",
       "scala",
-      "pulumi"
+      "aws_cli",
+      "unity_hub"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "github_cli",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "2.99.0",
+        "to": "2.100.0"
+      },
+      {
+        "toolId": "github_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.99.0",
+        "to": "2.100.0"
+      },
+      {
+        "toolId": "github_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "2.99.0",
         "to": "2.100.0"
       },
       {
         "toolId": "vscode",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "1.136.0",
         "to": "1.136.1"
       },
       {
         "toolId": "vscode",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "1.136.0",
-        "to": "1.136.1"
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.135.0",
+        "to": "1.136.0"
+      },
+      {
+        "toolId": "rust_msvc",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "1.98.0",
+        "to": "1.98.1"
       },
       {
         "toolId": "scala",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "3.8.4",
         "to": "3.9.0"
       },
       {
-        "toolId": "pulumi",
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.38",
+        "to": "2.36.39"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "2.36.38",
+        "to": "2.36.39"
+      },
+      {
+        "toolId": "unity_hub",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "3.21.0.65535",
+        "to": "3.21.1.65535"
+      },
+      {
+        "toolId": "unity_hub",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "3.260.0",
-        "to": "3.261.0"
+        "from": "3.21.0",
+        "to": "3.21.1"
       }
     ],
     "qualityChanges": []
