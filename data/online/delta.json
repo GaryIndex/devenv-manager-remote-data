@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T04:31:32.788Z",
-  "fromGeneratedAt": "2026-09-03T21:01:46.456Z",
-  "toGeneratedAt": "2026-09-04T04:31:32.788Z",
+  "generatedAt": "2026-09-04T11:16:59.384Z",
+  "fromGeneratedAt": "2026-09-04T04:31:32.788Z",
+  "toGeneratedAt": "2026-09-04T11:16:59.384Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
@@ -10,72 +10,93 @@
     "changedTools": 7,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
+    "versionChanges": 10,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "vscode",
-      "vim",
-      "minikube",
-      "terraform",
+      "pnpm",
+      "bun",
+      "nvm_windows",
+      "scala",
       "aws_cli",
-      "netlify_cli",
-      "stripe_cli"
+      "postman",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "vscode",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.136.0",
-        "to": "1.136.1"
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.3.1",
+        "to": "12.3.2"
       },
       {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "9.2.1031",
-        "to": "9.2.1036"
+        "toolId": "bun",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.4.0",
+        "to": "1.4.1"
       },
       {
-        "toolId": "minikube",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.38.1",
-        "to": "1.39.0"
+        "toolId": "bun",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "bun-v1.4.0",
+        "to": "bun-v1.4.1"
       },
       {
-        "toolId": "terraform",
+        "toolId": "nvm_windows",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.0.0",
+        "to": "2.0.1-hotfix.1"
+      },
+      {
+        "toolId": "scala",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.17.0-alpha20260827",
-        "to": "1.16.1"
+        "from": "3.3.8",
+        "to": "3.9.0"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.36.38",
-        "to": "2.36.39"
-      },
-      {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.4.2",
-        "to": "27.4.3"
-      },
-      {
-        "toolId": "stripe_cli",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "1.50.8",
-        "to": "1.50.10"
+        "from": "2.36.37",
+        "to": "2.36.38"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.26.4",
+        "to": "12.26.5"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.26.4",
+        "to": "12.26.5"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.26.3",
+        "to": "12.26.4"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "3.0.0-beta.12",
+        "to": "2.117.0-beta.17"
       }
     ],
     "qualityChanges": []
