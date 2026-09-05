@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T10:34:16.082Z",
-  "fromGeneratedAt": "2026-09-05T04:26:30.079Z",
-  "toGeneratedAt": "2026-09-05T10:34:16.082Z",
+  "generatedAt": "2026-09-05T15:12:31.938Z",
+  "fromGeneratedAt": "2026-09-05T10:34:16.082Z",
+  "toGeneratedAt": "2026-09-05T15:12:31.938Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 5,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 6,
@@ -17,55 +17,56 @@
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "github_desktop",
       "oh_my_posh",
-      "bun",
       "poetry",
+      "cmake",
       "php"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "github_desktop",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "3.6.4",
+        "to": "3.6.5"
+      },
+      {
         "toolId": "oh_my_posh",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "31.1.2",
         "to": "31.1.3"
       },
       {
-        "toolId": "bun",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.4.1",
-        "to": "1.4.2"
-      },
-      {
-        "toolId": "bun",
+        "toolId": "oh_my_posh",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "1.4.1",
-        "to": "1.4.2"
-      },
-      {
-        "toolId": "bun",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "bun-v1.4.1",
-        "to": "bun-v1.4.2"
+        "from": "31.1.2",
+        "to": "31.1.3"
       },
       {
         "toolId": "poetry",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "scoop",
+        "manager": "scoop",
         "from": "2.4.2",
         "to": "2.4.3"
+      },
+      {
+        "toolId": "cmake",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.4.3",
+        "to": "4.3.5"
       },
       {
         "toolId": "php",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "8.5.10",
-        "to": "8.5.9"
+        "from": "8.5.9",
+        "to": "8.5.10"
       }
     ],
     "qualityChanges": []
