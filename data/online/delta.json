@@ -1,57 +1,108 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T20:45:32.232Z",
-  "fromGeneratedAt": "2026-09-04T16:21:30.305Z",
-  "toGeneratedAt": "2026-09-04T20:45:32.232Z",
+  "generatedAt": "2026-09-05T04:26:30.079Z",
+  "fromGeneratedAt": "2026-09-04T20:45:32.232Z",
+  "toGeneratedAt": "2026-09-05T04:26:30.079Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 4,
+    "versionChanges": 11,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "pnpm",
+      "bun",
+      "uv",
+      "miniconda",
       "aws_cli",
-      "netlify_cli",
+      "postman",
       "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "pnpm",
+        "toolId": "bun",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.4.0",
+        "to": "1.4.1"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.12.9",
+        "to": "0.12.10"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "0.12.9",
+        "to": "0.12.10"
+      },
+      {
+        "toolId": "uv",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.3.2",
-        "to": "12.3.4"
+        "from": "0.12.9",
+        "to": "0.12.10"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.12.9",
+        "to": "0.12.10"
+      },
+      {
+        "toolId": "miniconda",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "4.12.0",
+        "to": "3.10.1"
       },
       {
         "toolId": "aws_cli",
-        "sourceId": "scoop",
-        "manager": "scoop",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "2.36.39",
         "to": "2.36.40"
       },
       {
-        "toolId": "netlify_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "27.4.3",
-        "to": "27.5.0"
+        "toolId": "aws_cli",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "2.36.39",
+        "to": "2.36.40"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.36.38",
+        "to": "2.36.39"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "12.26.4",
+        "to": "12.26.5"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.117.0-beta.18",
-        "to": "2.117.0-beta.19"
+        "from": "2.117.0-beta.19",
+        "to": "2.117.0-beta.20"
       }
     ],
     "qualityChanges": []
