@@ -1,33 +1,57 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T20:19:58.037Z",
-  "fromGeneratedAt": "2026-09-05T15:12:31.938Z",
-  "toGeneratedAt": "2026-09-05T20:19:58.037Z",
+  "generatedAt": "2026-09-06T04:37:40.170Z",
+  "fromGeneratedAt": "2026-09-05T20:19:58.037Z",
+  "toGeneratedAt": "2026-09-06T04:37:40.170Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 4,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 1,
+    "versionChanges": 4,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "supabase_cli"
+      "git_extensions",
+      "bun",
+      "uv",
+      "aws_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "supabase_cli",
-        "sourceId": "github",
-        "manager": "github",
-        "from": "2.117.0-beta.20",
-        "to": "2.117.0-beta.21"
+        "toolId": "git_extensions",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "7.2.0.92",
+        "to": "7.2.1.7"
+      },
+      {
+        "toolId": "bun",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "1.4.1",
+        "to": "1.4.2"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "0.12.9",
+        "to": "0.12.10"
+      },
+      {
+        "toolId": "aws_cli",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "2.36.39",
+        "to": "2.36.40"
       }
     ],
     "qualityChanges": []
