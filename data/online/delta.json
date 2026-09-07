@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T04:39:37.025Z",
-  "fromGeneratedAt": "2026-09-06T20:23:51.774Z",
-  "toGeneratedAt": "2026-09-07T04:39:37.025Z",
+  "generatedAt": "2026-09-07T12:30:43.268Z",
+  "fromGeneratedAt": "2026-09-07T04:39:37.025Z",
+  "toGeneratedAt": "2026-09-07T12:30:43.268Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 3,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 5,
+    "versionChanges": 9,
     "qualityChanges": 0
   },
   "changes": {
@@ -19,6 +19,9 @@
     "changedTools": [
       "vim",
       "pnpm",
+      "docker_desktop",
+      "postman",
+      "supabase_cli",
       "php"
     ],
     "addedSources": [],
@@ -26,38 +29,66 @@
     "versionChanges": [
       {
         "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.1036",
-        "to": "9.2.1037"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "choco",
-        "manager": "choco",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "9.2.1036",
         "to": "9.2.1037"
       },
       {
         "toolId": "pnpm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "11.25.0",
+        "to": "12.3.4"
+      },
+      {
+        "toolId": "docker_desktop",
         "sourceId": "homebrew",
         "manager": "homebrew",
-        "from": "11.25.0",
-        "to": "12.3.4"
+        "from": "4.89.0,238018",
+        "to": "4.90.0,238679"
       },
       {
-        "toolId": "pnpm",
+        "toolId": "postman",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "12.26.5",
+        "to": "12.27.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.26.5",
+        "to": "12.27.0"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.26.5",
+        "to": "12.27.0"
+      },
+      {
+        "toolId": "postman",
         "sourceId": "choco",
         "manager": "choco",
-        "from": "11.25.0",
-        "to": "12.3.4"
+        "from": "12.26.5",
+        "to": "12.27.0"
+      },
+      {
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.117.0-beta.21",
+        "to": "2.117.0-beta.23"
       },
       {
         "toolId": "php",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "8.5.10",
-        "to": "8.5.9"
+        "from": "8.5.9",
+        "to": "8.5.10"
       }
     ],
     "qualityChanges": []
