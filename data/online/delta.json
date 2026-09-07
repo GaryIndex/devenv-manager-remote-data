@@ -1,33 +1,63 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T20:23:51.774Z",
-  "fromGeneratedAt": "2026-09-06T15:27:57.018Z",
-  "toGeneratedAt": "2026-09-06T20:23:51.774Z",
+  "generatedAt": "2026-09-07T04:39:37.025Z",
+  "fromGeneratedAt": "2026-09-06T20:23:51.774Z",
+  "toGeneratedAt": "2026-09-07T04:39:37.025Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 1,
+    "changedTools": 3,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 1,
+    "versionChanges": 5,
     "qualityChanges": 0
   },
   "changes": {
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
+      "vim",
+      "pnpm",
       "php"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
+        "toolId": "vim",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "9.2.1036",
+        "to": "9.2.1037"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.1036",
+        "to": "9.2.1037"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "11.25.0",
+        "to": "12.3.4"
+      },
+      {
+        "toolId": "pnpm",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "11.25.0",
+        "to": "12.3.4"
+      },
+      {
         "toolId": "php",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "8.5.9",
-        "to": "8.5.10"
+        "from": "8.5.10",
+        "to": "8.5.9"
       }
     ],
     "qualityChanges": []
