@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T11:17:42.931Z",
-  "fromGeneratedAt": "2026-09-08T04:34:02.579Z",
-  "toGeneratedAt": "2026-09-08T11:17:42.931Z",
+  "generatedAt": "2026-09-08T16:37:37.218Z",
+  "fromGeneratedAt": "2026-09-08T11:17:42.931Z",
+  "toGeneratedAt": "2026-09-08T16:37:37.218Z",
   "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 4,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
     "versionChanges": 4,
@@ -17,53 +17,55 @@
     "addedTools": [],
     "removedTools": [],
     "changedTools": [
-      "github_desktop",
+      "pnpm",
+      "llvm",
       "google_cloud_sdk",
       "postman",
-      "php"
+      "sysmon",
+      "supabase_cli"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
-        "toolId": "github_desktop",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": null,
-        "to": "3.6.5"
+        "toolId": "pnpm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.3.4",
+        "to": "12.4.0"
+      },
+      {
+        "toolId": "llvm",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "23.1.0",
+        "to": "23.1.1"
       },
       {
         "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "choco",
+        "manager": "choco",
         "from": "12.27.0",
         "to": "12.27.1"
       },
       {
-        "toolId": "postman",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "12.27.0",
-        "to": "12.27.1"
-      },
-      {
-        "toolId": "php",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "8.5.9",
-        "to": "8.5.10"
+        "toolId": "supabase_cli",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "2.118.0-beta.1",
+        "to": "2.118.0-beta.3"
       }
     ],
     "qualityChanges": [
       {
-        "toolId": "github_desktop",
+        "toolId": "google_cloud_sdk",
         "sourceId": "winget",
         "manager": "winget",
         "from": 65,
         "to": 100
       },
       {
-        "toolId": "google_cloud_sdk",
+        "toolId": "sysmon",
         "sourceId": "winget",
         "manager": "winget",
         "from": 100,
