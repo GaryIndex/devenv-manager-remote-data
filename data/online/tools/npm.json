@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T11:21:50.735Z",
-  "status": "ok",
+  "generatedAt": "2026-09-09T16:37:49.101Z",
+  "status": "partial",
   "tool": {
     "id": "npm",
     "name": "npm",
@@ -27,7 +27,7 @@
       "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
       "source": "winget",
       "homepage": "https://nodejs.org/",
-      "lastUpdatedAt": "2026-09-09T11:20:58.812Z"
+      "lastUpdatedAt": "2026-09-09T16:37:13.345Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -78,8 +78,8 @@
       "systemCritical": false
     },
     "quality": {
-      "confidence": "high",
-      "score": 100
+      "confidence": "medium",
+      "score": 65
     },
     "sources": [
       {
@@ -92,9 +92,11 @@
         "official": true,
         "priority": 10,
         "scan": {
-          "status": "ok",
-          "scannedAt": "2026-09-09T11:20:58.812Z",
-          "errors": []
+          "status": "partial",
+          "scannedAt": "2026-09-09T16:37:13.345Z",
+          "errors": [
+            "versions: winget exited with 2316632065"
+          ]
         },
         "package": {
           "name": "npm",
@@ -116,7 +118,7 @@
           "long": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
           "source": "winget",
           "homepage": "https://nodejs.org/",
-          "lastUpdatedAt": "2026-09-09T11:20:58.812Z"
+          "lastUpdatedAt": "2026-09-09T16:37:13.345Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -133,142 +135,11 @@
           "upgrade": [],
           "knownIssues": []
         },
-        "versions": [
-          {
-            "version": "24.19.0",
-            "channel": "stable",
-            "latest": true,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.18.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.18.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.17.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.16.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.15.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.14.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.14.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.13.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.13.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.12.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.11.1",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "24.11.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          }
-        ],
+        "versions": [],
         "downloads": [
           {
             "id": "default",
-            "version": "24.19.0",
+            "version": null,
             "platform": "windows",
             "architecture": null,
             "type": "wix",
@@ -370,11 +241,11 @@
           }
         ],
         "quality": {
-          "confidence": "high",
-          "score": 100,
+          "confidence": "medium",
+          "score": 65,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-09T11:20:58.812Z",
-          "failureCount": 0,
+          "lastSuccessfulScanAt": null,
+          "failureCount": 1,
           "staleAfterDays": 7
         },
         "dependencies": {

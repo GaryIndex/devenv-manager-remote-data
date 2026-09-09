@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T11:21:50.735Z",
-  "fromGeneratedAt": "2026-09-09T04:40:37.928Z",
-  "toGeneratedAt": "2026-09-09T11:21:50.735Z",
-  "status": "ok",
+  "generatedAt": "2026-09-09T16:37:49.101Z",
+  "fromGeneratedAt": "2026-09-09T11:21:50.735Z",
+  "toGeneratedAt": "2026-09-09T16:37:49.101Z",
+  "status": "partial",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 6,
+    "changedTools": 11,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 7,
-    "qualityChanges": 0
+    "versionChanges": 17,
+    "qualityChanges": 1
   },
   "changes": {
     "addedTools": [],
@@ -19,64 +19,147 @@
     "changedTools": [
       "vscode",
       "vscodium",
-      "oh_my_posh",
-      "uv",
-      "postman",
-      "supabase_cli"
+      "vim",
+      "node_current",
+      "npm",
+      "llvm",
+      "terraform",
+      "google_cloud_sdk",
+      "quarto",
+      "supabase_cli",
+      "hugo"
     ],
     "addedSources": [],
     "removedSources": [],
     "versionChanges": [
       {
         "toolId": "vscode",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "1.136.1",
-        "to": "1.136.2"
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "1.136.2",
+        "to": "1.137.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.136.2",
+        "to": "1.137.0"
+      },
+      {
+        "toolId": "vscode",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.136.2",
+        "to": "1.137.0"
       },
       {
         "toolId": "vscodium",
-        "sourceId": "github",
-        "manager": "github",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
         "from": "1.126.04524",
         "to": "1.135.06055"
       },
       {
-        "toolId": "oh_my_posh",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "31.2.0",
-        "to": "31.2.1"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "0.12.10",
-        "to": "0.12.11"
-      },
-      {
-        "toolId": "postman",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "12.27.1",
-        "to": "12.27.2"
-      },
-      {
-        "toolId": "postman",
+        "toolId": "vscodium",
         "sourceId": "scoop",
         "manager": "scoop",
-        "from": "12.27.1",
-        "to": "12.27.2"
+        "from": "1.126.04524",
+        "to": "1.135.06055"
+      },
+      {
+        "toolId": "vim",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "9.2.1046",
+        "to": "9.2.1054"
+      },
+      {
+        "toolId": "node_current",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "26.8.1",
+        "to": "26.8.2"
+      },
+      {
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "24.19.0",
+        "to": null
+      },
+      {
+        "toolId": "llvm",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "23.1.0",
+        "to": "23.1.1"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "1.16.1",
+        "to": "1.16.2"
+      },
+      {
+        "toolId": "terraform",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.16.1",
+        "to": "1.16.2"
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "583.0.0",
+        "to": "584.0.0"
+      },
+      {
+        "toolId": "google_cloud_sdk",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "583.0.0",
+        "to": "584.0.0"
+      },
+      {
+        "toolId": "quarto",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "1.11.3",
+        "to": "1.11.4"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.118.0-beta.5",
-        "to": "2.118.0-beta.8"
+        "from": "2.118.0-beta.8",
+        "to": "2.118.0-beta.9"
+      },
+      {
+        "toolId": "hugo",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "0.165.0",
+        "to": "0.166.0"
+      },
+      {
+        "toolId": "hugo",
+        "sourceId": "github",
+        "manager": "github",
+        "from": "0.165.0",
+        "to": "0.166.0"
       }
     ],
-    "qualityChanges": []
+    "qualityChanges": [
+      {
+        "toolId": "npm",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": 100,
+        "to": 65
+      }
+    ]
   }
 }
