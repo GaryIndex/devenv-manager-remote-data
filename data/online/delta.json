@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T04:40:37.928Z",
-  "fromGeneratedAt": "2026-09-08T21:09:03.914Z",
-  "toGeneratedAt": "2026-09-09T04:40:37.928Z",
+  "generatedAt": "2026-09-09T11:21:50.735Z",
+  "fromGeneratedAt": "2026-09-09T04:40:37.928Z",
+  "toGeneratedAt": "2026-09-09T11:21:50.735Z",
   "status": "ok",
   "summary": {
     "addedTools": 0,
     "removedTools": 0,
-    "changedTools": 12,
+    "changedTools": 6,
     "addedSources": 0,
     "removedSources": 0,
-    "versionChanges": 18,
+    "versionChanges": 7,
     "qualityChanges": 0
   },
   "changes": {
@@ -18,16 +18,10 @@
     "removedTools": [],
     "changedTools": [
       "vscode",
-      "vim",
-      "powershell",
-      "node_lts",
+      "vscodium",
+      "oh_my_posh",
       "uv",
-      "dotnet_9",
-      "dotnet_8",
-      "vs_build_tools",
-      "visual_studio_community",
-      "aws_cli",
-      "netlify_cli",
+      "postman",
       "supabase_cli"
     ],
     "addedSources": [],
@@ -35,129 +29,52 @@
     "versionChanges": [
       {
         "toolId": "vscode",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
+        "sourceId": "winget",
+        "manager": "winget",
         "from": "1.136.1",
         "to": "1.136.2"
       },
       {
-        "toolId": "vscode",
-        "sourceId": "choco",
-        "manager": "choco",
-        "from": "1.136.1",
-        "to": "1.136.2"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "9.2.1000",
-        "to": "9.2.1050"
-      },
-      {
-        "toolId": "vim",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "9.2.1046",
-        "to": "9.2.1054"
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "7.6.5.0",
-        "to": "7.6.6.0"
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "7.6.5",
-        "to": "7.6.6"
-      },
-      {
-        "toolId": "powershell",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "7.6.5",
-        "to": "7.6.6"
-      },
-      {
-        "toolId": "node_lts",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "24.20.0",
-        "to": "24.21.0"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "0.12.10",
-        "to": "0.12.11"
-      },
-      {
-        "toolId": "uv",
-        "sourceId": "scoop",
-        "manager": "scoop",
-        "from": "0.12.10",
-        "to": "0.12.11"
-      },
-      {
-        "toolId": "dotnet_9",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "9.0.317",
-        "to": "9.0.318"
-      },
-      {
-        "toolId": "dotnet_8",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "8.0.424",
-        "to": "8.0.425"
-      },
-      {
-        "toolId": "vs_build_tools",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "17.14.39",
-        "to": "17.14.40"
-      },
-      {
-        "toolId": "visual_studio_community",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "17.14.39",
-        "to": "17.14.40"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "winget",
-        "manager": "winget",
-        "from": "2.36.40",
-        "to": "2.36.41"
-      },
-      {
-        "toolId": "aws_cli",
-        "sourceId": "homebrew",
-        "manager": "homebrew",
-        "from": "2.36.40",
-        "to": "2.36.41"
-      },
-      {
-        "toolId": "netlify_cli",
+        "toolId": "vscodium",
         "sourceId": "github",
         "manager": "github",
-        "from": "27.5.0",
-        "to": "27.5.1"
+        "from": "1.126.04524",
+        "to": "1.135.06055"
+      },
+      {
+        "toolId": "oh_my_posh",
+        "sourceId": "choco",
+        "manager": "choco",
+        "from": "31.2.0",
+        "to": "31.2.1"
+      },
+      {
+        "toolId": "uv",
+        "sourceId": "winget",
+        "manager": "winget",
+        "from": "0.12.10",
+        "to": "0.12.11"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "homebrew",
+        "manager": "homebrew",
+        "from": "12.27.1",
+        "to": "12.27.2"
+      },
+      {
+        "toolId": "postman",
+        "sourceId": "scoop",
+        "manager": "scoop",
+        "from": "12.27.1",
+        "to": "12.27.2"
       },
       {
         "toolId": "supabase_cli",
         "sourceId": "github",
         "manager": "github",
-        "from": "2.118.0-beta.3",
-        "to": "2.118.0-beta.5"
+        "from": "2.118.0-beta.5",
+        "to": "2.118.0-beta.8"
       }
     ],
     "qualityChanges": []
