@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T21:09:03.914Z",
+  "generatedAt": "2026-09-09T04:40:37.928Z",
   "status": "ok",
   "tool": {
     "id": "dotnet_9",
@@ -27,7 +27,7 @@
       "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
       "source": "winget",
       "homepage": "https://dotnet.microsoft.com",
-      "lastUpdatedAt": "2026-09-08T21:08:24.863Z"
+      "lastUpdatedAt": "2026-09-09T04:40:01.235Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,7 +93,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-08T21:08:24.863Z",
+          "scannedAt": "2026-09-09T04:40:01.235Z",
           "errors": []
         },
         "package": {
@@ -107,7 +107,7 @@
         },
         "links": {
           "homepage": "https://dotnet.microsoft.com",
-          "download": "https://download.microsoft.com/download/822cb3a8-5bf7-49ab-bd23-8b8977fe1b85/fe08e1f9-7bcb-4b9a-a471-0d8c17171790/dotnet-sdk-9.0.317-win-x64.exe",
+          "download": "https://download.microsoft.com/download/489bd17e-0836-437f-a7b1-5342abd3c07f/098de5e2-523e-45e1-bcbd-9f2ac7a5b9a6/dotnet-sdk-9.0.318-win-x64.exe",
           "releases": null,
           "docs": null
         },
@@ -116,7 +116,7 @@
           "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
           "source": "winget",
           "homepage": "https://dotnet.microsoft.com",
-          "lastUpdatedAt": "2026-09-08T21:08:24.863Z"
+          "lastUpdatedAt": "2026-09-09T04:40:01.235Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,9 +137,19 @@
         },
         "versions": [
           {
-            "version": "9.0.317",
+            "version": "9.0.318",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "9.0.317",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -377,6 +387,16 @@
             "changelogUrl": null
           },
           {
+            "version": "9.0.121",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
             "version": "9.0.120",
             "channel": "stable",
             "latest": false,
@@ -415,39 +435,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "9.0.116",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "9.0.115",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "9.0.317",
+            "version": "9.0.318",
             "platform": "windows",
             "architecture": null,
             "type": "burn",
-            "url": "https://download.microsoft.com/download/822cb3a8-5bf7-49ab-bd23-8b8977fe1b85/fe08e1f9-7bcb-4b9a-a471-0d8c17171790/dotnet-sdk-9.0.317-win-x64.exe",
+            "url": "https://download.microsoft.com/download/489bd17e-0836-437f-a7b1-5342abd3c07f/098de5e2-523e-45e1-bcbd-9f2ac7a5b9a6/dotnet-sdk-9.0.318-win-x64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e7a0b06c4c65870eb5ddfd7f58a03332ea9d59894d1d75e2568d37b6445b24d7",
+            "sha256": "fe7e5608e8165b179017cb1b709f266dc84d66a5d8ae187cf852ddaa3b96bc4c",
             "sizeBytes": null
           }
         ],
@@ -545,7 +545,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-08T21:08:24.863Z",
+          "lastSuccessfulScanAt": "2026-09-09T04:40:01.235Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

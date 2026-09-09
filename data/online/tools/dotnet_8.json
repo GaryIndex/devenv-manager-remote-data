@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T21:09:03.914Z",
+  "generatedAt": "2026-09-09T04:40:37.928Z",
   "status": "ok",
   "tool": {
     "id": "dotnet_8",
@@ -27,7 +27,7 @@
       "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
       "source": "winget",
       "homepage": "https://dotnet.microsoft.com",
-      "lastUpdatedAt": "2026-09-08T21:08:25.170Z"
+      "lastUpdatedAt": "2026-09-09T04:40:01.366Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -93,7 +93,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-08T21:08:25.170Z",
+          "scannedAt": "2026-09-09T04:40:01.366Z",
           "errors": []
         },
         "package": {
@@ -107,7 +107,7 @@
         },
         "links": {
           "homepage": "https://dotnet.microsoft.com",
-          "download": "https://download.microsoft.com/download/6141e558-e0ef-473c-8dc2-122d381f9bc8/988b5e46-33a0-4cfe-8fb1-d8b90ec1d280/dotnet-sdk-8.0.424-win-x64.exe",
+          "download": "https://download.microsoft.com/download/4df5e4e8-4c5f-4fa6-9730-c51e177fb61b/dc7c534c-bf24-48ca-943d-d849785c5d12/dotnet-sdk-8.0.425-win-x64.exe",
           "releases": null,
           "docs": null
         },
@@ -116,7 +116,7 @@
           "long": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
           "source": "winget",
           "homepage": "https://dotnet.microsoft.com",
-          "lastUpdatedAt": "2026-09-08T21:08:25.170Z"
+          "lastUpdatedAt": "2026-09-09T04:40:01.366Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -137,9 +137,19 @@
         },
         "versions": [
           {
-            "version": "8.0.424",
+            "version": "8.0.425",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "8.0.424",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -425,29 +435,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "8.0.315",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "8.0.424",
+            "version": "8.0.425",
             "platform": "windows",
             "architecture": null,
             "type": "burn",
-            "url": "https://download.microsoft.com/download/6141e558-e0ef-473c-8dc2-122d381f9bc8/988b5e46-33a0-4cfe-8fb1-d8b90ec1d280/dotnet-sdk-8.0.424-win-x64.exe",
+            "url": "https://download.microsoft.com/download/4df5e4e8-4c5f-4fa6-9730-c51e177fb61b/dc7c534c-bf24-48ca-943d-d849785c5d12/dotnet-sdk-8.0.425-win-x64.exe",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e79e34bdd8cce378786aaf8846412ff5f9ba4b035ce1869e9cbff751de6da6cd",
+            "sha256": "48c31649ed0c37a161704e68fc9f5f67be9eb01edbd8f92b54b4c2e374ef6dfb",
             "sizeBytes": null
           }
         ],
@@ -545,7 +545,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-08T21:08:25.170Z",
+          "lastSuccessfulScanAt": "2026-09-09T04:40:01.366Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },

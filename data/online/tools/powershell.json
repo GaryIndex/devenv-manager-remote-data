@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T21:09:03.914Z",
+  "generatedAt": "2026-09-09T04:40:37.928Z",
   "status": "ok",
   "tool": {
     "id": "powershell",
@@ -29,7 +29,7 @@
       "long": "![](https://gitlab.com/guided-explorations/microsoft/chocolatey/powershell-core/-/pipelines) Update status ![]( )chocolatey/DarwinJS PowerShell Core is the open source multiplatform version of PowerShell After v7.4.5 - if a non-chocolatey installed powershell is detected, you must use -force to overwrite it. -force also now works properly to reinstall the same version even when the previous install was chocolatey. Preview releases are under the package id powershell-preview so that they can be safely installed and maintained side-by-side with the release versions on production systems. Preview versions do not become the default powershell core edition on a system (unless they are the ONLY edition), if you have a preview version installed, access it via pwsh's '-pre' switch. This package automatically does verbose MSI logging to %temp%\\(packagenameandversion).MsiInstall.log Some helpful install options (any of them can be combined - delimited by space): Any MSI Properties the package responds to can be specified in the same way, even if not documented here. --install-arguments='\"DISABLE\\ TELEMETRY=1\"' - Valid for PowerShell 7.4 and later - disables built in telemetry. Read more a...",
       "source": "choco",
       "homepage": "https://github.com/PowerShell/PowerShell",
-      "lastUpdatedAt": "2026-09-08T21:08:13.759Z"
+      "lastUpdatedAt": "2026-09-09T04:39:51.513Z"
     },
     "usage": {
       "primaryUseCases": [
@@ -101,7 +101,7 @@
         "priority": 10,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-08T21:08:13.636Z",
+          "scannedAt": "2026-09-09T04:39:51.351Z",
           "errors": []
         },
         "package": {
@@ -115,8 +115,8 @@
         },
         "links": {
           "homepage": "https://microsoft.com/PowerShell",
-          "download": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.5/PowerShell-7.6.5.msixbundle",
-          "releases": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.5",
+          "download": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.6/PowerShell-7.6.6.msixbundle",
+          "releases": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.6",
           "docs": null
         },
         "descriptions": {
@@ -124,7 +124,7 @@
           "long": null,
           "source": "winget",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-09-08T21:08:13.636Z"
+          "lastUpdatedAt": "2026-09-09T04:39:51.351Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -145,9 +145,19 @@
         },
         "versions": [
           {
-            "version": "7.6.5.0",
+            "version": "7.6.6.0",
             "channel": "stable",
             "latest": true,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.6.5.0",
+            "channel": "stable",
+            "latest": false,
             "prerelease": false,
             "lts": null,
             "releaseDate": null,
@@ -196,6 +206,16 @@
           },
           {
             "version": "7.6.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.5.11.0",
             "channel": "stable",
             "latest": false,
             "prerelease": false,
@@ -296,6 +316,16 @@
           },
           {
             "version": "7.5.0.0",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": null,
+            "eolDate": null,
+            "changelogUrl": null
+          },
+          {
+            "version": "7.4.20.0",
             "channel": "stable",
             "latest": false,
             "prerelease": false,
@@ -413,49 +443,19 @@
             "releaseDate": null,
             "eolDate": null,
             "changelogUrl": null
-          },
-          {
-            "version": "7.4.6.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.5.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
-          },
-          {
-            "version": "7.4.4.0",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": null,
-            "eolDate": null,
-            "changelogUrl": null
           }
         ],
         "downloads": [
           {
             "id": "default",
-            "version": "7.6.5.0",
+            "version": "7.6.6.0",
             "platform": "windows",
             "architecture": null,
             "type": "msix",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.5/PowerShell-7.6.5.msixbundle",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.6/PowerShell-7.6.6.msixbundle",
             "urlType": "direct-installer",
             "direct": true,
-            "sha256": "e46f37a33834e3fa84227bbf5239b65e06e00eee56be7fe8e4d109adb470e93d",
+            "sha256": "ad992bc654ad8e6fa7070baedfbc0edbf8cab5b6bcb4f9f7a891fd2438fafe4b",
             "sizeBytes": null
           }
         ],
@@ -553,7 +553,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-08T21:08:13.636Z",
+          "lastSuccessfulScanAt": "2026-09-09T04:39:51.351Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -602,7 +602,7 @@
         "priority": 20,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-08T21:08:13.669Z",
+          "scannedAt": "2026-09-09T04:39:51.374Z",
           "errors": []
         },
         "package": {
@@ -628,7 +628,7 @@
           "long": "Command-line shell and scripting language",
           "source": "homebrew",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-09-08T21:08:13.669Z"
+          "lastUpdatedAt": "2026-09-09T04:39:51.374Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -651,7 +651,7 @@
         },
         "versions": [
           {
-            "version": "7.6.5",
+            "version": "7.6.6",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -664,7 +664,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "7.6.5",
+            "version": "7.6.6",
             "platform": "macos",
             "architecture": null,
             "type": "formula",
@@ -735,7 +735,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-08T21:08:13.669Z",
+          "lastSuccessfulScanAt": "2026-09-09T04:39:51.374Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -783,7 +783,7 @@
         "priority": 25,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-08T21:08:13.671Z",
+          "scannedAt": "2026-09-09T04:39:51.443Z",
           "errors": []
         },
         "package": {
@@ -809,7 +809,7 @@
           "long": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
           "source": "scoop",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-09-08T21:08:13.671Z"
+          "lastUpdatedAt": "2026-09-09T04:39:51.443Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -831,7 +831,7 @@
         },
         "versions": [
           {
-            "version": "7.6.5",
+            "version": "7.6.6",
             "channel": "stable",
             "latest": true,
             "prerelease": false,
@@ -844,7 +844,7 @@
         "downloads": [
           {
             "id": "default",
-            "version": "7.6.5",
+            "version": "7.6.6",
             "platform": "windows",
             "architecture": null,
             "type": "scoop-manifest",
@@ -915,7 +915,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-08T21:08:13.671Z",
+          "lastSuccessfulScanAt": "2026-09-09T04:39:51.443Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -963,7 +963,7 @@
         "priority": 30,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-08T21:08:13.759Z",
+          "scannedAt": "2026-09-09T04:39:51.513Z",
           "errors": []
         },
         "package": {
@@ -991,7 +991,7 @@
           "long": "![](https://gitlab.com/guided-explorations/microsoft/chocolatey/powershell-core/-/pipelines) Update status ![]( )chocolatey/DarwinJS PowerShell Core is the open source multiplatform version of PowerShell After v7.4.5 - if a non-chocolatey installed powershell is detected, you must use -force to overwrite it. -force also now works properly to reinstall the same version even when the previous install was chocolatey. Preview releases are under the package id powershell-preview so that they can be safely installed and maintained side-by-side with the release versions on production systems. Preview versions do not become the default powershell core edition on a system (unless they are the ONLY edition), if you have a preview version installed, access it via pwsh's '-pre' switch. This package automatically does verbose MSI logging to %temp%\\(packagenameandversion).MsiInstall.log Some helpful install options (any of them can be combined - delimited by space): Any MSI Properties the package responds to can be specified in the same way, even if not documented here. --install-arguments='\"DISABLE\\ TELEMETRY=1\"' - Valid for PowerShell 7.4 and later - disables built in telemetry. Read more a...",
           "source": "choco",
           "homepage": "https://github.com/PowerShell/PowerShell",
-          "lastUpdatedAt": "2026-09-08T21:08:13.759Z"
+          "lastUpdatedAt": "2026-09-09T04:39:51.513Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1396,7 +1396,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-08T21:08:13.759Z",
+          "lastSuccessfulScanAt": "2026-09-09T04:39:51.513Z",
           "failureCount": 0,
           "staleAfterDays": 7
         },
@@ -1446,7 +1446,7 @@
         "priority": 40,
         "scan": {
           "status": "ok",
-          "scannedAt": "2026-09-08T21:08:13.795Z",
+          "scannedAt": "2026-09-09T04:39:51.685Z",
           "errors": []
         },
         "package": {
@@ -1478,7 +1478,7 @@
           "long": "PowerShell for every system!",
           "source": "github",
           "homepage": "https://microsoft.com/PowerShell",
-          "lastUpdatedAt": "2026-09-08T21:08:13.795Z"
+          "lastUpdatedAt": "2026-09-09T04:39:51.685Z"
         },
         "usage": {
           "primaryUseCases": [
@@ -1524,6 +1524,16 @@
             "releaseDate": "2026-09-08T20:25:50Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/PowerShell/PowerShell/releases/tag/v7.5.11"
+          },
+          {
+            "version": "7.4.20",
+            "channel": "stable",
+            "latest": false,
+            "prerelease": false,
+            "lts": null,
+            "releaseDate": "2026-09-08T21:09:53Z",
+            "eolDate": null,
+            "changelogUrl": "https://github.com/PowerShell/PowerShell/releases/tag/v7.4.20"
           },
           {
             "version": "7.7.0-preview.4",
@@ -1794,16 +1804,6 @@
             "releaseDate": "2025-10-09T21:51:10Z",
             "eolDate": null,
             "changelogUrl": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.0-preview.5"
-          },
-          {
-            "version": "7.5.3",
-            "channel": "stable",
-            "latest": false,
-            "prerelease": false,
-            "lts": null,
-            "releaseDate": "2025-09-10T15:45:49Z",
-            "eolDate": null,
-            "changelogUrl": "https://github.com/PowerShell/PowerShell/releases/tag/v7.5.3"
           }
         ],
         "downloads": [
@@ -2493,279 +2493,279 @@
           },
           {
             "id": "hashes.sha256",
-            "version": "7.7.0-preview.4",
+            "version": "7.4.20",
             "platform": "unknown",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/hashes.sha256",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/hashes.sha256",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 4812
+            "sizeBytes": 6174
           },
           {
-            "id": "powershell-7.7.0-preview.4-linux-arm32.tar.gz",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-1.cm.aarch64.rpm",
+            "version": "7.4.20",
+            "platform": "linux",
+            "architecture": "arm64",
+            "type": "rpm",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-1.cm.aarch64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 35206790
+          },
+          {
+            "id": "powershell-7.4.20-1.cm.x86_64.rpm",
+            "version": "7.4.20",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-1.cm.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 37107254
+          },
+          {
+            "id": "powershell-7.4.20-1.rh.x86_64.rpm",
+            "version": "7.4.20",
+            "platform": "linux",
+            "architecture": "x64",
+            "type": "rpm",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-1.rh.x86_64.rpm",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 67237937
+          },
+          {
+            "id": "powershell-7.4.20-linux-arm32.tar.gz",
+            "version": "7.4.20",
             "platform": "linux",
             "architecture": null,
             "type": "tar.gz",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-linux-arm32.tar.gz",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-linux-arm32.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 74190202
+            "sizeBytes": 70727324
           },
           {
-            "id": "powershell-7.7.0-preview.4-linux-arm64.tar.gz",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-linux-arm64.tar.gz",
+            "version": "7.4.20",
             "platform": "linux",
             "architecture": "arm64",
             "type": "tar.gz",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-linux-arm64.tar.gz",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-linux-arm64.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 72619606
+            "sizeBytes": 69699190
           },
           {
-            "id": "powershell-7.7.0-preview.4-linux-musl-x64.tar.gz",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-linux-musl-x64.tar.gz",
+            "version": "7.4.20",
             "platform": "linux",
             "architecture": "x64",
             "type": "tar.gz",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-linux-musl-x64.tar.gz",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-linux-musl-x64.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 76628163
+            "sizeBytes": 72543893
           },
           {
-            "id": "powershell-7.7.0-preview.4-linux-x64-fxdependent.tar.gz",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-linux-x64-fxdependent.tar.gz",
+            "version": "7.4.20",
             "platform": "linux",
             "architecture": "x64",
             "type": "tar.gz",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-linux-x64-fxdependent.tar.gz",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-linux-x64-fxdependent.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 23860640
+            "sizeBytes": 24543987
           },
           {
-            "id": "powershell-7.7.0-preview.4-linux-x64-musl-noopt-fxdependent.tar.gz",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-linux-x64-musl-noopt-fxdependent.tar.gz",
+            "version": "7.4.20",
             "platform": "linux",
             "architecture": "x64",
             "type": "tar.gz",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-linux-x64-musl-noopt-fxdependent.tar.gz",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-linux-x64-musl-noopt-fxdependent.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 23869670
+            "sizeBytes": 24570834
           },
           {
-            "id": "powershell-7.7.0-preview.4-linux-x64.tar.gz",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-linux-x64.tar.gz",
+            "version": "7.4.20",
             "platform": "linux",
             "architecture": "x64",
             "type": "tar.gz",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-linux-x64.tar.gz",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-linux-x64.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 76695362
+            "sizeBytes": 72533071
           },
           {
-            "id": "powershell-7.7.0-preview.4-osx-arm64.pkg",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-osx-arm64.pkg",
+            "version": "7.4.20",
             "platform": "macos",
             "architecture": "arm64",
             "type": "pkg",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-osx-arm64.pkg",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-osx-arm64.pkg",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 71667714
+            "sizeBytes": 69172430
           },
           {
-            "id": "powershell-7.7.0-preview.4-osx-arm64.tar.gz",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-osx-arm64.tar.gz",
+            "version": "7.4.20",
             "platform": "linux",
             "architecture": "arm64",
             "type": "tar.gz",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-osx-arm64.tar.gz",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-osx-arm64.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 71455296
+            "sizeBytes": 68778278
           },
           {
-            "id": "powershell-7.7.0-preview.4-osx-x64.pkg",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-osx-x64.pkg",
+            "version": "7.4.20",
             "platform": "macos",
             "architecture": "x64",
             "type": "pkg",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-osx-x64.pkg",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-osx-x64.pkg",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 75846305
+            "sizeBytes": 72245615
           },
           {
-            "id": "powershell-7.7.0-preview.4-osx-x64.tar.gz",
-            "version": "7.7.0-preview.4",
+            "id": "powershell-7.4.20-osx-x64.tar.gz",
+            "version": "7.4.20",
             "platform": "linux",
             "architecture": "x64",
             "type": "tar.gz",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-7.7.0-preview.4-osx-x64.tar.gz",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-osx-x64.tar.gz",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 75629403
+            "sizeBytes": 71845090
           },
           {
-            "id": "PowerShell-7.7.0-preview.4-win-arm64.zip",
-            "version": "7.7.0-preview.4",
+            "id": "PowerShell-7.4.20-win-arm64.msi",
+            "version": "7.4.20",
+            "platform": "windows",
+            "architecture": "arm64",
+            "type": "msi",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20-win-arm64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 105394176
+          },
+          {
+            "id": "PowerShell-7.4.20-win-arm64.zip",
+            "version": "7.4.20",
             "platform": "windows",
             "architecture": "arm64",
             "type": "zip",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/PowerShell-7.7.0-preview.4-win-arm64.zip",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20-win-arm64.zip",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 101681764
+            "sizeBytes": 106470707
           },
           {
-            "id": "PowerShell-7.7.0-preview.4-win-fxdependent.zip",
-            "version": "7.7.0-preview.4",
+            "id": "PowerShell-7.4.20-win-fxdependent.zip",
+            "version": "7.4.20",
             "platform": "windows",
             "architecture": null,
             "type": "zip",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/PowerShell-7.7.0-preview.4-win-fxdependent.zip",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20-win-fxdependent.zip",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 23219194
+            "sizeBytes": 26663913
           },
           {
-            "id": "PowerShell-7.7.0-preview.4-win-fxdependentWinDesktop.zip",
-            "version": "7.7.0-preview.4",
+            "id": "PowerShell-7.4.20-win-fxdependentWinDesktop.zip",
+            "version": "7.4.20",
             "platform": "windows",
             "architecture": null,
             "type": "zip",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/PowerShell-7.7.0-preview.4-win-fxdependentWinDesktop.zip",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20-win-fxdependentWinDesktop.zip",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 21524971
+            "sizeBytes": 26397132
           },
           {
-            "id": "PowerShell-7.7.0-preview.4-win-x64.zip",
-            "version": "7.7.0-preview.4",
+            "id": "PowerShell-7.4.20-win-x64.msi",
+            "version": "7.4.20",
+            "platform": "windows",
+            "architecture": "x64",
+            "type": "msi",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20-win-x64.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 110657536
+          },
+          {
+            "id": "PowerShell-7.4.20-win-x64.zip",
+            "version": "7.4.20",
             "platform": "windows",
             "architecture": "x64",
             "type": "zip",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/PowerShell-7.7.0-preview.4-win-x64.zip",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20-win-x64.zip",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 108328242
+            "sizeBytes": 111969701
           },
           {
-            "id": "PowerShell-7.7.0-preview.4-win-x86.zip",
-            "version": "7.7.0-preview.4",
+            "id": "PowerShell-7.4.20-win-x86.msi",
+            "version": "7.4.20",
+            "platform": "windows",
+            "architecture": "x86",
+            "type": "msi",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20-win-x86.msi",
+            "urlType": "direct-installer",
+            "direct": true,
+            "sha256": null,
+            "sizeBytes": 102125568
+          },
+          {
+            "id": "PowerShell-7.4.20-win-x86.zip",
+            "version": "7.4.20",
             "platform": "windows",
             "architecture": "x86",
             "type": "zip",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/PowerShell-7.7.0-preview.4-win-x86.zip",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20-win-x86.zip",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 100728525
+            "sizeBytes": 103741913
           },
           {
-            "id": "powershell-preview-7.7.0_preview.4-1.cm.aarch64.rpm",
-            "version": "7.7.0-preview.4",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "rpm",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-preview-7.7.0_preview.4-1.cm.aarch64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 35216515
-          },
-          {
-            "id": "powershell-preview-7.7.0_preview.4-1.cm.x86_64.rpm",
-            "version": "7.7.0-preview.4",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "rpm",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-preview-7.7.0_preview.4-1.cm.x86_64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 37689446
-          },
-          {
-            "id": "powershell-preview-7.7.0_preview.4-1.rh.x86_64.rpm",
-            "version": "7.7.0-preview.4",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "rpm",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-preview-7.7.0_preview.4-1.rh.x86_64.rpm",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 70936652
-          },
-          {
-            "id": "powershell-preview_7.7.0-preview.4-1.deb_amd64.deb",
-            "version": "7.7.0-preview.4",
-            "platform": "linux",
-            "architecture": "x64",
-            "type": "deb",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-preview_7.7.0-preview.4-1.deb_amd64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 56162698
-          },
-          {
-            "id": "powershell-preview_7.7.0-preview.4-1.deb_arm64.deb",
-            "version": "7.7.0-preview.4",
-            "platform": "linux",
-            "architecture": "arm64",
-            "type": "deb",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/powershell-preview_7.7.0-preview.4-1.deb_arm64.deb",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 50163462
-          },
-          {
-            "id": "PowerShellPreview-7.7.0-preview.4.msixbundle",
-            "version": "7.7.0-preview.4",
+            "id": "PowerShell-7.4.20.msixbundle",
+            "version": "7.4.20",
             "platform": "windows",
             "architecture": null,
             "type": "release-asset",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0-preview.4/PowerShellPreview-7.7.0-preview.4.msixbundle",
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/PowerShell-7.4.20.msixbundle",
             "urlType": "direct-installer",
             "direct": true,
             "sha256": null,
-            "sizeBytes": 358339170
-          },
-          {
-            "id": "hashes.sha256",
-            "version": "7.6.5",
-            "platform": "unknown",
-            "architecture": null,
-            "type": "release-asset",
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.5/hashes.sha256",
-            "urlType": "direct-installer",
-            "direct": true,
-            "sha256": null,
-            "sizeBytes": 6522
+            "sizeBytes": 328873886
           }
         ],
         "commands": [],
@@ -2773,7 +2773,7 @@
           "confidence": "high",
           "score": 100,
           "official": true,
-          "lastSuccessfulScanAt": "2026-09-08T21:08:13.795Z",
+          "lastSuccessfulScanAt": "2026-09-09T04:39:51.685Z",
           "failureCount": 0,
           "staleAfterDays": 3
         },
